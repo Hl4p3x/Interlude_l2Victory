@@ -1,0 +1,2359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="25500" name="Alligator of Istary" title="Raid Fighter" pts_name="crocodile_istary_zzol"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.392-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="44"/>
+		<set name="exp" value="23180550"/>
+		<set name="race" value="beast"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="28"/>
+		<set name="collision_height" value="11.50"/>
+		<set name="baseRunSpd" value="188"/>
+		<set name="baseWalkSpd" value="69"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="41"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="9189"/>
+		<set name="baseHpReg" value="55.55"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="9.81"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="161"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="262"/>
+		<set name="baseMAtk" value="49"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="360"/>
+		<set name="HitTimeFactor" value="0.41"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="636"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4416" level="4"/>
+			<!--Animals-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="12.4267">
+				<!--Greater Healing Potion-->
+				<reward item_id="1539" min="1" max="1" chance="100.0"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="25501" name="Boss Akata" title="Raid Boss" pts_name="grave_robber_akata"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.392-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="RaidBoss"/>
+		<set name="level" value="30"/>
+		<set name="exp" value="4555796"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="23.60"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseWalkSpd" value="36"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseHpMax" value="53690"/>
+		<set name="baseHpReg" value="21.714038575401"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="329.4"/>
+		<set name="baseMpReg" value="1.5"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="111"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="173"/>
+		<set name="baseMAtk" value="7"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="355"/>
+		<set name="HitTimeFactor" value="0.63"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="-18"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="2308288"/>
+		<set name="rewardSp" value="111484"/>
+		<set name="rewardRp" value="416"/>
+		<set name="acquire_exp_rate" value="2564.7645675"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="akata_s_warrior" value="akata_s_warrior"/>
+			<set name="akata_s_lackey1" value="akata_s_lackey1"/>
+			<set name="akata_s_lackey1" value="akata_s_lackey1"/>
+			<set name="RaidSpawnMusic" value="Rm03_A"/>
+			<set name="PhysicalSpecial_b" value="4739-3"/>
+			<!--BOSS Strike-->
+		</ai_params>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+			<skill id="4494" level="1"/>
+			<!--Raid Boss-->
+			<skill id="4722" level="3"/>
+			<!--BOSS Strike-->
+			<skill id="5025" level="1"/>
+			<!--Raid Boss - Level 30-->
+		</skills>
+		<minions>
+			<minion npc_id="25502" count="3">
+				<!--Akata's Thug-->
+			</minion>
+			<minion npc_id="25503" count="2">
+				<!--Akata's Lackey-->
+			</minion>
+		</minions>
+		<equip>
+			<rhand item_id="8528"/>
+			<!--For Monsters Only (Doom Hammer)-->
+		</equip>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="60.65">
+				<!--Manticore Skin Shirt-->
+				<reward item_id="395" min="1" max="1" chance="32.8894"/>
+				<!--Manticore Skin Gaiters-->
+				<reward item_id="417" min="4" max="12" chance="6.5657"/>
+				<!--Manticore Skin Shirt Texture-->
+				<reward item_id="1942" min="53" max="157" chance="13.7404"/>
+				<!--Manticore Skin Gaiters Pattern-->
+				<reward item_id="1943" min="24" max="72" chance="46.8045"/>
+			</group>
+			<group chance="61.6941">
+				<!--Maingauche-->
+				<reward item_id="224" min="1" max="1" chance="7.7671"/>
+				<!--Cursed Maingauche-->
+				<reward item_id="1660" min="1" max="1" chance="7.7671"/>
+				<!--Maingauche Edge-->
+				<reward item_id="2038" min="4" max="12" chance="55.0864"/>
+				<!--Cursed Maingauche Edge-->
+				<reward item_id="2044" min="8" max="22" chance="29.3794"/>
+			</group>
+			<group chance="75.9788">
+				<!--Greater Dye of STR <Str+1 Con-1>-->
+				<reward item_id="4553" min="1" max="3" chance="43.9024"/>
+				<!--Greater Dye of STR <Str+1 Dex-1>-->
+				<reward item_id="4554" min="2" max="4" chance="29.2683"/>
+				<!--Greater Dye of CON <Con+1 Str-1>-->
+				<reward item_id="4555" min="2" max="6" chance="21.9512"/>
+				<!--Blessed Scroll: Enchant Weapon (Grade D)-->
+				<reward item_id="6575" min="1" max="1" chance="4.8781"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="25502" name="Akata's Thug" title="Raid Fighter" pts_name="akata_s_warrior"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.392-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="30"/>
+		<set name="exp" value="4555796"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="22"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="5755"/>
+		<set name="baseHpReg" value="21.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="329"/>
+		<set name="baseMpReg" value="1.5"/>
+		<set name="baseAtkType" value="POLE"/>
+		<set name="baseAtkRange" value="1100"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="222"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="173"/>
+		<set name="baseMAtk" value="28"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="177"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="448"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="LongRangePhysicalSpecial_a" value="4754-2"/>
+			<!--BOSS Power Shot-->
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4415" level="9"/>
+			<!--Bows-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4416" level="1"/>
+			<!--Undead-->
+			<skill id="4757" level="3"/>
+			<!--BOSS Power Shot-->
+		</skills>
+		<equip>
+			<rhand item_id="8527"/>
+			<!--For Monsters Only (Strengthened Bow)-->
+		</equip>
+	</npc>  
+	<npc id="25503" name="Akata's Lackey" title="Raid Fighter" pts_name="akata_s_lackey1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="30"/>
+		<set name="exp" value="4555796"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="9"/>
+		<set name="collision_height" value="21.40"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="4295"/>
+		<set name="baseHpReg" value="21.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="329"/>
+		<set name="baseMpReg" value="1.5"/>
+		<set name="baseAtkType" value="POLE"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="222"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="173"/>
+		<set name="baseMAtk" value="28"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="177"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="448"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+		</skills>
+		<equip>
+			<rhand item_id="8529"/>
+			<!--For Monsters Only (Knife)-->
+		</equip>
+	</npc>  
+	<npc id="25504" name="Nellis' Vengeful Spirit" title="Raid Boss" pts_name="spirits_of_nellis"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="RaidBoss"/>
+		<set name="level" value="39"/>
+		<set name="exp" value="13844951"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="10"/>
+		<set name="collision_height" value="28.10"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseCON" value="70"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseHpMax" value="86871"/>
+		<set name="baseHpReg" value="32"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="463.32"/>
+		<set name="baseMpReg" value="1.8"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="219"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="223"/>
+		<set name="baseMAtk" value="17"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="457"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="-18"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="440000"/>
+		<set name="rewardSp" value="40000"/>
+		<set name="rewardRp" value="608"/>
+		<set name="acquire_exp_rate" value="289.2834"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="follower_of_nellis" value="follower_of_nellis"/>
+			<set name="RaidSpawnMusic" value="Rm03_A"/>
+			<set name="RangeHold_a" value="4197-1"/>
+			<!--Hold-->
+		</ai_params>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4197" level="3"/>
+			<!--Hold-->
+			<skill id="4278" level="1"/>
+			<!--Dark Attack-->
+			<skill id="4333" level="3"/>
+			<!--Resist Dark Attack-->
+			<skill id="4416" level="1"/>
+			<!--Undead-->
+			<skill id="4494" level="1"/>
+			<!--Raid Boss-->
+			<skill id="5026" level="1"/>
+			<!--Raid Boss - Level 39-->
+		</skills>
+		<minions>
+			<minion npc_id="25505" count="3">
+				<!--Nellis' Follower-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="77.6035">
+				<!--Mithril Boots-->
+				<reward item_id="62" min="11" max="33" chance="0.6042"/>
+				<!--Chain Boots-->
+				<reward item_id="2429" min="12" max="34" chance="0.5779"/>
+				<!--Karmian Boots-->
+				<reward item_id="2430" min="12" max="36" chance="0.5538"/>
+				<!--Plated Leather Boots-->
+				<reward item_id="2431" min="13" max="37" chance="0.5317"/>
+				<!--Dwarven Chain Boots-->
+				<reward item_id="2432" min="13" max="39" chance="0.5112"/>
+				<!--Boots of Seal-->
+				<reward item_id="2433" min="1" max="1" chance="13.2923"/>
+				<!--Reinforced Mithril Gloves-->
+				<reward item_id="2452" min="1" max="1" chance="13.2923"/>
+				<!--Chain Gloves-->
+				<reward item_id="2453" min="1" max="1" chance="13.2923"/>
+				<!--Karmian Gloves-->
+				<reward item_id="2454" min="1" max="1" chance="13.2923"/>
+				<!--Mithril Boots Design-->
+				<reward item_id="1958" min="220" max="660" chance="1.3184"/>
+				<!--Chain Boots Part-->
+				<reward item_id="2937" min="378" max="1134" chance="0.7673"/>
+				<!--Karmian Boots Fabric-->
+				<reward item_id="2938" min="26" max="78" chance="11.1554"/>
+				<!--Plate Leather Boot Lining-->
+				<reward item_id="2939" min="35" max="105" chance="8.2869"/>
+				<!--Dwarven Chain Boots Part-->
+				<reward item_id="2940" min="45" max="135" chance="6.4454"/>
+				<!--Boots of Seal Pattern-->
+				<reward item_id="2941" min="56" max="168" chance="5.1793"/>
+				<!--Reinforced Mithril Gloves Design-->
+				<reward item_id="2942" min="68" max="204" chance="4.2653"/>
+				<!--Chain Gloves Design-->
+				<reward item_id="2943" min="81" max="243" chance="3.5808"/>
+				<!--Karmian Gloves Fabric-->
+				<reward item_id="2944" min="95" max="285" chance="3.0532"/>
+			</group>
+			<group chance="79.3555">
+				<!--Scythe-->
+				<reward item_id="96" min="1" max="1" chance="3.2219"/>
+				<!--Orcish Glaive-->
+				<reward item_id="298" min="1" max="1" chance="3.2219"/>
+				<!--Body Slasher-->
+				<reward item_id="302" min="1" max="1" chance="3.2219"/>
+				<!--Scythe Edge-->
+				<reward item_id="2062" min="5" max="15" chance="22.2742"/>
+				<!--Orcish Glaive Blade-->
+				<reward item_id="2075" min="9" max="27" chance="12.3746"/>
+				<!--Body Slasher Blade-->
+				<reward item_id="2076" min="2" max="6" chance="55.6855"/>
+			</group>
+			<group chance="71.2939">
+				<!--Scroll: Enchant Weapon (Grade C)-->
+				<reward item_id="951" min="1" max="1" chance="74.5033"/>
+				<!--Scroll: Enchant Armor (Grade C)-->
+				<reward item_id="952" min="12" max="36" chance="22.7649"/>
+				<!--Blessed Scroll: Enchant Weapon (Grade C)-->
+				<reward item_id="6573" min="1" max="1" chance="2.7318"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="25505" name="Nellis' Follower" title="Raid Fighter" pts_name="follower_of_nellis"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="38"/>
+		<set name="exp" value="12395215"/>
+		<set name="race" value="undead"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="10"/>
+		<set name="collision_height" value="18.70"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="13134"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="447"/>
+		<set name="baseMpReg" value="5.4"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="345"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="217"/>
+		<set name="baseMAtk" value="258"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="222"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="756"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="PhysicalSpecial_a" value="4723-1"/>
+			<!--BOSS Strike-->
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4278" level="1"/>
+			<!--Dark Attack-->
+			<skill id="4333" level="3"/>
+			<!--Resist Dark Attack-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4416" level="1"/>
+			<!--Undead-->
+			<skill id="4723" level="3"/>
+			<!--BOSS Strike-->
+		</skills>
+	</npc>  
+	<npc id="25506" name="Rayito the Looter" title="Raid Boss" pts_name="rayito_the_looter"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="RaidBoss"/>
+		<set name="level" value="37"/>
+		<set name="exp" value="11066072"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="16"/>
+		<set name="collision_height" value="33.20"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseHpMax" value="77592"/>
+		<set name="baseHpReg" value="29.42"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="432.72"/>
+		<set name="baseMpReg" value="1.8"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="190"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="211"/>
+		<set name="baseMAtk" value="15"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="433"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="physical_avoid_modify" value="-18"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="1320000"/>
+		<set name="rewardSp" value="120000"/>
+		<set name="rewardRp" value="564"/>
+		<set name="acquire_exp_rate" value="964.2075"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="rayito_follower_ogre" value="rayito_follower_ogre"/>
+			<set name="rayito_follower_kobold" value="rayito_follower_kobold"/>
+			<set name="rayito_follower_kobold" value="rayito_follower_kobold"/>
+			<set name="RaidSpawnMusic" value="Rm03_A"/>
+			<set name="RangeHold_a" value="4197-1"/>
+			<!--Hold-->
+		</ai_params>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4197" level="3"/>
+			<!--Hold-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+			<skill id="4494" level="1"/>
+			<!--Raid Boss-->
+			<skill id="5027" level="1"/>
+			<!--Raid Boss - Level 37-->
+		</skills>
+		<minions>
+			<minion npc_id="25507" count="1">
+				<!--Rayito's Henchman-->
+			</minion>
+			<minion npc_id="25508" count="3">
+				<!--Rayito's Henchman-->
+			</minion>
+		</minions>
+		<equip>
+			<lhand item_id="633"/>
+			<!--Zubei's Shield-->
+			<rhand item_id="67"/>
+			<!--Orcish Sword-->
+		</equip>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="42.7117">
+				<!--Mithril Shirt-->
+				<reward item_id="397" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="68.2543">
+				<!--Tempered Mithril Gaiters-->
+				<reward item_id="2387" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="18.9395">
+				<!--Mithril Shirt Fabric-->
+				<reward item_id="1961" min="53" max="157" chance="100.0"/>
+			</group>
+			<group chance="68.8304">
+				<!--Tempered Mithril Gaiters Fragment-->
+				<reward item_id="2935" min="24" max="72" chance="100.0"/>
+			</group>
+			<group chance="21.1511">
+				<!--Crystallized Ice Bow-->
+				<reward item_id="281" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="55.0195">
+				<!--Crystallized Ice Bow Shaft-->
+				<reward item_id="2074" min="12" max="36" chance="100.0"/>
+			</group>
+			<group chance="70">
+				<!--Blessed Scroll: Enchant Armor (Grade C)-->
+				<reward item_id="6574" min="3" max="3" chance="100.0"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="25507" name="Rayito's Henchman" title="Raid Fighter" pts_name="rayito_follower_ogre"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="36"/>
+		<set name="exp" value="9850166"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="14.50"/>
+		<set name="collision_height" value="28"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="11741"/>
+		<set name="baseHpReg" value="28.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="417"/>
+		<set name="baseMpReg" value="1.8"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="245"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="214"/>
+		<set name="baseMAtk" value="224"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="580"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="14"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="PhysicalSpecial_a" value="4728-1"/>
+			<!--Stun-->
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+			<skill id="4728" level="3"/>
+			<!--Stun-->
+		</skills>
+		<equip>
+			<lhand item_id="19"/>
+			<!--Small Shield-->
+			<rhand item_id="123"/>
+			<!--Saber-->
+		</equip>
+	</npc>  
+	<npc id="25508" name="Rayito's Henchman" title="Raid Fighter" pts_name="rayito_follower_kobold"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="36"/>
+		<set name="exp" value="9850166"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="6"/>
+		<set name="collision_height" value="16.60"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7866"/>
+		<set name="baseHpReg" value="28.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="417.6"/>
+		<set name="baseMpReg" value="1.8"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="245"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="205"/>
+		<set name="baseMAtk" value="99"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="210"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="14"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="DDMagic_a" value="4194-1"/>
+			<!--BOSS Aura Burn-->
+			<set name="Debuff_a" value="4202-1"/>
+			<!--Hold-->
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4194" level="3"/>
+			<!--BOSS Aura Burn-->
+			<skill id="4202" level="3"/>
+			<!--Hold-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+		</skills>
+		<equip>
+			<lhand item_id="102"/>
+			<!--Round Shield-->
+			<rhand item_id="66"/>
+			<!--Gladius-->
+		</equip>
+	</npc>  
+	<npc id="25509" name="Dark Shaman Varangka " title="Raid Boss" pts_name="darkness_shaman_baranka"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="RaidBoss"/>
+		<set name="level" value="53"/>
+		<set name="exp" value="57383988"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="13"/>
+		<set name="collision_height" value="20.80"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseHpMax" value="175997"/>
+		<set name="baseHpReg" value="60"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="832"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="546"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="313"/>
+		<set name="baseMAtk" value="80"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="643"/>
+		<set name="HitTimeFactor" value="0.3"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="-18"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="440000"/>
+		<set name="rewardSp" value="40000"/>
+		<set name="rewardRp" value="1004"/>
+		<set name="acquire_exp_rate" value="156.6394"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="baranka_descendants" value="baranka_descendants"/>
+			<set name="varangka_s_page1" value="varangka_s_page1"/>
+			<set name="varangka_s_page1" value="varangka_s_page1"/>
+			<set name="RaidSpawnMusic" value="Rm02_A"/>
+			<set name="DDMagic_a" value="4195-1"/>
+			<!--BOSS Twister-->
+			<set name="SelfRangeDebuff_a" value="4182-1"/>
+			<!--Poison-->
+			<set name="SelfRangeDebuffAnother_a" value="4186-1"/>
+			<!--Hold-->
+		</ai_params>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4182" level="5"/>
+			<!--Poison-->
+			<skill id="4186" level="5"/>
+			<!--Hold-->
+			<skill id="4195" level="5"/>
+			<!--BOSS Twister-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+			<skill id="4494" level="1"/>
+			<!--Raid Boss-->
+			<skill id="5028" level="1"/>
+			<!--Raid Boss - Level 53-->
+		</skills>
+		<minions>
+			<minion npc_id="25510" count="1">
+				<!--Varangka's Descendant-->
+			</minion>
+			<minion npc_id="25511" count="3">
+				<!--Varangka's Page-->
+			</minion>
+		</minions>
+		<equip>
+			<rhand item_id="179"/>
+			<!--Mace of Prayer-->
+		</equip>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="62.1185">
+				<!--Tunic of Zubei-->
+				<reward item_id="2397" min="1" max="1" chance="5.6807"/>
+				<!--Stockings of Zubei-->
+				<reward item_id="2402" min="1" max="1" chance="9.0869"/>
+				<!--Avadon Robe-->
+				<reward item_id="2406" min="1" max="1" chance="3.4942"/>
+				<!--Tunic of Zubei Fabric-->
+				<reward item_id="4069" min="9" max="27" chance="44.5318"/>
+				<!--Stockings of Zubei Fabric-->
+				<reward item_id="4070" min="40" max="120" chance="15.2133"/>
+				<!--Avadon Robe Fabric-->
+				<reward item_id="4071" min="14" max="42" chance="21.9931"/>
+			</group>
+			<group chance="78.5373">
+				<!--Heavy War Axe-->
+				<reward item_id="91" min="1" max="1" chance="0.9057"/>
+				<!--Sprite's Staff-->
+				<reward item_id="92" min="1" max="1" chance="0.9057"/>
+				<!--Spell Breaker-->
+				<reward item_id="7892" min="1" max="1" chance="0.9057"/>
+				<!--Ice Storm Hammer-->
+				<reward item_id="7900" min="1" max="1" chance="0.9057"/>
+				<!--Heavy War Axe Head-->
+				<reward item_id="4105" min="6" max="18" chance="14.427"/>
+				<!--Sprite's Staff Head-->
+				<reward item_id="4106" min="2" max="6" chance="42.5708"/>
+				<!--Spell Breaker Head-->
+				<reward item_id="8339" min="11" max="31" chance="8.244"/>
+				<!--Ice Storm Hammer Head-->
+				<reward item_id="8347" min="3" max="7" chance="31.1354"/>
+			</group>
+			<group chance="90.2035">
+				<!--Greater Dye of STR <Str+4 Con-4>-->
+				<reward item_id="4613" min="1" max="3" chance="23.5479"/>
+				<!--Greater Dye of STR <Str+4 Dex-4>-->
+				<reward item_id="4614" min="2" max="4" chance="15.6986"/>
+				<!--Greater Dye of CON <Con+4 Str-4>-->
+				<reward item_id="4615" min="1" max="1" chance="47.0958"/>
+				<!--Scroll: Enchant Weapon (Grade B)-->
+				<reward item_id="947" min="1" max="1" chance="13.6577"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_NOT_GROUPED">
+			<!--Destruction Tombstone-->
+			<reward item_id="8176" min="1" max="1" chance="88.0"/>
+		</rewardlist>
+	</npc>  
+	<npc id="25510" name="Varangka's Descendant" title="Raid Fighter" pts_name="baranka_descendants"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="52"/>
+		<set name="exp" value="51262490"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="13"/>
+		<set name="collision_height" value="26.90"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="27046"/>
+		<set name="baseHpReg" value="58.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="804"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="2064"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="306"/>
+		<set name="baseMAtk" value="1172"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="314"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="2"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="PhysicalSpecial_a" value="4731-1"/>
+			<!--BOSS Mortal Blow-->
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+			<skill id="4731" level="5"/>
+			<!--BOSS Mortal Blow-->
+		</skills>
+		<equip>
+			<rhand item_id="74"/>
+			<!--Katana-->
+		</equip>
+	</npc>  
+	<npc id="25511" name="Varangka's Page" title="Raid Fighter" pts_name="varangka_s_page1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="52"/>
+		<set name="exp" value="51262490"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12"/>
+		<set name="collision_height" value="18.80"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="13523"/>
+		<set name="baseHpReg" value="58.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="804"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1032"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="306"/>
+		<set name="baseMAtk" value="293"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="314"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="40000"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+		</skills>
+		<equip>
+			<rhand item_id="179"/>
+			<!--Mace of Prayer-->
+		</equip>
+	</npc>  
+	<npc id="25512" name="Gigantic Chaos Golem" title="Raid Boss" pts_name="dr_chaos_gigantic_golem"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="RaidBoss"/>
+		<set name="level" value="52"/>
+		<set name="exp" value="51262490"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="31"/>
+		<set name="collision_height" value="51.80"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseHpMax" value="338083"/>
+		<set name="baseHpReg" value="145.2219"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="804"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1032"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="306"/>
+		<set name="baseMAtk" value="293"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="629"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="-18"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="440000"/>
+		<set name="rewardSp" value="40000"/>
+		<set name="rewardRp" value="972"/>
+		<set name="acquire_exp_rate" value="162.7219"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="RaidSpawnMusic" value="Rm01_A"/>
+			<set name="SelfRangeCancel_a" value="4177-1"/>
+			<!--BOSS Cancel Magic-->
+			<set name="SelfBuff_a" value="4173-1"/>
+			<!--BOSS Might-->
+			<set name="PhysicalSpecial_a" value="4726-1"/>
+			<!--Stun-->
+			<set name="SelfRangePhysicalSpecial_a" value="4171-1"/>
+			<!--BOSS Spinning Slash-->
+		</ai_params>
+		<skills>
+			<skill id="4177" level="5"/>
+			<!--BOSS Cancel Magic-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="4"/>
+			<!--One-handed Sword-->
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4171" level="5"/>
+			<!--BOSS Spinning Slash-->
+			<skill id="4173" level="5"/>
+			<!--BOSS Might-->
+			<skill id="4273" level="5"/>
+			<!--Resist Daggers/Rapier Weapon-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+			<skill id="4437" level="5"/>
+			<!--Greater Resist Bleeding-->
+			<skill id="4494" level="1"/>
+			<!--Raid Boss-->
+			<skill id="4726" level="5"/>
+			<!--Stun-->
+			<skill id="5029" level="1"/>
+			<!--Raid Boss - Level 52-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="48.829">
+				<!--Zubei's Breastplate-->
+				<reward item_id="357" min="1" max="1" chance="3.9351"/>
+				<!--Zubei's Gaiters-->
+				<reward item_id="383" min="1" max="1" chance="6.295"/>
+				<!--Avadon Breastplate-->
+				<reward item_id="2376" min="1" max="1" chance="3.9351"/>
+				<!--Avadon Gaiters-->
+				<reward item_id="2379" min="1" max="1" chance="6.295"/>
+				<!--Zubei's Breastplate Part-->
+				<reward item_id="4056" min="16" max="48" chance="17.7615"/>
+				<!--Zubei's Gaiter Material-->
+				<reward item_id="4057" min="60" max="180" chance="7.3199"/>
+				<!--Avadon Breastplate Part-->
+				<reward item_id="4064" min="23" max="67" chance="12.6304"/>
+				<!--Avadon Gaiters Material-->
+				<reward item_id="4065" min="11" max="31" chance="41.828"/>
+			</group>
+			<group chance="73.0967">
+				<!--Great Sword-->
+				<reward item_id="78" min="1" max="1" chance="1.256"/>
+				<!--Keshanberk-->
+				<reward item_id="142" min="1" max="1" chance="1.256"/>
+				<!--Sword of Valhalla-->
+				<reward item_id="148" min="1" max="1" chance="1.256"/>
+				<!--Great Sword Blade-->
+				<reward item_id="4104" min="5" max="15" chance="24.0087"/>
+				<!--Keshanberk Blade-->
+				<reward item_id="4107" min="9" max="27" chance="13.1315"/>
+				<!--Sword of Valhalla Blade-->
+				<reward item_id="4108" min="2" max="6" chance="59.0918"/>
+			</group>
+			<group chance="50.3223">
+				<!--Greater Dye of CON <Con+3 Dex-3>-->
+				<reward item_id="4604" min="2" max="6" chance="32.9154"/>
+				<!--Greater Dye of DEX <Dex+3 Str-3>-->
+				<reward item_id="4605" min="3" max="7" chance="26.3323"/>
+				<!--Greater Dye of DEX <Dex+3 Con-3>-->
+				<reward item_id="4606" min="3" max="9" chance="21.9436"/>
+				<!--Scroll: Enchant Armor (Grade C)-->
+				<reward item_id="952" min="21" max="63" chance="18.8087"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_NOT_GROUPED">
+			<!--False Nucleus of Life: C-Grade-->
+			<reward item_id="8167" min="1" max="3" chance="85.0"/>
+			<!--Destruction Tombstone-->
+			<reward item_id="8176" min="1" max="1" chance="85.0"/>
+		</rewardlist>
+	</npc>  
+	<npc id="25514" name="Queen Shyeed" title="Raid Boss" pts_name="spike_stakato_qn_shyid"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="RaidBoss"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="52"/>
+		<set name="collision_height" value="50"/>
+		<set name="baseRunSpd" value="276"/>
+		<set name="baseWalkSpd" value="52"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseHpMax" value="300327.0537"/>
+		<set name="baseHpReg" value="92.3387"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1409"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="396"/>
+		<set name="baseMAtk" value="281"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="748"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="-18"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="3206477"/>
+		<set name="rewardSp" value="835990"/>
+		<set name="rewardRp" value="1896"/>
+		<set name="acquire_exp_rate" value="501.012"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="spike_stakato_mage" value="spike_stakato_mage"/>
+			<set name="spike_stakato_private" value="spike_stakato_private"/>
+			<set name="spike_stakato_private" value="spike_stakato_private"/>
+			<set name="RaidSpawnMusic" value="Rm03_A"/>
+			<set name="RangeHold_a" value="4197-1"/>
+			<!--Hold-->
+		</ai_params>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4197" level="9"/>
+			<!--Hold-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+			<skill id="4494" level="1"/>
+			<!--Raid Boss-->
+			<skill id="4657" level="9"/>
+			<!--Hold-->
+			<skill id="4907" level="1"/>
+			<!--Raid Boss - Level 80-->
+			<skill id="5031" level="1"/>
+			<!--Raid Boss - Level 80-->
+		</skills>
+		<minions>
+			<minion npc_id="25515" count="4">
+				<!--Spiked Stakato  -->
+			</minion>
+			<minion npc_id="25516" count="2">
+				<!--Spiked Stakato  -->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70.7103">
+				<!--Basalt Battlehammer Head-->
+				<reward item_id="6689" min="16" max="48" chance="6.4703"/>
+				<!--Imperial Staff Head-->
+				<reward item_id="6690" min="11" max="31" chance="10.0679"/>
+				<!--Angel Slayer Blade-->
+				<reward item_id="6691" min="3" max="9" chance="49.5314"/>
+				<!--Dragon Hunter Axe Blade-->
+				<reward item_id="6693" min="6" max="18" chance="11.385"/>
+				<!--Sealed Imperial Crusader Shield-->
+				<reward item_id="6678" min="1" max="1" chance="8.29"/>
+				<!--Sealed Draconic Leather Helmet-->
+				<reward item_id="6683" min="1" max="1" chance="6.7741"/>
+				<!--Sealed Imperial Crusader Helmet-->
+				<reward item_id="6679" min="1" max="1" chance="7.4813"/>
+			</group>
+			<group chance="98.2398">
+				<!--Sealed Major Arcana Circlet Pattern-->
+				<reward item_id="6714" min="16" max="45" chance="15.1025"/>
+				<!--Sealed Draconic Leather Helmet Pattern-->
+				<reward item_id="6710" min="14" max="30" chance="18.8399"/>
+				<!--Sealed Imperial Crusader Helmet Pattern-->
+				<reward item_id="6706" min="9" max="18" chance="4.0273"/>
+				<!--Sealed Imperial Crusader Shield Part-->
+				<reward item_id="6705" min="3" max="6" chance="43.0775"/>
+				<!--Arcana Mace Head-->
+				<reward item_id="6697" min="3" max="7" chance="18.9528"/>
+			</group>
+			<group chance="23.2743">
+				<!--Life Stone: level 76-->
+				<reward item_id="8732" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="20.0552">
+				<!--Mid-Grade Life Stone: level 76-->
+				<reward item_id="8742" min="1" max="1" chance="56.006"/>
+				<!--High-Grade Life Stone: level 76-->
+				<reward item_id="8752" min="2" max="4" chance="43.994"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="25515" name="Spiked Stakato  " title="Raid Fighter" pts_name="spike_stakato_mage"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="79"/>
+		<set name="exp" value="2099275834"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="13"/>
+		<set name="collision_height" value="21"/>
+		<set name="baseRunSpd" value="188"/>
+		<set name="baseWalkSpd" value="36"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="41"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="31866"/>
+		<set name="baseHpReg" value="96.62"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="9.81"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="3146"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="534"/>
+		<set name="baseMAtk" value="3904"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="767"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="4024"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="DDMagic_a" value="4195-1"/>
+			<!--BOSS Twister-->
+			<set name="Debuff_a" value="4198-1"/>
+			<!--Poison-->
+		</ai_params>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4182" level="9"/>
+			<!--Poison-->
+			<skill id="4195" level="9"/>
+			<!--BOSS Twister-->
+			<skill id="4198" level="9"/>
+			<!--Poison-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="40.3">
+				<!--Mithril Arrow-->
+				<reward item_id="1344" min="20" max="60" chance="100.0"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="25516" name="Spiked Stakato  " title="Raid Fighter" pts_name="spike_stakato_private"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="79"/>
+		<set name="exp" value="2099275834"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="13"/>
+		<set name="collision_height" value="22.20"/>
+		<set name="baseRunSpd" value="188"/>
+		<set name="baseWalkSpd" value="33"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="41"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="47562"/>
+		<set name="baseHpReg" value="98.02"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="9.81"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="4173"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="496"/>
+		<set name="baseMAtk" value="7451"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="713"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="4024"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="PhysicalSpecial_a" value="4726-1"/>
+			<!--Stun-->
+		</ai_params>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+			<skill id="4724" level="9"/>
+			<!--Stun-->
+			<skill id="4726" level="9"/>
+			<!--Stun-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="40.3">
+				<!--Mithril Arrow-->
+				<reward item_id="1344" min="20" max="60" chance="100.0"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="25523" name="Plague Golem" title="Raid Boss" pts_name="degeneration_golem"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.393-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="RaidBoss"/>
+		<set name="level" value="73"/>
+		<set name="exp" value="606322775"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="35"/>
+		<set name="collision_height" value="46.38"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseHpMax" value="776489.8633"/>
+		<set name="baseHpReg" value="302.6599"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1442.4"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="3200"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="454"/>
+		<set name="baseMAtk" value="3338"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="751"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="-18"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="1598700"/>
+		<set name="rewardSp" value="920130"/>
+		<set name="rewardRp" value="3056"/>
+		<set name="acquire_exp_rate" value="300.0"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<set name="SelfAggressive" value="100"/>
+			<set name="isMadness" value="15"/>
+			<!--PTS AI Params-->
+			<set name="RaidSpawnMusic" value="Rm01_A"/>
+			<set name="SelfRangeCancel_a" value="4177-1"/>
+			<!--BOSS Cancel Magic-->
+			<set name="SelfBuff_a" value="4173-1"/>
+			<!--BOSS Might-->
+			<set name="PhysicalSpecial_a" value="4730-1"/>
+			<!--BOSS Mortal Blow-->
+			<set name="SelfRangePhysicalSpecial_a" value="4172-1"/>
+			<!--Stun-->
+		</ai_params>
+		<skills>
+			<skill id="4177" level="7"/>
+			<!--BOSS Cancel Magic-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="1"/>
+			<!--Bare Hands-->
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4172" level="7"/>
+			<!--Stun-->
+			<skill id="4173" level="7"/>
+			<!--BOSS Might-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+			<skill id="4494" level="1"/>
+			<!--Raid Boss-->
+			<skill id="4730" level="7"/>
+			<!--BOSS Mortal Blow-->
+			<skill id="5034" level="1"/>
+			<!--Raid Boss - Level 73-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="50">
+				<!--False Nucleus of Life: A-Grade-->
+				<reward item_id="8169" min="1" max="2" chance="50.0"/>
+				<!--Destruction Tombstone-->
+				<reward item_id="8176" min="4" max="8" chance="50.0"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="25524" name="Flamestone Giant" title="Raid Boss" pts_name="flame_stone_golem"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.394-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="RaidBoss"/>
+		<set name="level" value="76"/>
+		<set name="exp" value="931275828"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="22"/>
+		<set name="collision_height" value="45"/>
+		<set name="baseRunSpd" value="248"/>
+		<set name="baseWalkSpd" value="73"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseHpMax" value="401886.7666"/>
+		<set name="baseHpReg" value="124.3025"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1540.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1908"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="422"/>
+		<set name="baseMAtk" value="888"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="727"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="-18"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="4888056"/>
+		<set name="rewardSp" value="961047"/>
+		<set name="rewardRp" value="3228"/>
+		<set name="acquire_exp_rate" value="846.2701"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="flame_elemental_heal" value="flame_elemental_heal"/>
+			<set name="charged_spirit1" value="charged_spirit1"/>
+			<set name="charged_spirit1" value="charged_spirit1"/>
+			<set name="RaidSpawnMusic" value="Rm02_A"/>
+			<set name="RangeDDMagic_a" value="4178-1"/>
+			<!--BOSS Flamestrike-->
+		</ai_params>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4178" level="10"/>
+			<!--BOSS Flamestrike-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+			<skill id="4494" level="1"/>
+			<!--Raid Boss-->
+			<skill id="4988" level="1"/>
+			<!--Raid Boss - Level 76-->
+			<skill id="5035" level="1"/>
+			<!--Raid Boss - Level 76-->
+		</skills>
+		<minions>
+			<minion npc_id="25525" count="2">
+				<!--Flame Spirit-->
+			</minion>
+			<minion npc_id="25526" count="2">
+				<!--Charged Spirit-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="91.1377">
+				<!--Basalt Battlehammer Head-->
+				<reward item_id="6689" min="2" max="6" chance="35.4313"/>
+				<!--Arcana Mace Head-->
+				<reward item_id="6697" min="3" max="6" chance="12.644"/>
+				<!--Imperial Staff Head-->
+				<reward item_id="6690" min="2" max="4" chance="46.7242"/>
+				<!--Sealed Tateossian Ring-->
+				<reward item_id="6725" min="1" max="1" chance="3.467"/>
+				<!--Sealed Tateossian Necklace-->
+				<reward item_id="6726" min="1" max="1" chance="1.7335"/>
+			</group>
+			<group chance="69.8994">
+				<!--Sealed Tateossian Necklace Chain-->
+				<reward item_id="6700" min="25" max="37" chance="23.8693"/>
+				<!--Sealed Tateossian Ring Gem-->
+				<reward item_id="6699" min="43" max="108" chance="15.21"/>
+				<!--Sealed Tateossian Earring Part-->
+				<reward item_id="6698" min="11" max="27" chance="60.9207"/>
+			</group>
+			<group chance="75.1553">
+				<!--Life Stone: level 70-->
+				<reward item_id="8731" min="1" max="1" chance="68.2208"/>
+				<!--High-Grade Life Stone: level 70-->
+				<reward item_id="8751" min="1" max="1" chance="20.3196"/>
+				<!--Top-Grade Life Stone: level 70-->
+				<reward item_id="8761" min="1" max="1" chance="11.4596"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="25525" name="Flame Spirit" title="Raid Fighter" pts_name="flame_elemental_heal"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.394-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="75"/>
+		<set name="exp" value="804225364"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="20"/>
+		<set name="baseRunSpd" value="168"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="63590"/>
+		<set name="baseHpReg" value="197.17"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1601"/>
+		<set name="baseMpReg" value="9.81"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="4858"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="459"/>
+		<set name="baseMAtk" value="16687"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="660"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="730"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="HealMagic_a" value="4780-1"/>
+			<!--BOSS Heal-->
+			<set name="SelfRangeBuff_a" value="4211-1"/>
+			<!--BOSS Might-->
+		</ai_params>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4211" level="10"/>
+			<!--BOSS Might-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+			<skill id="4779" level="10"/>
+			<!--BOSS Heal-->
+			<skill id="4780" level="10"/>
+			<!--BOSS Heal-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="35.9667">
+				<!--Mithril Arrow-->
+				<reward item_id="1344" min="60" max="180" chance="100.0"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="25526" name="Charged Spirit" title="Raid Fighter" pts_name="charged_spirit1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.394-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="75"/>
+		<set name="exp" value="804225364"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="20"/>
+		<set name="baseRunSpd" value="168"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="31795"/>
+		<set name="baseHpReg" value="197.17"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1601"/>
+		<set name="baseMpReg" value="9.81"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="2429"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="459"/>
+		<set name="baseMAtk" value="4171"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="660"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="730"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="35.9667">
+				<!--Mithril Arrow-->
+				<reward item_id="1344" min="60" max="180" chance="100.0"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="25527" name="Uruka" title="Raid Boss" pts_name="uruka"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.394-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="RaidBoss"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="71400000000"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="30"/>
+		<set name="collision_height" value="42.51"/>
+		<set name="baseRunSpd" value="276"/>
+		<set name="baseWalkSpd" value="36"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseHpMax" value="675862.8248"/>
+		<set name="baseHpReg" value="259.7515"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="203.52"/>
+		<set name="baseMpReg" value="3.18"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="3068"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="447"/>
+		<set name="baseMAtk" value="1381"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="842"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="-12"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="1"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="3526019"/>
+		<set name="rewardSp" value="952059"/>
+		<set name="rewardRp" value="2100"/>
+		<set name="acquire_exp_rate" value="476.7468"/>
+		<faction name="raid_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="RaidSpawnMusic" value="Rm01_A"/>
+			<set name="SelfRangeCancel_a" value="4177-3"/>
+			<!--BOSS Cancel Magic-->
+			<set name="SelfBuff_a" value="4173-4"/>
+			<!--BOSS Might-->
+			<set name="PhysicalSpecial_a" value="4721-5"/>
+			<!--BOSS Strike-->
+			<set name="SelfRangePhysicalSpecial_a" value="4172-5"/>
+			<!--Stun-->
+		</ai_params>
+		<skills>
+			<skill id="4177" level="10"/>
+			<!--BOSS Cancel Magic-->
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4172" level="10"/>
+			<!--Stun-->
+			<skill id="4173" level="10"/>
+			<!--BOSS Might-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+			<skill id="4494" level="1"/>
+			<!--Raid Boss-->
+			<skill id="4721" level="10"/>
+			<!--BOSS Strike-->
+			<skill id="5179" level="1"/>
+			<!--Raid Boss - Level 80-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="49.4563">
+				<!--Sealed Tateossian Earring-->
+				<reward item_id="6724" min="1" max="1" chance="5.9961"/>
+				<!--Sealed Tateossian Ring-->
+				<reward item_id="6725" min="1" max="1" chance="8.9942"/>
+				<!--Sealed Tateossian Necklace-->
+				<reward item_id="6726" min="1" max="1" chance="4.4961"/>
+				<!--Sealed Tateossian Earring Part-->
+				<reward item_id="6698" min="81" max="243" chance="11.8869"/>
+				<!--Sealed Tateossian Ring Gem-->
+				<reward item_id="6699" min="40" max="120" chance="26.71"/>
+				<!--Sealed Tateossian Necklace Chain-->
+				<reward item_id="6700" min="14" max="42" chance="41.9167"/>
+			</group>
+			<group chance="68.7123">
+				<!--Basalt Battlehammer-->
+				<reward item_id="6365" min="1" max="1" chance="0.3713"/>
+				<!--Imperial Staff-->
+				<reward item_id="6366" min="1" max="1" chance="0.3713"/>
+				<!--Dragon Hunter Axe-->
+				<reward item_id="6369" min="1" max="1" chance="0.3713"/>
+				<!--Arcana Mace-->
+				<reward item_id="6579" min="1" max="1" chance="0.3713"/>
+				<!--Basalt Battlehammer Head-->
+				<reward item_id="6689" min="2" max="6" chance="42.0931"/>
+				<!--Imperial Staff Head-->
+				<reward item_id="6690" min="11" max="31" chance="8.1873"/>
+				<!--Dragon Hunter Axe Blade-->
+				<reward item_id="6693" min="6" max="18" chance="14.5597"/>
+				<!--Arcana Mace Head-->
+				<reward item_id="6697" min="3" max="7" chance="33.6747"/>
+			</group>
+		</rewardlist>
+	</npc> 
+</list>

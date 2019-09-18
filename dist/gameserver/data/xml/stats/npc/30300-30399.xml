@@ -1,0 +1,5050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="30300" name="Pushkin" title="Blacksmith" pts_name="blacksmith_pushkin"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="3"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dwarf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="7"/>
+		<set name="collision_height" value="16.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="blacksmith_pushkin001.htm"/>
+			<set name="fnClassMismatch" value="blacksmith_pushkin003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="93"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<teach_classes>
+			<class id="53"/>
+			<class id="56"/>
+			<class id="57"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="18"/>
+			<!--Dwarves-->
+		</skills>
+		<equip>
+			<rhand item_id="89"/>
+			<!--Big Hammer-->
+		</equip>
+	</npc>  
+	<npc id="30301" name="Hally" title="Trader" pts_name="trader_hallypia"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Merchant"/>
+		<set name="castle_id" value="5"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="trader_hallypia001.htm"/>
+			<set name="fnSell" value="trader_hallypia002.htm"/>
+			<set name="fnBuy" value="trader_hallypia003.htm"/>
+			<set name="fnUnableItemSell" value="trader_hallypia005.htm"/>
+			<set name="fnYouAreChaotic" value="trader_hallypia006.htm"/>
+			<set name="fnNowSiege" value="trader_hallypia007.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="85"/>
+			<set name="MoveAroundSocial2" value="200"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc>  
+	<npc id="30305" name="Vellior" title="Tetrarch" pts_name="tetrarch_vellior"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="VillageMaster"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="6"/>
+		<set name="collision_height" value="23.80"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="tetrarch_vellior001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="180"/>
+			<set name="MoveAroundSocial2" value="180"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+	</npc>  
+	<npc id="30307" name="Karrod" title="Blacksmith" pts_name="blacksmith_karoyd"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="blacksmith_karoyd001.htm"/>
+			<set name="fnClassMismatch" value="blacksmith_karoyd003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+	</npc>  
+	<npc id="30311" name="Sir Collin Windawood" title="" pts_name="sir_collin_windawood"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="sir_collin_windawood001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="158"/>
+			<set name="MoveAroundSocial2" value="158"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc>  
+	<npc id="30312" name="Rockswell" title="Lighthouse Keeper" pts_name="rockswell"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="21.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="rockswell001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc>  
+	<npc id="30313" name="Asha" title="Trader" pts_name="trader_acellopy"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Merchant"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="trader_acellopy001.htm"/>
+			<set name="fnSell" value="trader_acellopy002.htm"/>
+			<set name="fnBuy" value="trader_acellopy003.htm"/>
+			<set name="fnUnableItemSell" value="trader_acellopy005.htm"/>
+			<set name="fnYouAreChaotic" value="trader_acellopy006.htm"/>
+			<set name="fnNowSiege" value="trader_acellopy007.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="85"/>
+			<set name="MoveAroundSocial2" value="200"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc>  
+	<npc id="30314" name="Nestle" title="Accessory Merchant" pts_name="trader_nestle"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Merchant"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="trader_nestle001.htm"/>
+			<set name="fnSell" value="trader_nestle002.htm"/>
+			<set name="fnBuy" value="trader_nestle003.htm"/>
+			<set name="fnUnableItemSell" value="trader_nestle005.htm"/>
+			<set name="fnYouAreChaotic" value="trader_nestle006.htm"/>
+			<set name="fnNowSiege" value="trader_nestle007.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="110"/>
+			<set name="MoveAroundSocial2" value="110"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc>  
+	<npc id="30315" name="Poesia" title="Grocer" pts_name="trader_poesia"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Merchant"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="trader_poesia001.htm"/>
+			<set name="fnSell" value="trader_poesia002.htm"/>
+			<set name="fnBuy" value="trader_poesia003.htm"/>
+			<set name="fnUnableItemSell" value="trader_poesia005.htm"/>
+			<set name="fnYouAreChaotic" value="trader_poesia006.htm"/>
+			<set name="fnNowSiege" value="trader_poesia007.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="85"/>
+			<set name="MoveAroundSocial2" value="200"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc>  
+	<npc id="30316" name="Raut" title="Warehouse Keeper" pts_name="warehouse_keeper_raut"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Warehouse"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dwarf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="17"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="warehouse_keeper_raut001.htm"/>
+			<set name="fnBye" value="warehouse_keeper_raut002.htm"/>
+			<set name="fnYouAreChaotic" value="warehouse_keeper_raut003.htm"/>
+			<set name="fnClassMismatch" value="warehouse_keeper_raut004.htm"/>
+			<set name="fnEmpty" value="warehouse_keeper_raut005.htm"/>
+			<set name="fnNowSiege" value="warehouse_keeper_raut006.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="150"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<teach_classes>
+			<class id="53"/>
+			<class id="54"/>
+			<class id="55"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="18"/>
+			<!--Dwarves-->
+		</skills>
+	</npc>  
+	<npc id="30317" name="Kluto" title="Blacksmith" pts_name="blacksmith_kluto"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dwarf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="7"/>
+		<set name="collision_height" value="16.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="blacksmith_kluto001.htm"/>
+			<set name="fnClassMismatch" value="blacksmith_kluto003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="93"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<teach_classes>
+			<class id="53"/>
+			<class id="56"/>
+			<class id="57"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="18"/>
+			<!--Dwarves-->
+		</skills>
+		<equip>
+			<rhand item_id="89"/>
+			<!--Big Hammer-->
+		</equip>
+	</npc>  
+	<npc id="30320" name="Richlin" title="Gatekeeper" pts_name="gatekeeper_richlin"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Merchant"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="25"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="gatekeeper_richlin001.htm"/>
+			<set name="fnNobless" value="fornobless.htm"/>
+			<set name="fnNoNobless" value="fornonobless.htm"/>
+			<set name="fnNoNoblessItem" value="fornonoblessitem.htm"/>
+			<set name="fnYouAreChaotic" value="gatekeeper_richlin003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="90"/>
+			<set name="MoveAroundSocial2" value="90"/>
+		</ai_params>
+		<teach_classes>
+			<class id="53"/>
+			<class id="54"/>
+			<class id="55"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<teleportlist>
+			<sublist id="1">
+				<target loc="-12787 122779 -3112" item_id="57" price="7300" name="Gatekeeper.TheTownofGludio" castle_id="1"/>
+				<target loc="-84141 244623 -3729" item_id="57" price="9400" name="Gatekeeper.TalkingIslandVillage"/>
+				<target loc="46951 51550 -2976" item_id="57" price="16000" name="Gatekeeper.TheElvenVillage"/>
+				<target loc="9744 15645 -4500" item_id="57" price="16000" name="Gatekeeper.TheDarkElvenVillage"/>
+				<target loc="115120 -178224 -917" item_id="57" price="38000" name="Gatekeeper.DwarvenVillage"/>
+				<target loc="-45158 -112583 -236" item_id="57" price="26000" name="Gatekeeper.OrcVillage"/>
+				<target loc="-44763 203470 -3592" item_id="57" price="1800" name="Gatekeeper.LangkLizardmanDwellings"/>
+				<target loc="-75437 168800 -3632" item_id="57" price="550" name="Gatekeeper.WindmillHill"/>
+				<target loc="-63736 101522 -3552" item_id="57" price="1400" name="Gatekeeper.FellmereHarvestGrounds"/>
+				<target loc="-53001 191425 -3568" item_id="57" price="2000" name="Gatekeeper.ForgottenTemple"/>
+				<target loc="-89763 105359 -3576" item_id="57" price="1800" name="Gatekeeper.OrcBarracks"/>
+				<target loc="-88539 83389 -2864" item_id="57" price="2600" name="Gatekeeper.WindyHill"/>
+				<target loc="-49853 147089 -2784" item_id="57" price="1200" name="Gatekeeper.AbandonedCamp"/>
+				<target loc="-16526 208032 -3664" item_id="57" price="3400" name="Gatekeeper.Wastelands"/>
+				<target loc="-42256 198333 -2800" item_id="57" price="3700" name="Gatekeeper.RedRockRidge"/>
+			</sublist>
+			<sublist id="2">
+				<target loc="-87328 142266 -3640" item_id="57" price="1000" name="Gatekeeper.GludinArena"/>
+				<target loc="73579 142709 -3768" item_id="57" price="1000" name="Gatekeeper.GiranArena"/>
+				<target loc="-54026 179504 -4640" item_id="57" price="1000" name="Gatekeeper.ForgottenTemple"/>
+				<target loc="-47506 179572 -3632" item_id="57" price="1000" name="Gatekeeper.Wasteland"/>
+				<target loc="146440 46723 -3432" item_id="57" price="1000" name="Gatekeeper.Coliseum"/>
+			</sublist>
+			<sublist id="3">
+				<target loc="-87328 142266 -3640" item_id="6651" price="1" name="Gatekeeper.GludinArena"/>
+				<target loc="73579 142709 -3768" item_id="6651" price="1" name="Gatekeeper.GiranArena"/>
+				<target loc="-54026 179504 -4640" item_id="6651" price="1" name="Gatekeeper.ForgottenTemple"/>
+				<target loc="-47506 179572 -3632" item_id="6651" price="1" name="Gatekeeper.Wasteland"/>
+				<target loc="146440 46723 -3432" item_id="6651" price="1" name="Gatekeeper.Coliseum"/>
+			</sublist>
+		</teleportlist>
+	</npc>  
+	<npc id="30321" name="Sydnia" title="Weapon Merchant" pts_name="trader_sydney"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Merchant"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="trader_sydney001.htm"/>
+			<set name="fnSell" value="trader_sydney002.htm"/>
+			<set name="fnBuy" value="trader_sydney003.htm"/>
+			<set name="fnUnableItemSell" value="trader_sydney005.htm"/>
+			<set name="fnYouAreChaotic" value="trader_sydney006.htm"/>
+			<set name="fnNowSiege" value="trader_sydney007.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="85"/>
+			<set name="MoveAroundSocial2" value="200"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc>  
+	<npc id="30322" name="Ballin" title="Warehouse Keeper" pts_name="warehouse_keeper_balcon"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Warehouse"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dwarf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="17"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="warehouse_keeper_balcon001.htm"/>
+			<set name="fnBye" value="warehouse_keeper_balcon002.htm"/>
+			<set name="fnYouAreChaotic" value="warehouse_keeper_balcon003.htm"/>
+			<set name="fnClassMismatch" value="warehouse_keeper_balcon004.htm"/>
+			<set name="fnEmpty" value="warehouse_keeper_balcon005.htm"/>
+			<set name="fnNowSiege" value="warehouse_keeper_balcon006.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="150"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<teach_classes>
+			<class id="53"/>
+			<class id="54"/>
+			<class id="55"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="18"/>
+			<!--Dwarves-->
+		</skills>
+	</npc>  
+	<npc id="30325" name="Audiberti" title="Master" pts_name="master_audiberti"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.487-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="master_audiberti001.htm"/>
+			<set name="fnClassMismatch" value="master_audiberti003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="130"/>
+			<set name="MoveAroundSocial2" value="130"/>
+		</ai_params>
+		<teach_classes>
+			<class id="0"/>
+			<class id="1"/>
+			<class id="2"/>
+			<class id="3"/>
+			<class id="4"/>
+			<class id="5"/>
+			<class id="6"/>
+			<class id="7"/>
+			<class id="8"/>
+			<class id="9"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc>  
+	<npc id="30326" name="Leona" title="Master" pts_name="master_leona"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="9.50"/>
+		<set name="collision_height" value="22.40"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="master_leona001.htm"/>
+			<set name="fnClassMismatch" value="master_leona003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="90"/>
+			<set name="MoveAroundSocial2" value="169"/>
+		</ai_params>
+		<teach_classes>
+			<class id="0"/>
+			<class id="1"/>
+			<class id="2"/>
+			<class id="3"/>
+			<class id="4"/>
+			<class id="5"/>
+			<class id="6"/>
+			<class id="7"/>
+			<class id="8"/>
+			<class id="9"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc>  
+	<npc id="30327" name="Sorius" title="Master" pts_name="master_sorius"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="elf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="7"/>
+		<set name="collision_height" value="22.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="master_sorius001.htm"/>
+			<set name="fnClassMismatch" value="master_sorius003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="187"/>
+			<set name="MoveAroundSocial2" value="187"/>
+		</ai_params>
+		<teach_classes>
+			<class id="18"/>
+			<class id="19"/>
+			<class id="20"/>
+			<class id="21"/>
+			<class id="22"/>
+			<class id="23"/>
+			<class id="24"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="15"/>
+			<!--Elves-->
+		</skills>
+	</npc>  
+	<npc id="30328" name="Reisa" title="Master" pts_name="master_reoria"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="22.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="master_reoria001.htm"/>
+			<set name="fnClassMismatch" value="master_reoria003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="123"/>
+			<set name="MoveAroundSocial2" value="123"/>
+		</ai_params>
+		<teach_classes>
+			<class id="18"/>
+			<class id="19"/>
+			<class id="20"/>
+			<class id="21"/>
+			<class id="22"/>
+			<class id="23"/>
+			<class id="24"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="15"/>
+			<!--Elves-->
+		</skills>
+	</npc>  
+	<npc id="30329" name="Virgil" title="Master" pts_name="master_virgil"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="master_virgil001.htm"/>
+			<set name="fnClassMismatch" value="master_virgil003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="96"/>
+		</ai_params>
+		<teach_classes>
+			<class id="31"/>
+			<class id="32"/>
+			<class id="33"/>
+			<class id="34"/>
+			<class id="35"/>
+			<class id="36"/>
+			<class id="37"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+	</npc>  
+	<npc id="30330" name="Sidra" title="Magister" pts_name="master_sidra"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="master_sidra001.htm"/>
+			<set name="fnClassMismatch" value="master_sidra003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="110"/>
+			<set name="MoveAroundSocial2" value="110"/>
+		</ai_params>
+		<teach_classes>
+			<class id="38"/>
+			<class id="39"/>
+			<class id="40"/>
+			<class id="41"/>
+			<class id="42"/>
+			<class id="43"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+	</npc>  
+	<npc id="30331" name="Toma" title="Guard" pts_name="guard_thoma"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_thoma001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<rhand item_id="275"/>
+			<!--Long Bow-->
+		</equip>
+	</npc>  
+	<npc id="30332" name="Bathis" title="Captain" pts_name="captain_bathia"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="907"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="-6"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="20"/>
+		<set name="baseShldRate" value="79"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="captain_bathia001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<lhand item_id="102"/>
+			<!--Round Shield-->
+			<rhand item_id="129"/>
+			<!--Sword of Revolution-->
+		</equip>
+	</npc>  
+	<npc id="30333" name="Praga" title="Guard" pts_name="guard_praga"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="907"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="-6"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="20"/>
+		<set name="baseShldRate" value="67"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_praga001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<lhand item_id="20"/>
+			<!--Buckler-->
+			<rhand item_id="2"/>
+			<!--Long Sword-->
+		</equip>
+	</npc>  
+	<npc id="30334" name="Babenco" title="Guard" pts_name="guard_babenco"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_babenco001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<rhand item_id="275"/>
+			<!--Long Bow-->
+		</equip>
+	</npc>  
+	<npc id="30335" name="Brynn" title="Guard" pts_name="guard_brynner"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_brynner001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<rhand item_id="275"/>
+			<!--Long Bow-->
+		</equip>
+	</npc>  
+	<npc id="30336" name="Curtis" title="Guard" pts_name="guard_curtiz"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_curtiz001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<rhand item_id="275"/>
+			<!--Long Bow-->
+		</equip>
+	</npc>  
+	<npc id="30337" name="Moretti" title="Guard" pts_name="guard_moretti"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="907"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="-6"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="20"/>
+		<set name="baseShldRate" value="67"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_moretti001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<lhand item_id="20"/>
+			<!--Buckler-->
+			<rhand item_id="2"/>
+			<!--Long Sword-->
+		</equip>
+	</npc>  
+	<npc id="30338" name="Melville" title="Guard" pts_name="guard_melville"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_melville001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<rhand item_id="275"/>
+			<!--Long Bow-->
+		</equip>
+	</npc>  
+	<npc id="30342" name="Varsak" title="" pts_name="varsak"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.488-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="22"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="varsak001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="110"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc>  
+	<npc id="30344" name="Rohmer" title="Magister" pts_name="magister_rohmer"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.489-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="magister_rohmer001.htm"/>
+			<set name="fnClassMismatch" value="magister_rohmer003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="90"/>
+			<set name="MoveAroundSocial2" value="187"/>
+		</ai_params>
+		<teach_classes>
+			<class id="10"/>
+			<class id="11"/>
+			<class id="12"/>
+			<class id="13"/>
+			<class id="14"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc>  
+	<npc id="30345" name="Ramoniell" title="Magister" pts_name="magister_ramoniell"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.489-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="7"/>
+		<set name="collision_height" value="21.20"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="magister_ramoniell001.htm"/>
+			<set name="fnClassMismatch" value="magister_ramoniell003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="100"/>
+			<set name="MoveAroundSocial2" value="100"/>
+		</ai_params>
+		<teach_classes>
+			<class id="25"/>
+			<class id="26"/>
+			<class id="27"/>
+			<class id="28"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="15"/>
+			<!--Elves-->
+		</skills>
+	</npc>  
+	<npc id="30346" name="Kayleen" title="Sentry" pts_name="sentry_kayleen"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.489-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="25"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="sentry_kayleen001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+		<equip>
+			<rhand item_id="277"/>
+			<!--Dark Elven Bow-->
+		</equip>
+	</npc>  
+	<npc id="30347" name="Marion" title="Sentry" pts_name="sentry_marion"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.489-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="25"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="907"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="sentry_marion001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+		<equip>
+			<rhand item_id="132"/>
+			<!--Sword of Limit-->
+		</equip>
+	</npc>  
+	<npc id="30348" name="Nelsya" title="Sentry" pts_name="sentry_nelsya"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.489-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="25"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="907"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="sentry_nelsya001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+		<equip>
+			<rhand item_id="132"/>
+			<!--Sword of Limit-->
+		</equip>
+	</npc>  
+	<npc id="30349" name="Jenna" title="Sentry" pts_name="sentry_jenine"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.489-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="25"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="sentry_jenine001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+		<equip>
+			<rhand item_id="277"/>
+			<!--Dark Elven Bow-->
+		</equip>
+	</npc>  
+	<npc id="30350" name="Carlon" title="Warehouse Keeper" pts_name="calculain"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.489-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Warehouse"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dwarf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="17"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="calculain001.htm"/>
+			<set name="fnBye" value="calculain002.htm"/>
+			<set name="fnYouAreChaotic" value="calculain003.htm"/>
+			<set name="fnClassMismatch" value="calculain004.htm"/>
+			<set name="fnEmpty" value="calculain005.htm"/>
+			<set name="fnNowSiege" value="calculain006.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="150"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="18"/>
+			<!--Dwarves-->
+		</skills>
+	</npc>  
+	<npc id="30351" name="Astaron" title="" pts_name="astaron"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.489-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="astaron001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+	</npc>  
+	<npc id="30352" name="Karina" title="" pts_name="karinar"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.489-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="21.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="karinar001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="107"/>
+			<set name="MoveAroundSocial2" value="107"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+	</npc>  
+	<npc id="30353" name="Jughead" title="" pts_name="jughead"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.489-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="jughead001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+	</npc>  
+	<npc id="30354" name="Jewel" title="" pts_name="jewel"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.489-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="21.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="jewel001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="107"/>
+			<set name="MoveAroundSocial2" value="107"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+	</npc>  
+	<npc id="30355" name="Roselyn" title="Sentry" pts_name="sentry_roseline"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.489-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="25"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="sentry_roseline001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+		<equip>
+			<rhand item_id="277"/>
+			<!--Dark Elven Bow-->
+		</equip>
+	</npc>  
+	<npc id="30356" name="Altima" title="Sentry" pts_name="sentry_altimees"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.489-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="25"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="sentry_altimees001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+		<equip>
+			<rhand item_id="277"/>
+			<!--Dark Elven Bow-->
+		</equip>
+	</npc>  
+	<npc id="30357" name="Kristin" title="Sentry" pts_name="sentry_krpion"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="25"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="907"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="sentry_krpion001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+		<equip>
+			<rhand item_id="132"/>
+			<!--Sword of Limit-->
+		</equip>
+	</npc>  
+	<npc id="30358" name="Thifiell" title="Tetrarch" pts_name="tetrarch_thifiell"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="VillageMaster"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="6"/>
+		<set name="collision_height" value="23.80"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="tetrarch_thifiell001.htm"/>
+			<set name="fnClassMismatch" value="tetrarch_thifiell002.htm"/>
+			<set name="fnClassList1" value="tetrarch_thifiell003f.htm"/>
+			<set name="fnClassList2" value="tetrarch_thifiell003m.htm"/>
+			<set name="fnYouAreSecondClass" value="tetrarch_thifiell004.htm"/>
+			<set name="fnYouAreThirdClass" value="tetrarch_thifiell005.htm"/>
+			<set name="fnLowLevelNoProof11" value="tetrarch_thifiell008fa.htm"/>
+			<set name="fnLowLevelNoProof12" value="tetrarch_thifiell008fb.htm"/>
+			<set name="fnLowLevelNoProof13" value="tetrarch_thifiell008fc.htm"/>
+			<set name="fnLowLevelNoProof21" value="tetrarch_thifiell008ma.htm"/>
+			<set name="fnLowLevelNoProof22" value="tetrarch_thifiell008mb.htm"/>
+			<set name="fnLowLevelNoProof23" value="tetrarch_thifiell008mc.htm"/>
+			<set name="fnLowLevel11" value="tetrarch_thifiell009fa.htm"/>
+			<set name="fnLowLevel12" value="tetrarch_thifiell009fb.htm"/>
+			<set name="fnLowLevel13" value="tetrarch_thifiell009fc.htm"/>
+			<set name="fnLowLevel21" value="tetrarch_thifiell009ma.htm"/>
+			<set name="fnLowLevel22" value="tetrarch_thifiell009mb.htm"/>
+			<set name="fnLowLevel23" value="tetrarch_thifiell009mc.htm"/>
+			<set name="fnNoProof11" value="tetrarch_thifiell010fa.htm"/>
+			<set name="fnNoProof12" value="tetrarch_thifiell010fb.htm"/>
+			<set name="fnNoProof13" value="tetrarch_thifiell010fc.htm"/>
+			<set name="fnNoProof21" value="tetrarch_thifiell010ma.htm"/>
+			<set name="fnNoProof22" value="tetrarch_thifiell010mb.htm"/>
+			<set name="fnNoProof23" value="tetrarch_thifiell010mc.htm"/>
+			<set name="fnAfterClassChange11" value="tetrarch_thifiell011fa.htm"/>
+			<set name="fnAfterClassChange12" value="tetrarch_thifiell011fb.htm"/>
+			<set name="fnAfterClassChange13" value="tetrarch_thifiell011fc.htm"/>
+			<set name="fnAfterClassChange21" value="tetrarch_thifiell011ma.htm"/>
+			<set name="fnAfterClassChange22" value="tetrarch_thifiell011mb.htm"/>
+			<set name="fnAfterClassChange23" value="tetrarch_thifiell011mc.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="180"/>
+			<set name="MoveAroundSocial2" value="180"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+	</npc>  
+	<npc id="30359" name="Kaitar" title="Tetrarch" pts_name="tetrarch_kaitar"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="VillageMaster"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="6"/>
+		<set name="collision_height" value="23.80"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="tetrarch_kaitar001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="180"/>
+			<set name="MoveAroundSocial2" value="180"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+	</npc>  
+	<npc id="30360" name="Harant" title="Master" pts_name="master_harant"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="master_harant001.htm"/>
+			<set name="fnClassMismatch" value="master_harant003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="96"/>
+		</ai_params>
+		<teach_classes>
+			<class id="31"/>
+			<class id="32"/>
+			<class id="33"/>
+			<class id="34"/>
+			<class id="35"/>
+			<class id="36"/>
+			<class id="37"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+	</npc>  
+	<npc id="30361" name="Rizraell" title="" pts_name="rizraell"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="25.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="rizraell001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="133"/>
+			<set name="MoveAroundSocial2" value="105"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="15"/>
+			<!--Elves-->
+		</skills>
+	</npc>  
+	<npc id="30362" name="Andellia" title="" pts_name="andellria"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="25.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="andellria001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="133"/>
+			<set name="MoveAroundSocial2" value="105"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="15"/>
+			<!--Elves-->
+		</skills>
+	</npc>  
+	<npc id="30363" name="Aios" title="Blacksmith" pts_name="blacksmith_aios"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="elf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="6"/>
+		<set name="collision_height" value="21"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="blacksmith_aios001.htm"/>
+			<set name="fnClassMismatch" value="blacksmith_aios003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="130"/>
+			<set name="MoveAroundSocial2" value="130"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="15"/>
+			<!--Elves-->
+		</skills>
+	</npc>  
+	<npc id="30368" name="Lilith" title="" pts_name="rylith"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="25.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="rylith001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="133"/>
+			<set name="MoveAroundSocial2" value="105"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="15"/>
+			<!--Elves-->
+		</skills>
+	</npc>  
+	<npc id="30369" name="Baenedes" title="Master" pts_name="master_baenedes"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="elf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="7"/>
+		<set name="collision_height" value="22.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="master_baenedes001.htm"/>
+			<set name="fnClassMismatch" value="master_baenedes003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="187"/>
+			<set name="MoveAroundSocial2" value="187"/>
+		</ai_params>
+		<teach_classes>
+			<class id="18"/>
+			<class id="19"/>
+			<class id="20"/>
+			<class id="21"/>
+			<class id="22"/>
+			<class id="23"/>
+			<class id="24"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="15"/>
+			<!--Elves-->
+		</skills>
+	</npc>  
+	<npc id="30370" name="Nerupa" title="" pts_name="nerupa"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="bug"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="26"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="63"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.5"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="nerupa001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="13"/>
+			<!--Fairies-->
+		</skills>
+	</npc>  
+	<npc id="30371" name="Thalia" title="" pts_name="thalya"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="4"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="25.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="thalya001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="133"/>
+			<set name="MoveAroundSocial2" value="105"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="15"/>
+			<!--Elves-->
+		</skills>
+	</npc>  
+	<npc id="30373" name="Ramos" title="Grand Master" pts_name="grandmaster_ramos"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="VillageMaster"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="grandmaster_ramos001.htm"/>
+			<set name="fnClassMismatch" value="grandmaster_ramos002.htm"/>
+			<set name="fnClassList1" value="grandmaster_ramos003h.htm"/>
+			<set name="fnClassList2" value="grandmaster_ramos003e.htm"/>
+			<set name="fnYouAreSecondClass" value="grandmaster_ramos004.htm"/>
+			<set name="fnYouAreThirdClass" value="grandmaster_ramos005.htm"/>
+			<set name="fnLowLevelNoProof11" value="grandmaster_ramos008ha.htm"/>
+			<set name="fnLowLevelNoProof12" value="grandmaster_ramos008hb.htm"/>
+			<set name="fnLowLevelNoProof13" value="grandmaster_ramos008hc.htm"/>
+			<set name="fnLowLevelNoProof21" value="grandmaster_ramos008ea.htm"/>
+			<set name="fnLowLevelNoProof22" value="grandmaster_ramos008eb.htm"/>
+			<set name="fnLowLevelNoProof23" value="grandmaster_ramos008ec.htm"/>
+			<set name="fnLowLevel11" value="grandmaster_ramos009ha.htm"/>
+			<set name="fnLowLevel12" value="grandmaster_ramos009hb.htm"/>
+			<set name="fnLowLevel13" value="grandmaster_ramos009hc.htm"/>
+			<set name="fnLowLevel21" value="grandmaster_ramos009ea.htm"/>
+			<set name="fnLowLevel22" value="grandmaster_ramos009eb.htm"/>
+			<set name="fnLowLevel23" value="grandmaster_ramos009ec.htm"/>
+			<set name="fnNoProof11" value="grandmaster_ramos010ha.htm"/>
+			<set name="fnNoProof12" value="grandmaster_ramos010hb.htm"/>
+			<set name="fnNoProof13" value="grandmaster_ramos010hc.htm"/>
+			<set name="fnNoProof21" value="grandmaster_ramos010ea.htm"/>
+			<set name="fnNoProof22" value="grandmaster_ramos010eb.htm"/>
+			<set name="fnNoProof23" value="grandmaster_ramos010ec.htm"/>
+			<set name="fnAfterClassChange11" value="grandmaster_ramos011ha.htm"/>
+			<set name="fnAfterClassChange12" value="grandmaster_ramos011hb.htm"/>
+			<set name="fnAfterClassChange13" value="grandmaster_ramos011hc.htm"/>
+			<set name="fnAfterClassChange21" value="grandmaster_ramos011ea.htm"/>
+			<set name="fnAfterClassChange22" value="grandmaster_ramos011eb.htm"/>
+			<set name="fnAfterClassChange23" value="grandmaster_ramos011ec.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="63"/>
+			<set name="MoveAroundSocial2" value="87"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc>  
+	<npc id="30374" name="Rhodiell" title="Master" pts_name="master_rhodiell"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="22.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="master_rhodiell001.htm"/>
+			<set name="fnClassMismatch" value="master_rhodiell003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="123"/>
+			<set name="MoveAroundSocial2" value="123"/>
+		</ai_params>
+		<teach_classes>
+			<class id="18"/>
+			<class id="19"/>
+			<class id="20"/>
+			<class id="21"/>
+			<class id="22"/>
+			<class id="23"/>
+			<class id="24"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="15"/>
+			<!--Elves-->
+		</skills>
+	</npc>  
+	<npc id="30375" name="Adonius" title="Priest" pts_name="priest_adonius"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="elf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="7"/>
+		<set name="collision_height" value="22.20"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="priest_adonius001.htm"/>
+			<set name="fnClassMismatch" value="priest_adonius003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="187"/>
+			<set name="MoveAroundSocial2" value="187"/>
+		</ai_params>
+		<teach_classes>
+			<class id="25"/>
+			<class id="29"/>
+			<class id="30"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="15"/>
+			<!--Elves-->
+		</skills>
+	</npc>  
+	<npc id="30376" name="Nell" title="Magister" pts_name="magister_nell"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="7"/>
+		<set name="collision_height" value="21.20"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="magister_nell001.htm"/>
+			<set name="fnClassMismatch" value="magister_nell003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="100"/>
+			<set name="MoveAroundSocial2" value="100"/>
+		</ai_params>
+		<teach_classes>
+			<class id="25"/>
+			<class id="26"/>
+			<class id="27"/>
+			<class id="28"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="15"/>
+			<!--Elves-->
+		</skills>
+	</npc>  
+	<npc id="30377" name="Talbot" title="Magister" pts_name="magister_talbot"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="22"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="magister_talbot001.htm"/>
+			<set name="fnClassMismatch" value="magister_talbot003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="156"/>
+			<set name="MoveAroundSocial2" value="156"/>
+		</ai_params>
+		<teach_classes>
+			<class id="38"/>
+			<class id="39"/>
+			<class id="40"/>
+			<class id="41"/>
+			<class id="42"/>
+			<class id="43"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+	</npc>  
+	<npc id="30378" name="Estella" title="Master" pts_name="master_escar"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Trainer"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="dark_elf"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="master_escar001.htm"/>
+			<set name="fnClassMismatch" value="master_escar003.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="103"/>
+			<set name="MoveAroundSocial2" value="103"/>
+		</ai_params>
+		<teach_classes>
+			<class id="31"/>
+			<class id="32"/>
+			<class id="33"/>
+			<class id="34"/>
+			<class id="35"/>
+			<class id="36"/>
+			<class id="37"/>
+		</teach_classes>
+		<skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves-->
+		</skills>
+	</npc>  
+	<npc id="30379" name="Bezique" title="Captain" pts_name="captain_bezique"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="captain_bezique001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<rhand item_id="280"/>
+			<!--Light Crossbow-->
+		</equip>
+	</npc>  
+	<npc id="30380" name="Plink" title="Guard" pts_name="guard_plink"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_plink001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<rhand item_id="275"/>
+			<!--Long Bow-->
+		</equip>
+	</npc>  
+	<npc id="30381" name="Alvah" title="Guard" pts_name="guard_alvah"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.490-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_alvah001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<rhand item_id="275"/>
+			<!--Long Bow-->
+		</equip>
+	</npc>  
+	<npc id="30382" name="Leikan" title="Guard" pts_name="guard_leikan"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.491-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="907"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="-6"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="20"/>
+		<set name="baseShldRate" value="67"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_leikan001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<lhand item_id="20"/>
+			<!--Buckler-->
+			<rhand item_id="2"/>
+			<!--Long Sword-->
+		</equip>
+	</npc>  
+	<npc id="30383" name="Scott" title="Guard" pts_name="guard_scott"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.491-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_scott001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<rhand item_id="275"/>
+			<!--Long Bow-->
+		</equip>
+	</npc>  
+	<npc id="30384" name="Linus" title="Guard" pts_name="guard_lynchuss"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.491-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="907"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="-6"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="20"/>
+		<set name="baseShldRate" value="67"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_lynchuss001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<lhand item_id="20"/>
+			<!--Buckler-->
+			<rhand item_id="2"/>
+			<!--Long Sword-->
+		</equip>
+	</npc>  
+	<npc id="30385" name="Weisz" title="Guard" pts_name="guard_weisz"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.491-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BOW"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseDamageRange" value="0;0;10;0"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="2016"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="221.61"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_weisz001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<rhand item_id="275"/>
+			<!--Long Bow-->
+		</equip>
+	</npc>  
+	<npc id="30386" name="Luis" title="Guard" pts_name="guard_luis"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.491-->
+		<set name="ai_type" value="Guard"/>
+		<set name="type" value="Guard"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="158"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="907"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="-6"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="20"/>
+		<set name="baseShldRate" value="67"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="guard_luis001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="92"/>
+			<set name="MoveAroundSocial2" value="92"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+		<equip>
+			<lhand item_id="20"/>
+			<!--Buckler-->
+			<rhand item_id="2"/>
+			<!--Long Sword-->
+		</equip>
+	</npc>  
+	<npc id="30387" name="Clancy" title="Wharf Manager " pts_name="wharf_manager_clancy"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.491-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Merchant"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="wharf_manager_clancy001.htm"/>
+			<set name="fnSell" value="wharf_manager_clancy002.htm"/>
+			<set name="fnBuy" value="wharf_manager_clancy003.htm"/>
+			<set name="fnUnableItemSell" value="wharf_manager_clancy005.htm"/>
+			<set name="fnYouAreChaotic" value="wharf_manager_clancy006.htm"/>
+			<set name="fnNowSiege" value="wharf_manager_clancy007.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="120"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc>  
+	<npc id="30391" name="Parina" title="" pts_name="parina"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.491-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="castle_id" value="1"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="20.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="parina001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="108"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="14"/>
+			<!--Humans-->
+		</skills>
+	</npc> 
+</list>

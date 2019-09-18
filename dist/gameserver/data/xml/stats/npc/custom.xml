@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<npc id="50100" name="Roshan" title="Mega Boss">
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseHpMax" value="86871.349"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="32.412"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseMAtk" value="19"/>
+		<set name="baseMAtkSpd" value="1972"/>
+		<set name="baseMDef" value="317"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseMpMax" value="463.32"/>
+		<set name="baseMpReg" value="1.8"/>
+		<set name="basePAtk" value="335"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="585"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="70"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="collision_height" value="26.0"/>
+		<set name="collision_radius" value="13.5"/>
+		<set name="level" value="80"/>
+		<set name="rewardExp" value="1078255"/>
+		<set name="rewardRp" value="608"/>
+		<set name="rewardSp" value="134578"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="RaidBoss"/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4197" level="3"/>
+			<!--Hold-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="7"/>
+			<!--Spirits-->
+			<skill id="4494" level="1"/>
+			<!--Raid Boss-->
+			<skill id="4819" level="1"/>
+			<!--Raid Boss - Level 39-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="0"/>
+			<defence attribute="water" value="0"/>
+			<defence attribute="wind" value="0"/>
+			<defence attribute="earth" value="0"/>
+			<defence attribute="holy" value="0"/>
+			<defence attribute="unholy" value="0"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="93.7757">
+				<reward item_id="1962" min="8" max="22" chance="34.9655"/>
+				<reward item_id="439" min="1" max="1" chance="8.6491"/>
+				<reward item_id="471" min="1" max="1" chance="13.8311"/>
+				<reward item_id="1954" min="24" max="72" chance="18.1529"/>
+				<reward item_id="2060" min="4" max="12" chance="24.4014"/>
+			</group>
+			<group chance="82.1732">
+				<reward item_id="2059" min="8" max="22" chance="13.8935"/>
+				<reward item_id="71" min="1" max="1" chance="2.4504"/>
+				<reward item_id="72" min="1" max="1" chance="2.4504"/>
+				<reward item_id="4589" min="1" max="3" chance="40.4105"/>
+				<reward item_id="4590" min="2" max="4" chance="26.9402"/>
+				<reward item_id="6574" min="1" max="1" chance="13.855"/>
+			</group>
+		</rewardlist>
+	</npc>
+	<npc id="45001" name="Подозрительный торговец" title="Shadow Trader">
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="2444.468"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="780"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="382"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="1303"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="471"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="48"/>
+		<set name="collision_height" value="15.0"/>
+		<set name="collision_radius" value="7.0"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="ShadowTrader"/>
+		<set name="displayId" value="31230"/>
+		<skills>
+			<skill id="4416" level="7"/>
+			<!--Spirits-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="150"/>
+			<defence attribute="water" value="150"/>
+			<defence attribute="wind" value="150"/>
+			<defence attribute="earth" value="150"/>
+			<defence attribute="holy" value="150"/>
+			<defence attribute="unholy" value="150"/>
+		</attributes>
+	</npc>
+	<npc id="45002" name="Подозрительный торговец" title="Day Trader">
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="2444.468"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="780"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="baseMDef" value="382"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="1303"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="471"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="48"/>
+		<set name="collision_height" value="15.0"/>
+		<set name="collision_radius" value="7.0"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="ShadowTrader"/>
+		<set name="displayId" value="31230"/>
+		<skills>
+			<skill id="4416" level="7"/>
+			<!--Spirits-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="150"/>
+			<defence attribute="water" value="150"/>
+			<defence attribute="wind" value="150"/>
+			<defence attribute="earth" value="150"/>
+			<defence attribute="holy" value="150"/>
+			<defence attribute="unholy" value="150"/>
+		</attributes>
+	</npc>
+	
+	<!-- Сундуки для квеста 705 -->
+	<npc id="45027" name="Coffer of the Dead" title="" pts_name="coffer_of_the_dead_custom">
+		<!--Done by JunkyFunky at : 2018-02-04T20:02:53.656-->
+		<set name="displayId" value="31027"/>
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634524"/>
+		<set name="race" value="etc"/>
+		<set name="sex" value="etc"/>
+		<set name="collision_radius" value="12"/>
+		<set name="collision_height" value="9"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="689"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="217"/>
+		<set name="baseMAtk" value="470"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="coffer_of_the_dead001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="19"/>
+			<!--Others-->
+		</skills>
+	</npc>
+	<npc id="45028" name="Chest of Kernon" title="" pts_name="chest_of_kernon_custom">
+		<!--Done by JunkyFunky at : 2018-02-04T20:02:53.656-->
+		<set name="displayId" value="31028"/>
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634524"/>
+		<set name="race" value="etc"/>
+		<set name="sex" value="etc"/>
+		<set name="collision_radius" value="12"/>
+		<set name="collision_height" value="9"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="689"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="217"/>
+		<set name="baseMAtk" value="470"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="chest_of_kernon001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="19"/>
+			<!--Others-->
+		</skills>
+	</npc>
+	<npc id="45029" name="Chest of Golkonda" title="" pts_name="chest_of_golkonda">
+		<!--Done by JunkyFunky at : 2018-02-04T20:02:53.656-->
+		<set name="displayId" value="31029"/>
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634524"/>
+		<set name="race" value="etc"/>
+		<set name="sex" value="etc"/>
+		<set name="collision_radius" value="12"/>
+		<set name="collision_height" value="9"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="689"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="217"/>
+		<set name="baseMAtk" value="470"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="chest_of_golkonda001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="19"/>
+			<!--Others-->
+		</skills>
+	</npc>
+	<npc id="45030" name="Chest of Hallate" title="" pts_name="chest_of_hallate">
+		<!--Done by JunkyFunky at : 2018-02-04T20:02:53.656-->
+		<set name="displayId" value="31030"/>
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634524"/>
+		<set name="race" value="etc"/>
+		<set name="sex" value="etc"/>
+		<set name="collision_radius" value="12"/>
+		<set name="collision_height" value="9"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="689"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="217"/>
+		<set name="baseMAtk" value="470"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="296"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="fnHi" value="chest_of_hallate001.htm"/>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4416" level="19"/>
+			<!--Others-->
+		</skills>
+	</npc>
+</list>

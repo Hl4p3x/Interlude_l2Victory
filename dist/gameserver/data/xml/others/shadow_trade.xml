@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- Список продуктов, предлогаться будет один из них случайным образом -->
+	<group name="armor_weapon_b" chance="15">
+		<production id="8145" count="1" priceItemId="57" priceCount="26190000"/>
+		<!--Kaim Vanul's Bones Magic Silence grade : B-->
+		<production id="8143" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Spell Breaker Magic Hold grade : B-->
+		<production id="8142" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Spell Breaker Magic Mental Shield grade : B-->
+		<production id="8131" count="1" priceItemId="57" priceCount="13275000"/>
+		<!--Ice Storm Hammer Critical Bleed grade : B-->
+		<production id="8107" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Guardian Sword Critical Bleed grade : B-->
+		<production id="8105" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Guardian Sword Critical Drain grade : B-->
+		<production id="7901" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Star Buster  grade : B-->
+		<production id="7900" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Ice Storm Hammer  grade : B-->
+		<production id="7893" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Kaim Vanul's Bones  grade : B-->
+		<production id="7892" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Spell Breaker  grade : B-->
+		<production id="7889" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Wizard's Tear  grade : B-->
+		<production id="7883" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Guardian Sword  grade : B-->
+		<production id="7834" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Art of Battle Axe  grade : B-->
+		<production id="7815" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Hell Knife Magic Weakness grade : B-->
+		<production id="7814" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Hell Knife Mental Shield grade : B-->
+		<production id="7813" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Hell Knife Magic Regeneration grade : B-->
+		<production id="7724" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sword of Valhalla Magic Regeneration grade : B-->
+		<production id="7723" count="1" priceItemId="57" priceCount="17355000"/>
+		<!--Sword of Valhalla Magic Weakness grade : B-->
+		<production id="6532" count="1" priceItemId="57" priceCount="2400000"/>
+		<!--KingFisher Rod  grade : B-->
+		<production id="5737" count="1" priceItemId="57" priceCount="1608000"/>
+		<!--Sealed Boots of Doom  grade : B-->
+		<production id="5733" count="1" priceItemId="57" priceCount="1608000"/>
+		<!--Sealed Blue Wolf Boots  grade : B-->
+		<production id="5729" count="1" priceItemId="57" priceCount="1038000"/>
+		<!--Sealed Avadon Boots  grade : B-->
+		<production id="5725" count="1" priceItemId="57" priceCount="1038000"/>
+		<!--Sealed Zubei's Boots  grade : B-->
+		<production id="5721" count="1" priceItemId="57" priceCount="1608000"/>
+		<!--Sealed Doom Gloves  grade : B-->
+		<production id="5717" count="1" priceItemId="57" priceCount="1608000"/>
+		<!--Sealed Blue Wolf Gloves  grade : B-->
+		<production id="5713" count="1" priceItemId="57" priceCount="1038000"/>
+		<!--Sealed Avadon Gloves  grade : B-->
+		<production id="5709" count="1" priceItemId="57" priceCount="1038000"/>
+		<!--Sealed Zubei's Gauntlets  grade : B-->
+		<production id="4902" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Staff of Evil Spirits Magic Poison grade : B-->
+		<production id="4901" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Staff of Evil Spirits Blessed Body grade : B-->
+		<production id="4900" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Staff of Evil Spirits Magic Focus grade : B-->
+		<production id="4899" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sprite's Staff Magic Hold grade : B-->
+		<production id="4898" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sprite's Staff Mental Shield grade : B-->
+		<production id="4897" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sprite's Staff Magic Regeneration grade : B-->
+		<production id="4860" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Lance Towering Blow grade : B-->
+		<production id="4859" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Lance Critical Stun grade : B-->
+		<production id="4857" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Great Axe Light grade : B-->
+		<production id="4856" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Great Axe Critical Stun grade : B-->
+		<production id="4830" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Bow of Peril Cheap Shot grade : B-->
+		<production id="4829" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Bow of Peril Quick Recovery grade : B-->
+		<production id="4827" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Dark Elven Long Bow Miser grade : B-->
+		<production id="4826" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Dark Elven Long Bow Critical Bleed grade : B-->
+		<production id="4805" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Bellion Cestus Critical Poison grade : B-->
+		<production id="4804" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Bellion Cestus Critical Drain grade : B-->
+		<production id="4801" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Arthro Nail Critical Poison grade : B-->
+		<production id="4781" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Demon Dagger Critical Poison grade : B-->
+		<production id="4780" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Demon Dagger Critical Bleed grade : B-->
+		<production id="2626" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Samurai Long Sword*Samurai Long Sword  grade : B-->
+		<production id="2625" count="1" priceItemId="57" priceCount="22600000"/>
+		<!--Tsurugi*Samurai Long Sword  grade : B-->
+		<production id="2624" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Tsurugi*Tsurugi  grade : B-->
+		<production id="2623" count="1" priceItemId="57" priceCount="22600000"/>
+		<!--Sword of Nightmare*Samurai Long Sword  grade : B-->
+		<production id="2622" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sword of Nightmare*Tsurugi  grade : B-->
+		<production id="2621" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sword of Nightmare*Sword of Nightmare  grade : B-->
+		<production id="2620" count="1" priceItemId="57" priceCount="22600000"/>
+		<!--Sword of Delusion*Samurai Long Sword  grade : B-->
+		<production id="2619" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sword of Delusion*Tsurugi  grade : B-->
+		<production id="2618" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sword of Delusion*Sword of Nightmare  grade : B-->
+		<production id="2617" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sword of Delusion*Sword of Delusion  grade : B-->
+		<production id="2616" count="1" priceItemId="57" priceCount="22600000"/>
+		<!--Sword of Limit*Samurai Long Sword  grade : B-->
+		<production id="2615" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sword of Limit*Tsurugi  grade : B-->
+		<production id="2614" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sword of Limit*Sword of Nightmare  grade : B-->
+		<production id="2613" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sword of Limit*Sword of Delusion  grade : B-->
+		<production id="2612" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sword of Limit*Sword of Limit  grade : B-->
+		<production id="2611" count="1" priceItemId="57" priceCount="22600000"/>
+		<!--Caliburs*Samurai Long Sword  grade : B-->
+		<production id="2610" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Caliburs*Tsurugi  grade : B-->
+		<production id="2609" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Caliburs*Sword of Nightmare  grade : B-->
+		<production id="2608" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Caliburs*Sword of Delusion  grade : B-->
+		<production id="2607" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Caliburs*Sword of Limit  grade : B-->
+		<production id="2606" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Caliburs*Caliburs  grade : B-->
+		<production id="2605" count="1" priceItemId="57" priceCount="19100000"/>
+		<!--Raid Sword*Samurai Long Sword  grade : B-->
+		<production id="2604" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Raid Sword*Tsurugi  grade : B-->
+		<production id="2603" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Raid Sword*Sword of Nightmare  grade : B-->
+		<production id="2602" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Raid Sword*Sword of Delusion  grade : B-->
+		<production id="2601" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Raid Sword*Sword of Limit  grade : B-->
+		<production id="2600" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Raid Sword*Caliburs  grade : B-->
+		<production id="2598" count="1" priceItemId="57" priceCount="19100000"/>
+		<!--Spirit Sword*Samurai Long Sword  grade : B-->
+		<production id="2597" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Spirit Sword*Tsurugi  grade : B-->
+		<production id="2596" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Spirit Sword*Sword of Nightmare  grade : B-->
+		<production id="2595" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Spirit Sword*Sword of Delusion  grade : B-->
+		<production id="2594" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Spirit Sword*Sword of Limit  grade : B-->
+		<production id="2593" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Spirit Sword*Caliburs  grade : B-->
+		<production id="2590" count="1" priceItemId="57" priceCount="19100000"/>
+		<!--Katana*Samurai Long Sword  grade : B-->
+		<production id="2589" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Katana*Tsurugi  grade : B-->
+		<production id="2588" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Katana*Sword of Nightmare  grade : B-->
+		<production id="2587" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Katana*Sword of Delusion  grade : B-->
+		<production id="2586" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Katana*Sword of Limit  grade : B-->
+		<production id="2585" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Katana*Caliburs  grade : B-->
+		<production id="2581" count="1" priceItemId="57" priceCount="19100000"/>
+		<!--Shamshir*Samurai Long Sword  grade : B-->
+		<production id="2580" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Shamshir*Tsurugi  grade : B-->
+		<production id="2579" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Shamshir*Sword of Nightmare  grade : B-->
+		<production id="2578" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Shamshir*Sword of Delusion  grade : B-->
+		<production id="2577" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Shamshir*Sword of Limit  grade : B-->
+		<production id="2576" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Shamshir*Caliburs  grade : B-->
+		<production id="2571" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Stormbringer*Samurai Long sword  grade : B-->
+		<production id="2570" count="1" priceItemId="57" priceCount="13960000"/>
+		<!--Stormbringer*Tsurugi  grade : B-->
+		<production id="2569" count="1" priceItemId="57" priceCount="13960000"/>
+		<!--Stormbringer*Sword of Nightmare  grade : B-->
+		<production id="2568" count="1" priceItemId="57" priceCount="13960000"/>
+		<!--Stormbringer*Sword of Delusion  grade : B-->
+		<production id="2567" count="1" priceItemId="57" priceCount="13960000"/>
+		<!--Stormbringer*Sword of Limit  grade : B-->
+		<production id="2566" count="1" priceItemId="57" priceCount="13960000"/>
+		<!--Stormbringer*Caliburs  grade : B-->
+		<production id="936" count="1" priceItemId="57" priceCount="1616000"/>
+		<!--Necklace of Blessing  grade : B-->
+		<production id="935" count="1" priceItemId="57" priceCount="1926000"/>
+		<!--Necklace of Aid  grade : B-->
+		<production id="932" count="1" priceItemId="57" priceCount="2460000"/>
+		<!--Necklace of Holy Spirit  grade : B-->
+		<production id="931" count="1" priceItemId="57" priceCount="1616000"/>
+		<!--Necklace of Grace  grade : B-->
+		<production id="929" count="1" priceItemId="57" priceCount="2460000"/>
+		<!--Elemental Necklace  grade : B-->
+		<production id="928" count="1" priceItemId="57" priceCount="2460000"/>
+		<!--Otherworldly Necklace  grade : B-->
+		<production id="927" count="1" priceItemId="57" priceCount="1616000"/>
+		<!--Necklace of Summoning  grade : B-->
+		<production id="926" count="1" priceItemId="57" priceCount="2460000"/>
+		<!--Necklace of Black Ore  grade : B-->
+		<production id="925" count="1" priceItemId="57" priceCount="1616000"/>
+		<!--Necklace of Solar Eclipse  grade : B-->
+		<production id="923" count="1" priceItemId="57" priceCount="2460000"/>
+		<!--Paradia Necklace  grade : B-->
+		<production id="922" count="1" priceItemId="57" priceCount="2460000"/>
+		<!--Sage's Necklace  grade : B-->
+		<production id="921" count="1" priceItemId="57" priceCount="1616000"/>
+		<!--Necklace of Mana  grade : B-->
+		<production id="918" count="1" priceItemId="57" priceCount="1616000"/>
+		<!--Adamantite Necklace  grade : B-->
+		<production id="905" count="1" priceItemId="57" priceCount="808000"/>
+		<!--Ring of Blessing  grade : B-->
+		<production id="904" count="1" priceItemId="57" priceCount="808000"/>
+		<!--Ring of Aid  grade : B-->
+		<production id="901" count="1" priceItemId="57" priceCount="1232000"/>
+		<!--Ring of Holy Spirit  grade : B-->
+		<production id="900" count="1" priceItemId="57" priceCount="808000"/>
+		<!--Ring of Grace  grade : B-->
+		<production id="898" count="1" priceItemId="57" priceCount="1232000"/>
+		<!--Elemental Ring  grade : B-->
+		<production id="897" count="1" priceItemId="57" priceCount="1476000"/>
+		<!--Otherworldly Ring  grade : B-->
+		<production id="896" count="1" priceItemId="57" priceCount="808000"/>
+		<!--Ring of Summoning  grade : B-->
+		<production id="895" count="1" priceItemId="57" priceCount="1232000"/>
+		<!--Ring of Black Ore  grade : B-->
+		<production id="894" count="1" priceItemId="57" priceCount="808000"/>
+		<!--Ring of Solar Eclipse  grade : B-->
+		<production id="892" count="1" priceItemId="57" priceCount="1232000"/>
+		<!--Paradia Ring  grade : B-->
+		<production id="891" count="1" priceItemId="57" priceCount="1232000"/>
+		<!--Sage's Ring  grade : B-->
+		<production id="887" count="1" priceItemId="57" priceCount="808000"/>
+		<!--Adamantite Ring  grade : B-->
+		<production id="874" count="1" priceItemId="57" priceCount="1212000"/>
+		<!--Earring of Blessing  grade : B-->
+		<production id="873" count="1" priceItemId="57" priceCount="1212000"/>
+		<!--Earring of Aid  grade : B-->
+		<production id="870" count="1" priceItemId="57" priceCount="1848000"/>
+		<!--Earring of Holy Spirit  grade : B-->
+		<production id="869" count="1" priceItemId="57" priceCount="1212000"/>
+		<!--Earring of Grace  grade : B-->
+		<production id="867" count="1" priceItemId="57" priceCount="1848000"/>
+		<!--Elemental Earring  grade : B-->
+		<production id="866" count="1" priceItemId="57" priceCount="1848000"/>
+		<!--Otherworldly Earring  grade : B-->
+		<production id="865" count="1" priceItemId="57" priceCount="1212000"/>
+		<!--Earring of Summoning  grade : B-->
+		<production id="864" count="1" priceItemId="57" priceCount="1848000"/>
+		<!--Earring of Black Ore  grade : B-->
+		<production id="863" count="1" priceItemId="57" priceCount="1212000"/>
+		<!--Earring of Solar Eclipse  grade : B-->
+		<production id="861" count="1" priceItemId="57" priceCount="1848000"/>
+		<!--Paradia Earring  grade : B-->
+		<production id="860" count="1" priceItemId="57" priceCount="1848000"/>
+		<!--Sage's Earring  grade : B-->
+		<production id="859" count="1" priceItemId="57" priceCount="1212000"/>
+		<!--Earring of Mana  grade : B-->
+		<production id="856" count="1" priceItemId="57" priceCount="1212000"/>
+		<!--Adamantite Earring  grade : B-->
+		<production id="340" count="1" priceItemId="57" priceCount="36600000"/>
+		<!--Unicorn's Horn  grade : B-->
+		<production id="339" count="1" priceItemId="57" priceCount="36600000"/>
+		<!--Blood Crystal  grade : B-->
+		<production id="338" count="1" priceItemId="57" priceCount="36600000"/>
+		<!--Wyvern's Skull  grade : B-->
+		<production id="337" count="1" priceItemId="57" priceCount="36600000"/>
+		<!--Scroll of Massacre  grade : B-->
+		<production id="336" count="1" priceItemId="57" priceCount="36600000"/>
+		<!--Scroll of Mana  grade : B-->
+		<production id="335" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Soul Crystal  grade : B-->
+		<production id="300" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Great Axe  grade : B-->
+		<production id="287" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Bow of Peril  grade : B-->
+		<production id="284" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Dark Elven Long Bow  grade : B-->
+		<production id="268" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Bellion Cestus  grade : B-->
+		<production id="267" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Arthro Nail  grade : B-->
+		<production id="264" count="1" priceItemId="57" priceCount="15660000"/>
+		<!--Pata  grade : B-->
+		<production id="243" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Hell Knife  grade : B-->
+		<production id="234" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Demon Dagger  grade : B-->
+		<production id="229" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Kris  grade : B-->
+		<production id="211" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Staff of Nobility  grade : B-->
+		<production id="210" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Staff of Evil Spirits  grade : B-->
+		<production id="209" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Divine Staff  grade : B-->
+		<production id="208" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Staff of Seal  grade : B-->
+		<production id="207" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Staff of Phantom  grade : B-->
+		<production id="175" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Art of Battle Axe  grade : B-->
+		<production id="171" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Deadman's Glory  grade : B-->
+		<production id="148" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sword of Valhalla  grade : B-->
+		<production id="146" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Ghoulbane  grade : B-->
+		<production id="142" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Keshanberk  grade : B-->
+		<production id="117" count="1" priceItemId="57" priceCount="808000"/>
+		<!--Ring of Mana  grade : B-->
+		<production id="97" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Lance  grade : B-->
+		<production id="92" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Sprite's Staff  grade : B-->
+		<production id="91" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Heavy War Axe  grade : B-->
+		<production id="79" count="1" priceItemId="57" priceCount="26200000"/>
+		<!--Sword of Damascus  grade : B-->
+		<production id="78" count="1" priceItemId="57" priceCount="17360000"/>
+		<!--Great Sword  grade : B-->
+	</group>
+	<group name="armor_weapon_d" chance="25">
+		<production id="7896" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Titan Hammer  grade : D-->
+		<production id="7890" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Priest Mace  grade : D-->
+		<production id="7886" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Sword of Magic Fog  grade : D-->
+		<production id="7885" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Priest Sword  grade : D-->
+		<production id="7881" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Titan Sword  grade : D-->
+		<production id="7880" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Steel Sword  grade : D-->
+		<production id="6530" count="1" priceItemId="57" priceCount="200000"/>
+		<!--Albatross Rod  grade : D-->
+		<production id="5285" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Heavy Sword  grade : D-->
+		<production id="5132" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Giant Trident  grade : D-->
+		<production id="5131" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Parhit Staff  grade : D-->
+		<production id="5130" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Nos Sword  grade : D-->
+		<production id="5129" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Doll Knife  grade : D-->
+		<production id="5128" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Crokian Blade  grade : D-->
+		<production id="5127" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Dailaon Knife  grade : D-->
+		<production id="4028" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Giant Cannon  grade : D-->
+		<production id="3939" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Lady's Fan  grade : D-->
+		<production id="3938" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Giant Rod  grade : D-->
+		<production id="3937" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Giant Bar  grade : D-->
+		<production id="2548" count="1" priceItemId="57" priceCount="3320000"/>
+		<!--Knight's Sword*Elven Sword  grade : D-->
+		<production id="2547" count="1" priceItemId="57" priceCount="3320000"/>
+		<!--Knight's Sword*Crimson Sword  grade : D-->
+		<production id="2546" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Knight's Sword*Knight's Sword  grade : D-->
+		<production id="2543" count="1" priceItemId="57" priceCount="3320000"/>
+		<!--Artisan's Sword*Elven Sword  grade : D-->
+		<production id="2542" count="1" priceItemId="57" priceCount="3320000"/>
+		<!--Artisan's Sword*Crimson Sword  grade : D-->
+		<production id="2541" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Artisan's Sword*Knight's Sword  grade : D-->
+		<production id="2540" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Artisan's Sword*Artisan's Sword  grade : D-->
+		<production id="2537" count="1" priceItemId="57" priceCount="3320000"/>
+		<!--Spinebone Sword*Elven Sword  grade : D-->
+		<production id="2536" count="1" priceItemId="57" priceCount="3320000"/>
+		<!--Spinebone Sword*Crimson Sword  grade : D-->
+		<production id="2535" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Spinebone Sword*Knight's Sword  grade : D-->
+		<production id="2534" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Spinebone Sword*Artisan's Sword  grade : D-->
+		<production id="2533" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Spinebone Sword*Spinebone Sword  grade : D-->
+		<production id="2530" count="1" priceItemId="57" priceCount="3320000"/>
+		<!--Bastard Sword*Elven Sword  grade : D-->
+		<production id="2529" count="1" priceItemId="57" priceCount="3320000"/>
+		<!--Bastard Sword*Crimson Sword  grade : D-->
+		<production id="2528" count="1" priceItemId="57" priceCount="3320000"/>
+		<!--Bastard Sword*Knight's Sword  grade : D-->
+		<production id="2527" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Bastard Sword*Artisan's Sword  grade : D-->
+		<production id="2526" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Bastard Sword*Spinebone Sword  grade : D-->
+		<production id="2525" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Bastard Sword*Bastard Sword  grade : D-->
+		<production id="2522" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Saber*Elven Sword  grade : D-->
+		<production id="2521" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Saber*Crimson Sword  grade : D-->
+		<production id="2520" count="1" priceItemId="57" priceCount="2120000"/>
+		<!--Saber*Knight's Sword  grade : D-->
+		<production id="2519" count="1" priceItemId="57" priceCount="2120000"/>
+		<!--Saber*Artisan's Sword  grade : D-->
+		<production id="2518" count="1" priceItemId="57" priceCount="2120000"/>
+		<!--Saber*Spinebone Sword  grade : D-->
+		<production id="2517" count="1" priceItemId="57" priceCount="2120000"/>
+		<!--Saber*Bastard Sword  grade : D-->
+		<production id="2516" count="1" priceItemId="57" priceCount="1754000"/>
+		<!--Saber*Saber  grade : D-->
+		<production id="2507" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Lizardspear  grade : D-->
+		<production id="2499" count="1" priceItemId="57" priceCount="3600000"/>
+		<!--Elven Long Sword  grade : D-->
+		<production id="1660" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Cursed Maingauche  grade : D-->
+		<production id="1472" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Dreadbane  grade : D-->
+		<production id="1471" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Silenos Blowgun  grade : D-->
+		<production id="1376" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Guard Spear  grade : D-->
+		<production id="914" count="1" priceItemId="57" priceCount="324000"/>
+		<!--Necklace of Darkness  grade : D-->
+		<production id="913" count="1" priceItemId="57" priceCount="250000"/>
+		<!--Elven Necklace  grade : D-->
+		<production id="912" count="1" priceItemId="57" priceCount="171400"/>
+		<!--Near Forest Necklace  grade : D-->
+		<production id="911" count="1" priceItemId="57" priceCount="113600"/>
+		<!--Enchanted Necklace  grade : D-->
+		<production id="910" count="1" priceItemId="57" priceCount="71800"/>
+		<!--Necklace of Devotion  grade : D-->
+		<production id="890" count="1" priceItemId="57" priceCount="36000"/>
+		<!--Ring of Devotion  grade : D-->
+		<production id="882" count="1" priceItemId="57" priceCount="161600"/>
+		<!--Mithril Ring  grade : D-->
+		<production id="881" count="1" priceItemId="57" priceCount="124600"/>
+		<!--Elven Ring  grade : D-->
+		<production id="880" count="1" priceItemId="57" priceCount="85600"/>
+		<!--Black Pearl Ring  grade : D-->
+		<production id="879" count="1" priceItemId="57" priceCount="56800"/>
+		<!--Enchanted Ring  grade : D-->
+		<production id="851" count="1" priceItemId="57" priceCount="242000"/>
+		<!--Omen Beast's Eye Earring  grade : D-->
+		<production id="850" count="1" priceItemId="57" priceCount="186800"/>
+		<!--Elven Earring  grade : D-->
+		<production id="849" count="1" priceItemId="57" priceCount="128600"/>
+		<!--Tiger's Eye Earring  grade : D-->
+		<production id="848" count="1" priceItemId="57" priceCount="85200"/>
+		<!--Enchanted Earring  grade : D-->
+		<production id="847" count="1" priceItemId="57" priceCount="53800"/>
+		<!--Red Crescent Earring  grade : D-->
+		<production id="749" count="1" priceItemId="57" priceCount="71600"/>
+		<!--0  grade : D-->
+		<production id="323" count="1" priceItemId="57" priceCount="3600000"/>
+		<!--Ancient Reagent  grade : D-->
+		<production id="322" count="1" priceItemId="57" priceCount="3600000"/>
+		<!--Vajra Wands  grade : D-->
+		<production id="321" count="1" priceItemId="57" priceCount="3040000"/>
+		<!--Demon Fangs  grade : D-->
+		<production id="320" count="1" priceItemId="57" priceCount="3040000"/>
+		<!--Blue Crystal Skull  grade : D-->
+		<production id="319" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Eye of Infinity  grade : D-->
+		<production id="318" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Crucifix of Blood  grade : D-->
+		<production id="317" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Tome of Blood  grade : D-->
+		<production id="316" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Blood of Saints  grade : D-->
+		<production id="315" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Divine Tome  grade : D-->
+		<production id="314" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Proof of Revenge  grade : D-->
+		<production id="313" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Temptation of Abyss  grade : D-->
+		<production id="312" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Branch of Life  grade : D-->
+		<production id="297" count="1" priceItemId="57" priceCount="3600000"/>
+		<!--Glaive  grade : D-->
+		<production id="296" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Dwarven Pike  grade : D-->
+		<production id="295" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Dwarven Trident  grade : D-->
+		<production id="294" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--War Pick  grade : D-->
+		<production id="293" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--War Hammer  grade : D-->
+		<production id="292" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Pike  grade : D-->
+		<production id="291" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Trident  grade : D-->
+		<production id="280" count="1" priceItemId="57" priceCount="3600000"/>
+		<!--Light Crossbow  grade : D-->
+		<production id="279" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Strengthened Long Bow  grade : D-->
+		<production id="278" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Gastraphetes  grade : D-->
+		<production id="277" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Dark Elven Bow  grade : D-->
+		<production id="276" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Elven Bow  grade : D-->
+		<production id="275" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Long Bow  grade : D-->
+		<production id="274" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Strengthened Bow  grade : D-->
+		<production id="262" count="1" priceItemId="57" priceCount="3600000"/>
+		<!--Scallop Jamadhr  grade : D-->
+		<production id="261" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Bich'Hwa  grade : D-->
+		<production id="260" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Triple-Edged Jamadhr  grade : D-->
+		<production id="259" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Single-Edged Jamadhr  grade : D-->
+		<production id="258" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Bagh-Nakh  grade : D-->
+		<production id="241" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Shilen Knife  grade : D-->
+		<production id="240" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Conjurer's Knife  grade : D-->
+		<production id="239" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Mystic Knife  grade : D-->
+		<production id="238" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Dagger of Mana  grade : D-->
+		<production id="225" count="1" priceItemId="57" priceCount="3600000"/>
+		<!--Mithril Dagger  grade : D-->
+		<production id="224" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Maingauche  grade : D-->
+		<production id="223" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Kukuri  grade : D-->
+		<production id="222" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Poniard Dagger  grade : D-->
+		<production id="221" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Assassin Knife  grade : D-->
+		<production id="220" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Crafted Dagger  grade : D-->
+		<production id="190" count="1" priceItemId="57" priceCount="3600000"/>
+		<!--Atuba Mace  grade : D-->
+		<production id="189" count="1" priceItemId="57" priceCount="3600000"/>
+		<!--Staff of Life  grade : D-->
+		<production id="188" count="1" priceItemId="57" priceCount="3600000"/>
+		<!--Ghost Staff  grade : D-->
+		<production id="187" count="1" priceItemId="57" priceCount="3600000"/>
+		<!--Atuba Hammer  grade : D-->
+		<production id="186" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Staff of Magic  grade : D-->
+		<production id="185" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Staff of Mana  grade : D-->
+		<production id="184" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Conjuror's Staff  grade : D-->
+		<production id="183" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Mystic Staff  grade : D-->
+		<production id="182" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Doom Hammer  grade : D-->
+		<production id="181" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Mace of Miracle  grade : D-->
+		<production id="180" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Mace of Judgment  grade : D-->
+		<production id="179" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Mace of Prayer  grade : D-->
+		<production id="178" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Bone Staff  grade : D-->
+		<production id="172" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Heavy Bone Club  grade : D-->
+		<production id="169" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Skull Breaker  grade : D-->
+		<production id="168" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Work Hammer  grade : D-->
+		<production id="167" count="1" priceItemId="57" priceCount="1690000"/>
+		<!--Scalpel  grade : D-->
+		<production id="166" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Heavy Mace  grade : D-->
+		<production id="159" count="1" priceItemId="57" priceCount="3600000"/>
+		<!--Bonebreaker  grade : D-->
+		<production id="158" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Tarbar  grade : D-->
+		<production id="157" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Spiked Club  grade : D-->
+		<production id="156" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Hand Axe  grade : D-->
+		<production id="144" count="1" priceItemId="57" priceCount="1432000"/>
+		<!--Sword of Occult  grade : D-->
+		<production id="143" count="1" priceItemId="57" priceCount="1432000"/>
+		<!--Sword of Mystic  grade : D-->
+		<production id="130" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Elven Sword  grade : D-->
+		<production id="129" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Sword of Revolution  grade : D-->
+		<production id="128" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Knight's Sword  grade : D-->
+		<production id="127" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Crimson Sword  grade : D-->
+		<production id="126" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Artisan's Sword  grade : D-->
+		<production id="125" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Spinebone Sword  grade : D-->
+		<production id="124" count="1" priceItemId="57" priceCount="1934000"/>
+		<!--Two-Handed Sword  grade : D-->
+		<production id="123" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Saber  grade : D-->
+		<production id="101" count="1" priceItemId="57" priceCount="818000"/>
+		<!--Scroll of Wisdom  grade : D-->
+		<production id="93" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Winged Spear  grade : D-->
+		<production id="90" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Goat Head Staff  grade : D-->
+		<production id="88" count="1" priceItemId="57" priceCount="2800000"/>
+		<!--Morning Star  grade : D-->
+		<production id="86" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Tomahawk  grade : D-->
+		<production id="83" count="1" priceItemId="57" priceCount="1432000"/>
+		<!--Sword of Magic  grade : D-->
+		<production id="70" count="1" priceItemId="57" priceCount="3600000"/>
+		<!--Claymore  grade : D-->
+		<production id="69" count="1" priceItemId="57" priceCount="1288000"/>
+		<!--Bastard Sword  grade : D-->
+	</group>
+	<group name="armor_weapon_ng" chance="30">
+		<production id="9140" count="1" priceItemId="57" priceCount="1"/>
+		<!--Salvation Bow  grade : NONE-->
+		<production id="7903" count="1" priceItemId="57" priceCount="967000"/>
+		<!--Frintezza's Sword  grade : NONE-->
+		<production id="6529" count="1" priceItemId="57" priceCount="30000"/>
+		<!--Baby Duck Rod  grade : NONE-->
+		<production id="6355" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Mage Staff - for Beginners  grade : NONE-->
+		<production id="6354" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Falchion - for Beginners  grade : NONE-->
+		<production id="5284" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Zweihander  grade : NONE-->
+		<production id="4665" count="1" priceItemId="57" priceCount="0"/>
+		<!--Pipette Knife  grade : NONE-->
+		<production id="4221" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Ubiquitous Axe  grade : NONE-->
+		<production id="4220" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Dream Knife  grade : NONE-->
+		<production id="4219" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Dream Sword  grade : NONE-->
+		<production id="4027" count="1" priceItemId="57" priceCount="0"/>
+		<!--Bouquet  grade : NONE-->
+		<production id="3471" count="1" priceItemId="57" priceCount="12500"/>
+		<!--Cybellin's Dagger  grade : NONE-->
+		<production id="3029" count="1" priceItemId="57" priceCount="54100"/>
+		<!--Sword of Binding  grade : NONE-->
+		<production id="3028" count="1" priceItemId="57" priceCount="54100"/>
+		<!--Crescent Moon Bow  grade : NONE-->
+		<production id="3027" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Old Knight's Sword  grade : NONE-->
+		<production id="3026" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Talins Spear  grade : NONE-->
+		<production id="2915" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Old Knight Sword  grade : NONE-->
+		<production id="2501" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Bone Club  grade : NONE-->
+		<production id="2374" count="1" priceItemId="57" priceCount="25500"/>
+		<!--Red Sunset Dagger  grade : NONE-->
+		<production id="2373" count="1" priceItemId="57" priceCount="25500"/>
+		<!--Eldritch Staff  grade : NONE-->
+		<production id="2372" count="1" priceItemId="57" priceCount="25500"/>
+		<!--Dagger of Adept  grade : NONE-->
+		<production id="2371" count="1" priceItemId="57" priceCount="25500"/>
+		<!--Fist of Butcher  grade : NONE-->
+		<production id="2370" count="1" priceItemId="57" priceCount="138"/>
+		<!--Guild Member's Club  grade : NONE-->
+		<production id="2369" count="1" priceItemId="57" priceCount="138"/>
+		<!--Squire's Sword  grade : NONE-->
+		<production id="2368" count="1" priceItemId="57" priceCount="138"/>
+		<!--Training Gloves  grade : NONE-->
+		<production id="1511" count="1" priceItemId="57" priceCount="25500"/>
+		<!--Silversmith Hammer  grade : NONE-->
+		<production id="1510" count="1" priceItemId="57" priceCount="25500"/>
+		<!--Butcher's Sword  grade : NONE-->
+		<production id="1509" count="1" priceItemId="57" priceCount="2340"/>
+		<!--Ring of Firefly  grade : NONE-->
+		<production id="1508" count="1" priceItemId="57" priceCount="2340"/>
+		<!--Ring of Raccoon  grade : NONE-->
+		<production id="1507" count="1" priceItemId="57" priceCount="4680"/>
+		<!--Necklace of Valor  grade : NONE-->
+		<production id="1506" count="1" priceItemId="57" priceCount="66"/>
+		<!--Necklace of Courage  grade : NONE-->
+		<production id="1333" count="1" priceItemId="57" priceCount="54100"/>
+		<!--Brandish  grade : NONE-->
+		<production id="1307" count="1" priceItemId="57" priceCount="3340000"/>
+		<!--Bow  grade : NONE-->
+		<production id="1306" count="1" priceItemId="57" priceCount="66600"/>
+		<!--Crafted Dagger  grade : NONE-->
+		<production id="1305" count="1" priceItemId="57" priceCount="66600"/>
+		<!--Knife  grade : NONE-->
+		<production id="1304" count="1" priceItemId="57" priceCount="66600"/>
+		<!--Conjuror's Staff  grade : NONE-->
+		<production id="1303" count="1" priceItemId="57" priceCount="66600"/>
+		<!--Lance  grade : NONE-->
+		<production id="1302" count="1" priceItemId="57" priceCount="66600"/>
+		<!--Bec de Corbin  grade : NONE-->
+		<production id="1301" count="1" priceItemId="57" priceCount="66600"/>
+		<!--Big Hammer  grade : NONE-->
+		<production id="1300" count="1" priceItemId="57" priceCount="66600"/>
+		<!--Apprentice's Rod  grade : NONE-->
+		<production id="1299" count="1" priceItemId="57" priceCount="3340000"/>
+		<!--Great Sword  grade : NONE-->
+		<production id="1298" count="1" priceItemId="57" priceCount="66600"/>
+		<!--Caliburs  grade : NONE-->
+		<production id="1297" count="1" priceItemId="57" priceCount="66600"/>
+		<!--Bastard Sword  grade : NONE-->
+		<production id="1296" count="1" priceItemId="57" priceCount="66600"/>
+		<!--Gladius  grade : NONE-->
+		<production id="1295" count="1" priceItemId="57" priceCount="66600"/>
+		<!--Long Sword  grade : NONE-->
+		<production id="1213" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Guard's Bow  grade : NONE-->
+		<production id="1182" count="1" priceItemId="57" priceCount="116000"/>
+		<!--Neti's Dagger  grade : NONE-->
+		<production id="1181" count="1" priceItemId="57" priceCount="116000"/>
+		<!--Neti's Bow  grade : NONE-->
+		<production id="1142" count="1" priceItemId="57" priceCount="116000"/>
+		<!--Rusted Bronze Sword  grade : NONE-->
+		<production id="989" count="1" priceItemId="57" priceCount="25500"/>
+		<!--Eldritch Dagger  grade : NONE-->
+		<production id="981" count="1" priceItemId="57" priceCount="25500"/>
+		<!--Red Sunset Sword  grade : NONE-->
+		<production id="975" count="1" priceItemId="57" priceCount="33600"/>
+		<!--Blood Saber  grade : NONE-->
+		<production id="946" count="1" priceItemId="57" priceCount="66600"/>
+		<!--Skeleton Dagger  grade : NONE-->
+		<production id="909" count="1" priceItemId="57" priceCount="21300"/>
+		<!--Blue Diamond Necklace  grade : NONE-->
+		<production id="908" count="1" priceItemId="57" priceCount="11900"/>
+		<!--Necklace of Wisdom  grade : NONE-->
+		<production id="907" count="1" priceItemId="57" priceCount="4680"/>
+		<!--Necklace of Anguish  grade : NONE-->
+		<production id="906" count="1" priceItemId="57" priceCount="1080"/>
+		<!--Necklace of Knowledge  grade : NONE-->
+		<production id="878" count="1" priceItemId="57" priceCount="10700"/>
+		<!--Blue Coral Ring  grade : NONE-->
+		<production id="877" count="1" priceItemId="57" priceCount="5920"/>
+		<!--Ring of Wisdom  grade : NONE-->
+		<production id="876" count="1" priceItemId="57" priceCount="2340"/>
+		<!--Ring of Anguish  grade : NONE-->
+		<production id="875" count="1" priceItemId="57" priceCount="540"/>
+		<!--Ring of Knowledge  grade : NONE-->
+		<production id="846" count="1" priceItemId="57" priceCount="16000"/>
+		<!--Coral Earring  grade : NONE-->
+		<production id="845" count="1" priceItemId="57" priceCount="8890"/>
+		<!--Cat's Eye Earring  grade : NONE-->
+		<production id="754" count="1" priceItemId="57" priceCount="25500"/>
+		<!--Red Sunset Staff  grade : NONE-->
+		<production id="748" count="1" priceItemId="57" priceCount="4990"/>
+		<!--Gallint's Oak Wand  grade : NONE-->
+		<production id="747" count="1" priceItemId="57" priceCount="25500"/>
+		<!--Wand of Adept  grade : NONE-->
+		<production id="744" count="1" priceItemId="57" priceCount="33600"/>
+		<!--Staff of Sentinel  grade : NONE-->
+		<production id="743" count="1" priceItemId="57" priceCount="33600"/>
+		<!--Sword of Sentinel  grade : NONE-->
+		<production id="738" count="1" priceItemId="57" priceCount="18500"/>
+		<!--Sword of Solidarity  grade : NONE-->
+		<production id="311" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Crucifix of Blessing  grade : NONE-->
+		<production id="310" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Relic of the Saints  grade : NONE-->
+		<production id="309" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Tears of Eva  grade : NONE-->
+		<production id="308" count="1" priceItemId="57" priceCount="6000"/>
+		<!--Buffalo's Horn  grade : NONE-->
+		<production id="273" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Composite Bow  grade : NONE-->
+		<production id="272" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Forest Bow  grade : NONE-->
+		<production id="271" count="1" priceItemId="57" priceCount="54100"/>
+		<!--Hunting Bow  grade : NONE-->
+		<production id="257" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Viper Fang  grade : NONE-->
+		<production id="256" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Cestus  grade : NONE-->
+		<production id="255" count="1" priceItemId="57" priceCount="54100"/>
+		<!--Fox Claw Gloves  grade : NONE-->
+		<production id="254" count="1" priceItemId="57" priceCount="12500"/>
+		<!--Iron Gloves  grade : NONE-->
+		<production id="253" count="1" priceItemId="57" priceCount="768"/>
+		<!--Spiked Gloves  grade : NONE-->
+		<production id="219" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Sword Breaker  grade : NONE-->
+		<production id="218" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Throwing Knife  grade : NONE-->
+		<production id="217" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Shining Knife  grade : NONE-->
+		<production id="216" count="1" priceItemId="57" priceCount="54100"/>
+		<!--Dirk  grade : NONE-->
+		<production id="215" count="1" priceItemId="57" priceCount="12500"/>
+		<!--Doom Dagger  grade : NONE-->
+		<production id="177" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Mage Staff  grade : NONE-->
+		<production id="176" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Journeyman's Staff  grade : NONE-->
+		<production id="155" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Flanged Mace  grade : NONE-->
+		<production id="154" count="1" priceItemId="57" priceCount="54100"/>
+		<!--Dwarven Mace  grade : NONE-->
+		<production id="153" count="1" priceItemId="57" priceCount="18500"/>
+		<!--Sigil  grade : NONE-->
+		<production id="152" count="1" priceItemId="57" priceCount="8070"/>
+		<!--Heavy Chisel  grade : NONE-->
+		<production id="122" count="1" priceItemId="57" priceCount="54100"/>
+		<!--Handmade Sword  grade : NONE-->
+		<production id="121" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Sword of Watershadow  grade : NONE-->
+		<production id="120" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Sword of Reflection  grade : NONE-->
+		<production id="118" count="1" priceItemId="57" priceCount="66"/>
+		<!--Necklace of Magic  grade : NONE-->
+		<production id="116" count="1" priceItemId="57" priceCount="33"/>
+		<!--Magic Ring  grade : NONE-->
+		<production id="115" count="1" priceItemId="57" priceCount="3510"/>
+		<!--Earring of Wisdom  grade : NONE-->
+		<production id="114" count="1" priceItemId="57" priceCount="3510"/>
+		<!--Earring of Strength  grade : NONE-->
+		<production id="113" count="1" priceItemId="57" priceCount="811"/>
+		<!--Mystic's Earring  grade : NONE-->
+		<production id="112" count="1" priceItemId="57" priceCount="49"/>
+		<!--Apprentice's Earring  grade : NONE-->
+		<production id="100" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Voodoo Doll  grade : NONE-->
+		<production id="99" count="1" priceItemId="57" priceCount="12500"/>
+		<!--Apprentice's Spellbook  grade : NONE-->
+		<production id="87" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Iron Hammer  grade : NONE-->
+		<production id="68" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Falchion  grade : NONE-->
+		<production id="67" count="1" priceItemId="57" priceCount="54100"/>
+		<!--Orcish Sword  grade : NONE-->
+		<production id="66" count="1" priceItemId="57" priceCount="54100"/>
+		<!--Gladius  grade : NONE-->
+		<production id="16" count="1" priceItemId="57" priceCount="244000"/>
+		<!--Great Spear  grade : NONE-->
+		<production id="15" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Short Spear  grade : NONE-->
+		<production id="14" count="1" priceItemId="57" priceCount="12500"/>
+		<!--Bow  grade : NONE-->
+		<production id="13" count="1" priceItemId="57" priceCount="768"/>
+		<!--Short Bow  grade : NONE-->
+		<production id="12" count="1" priceItemId="57" priceCount="12500"/>
+		<!--Knife  grade : NONE-->
+		<production id="11" count="1" priceItemId="57" priceCount="768"/>
+		<!--Bone Dagger  grade : NONE-->
+		<production id="10" count="1" priceItemId="57" priceCount="138"/>
+		<!--Dagger  grade : NONE-->
+		<production id="9" count="1" priceItemId="57" priceCount="54100"/>
+		<!--Cedar Staff  grade : NONE-->
+		<production id="8" count="1" priceItemId="57" priceCount="12500"/>
+		<!--Willow Staff  grade : NONE-->
+		<production id="7" count="1" priceItemId="57" priceCount="768"/>
+		<!--Apprentice's Rod  grade : NONE-->
+		<production id="6" count="1" priceItemId="57" priceCount="138"/>
+		<!--Apprentice's Wand  grade : NONE-->
+		<production id="5" count="1" priceItemId="57" priceCount="12500"/>
+		<!--Mace  grade : NONE-->
+		<production id="4" count="1" priceItemId="57" priceCount="768"/>
+		<!--Club  grade : NONE-->
+		<production id="3" count="1" priceItemId="57" priceCount="12500"/>
+		<!--Broadsword  grade : NONE-->
+		<production id="2" count="1" priceItemId="57" priceCount="136000"/>
+		<!--Long Sword  grade : NONE-->
+		<production id="1" count="1" priceItemId="57" priceCount="768"/>
+		<!--Short Sword  grade : NONE-->
+	</group>
+	<group name="armor_weapon_c" chance="20">
+		<production id="8140" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Ecliptic Axe Magic Hold grade : C-->
+		<production id="8125" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Karik Horn Critical Drain grade : C-->
+		<production id="8122" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Dwarven Hammer Critical Bleed grade : C-->
+		<production id="8116" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Ecliptic Sword Magic Silence grade : C-->
+		<production id="8113" count="1" priceItemId="57" priceCount="1995000"/>
+		<!--Mysterious Sword Magic Weakness grade : C-->
+		<production id="8104" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Pa'agrian Sword Critical Drain grade : C-->
+		<production id="7898" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Karik Horn  grade : C-->
+		<production id="7897" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Dwarven Hammer  grade : C-->
+		<production id="7891" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Ecliptic Axe  grade : C-->
+		<production id="7888" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Ecliptic Sword  grade : C-->
+		<production id="7887" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Mysterious Sword  grade : C-->
+		<production id="7882" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Pa'agrian Sword  grade : C-->
+		<production id="7812" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Soulfire Dirk Magic Silence grade : C-->
+		<production id="7811" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Soulfire Dirk Magic Hold grade : C-->
+		<production id="7721" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Poleaxe Wide Blow grade : C-->
+		<production id="7720" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Poleaxe Towering Blow grade : C-->
+		<production id="7719" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Poleaxe Critical Stun grade : C-->
+		<production id="7718" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Inferno Staff Magic Paralyze grade : C-->
+		<production id="7717" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Inferno Staff Magic Silence grade : C-->
+		<production id="7714" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Mace of the Underworld Magic Silence grade : C-->
+		<production id="7712" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Club of Nature Magic Hold grade : C-->
+		<production id="7711" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Club of Nature Magic Mental Shield grade : C-->
+		<production id="7709" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Nirvana Axe Magic Weakness grade : C-->
+		<production id="7708" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Nirvana Axe Magic Poison grade : C-->
+		<production id="7706" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Stick of Eternity Blessed Body grade : C-->
+		<production id="7703" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Stick of Faith Magic Shield grade : C-->
+		<production id="7702" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Stick of Faith Magic Hold grade : C-->
+		<production id="6531" count="1" priceItemId="57" priceCount="800000"/>
+		<!--Pelican Rod  grade : C-->
+		<production id="6315" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Homunkulus's Sword Magic Paralyze grade : C-->
+		<production id="6312" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Sword of Whispering Death Magic Silence grade : C-->
+		<production id="6308" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Sword of Limit Critical Drain grade : C-->
+		<production id="5802" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Dawn  grade : C-->
+		<production id="5801" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Dusk  grade : C-->
+		<production id="5800" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Nephilim Lord  grade : C-->
+		<production id="5286" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Berserker Blade  grade : C-->
+		<production id="4896" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Demon's Staff Magic Chaos grade : C-->
+		<production id="4895" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Demon's Staff Magic Weakness grade : C-->
+		<production id="4894" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Demon's Staff Magic Poison grade : C-->
+		<production id="4893" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Ghoul's Staff Blessed Body grade : C-->
+		<production id="4890" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Deadman's Staff Magic Hold grade : C-->
+		<production id="4889" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Deadman's Staff Mental Shield grade : C-->
+		<production id="4888" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Deadman's Staff Magic Regeneration grade : C-->
+		<production id="4887" count="1" priceItemId="57" priceCount="9560000"/>
+		<!--Pa'agrian Axe Magic Chaos grade : C-->
+		<production id="4886" count="1" priceItemId="57" priceCount="9560000"/>
+		<!--Pa'agrian Axe Magic Weakness grade : C-->
+		<production id="4884" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Sage's Staff Magic Weakness grade : C-->
+		<production id="4883" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Sage's Staff Magic Poison grade : C-->
+		<production id="4882" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Sage's Staff Magic Hold grade : C-->
+		<production id="4881" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Pa'agrian Hammer Magic Weakness grade : C-->
+		<production id="4880" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Pa'agrian Hammer Magic Poison grade : C-->
+		<production id="4878" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Paradia Staff Magic Hold grade : C-->
+		<production id="4877" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Paradia Staff Mental Shield grade : C-->
+		<production id="4876" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Paradia Staff Magic Regeneration grade : C-->
+		<production id="4875" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Cursed Staff Magic Weakness grade : C-->
+		<production id="4874" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Cursed Staff Magic Poison grade : C-->
+		<production id="4873" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Cursed Staff Magic Hold grade : C-->
+		<production id="4872" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Heavy Doom Axe Magic Chaos grade : C-->
+		<production id="4871" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Heavy Doom Axe Magic Weakness grade : C-->
+		<production id="4870" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Heavy Doom Axe Magic Poison grade : C-->
+		<production id="4869" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Crystal Staff Blessed Body grade : C-->
+		<production id="4866" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Heavy Doom Hammer Magic Hold grade : C-->
+		<production id="4865" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Heavy Doom Hammer Mental Shield grade : C-->
+		<production id="4864" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Heavy Doom Hammer Magic Regeneration grade : C-->
+		<production id="4854" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Orcish Poleaxe Wide Blow grade : C-->
+		<production id="4853" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Orcish Poleaxe Towering Blow grade : C-->
+		<production id="4852" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Orcish Poleaxe Critical Stun grade : C-->
+		<production id="4851" count="1" priceItemId="57" priceCount="9560000"/>
+		<!--Widow Maker Wide Blow grade : C-->
+		<production id="4850" count="1" priceItemId="57" priceCount="9560000"/>
+		<!--Widow Maker Towering Blow grade : C-->
+		<production id="4849" count="1" priceItemId="57" priceCount="9560000"/>
+		<!--Widow Maker Critical Stun grade : C-->
+		<production id="4848" count="1" priceItemId="57" priceCount="9560000"/>
+		<!--Scorpion Towering Blow grade : C-->
+		<production id="4847" count="1" priceItemId="57" priceCount="9560000"/>
+		<!--Scorpion Critical Stun grade : C-->
+		<production id="4845" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Bec de Corbin Light grade : C-->
+		<production id="4844" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Bec de Corbin Towering Blow grade : C-->
+		<production id="4843" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Bec de Corbin Critical Stun grade : C-->
+		<production id="4842" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Body Slasher Wide Blow grade : C-->
+		<production id="4841" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Body Slasher Towering Blow grade : C-->
+		<production id="4840" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Body Slasher Critical Stun grade : C-->
+		<production id="4839" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Orcish Glaive Towering Blow grade : C-->
+		<production id="4838" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Orcish Glaive Critical Stun grade : C-->
+		<production id="4836" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Scythe Light grade : C-->
+		<production id="4835" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Scythe Critical Stun grade : C-->
+		<production id="4824" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Eminence Bow Cheap Shot grade : C-->
+		<production id="4823" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Eminence Bow Miser grade : C-->
+		<production id="4821" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Akat Long Bow Miser grade : C-->
+		<production id="4818" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Elven Bow of Nobility Cheap Shot grade : C-->
+		<production id="4817" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Elven Bow of Nobility Miser grade : C-->
+		<production id="4815" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Elemental Bow Quick Recovery grade : C-->
+		<production id="4814" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Elemental Bow Miser grade : C-->
+		<production id="4812" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Crystallized Ice Bow Quick Recovery grade : C-->
+		<production id="4796" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Great Pata Critical Poison grade : C-->
+		<production id="4795" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Great Pata Critical Drain grade : C-->
+		<production id="4790" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Chakram Critical Poison grade : C-->
+		<production id="4789" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Chakram Critical Drain grade : C-->
+		<production id="4775" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Crystal Dagger Critical Poison grade : C-->
+		<production id="4774" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Crystal Dagger Critical Bleed grade : C-->
+		<production id="4773" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Dark Screamer Critical Bleed grade : C-->
+		<production id="4766" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Stiletto Critical Poison grade : C-->
+		<production id="4765" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Stiletto Critical Bleed grade : C-->
+		<production id="4760" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Cursed Dagger Critical Poison grade : C-->
+		<production id="4759" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Cursed Dagger Critical Bleed grade : C-->
+		<production id="4713" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Flamberge Light grade : C-->
+		<production id="4707" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Sword of Nightmare Light grade : C-->
+		<production id="4695" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Raid Sword Critical Poison grade : C-->
+		<production id="4694" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Raid Sword Critical Drain grade : C-->
+		<production id="4691" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Spirit Sword Critical Poison grade : C-->
+		<production id="4683" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Stormbringer Light grade : C-->
+		<production id="4233" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Knuckle Duster  grade : C-->
+		<production id="2599" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Raid Sword*Raid Sword  grade : C-->
+		<production id="2592" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Spirit Sword*Raid Sword  grade : C-->
+		<production id="2591" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Spirit Sword*Spirit Sword  grade : C-->
+		<production id="2584" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Katana*Raid Sword  grade : C-->
+		<production id="2583" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Katana*Spirit Sword  grade : C-->
+		<production id="2582" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Katana*Katana  grade : C-->
+		<production id="2575" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Shamshir*Raid Sword  grade : C-->
+		<production id="2574" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Shamshir*Spirit Sword  grade : C-->
+		<production id="2573" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Shamshir*Katana  grade : C-->
+		<production id="2572" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Shamshir*Shamshir  grade : C-->
+		<production id="2565" count="1" priceItemId="57" priceCount="10560000"/>
+		<!--Stormbringer*Raid Sword  grade : C-->
+		<production id="2564" count="1" priceItemId="57" priceCount="10560000"/>
+		<!--Stormbringer*Spirit Sword  grade : C-->
+		<production id="2563" count="1" priceItemId="57" priceCount="10560000"/>
+		<!--Stormbringer*Katana  grade : C-->
+		<production id="2562" count="1" priceItemId="57" priceCount="10560000"/>
+		<!--Stormbringer*Shamshir  grade : C-->
+		<production id="2561" count="1" priceItemId="57" priceCount="9560000"/>
+		<!--Stormbringer*Stormbringer  grade : C-->
+		<production id="2560" count="1" priceItemId="57" priceCount="7640000"/>
+		<!--Elven Long Sword*Elven Long Sword  grade : C-->
+		<production id="2559" count="1" priceItemId="57" priceCount="6680000"/>
+		<!--Sword of Revolution*Elven Long Sword  grade : C-->
+		<production id="2558" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Sword of Revolution*Sword of Revolution  grade : C-->
+		<production id="2557" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Elven Sword*Elven Long Sword  grade : C-->
+		<production id="2556" count="1" priceItemId="57" priceCount="4940000"/>
+		<!--Elven Sword*Sword of Revolution  grade : C-->
+		<production id="2555" count="1" priceItemId="57" priceCount="3920000"/>
+		<!--Elven Sword*Elven Sword  grade : C-->
+		<production id="2554" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Crimson Sword*Elven Long Sword  grade : C-->
+		<production id="2553" count="1" priceItemId="57" priceCount="4940000"/>
+		<!--Crimson Sword*Sword of Revolution  grade : C-->
+		<production id="2552" count="1" priceItemId="57" priceCount="3920000"/>
+		<!--Crimson Sword*Elven Sword  grade : C-->
+		<production id="2551" count="1" priceItemId="57" priceCount="3920000"/>
+		<!--Crimson Sword*Crimson Sword  grade : C-->
+		<production id="2550" count="1" priceItemId="57" priceCount="4940000"/>
+		<!--Knight's Sword*Elven Long Sword  grade : C-->
+		<production id="2549" count="1" priceItemId="57" priceCount="4240000"/>
+		<!--Knight's Sword*Sword of Revolution  grade : C-->
+		<production id="2545" count="1" priceItemId="57" priceCount="4940000"/>
+		<!--Artisan's Sword*Elven Long Sword  grade : C-->
+		<production id="2544" count="1" priceItemId="57" priceCount="4240000"/>
+		<!--Artisan's Sword*Sword of Revolution  grade : C-->
+		<production id="2539" count="1" priceItemId="57" priceCount="4940000"/>
+		<!--Spinebone Sword*Elven Long Sword  grade : C-->
+		<production id="2538" count="1" priceItemId="57" priceCount="4240000"/>
+		<!--Spinebone Sword*Sword of Revolution  grade : C-->
+		<production id="2532" count="1" priceItemId="57" priceCount="4940000"/>
+		<!--Bastard Sword*Elven Long Sword  grade : C-->
+		<production id="2531" count="1" priceItemId="57" priceCount="4240000"/>
+		<!--Bastard Sword*Sword of Revolution  grade : C-->
+		<production id="2524" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Saber*Elven Long Sword  grade : C-->
+		<production id="2523" count="1" priceItemId="57" priceCount="3920000"/>
+		<!--Saber*Sword of Revolution  grade : C-->
+		<production id="2503" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Yaksa Mace  grade : C-->
+		<production id="2502" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Dwarven War Hammer  grade : C-->
+		<production id="919" count="1" priceItemId="57" priceCount="1130000"/>
+		<!--Blessed Necklace  grade : C-->
+		<production id="917" count="1" priceItemId="57" priceCount="786000"/>
+		<!--Necklace of Mermaid  grade : C-->
+		<production id="916" count="1" priceItemId="57" priceCount="522000"/>
+		<!--Necklace of Protection  grade : C-->
+		<production id="915" count="1" priceItemId="57" priceCount="414000"/>
+		<!--Aquastone Necklace  grade : C-->
+		<production id="888" count="1" priceItemId="57" priceCount="564000"/>
+		<!--Blessed Ring  grade : C-->
+		<production id="886" count="1" priceItemId="57" priceCount="564000"/>
+		<!--Ring of Binding  grade : C-->
+		<production id="885" count="1" priceItemId="57" priceCount="392000"/>
+		<!--Ring of Ages  grade : C-->
+		<production id="884" count="1" priceItemId="57" priceCount="260000"/>
+		<!--Ring of Protection  grade : C-->
+		<production id="883" count="1" priceItemId="57" priceCount="206000"/>
+		<!--Aquastone Ring  grade : C-->
+		<production id="857" count="1" priceItemId="57" priceCount="848000"/>
+		<!--Blessed Earring  grade : C-->
+		<production id="855" count="1" priceItemId="57" priceCount="848000"/>
+		<!--Nassen's Earring  grade : C-->
+		<production id="854" count="1" priceItemId="57" priceCount="590000"/>
+		<!--Earring of Binding  grade : C-->
+		<production id="853" count="1" priceItemId="57" priceCount="392000"/>
+		<!--Earring of Protection  grade : C-->
+		<production id="852" count="1" priceItemId="57" priceCount="310000"/>
+		<!--Moonstone Earring  grade : C-->
+		<production id="334" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Three Eyed Crow's Feather  grade : C-->
+		<production id="333" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Claws of Black Dragon  grade : C-->
+		<production id="332" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Scroll of Destruction  grade : C-->
+		<production id="331" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Cerberus Eye  grade : C-->
+		<production id="330" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Phoenix Feather  grade : C-->
+		<production id="329" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Blessed Branch  grade : C-->
+		<production id="328" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Candle of Wisdom  grade : C-->
+		<production id="327" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Hex Doll  grade : C-->
+		<production id="326" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Heathen's Book  grade : C-->
+		<production id="325" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Horn of Glory  grade : C-->
+		<production id="324" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Tears of Fairy  grade : C-->
+		<production id="303" count="1" priceItemId="57" priceCount="9560000"/>
+		<!--Widow Maker  grade : C-->
+		<production id="302" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Body Slasher  grade : C-->
+		<production id="301" count="1" priceItemId="57" priceCount="9560000"/>
+		<!--Scorpion  grade : C-->
+		<production id="299" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Orcish Poleaxe  grade : C-->
+		<production id="298" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Orcish Glaive  grade : C-->
+		<production id="286" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Eminence Bow  grade : C-->
+		<production id="285" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Noble Elven Bow  grade : C-->
+		<production id="283" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Akat Long Bow  grade : C-->
+		<production id="282" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Elemental Bow  grade : C-->
+		<production id="281" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Crystallized Ice Bow  grade : C-->
+		<production id="266" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Great Pata  grade : C-->
+		<production id="265" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Fisted Blade  grade : C-->
+		<production id="263" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Chakram  grade : C-->
+		<production id="242" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Soulfire Dirk  grade : C-->
+		<production id="233" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Dark Screamer  grade : C-->
+		<production id="232" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Dark Elven Dagger  grade : C-->
+		<production id="231" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Grace Dagger  grade : C-->
+		<production id="230" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Wolverine Needle  grade : C-->
+		<production id="228" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Crystal Dagger  grade : C-->
+		<production id="227" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Stiletto  grade : C-->
+		<production id="226" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Cursed Dagger  grade : C-->
+		<production id="206" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Demon's Staff  grade : C-->
+		<production id="205" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Ghoul's Staff  grade : C-->
+		<production id="204" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Deadman's Staff  grade : C-->
+		<production id="203" count="1" priceItemId="57" priceCount="9560000"/>
+		<!--Pa'agrian Axe  grade : C-->
+		<production id="202" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Mace of the Underworld  grade : C-->
+		<production id="201" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Club of Nature  grade : C-->
+		<production id="200" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Sage's Staff  grade : C-->
+		<production id="199" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Pa'agrian Hammer  grade : C-->
+		<production id="198" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Inferno Staff  grade : C-->
+		<production id="197" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Paradia Staff  grade : C-->
+		<production id="196" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Stick of Eternity  grade : C-->
+		<production id="195" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Cursed Staff  grade : C-->
+		<production id="194" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Heavy Doom Axe  grade : C-->
+		<production id="193" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Stick of Faith  grade : C-->
+		<production id="192" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Crystal Staff  grade : C-->
+		<production id="191" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Heavy Doom Hammer  grade : C-->
+		<production id="174" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Nirvana Axe  grade : C-->
+		<production id="173" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Skull Graver  grade : C-->
+		<production id="162" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--War Axe  grade : C-->
+		<production id="161" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Silver Axe  grade : C-->
+		<production id="160" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Battle Axe  grade : C-->
+		<production id="145" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Sword of Whispering Death  grade : C-->
+		<production id="135" count="1" priceItemId="57" priceCount="12260000"/>
+		<!--Samurai Longsword  grade : C-->
+		<production id="134" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Sword of Nightmare  grade : C-->
+		<production id="133" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Raid Sword  grade : C-->
+		<production id="132" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Sword of Limit  grade : C-->
+		<production id="131" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Spirit Sword  grade : C-->
+		<production id="119" count="1" priceItemId="57" priceCount="1130000"/>
+		<!--Necklace of Binding  grade : C-->
+		<production id="96" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Scythe  grade : C-->
+		<production id="95" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Poleaxe  grade : C-->
+		<production id="94" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Bec de Corbin  grade : C-->
+		<production id="89" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Big Hammer  grade : C-->
+		<production id="84" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Homunkulus's Sword  grade : C-->
+		<production id="77" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Tsurugi  grade : C-->
+		<production id="76" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Sword of Delusion  grade : C-->
+		<production id="75" count="1" priceItemId="57" priceCount="8600000"/>
+		<!--Caliburs  grade : C-->
+		<production id="74" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Katana  grade : C-->
+		<production id="73" count="1" priceItemId="57" priceCount="5740000"/>
+		<!--Shamshir  grade : C-->
+		<production id="72" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Stormbringer  grade : C-->
+		<production id="71" count="1" priceItemId="57" priceCount="4580000"/>
+		<!--Flamberge  grade : C-->
+	</group>
+	<night_locations>
+		<!-- Список координат локаций в которых будет появляться нпц Shadow Trader -->
+		<location x="85800" y="147912" z="-3400" h="40959" desc=""/>
+		<!-- Giran -->
+		<location x="148280" y="-53560" z="-2728" h="8191" desc=""/>
+		<!-- Goddard -->
+		<location x="15720" y="142472" z="-2672" h="0" desc=""/>
+		<!-- Dion -->
+		<location x="-12696" y="121592" z="-2944" h="60699" desc=""/>
+		<!-- Gludio -->
+		<location x="87192" y="-146296" z="-1288" h="4836" desc=""/>
+		<!-- Shtutgard -->
+		<location x="146744" y="23752" z="-1984" h="57343" desc=""/>
+		<!-- Aden -->
+		<location x="35240" y="-48216" z="-1096" h="24575" desc=""/>
+		<!-- Runa -->
+		<location x="83528" y="52840" z="-1440" h="49151" desc=""/>
+		<!-- Oren -->
+		<location x="-78872" y="150728" z="-3024" h="8191" desc=""/>
+		<!-- Gludin -->
+		<location x="111272" y="216616" z="-3440" h="47997" desc=""/>
+		<!-- Heine -->
+		<location x="-84376" y="245432" z="-3704" h="40959" desc=""/>
+		<!-- Human Village -->
+	</night_locations>
+	<day_locations>
+		<!-- Список координат локаций в которых будет появляться нпц Day Trader -->
+		<location x="85800" y="147912" z="-3400" h="40959" desc=""/>
+		<!-- Giran -->
+		<location x="148280" y="-53560" z="-2728" h="8191" desc=""/>
+		<!-- Goddard -->
+		<location x="15720" y="142472" z="-2672" h="0" desc=""/>
+		<!-- Dion -->
+		<location x="-12696" y="121592" z="-2944" h="60699" desc=""/>
+		<!-- Gludio -->
+		<location x="87192" y="-146296" z="-1288" h="4836" desc=""/>
+		<!-- Shtutgard -->
+		<location x="146744" y="23752" z="-1984" h="57343" desc=""/>
+		<!-- Aden -->
+		<location x="35240" y="-48216" z="-1096" h="24575" desc=""/>
+		<!-- Runa -->
+		<location x="83528" y="52840" z="-1440" h="49151" desc=""/>
+		<!-- Oren -->
+		<location x="-78872" y="150728" z="-3024" h="8191" desc=""/>
+		<!-- Gludin -->
+		<location x="111272" y="216616" z="-3440" h="47997" desc=""/>
+		<!-- Heine -->
+		<location x="-84376" y="245432" z="-3704" h="40959" desc=""/>
+		<!-- Human Village -->
+	</day_locations>
+</list>

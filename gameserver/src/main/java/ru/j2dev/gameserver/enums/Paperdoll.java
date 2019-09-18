@@ -1,0 +1,29 @@
+package ru.j2dev.gameserver.enums;
+
+/**
+ * Created by JunkyFunky
+ * on 02.06.2018 15:58
+ * group j2dev
+ */
+public enum Paperdoll {
+    PAPERDOLL_UNDER,
+    PAPERDOLL_REAR,
+    PAPERDOLL_LEAR,
+    PAPERDOLL_NECK,
+    PAPERDOLL_RFINGER,
+    PAPERDOLL_LFINGER,
+    PAPERDOLL_HEAD,
+    PAPERDOLL_RHAND,
+    PAPERDOLL_LHAND,
+    PAPERDOLL_GLOVES,
+    PAPERDOLL_CHEST,
+    PAPERDOLL_LEGS,
+    PAPERDOLL_FEET,
+    PAPERDOLL_BACK,
+    PAPERDOLL_LRHAND,
+    PAPERDOLL_HAIR,
+    PAPERDOLL_DHAIR,
+    PAPERDOLL_MAX;
+
+    Paperdoll[] VALUES = values();
+}

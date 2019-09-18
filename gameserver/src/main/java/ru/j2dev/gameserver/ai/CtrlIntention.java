@@ -1,0 +1,12 @@
+package ru.j2dev.gameserver.ai;
+
+public enum CtrlIntention {
+    AI_INTENTION_IDLE,
+    AI_INTENTION_ACTIVE,
+    AI_INTENTION_REST,
+    AI_INTENTION_ATTACK,
+    AI_INTENTION_CAST,
+    AI_INTENTION_PICK_UP,
+    AI_INTENTION_INTERACT,
+    AI_INTENTION_FOLLOW
+}

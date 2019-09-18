@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="12774" name="Young Squash" title="" pts_name="small_baby_gourd"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.561-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Squash"/>
+		<set name="level" value="1"/>
+		<set name="exp" value="0"/>
+		<set name="race" value="etc"/>
+		<set name="sex" value="etc"/>
+		<set name="collision_radius" value="10"/>
+		<set name="collision_height" value="10.50"/>
+		<set name="baseRunSpd" value="79"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="100"/>
+		<set name="baseHpReg" value="1.42"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="0"/>
+		<set name="baseMpReg" value="0.00"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="3"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="30"/>
+		<set name="baseMAtk" value="6"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="41"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+	</npc>  
+	<npc id="12775" name="High Quality Squash" title="" pts_name="g_small_adult_gourd"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.562-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Squash"/>
+		<set name="level" value="1"/>
+		<set name="exp" value="0"/>
+		<set name="race" value="etc"/>
+		<set name="sex" value="etc"/>
+		<set name="collision_radius" value="23"/>
+		<set name="collision_height" value="25"/>
+		<set name="baseRunSpd" value="79"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="130"/>
+		<set name="baseHpReg" value="1.42"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="0"/>
+		<set name="baseMpReg" value="0.00"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="3"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="30"/>
+		<set name="baseMAtk" value="6"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="41"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params>
+			<set name="ignoreDropLevelDiff" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4073" level="9"/>
+			<!--Stun-->
+			<skill id="4589" level="9"/>
+			<!--Decrease Speed-->
+			<skill id="4694" level="1"/>
+			<!--Ultimate Debuff-->
+			<skill id="4695" level="1"/>
+			<!--Ultimate Debuff-->
+			<skill id="4696" level="1"/>
+			<!--Ultimate Debuff-->
+		</skills>
+	</npc>  
+	<npc id="12776" name="Low Quality Squash" title="" pts_name="b_small_adult_gourd"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.562-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Squash"/>
+		<set name="level" value="1"/>
+		<set name="exp" value="0"/>
+		<set name="race" value="etc"/>
+		<set name="sex" value="etc"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="16"/>
+		<set name="baseRunSpd" value="79"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="130"/>
+		<set name="baseHpReg" value="1.42"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="0"/>
+		<set name="baseMpReg" value="0.00"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="3"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="30"/>
+		<set name="baseMAtk" value="6"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="41"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params>
+			<set name="ignoreDropLevelDiff" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4073" level="9"/>
+			<!--Stun-->
+			<skill id="4589" level="9"/>
+			<!--Decrease Speed-->
+			<skill id="4618" level="1"/>
+			<!--NPC Cancel PC Target-->
+			<skill id="4657" level="9"/>
+			<!--Hold-->
+		</skills>
+	</npc>  
+	<npc id="12777" name="Large Young Squash" title="" pts_name="big_baby_gourd"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.562-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Squash"/>
+		<set name="level" value="1"/>
+		<set name="exp" value="0"/>
+		<set name="race" value="etc"/>
+		<set name="sex" value="etc"/>
+		<set name="collision_radius" value="23"/>
+		<set name="collision_height" value="25"/>
+		<set name="baseRunSpd" value="79"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="100"/>
+		<set name="baseHpReg" value="1.42"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="0"/>
+		<set name="baseMpReg" value="0.00"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="3"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="30"/>
+		<set name="baseMAtk" value="6"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="41"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4073" level="9"/>
+			<!--Stun-->
+			<skill id="4565" level="9"/>
+			<!--NPC Eruption-->
+			<skill id="4601" level="3"/>
+			<!--NPC Clan Buff - Acumen Focus-->
+		</skills>
+	</npc>  
+	<npc id="12778" name="High Quality Large Squash" title="" pts_name="g_big_adult_gourd"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.563-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Squash"/>
+		<set name="level" value="1"/>
+		<set name="exp" value="0"/>
+		<set name="race" value="etc"/>
+		<set name="sex" value="etc"/>
+		<set name="collision_radius" value="30"/>
+		<set name="collision_height" value="31.50"/>
+		<set name="baseRunSpd" value="79"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="130"/>
+		<set name="baseHpReg" value="1.42"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="0"/>
+		<set name="baseMpReg" value="0.00"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="3"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="30"/>
+		<set name="baseMAtk" value="6"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="41"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params>
+			<set name="ignoreDropLevelDiff" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4073" level="9"/>
+			<!--Stun-->
+			<skill id="4589" level="9"/>
+			<!--Decrease Speed-->
+			<skill id="4694" level="1"/>
+			<!--Ultimate Debuff-->
+			<skill id="4695" level="1"/>
+			<!--Ultimate Debuff-->
+			<skill id="4696" level="1"/>
+			<!--Ultimate Debuff-->
+		</skills>
+	</npc>  
+	<npc id="12779" name="Low Quality Large Squash" title="" pts_name="b_big_adult_gourd"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.563-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Squash"/>
+		<set name="level" value="1"/>
+		<set name="exp" value="0"/>
+		<set name="race" value="etc"/>
+		<set name="sex" value="etc"/>
+		<set name="collision_radius" value="28"/>
+		<set name="collision_height" value="31"/>
+		<set name="baseRunSpd" value="79"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="130"/>
+		<set name="baseHpReg" value="1.42"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="0"/>
+		<set name="baseMpReg" value="0.00"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="3"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="30"/>
+		<set name="baseMAtk" value="6"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="41"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params>
+			<set name="ignoreDropLevelDiff" value="true"/>
+		</ai_params>
+		<skills>
+			<skill id="4073" level="9"/>
+			<!--Stun-->
+			<skill id="4589" level="9"/>
+			<!--Decrease Speed-->
+			<skill id="4618" level="1"/>
+			<!--NPC Cancel PC Target-->
+			<skill id="4657" level="9"/>
+			<!--Hold-->
+		</skills>
+	</npc>  
+	<npc id="12780" name="Baby Buffalo" title="" pts_name="pet_baby_buffalo"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.563-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="25"/>
+		<set name="exp" value="2118876"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12"/>
+		<set name="collision_height" value="15"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="475"/>
+		<set name="baseHpReg" value="2.37"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="331"/>
+		<set name="baseMpReg" value="1.53"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="68"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="250.98"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="97"/>
+		<set name="baseMAtk" value="51"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="113"/>
+		<set name="HitTimeFactor" value="0.48"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="corpse_time" value="1200"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="Heal1" value="4717-1"/>
+			<!--Heal Trick-->
+			<set name="Heal2" value="4718-1"/>
+			<!--Greater Heal Trick-->
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="12781" name="Baby Kookaburra" title="" pts_name="pet_baby_kukaburo"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.563-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="25"/>
+		<set name="exp" value="2118876"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="7"/>
+		<set name="collision_height" value="15"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="13"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="475"/>
+		<set name="baseHpReg" value="2.37"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="331"/>
+		<set name="baseMpReg" value="1.53"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="68"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="250.98"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="97"/>
+		<set name="baseMAtk" value="51"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="113"/>
+		<set name="HitTimeFactor" value="0.5"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="corpse_time" value="1200"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="Heal1" value="4717-1"/>
+			<!--Heal Trick-->
+			<set name="Heal2" value="4718-1"/>
+			<!--Greater Heal Trick-->
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="12782" name="Baby Cougar" title="" pts_name="pet_baby_cougar"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.564-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="25"/>
+		<set name="exp" value="2118876"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="15.70"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="27"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="475"/>
+		<set name="baseHpReg" value="2.37"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="331"/>
+		<set name="baseMpReg" value="1.53"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="68"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="250.98"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="97"/>
+		<set name="baseMAtk" value="51"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="113"/>
+		<set name="HitTimeFactor" value="0.48"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="corpse_time" value="1200"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="Heal1" value="4717-1"/>
+			<!--Heal Trick-->
+			<set name="Heal2" value="4718-1"/>
+			<!--Greater Heal Trick-->
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc> 
+</list>

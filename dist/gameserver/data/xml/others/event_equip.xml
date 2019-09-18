@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Типы эвентов, указывать в eventType="" через запятую, без пробелов
+LastHero
+TeamVsTeam
+CaptureTheFlag
+KoreanStyle
+ -->
+<list>
+   <!-- Силачи -->
+   <!-- duelist(88) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="88" items="6373,6374,6375,6376,6378,6580,858,858,889,889,920" />
+   <!-- swordMuse(100) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="100" items="6373,6374,6375,6376,6378,6580,858,858,889,889,920" />
+   <!-- spectralDancer(107) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="107" items="6373,6374,6375,6376,6378,6580,858,858,889,889,920" />
+   <!-- dreadnought(89) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="89" items="6373,6374,6375,6376,6378,6601,858,858,889,889,920" />
+   <!-- phoenixKnight(90) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="90" items="6373,6374,6375,6376,6377,6378,6582,858,858,889,889,920" />
+   <!-- hellKnight(91) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="91" items="6373,6374,6375,6376,6377,6378,6582,858,858,889,889,920" />
+   <!-- evaTemplar(99) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="99" items="6373,6374,6375,6376,6377,6378,6582,858,858,889,889,920" />
+   <!-- shillienTemplar(91) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="106" items="6373,6374,6375,6376,6377,6378,6582,858,858,889,889,920" />
+   <!-- fortuneSeeker(117) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="117" items="6373,6374,6375,6376,6378,6585,858,858,889,889,920" />
+   <!-- maestro(118) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="118" items="6373,6374,6375,6376,6378,6585,858,858,889,889,920" />
+   <!-- titan(113) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="113" items="6373,6374,6375,6376,6378,11242,858,858,889,889,920" />
+   <!-- grandKhauatari(114) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="114" items="6373,6374,6375,6376,6378,6602,858,858,889,889,920" />
+   <!-- Ловкачи -->
+   <!-- sagittarius(92) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="92" items="6379,6380,6381,6382,7577,858,858,889,889,920" />
+   <!-- ghostSentinel(109) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="109" items="6379,6380,6381,6382,7577,858,858,889,889,920" />
+   <!-- moonlightSentinel(102) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="102" items="6379,6380,6381,6382,7577,858,858,889,889,920" />
+   <!-- adventurer(93) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="93" items="6379,6380,6381,6382,6590,858,858,889,889,920" />
+   <!-- ghostHunter(108) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="108" items="6379,6380,6381,6382,6590,858,858,889,889,920" />
+   <!-- windRider(101) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="101" items="6379,6380,6381,6382,6590,858,858,889,889,920" />
+   <!-- Интеллект -->
+   <!-- elementalMaster(92) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="104" items="2407,2472,512,5767,5779,6377,6608,858,858,889,889,920" />
+   <!-- evaSaint(105) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="105" items="2407,2472,512,5767,5779,6377,6608,858,858,889,889,920" />
+   <!-- stormScreamer(110) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="110" items="2407,2472,512,5767,5779,6377,6608,858,858,889,889,920" />
+   <!-- spectralMaster(111) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="111" items="2407,2472,512,5767,5779,6377,6608,858,858,889,889,920" />
+   <!-- shillienSaint(112) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="112" items="2407,2472,512,5767,5779,6377,6608,858,858,889,889,920" />
+   <!-- dominator(115) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="115" items="2407,2472,512,5767,5779,6377,6608,858,858,889,889,920" />
+   <!-- doomcryer(116) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="116" items="2407,2472,512,5767,5779,6377,6608,858,858,889,889,920" />
+   <!-- archmage(94) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="94" items="2407,2472,512,5767,5779,6377,6608,858,858,889,889,920" />
+   <!-- soultaker(95) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="95" items="2407,2472,512,5767,5779,6377,6608,858,858,889,889,920" />
+   <!-- arcanaLord(96) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="96" items="2407,2472,512,5767,5779,6377,6608,858,858,889,889,920" />
+   <!-- cardinal(97) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="97" items="2407,2472,512,5767,5779,6377,6608,858,858,889,889,920" />
+   <!-- hierophant(98) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="98" items="2407,2472,512,5767,5779,6377,6608,858,858,889,889,920" />
+   <!-- mysticMuse(103) -->
+   <class eventType="TeamVsTeam,LastHero,KoreanStyle,CaptureTheFlag" id="103" items="2407,2472,512,5767,5779,6377,6608,858,858,889,889,920" />
+</list>

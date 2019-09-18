@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Build All" default="dist" basedir=".">
+
+	<property name="debug" value="true" />
+	<property name="debuglevel" value="lines,vars,source" />
+	<property name="optimize" value="true" />
+	<property name="nowarn" value="true" />
+	<property name="compiler" value="javac1.8" />
+	<property name="src.dataparser" location="dataparser/src/main" />
+	<property name="src.gameserver" location="gameserver/src/main" />
+	<property name="src.authserver" location="authserver/src/main" />
+	<property name="src.commons" location="commons/src/main" />
+	<property name="src.scripts" location="dist/gameserver/data/scripts" />
+	<property name="src.cgm" location="cgm/src/main" />
+	<property name="stringer.home"  location="stringer/"/>
+	<taskdef name="stringer" classname="com.licel.stringer.AntTask" classpath="${stringer.home}/stringer.jar"/>
+
+	<property name="dist" location="dist" />
+	<property name="lib" location="lib" />
+
+	<property name="build" location="build" />
+	<property name="build_archive" location="build_archive" />
+	<property name="build.classes" location="${build}/classes" />
+
+	<property name="build.dist" location="${build}/dist" />
+	<property name="build.dist.gameserver" location="${build.dist}/gameserver" />
+	<property name="build.dist.authserver" location="${build.dist}/authserver" />
+	<property name="build.dist.lib" location="${build.dist}/lib" />
+	<property name="build.dist.tools" location="${build.dist}/tools" />
+	<property name="build.version" value="Interlude" />
+	<property name="build.team" value="" />
+	<property name="build.teamsite" value="" />
+	<property name="build.licensetype" value="" />
+	<property name="build.coredev" value="" />
+	<property name="build.datadev" value="" />
+
+	<path id="classpath">
+		<fileset dir="${lib}">
+			<include name="**/*.jar" />
+			<!--
+			<exclude name="lameguard-1.9.5.jar" />
+			<exclude name="smrt-core.jar" />
+			-->
+		</fileset>
+	</path>
+
+	<pathconvert property="jar.list" pathsep=" " refid="classpath">
+		<mapper type="flatten" />
+	</pathconvert>
+
+	<property name="build.classpath" refid="classpath"/>
+
+	<tstamp>
+		<format property="build.tstamp" pattern="yyyy.MM.dd HH:mm" />
+	</tstamp>
+
+	<target name="clean" description="Remove the output directories.">
+		<delete dir="${build}" />
+	</target>
+
+	<target name="init" depends="checkRequirements" description="Create the output directories.">
+		<mkdir dir="${build}" />
+		<mkdir dir="${build.classes}" />
+		<mkdir dir="${build.dist}" />
+		<mkdir dir="${build.dist.gameserver}" />
+		<mkdir dir="${build.dist.lib}" />
+		<mkdir dir="${build.dist.authserver}" />
+		<mkdir dir="${build.dist.tools}" />
+	</target>
+
+	<!--компилим commons-->
+	<target name="compile-commons" depends="init">
+
+		<delete dir="${build.classes}" />
+		<mkdir dir="${build.classes}" />
+
+		<javac srcdir="${src.commons}"
+		destdir="${build.classes}"
+		debuglevel="${debuglevel}"
+		compiler="${compiler}"
+		debug="${debug}"
+		source="1.8"
+		target="1.8"
+		includeantruntime="false"
+		encoding="UTF-8"
+		nowarn="${nowarn}"
+		classpath="${build.classpath}">
+			<compilerarg value="-Xlint:unchecked,rawtypes,-serial" />
+		</javac>
+	</target>
+
+	<!--собираем commons в jar-->
+	<target name="commons-jar" depends="compile-commons">
+		<exec executable="git" outputproperty="build.revision">
+			<arg value="rev-list"/>
+			<arg value="--all"/>
+			<arg value="--count"/>
+			<arg value="HEAD"/>
+			<redirector>
+				<outputfilterchain>
+					<tokenfilter>
+						<replaceregex pattern="^[^-]+-" replace=""/>
+						<replaceregex pattern="-.+$" replace=""/>
+					</tokenfilter>
+				</outputfilterchain>
+			</redirector>
+		</exec>
+		<echo>Current Revision ${build.revision}</echo>
+
+		<jar destfile="${build}/commons.jar" level="9">
+			<fileset dir="${build.classes}" />
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${build.tstamp}" />
+				<attribute name="Revision" value="${build.revision}" />
+				<attribute name="Chronicle" value="${build.version}" />
+				<attribute name="Team-Name" value="${build.team}" />
+				<attribute name="Team-Site" value="${build.teamsite}" />
+				<attribute name="License-Type" value="${build.licensetype}" />
+				<attribute name="Core-Dev" value="${build.coredev}" />
+				<attribute name="Data-Dev" value="${build.datadev}" />
+			</manifest>
+		</jar>
+		<!-- Protect by Stringer -->
+		<stringer srcFile="${build}/commons.jar"
+                  destFile="${build}/commons.jar"
+        >
+			<verbose>false</verbose>
+			<optimize>false</optimize>
+			<protectionElements>
+				<protectionElement>
+					<stringEncryption>
+						<mode>off</mode>
+					</stringEncryption>
+					<resourceEncryption>
+						<mode>off</mode>
+					</resourceEncryption>
+					<hideAccess>
+						<mode>off</mode>
+					</hideAccess>
+					<integrityControl>
+						<mode>off</mode>
+					</integrityControl>
+				</protectionElement>
+			</protectionElements>
+		</stringer>
+
+	</target>
+
+	<!--компилим scripts-->
+	<target name="compile-scripts" depends="commons-jar">
+		<mkdir dir="${build.classes}/scripts"/>
+
+		<javac srcdir="${src.scripts}"
+		destdir="${build.classes}"
+		debuglevel="${debuglevel}"
+		compiler="${compiler}"
+		debug="${debug}"
+		source="1.8"
+		target="1.8"
+		includeantruntime="false"
+		encoding="UTF-8"
+		nowarn="${nowarn}"
+		classpath="${build.classpath}:${build}/commons.jar:${build}/gameserver.jar">
+			<compilerarg value="-Xlint:unchecked,rawtypes,-serial" />
+		</javac>
+	</target>
+
+	<!--собираем scripts в jar-->
+	<target name="scripts-jar" depends="compile-scripts">
+		<exec executable="git" outputproperty="build.revision">
+			<arg value="rev-list"/>
+			<arg value="--all"/>
+			<arg value="--count"/>
+			<arg value="HEAD"/>
+			<redirector>
+				<outputfilterchain>
+					<tokenfilter>
+						<replaceregex pattern="^[^-]+-" replace=""/>
+						<replaceregex pattern="-.+$" replace=""/>
+					</tokenfilter>
+				</outputfilterchain>
+			</redirector>
+		</exec>
+
+		<jar destfile="${build}/scripts.jar" level="9">
+			<fileset dir="${build.classes}" />
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${build.tstamp}" />
+				<attribute name="Revision" value="${build.revision}" />
+				<attribute name="Chronicle" value="${build.version}" />
+				<attribute name="Team-Name" value="${build.team}" />
+				<attribute name="Team-Site" value="${build.teamsite}" />
+				<attribute name="License-Type" value="${build.licensetype}" />
+				<attribute name="Core-Dev" value="${build.coredev}" />
+				<attribute name="Data-Dev" value="${build.datadev}" />
+			</manifest>
+		</jar>
+		<!-- Protect by Stringer -->
+		<stringer srcFile="${build}/scripts.jar"
+                  destFile="${build}/scripts.jar"
+        >
+			<verbose>false</verbose>
+			<optimize>false</optimize>
+			<protectionElements>
+				<protectionElement>
+					<stringEncryption>
+						<mode>off</mode>
+					</stringEncryption>
+					<resourceEncryption>
+						<mode>off</mode>
+					</resourceEncryption>
+					<hideAccess>
+						<mode>off</mode>
+					</hideAccess>
+					<integrityControl>
+						<mode>off</mode>
+					</integrityControl>
+				</protectionElement>
+			</protectionElements>
+		</stringer>
+
+	</target>
+
+	<target name="scripts" depends="scripts-jar">
+		<copy todir="${build.dist}/lib">
+			<fileset dir="${build}">
+				<include name="scripts.jar" />
+			</fileset>
+		</copy>
+	</target>
+
+	<!--компилим gameserver-->
+	<target name="compile-gameserver" depends="commons-jar">
+
+		<delete dir="${build.classes}" />
+		<mkdir dir="${build.classes}" />
+
+		<javac srcdir="${src.gameserver}"
+		destdir="${build.classes}"
+		debuglevel="${debuglevel}"
+		compiler="${compiler}"
+		optimize="${optimize}"
+		debug="${debug}"
+		source="1.8"
+		target="1.8"
+		includeantruntime="false"
+		encoding="UTF-8"
+		nowarn="${nowarn}"
+		classpath="${build.classpath}:${build}/commons.jar">
+			<compilerarg value="-Xlint:unchecked,rawtypes,-serial" />
+		</javac>
+	</target>
+
+	<!--собираем gameserver в jar-->
+	<target name="gameserver-jar" depends="compile-gameserver">
+		<exec executable="git" outputproperty="build.revision">
+			<arg value="rev-list"/>
+			<arg value="--all"/>
+			<arg value="--count"/>
+			<arg value="HEAD"/>
+			<redirector>
+				<outputfilterchain>
+					<tokenfilter>
+						<replaceregex pattern="^[^-]+-" replace=""/>
+						<replaceregex pattern="-.+$" replace=""/>
+					</tokenfilter>
+				</outputfilterchain>
+			</redirector>
+		</exec>
+		<echo>Current Revision ${build.revision}</echo>
+
+		<concat destfile="${build}/dist/gameserver/config/version.ini">
+			Build-By=${user.name}
+			Version=${build.version}
+			Revision=${build.revision}
+			Build Date=${build.tstamp}
+			OS=${os.name} ${os.version} ${os.arch}
+			JDK=${ant.java.version} ${java.vendor}
+		</concat>
+
+		<concat destfile="${build}/classes/ru/j2dev/gameserver/version.ini">
+			Build-By=${user.name}
+			Version=${build.version}
+			Revision=${build.revision}
+			Build Date=${build.tstamp}
+			OS=${os.name} ${os.version} ${os.arch}
+			JDK=${ant.java.version} ${java.vendor}
+		</concat>
+		<jar destfile="${build}/gameserver.jar" level="9">
+			<fileset dir="${build.classes}" />
+			<manifest>
+				<attribute name="Main-Class" value="ru.j2dev.gameserver.GameServer" />
+				<attribute name="Class-Path" value="${jar.list} commons.jar" />
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${build.tstamp}" />
+				<attribute name="Build-Os" value="${os.name}" />
+				<attribute name="Revision" value="${build.revision}" />
+				<attribute name="Chronicle" value="${build.version}" />
+				<attribute name="Team-Name" value="${build.team}" />
+				<attribute name="Team-Site" value="${build.teamsite}" />
+				<attribute name="License-Type" value="${build.licensetype}" />
+				<attribute name="Core-Dev" value="${build.coredev}" />
+				<attribute name="Data-Dev" value="${build.datadev}" />
+			</manifest>
+		</jar>
+		<!-- Protect by Stringer -->
+		<stringer srcFile="${build}/gameserver.jar"
+                  destFile="${build}/gameserver.jar"
+        >
+			<verbose>false</verbose>
+			<optimize>false</optimize>
+			<protectionElements>
+				<protectionElement>
+					<stringEncryption>
+						<mode>annotations</mode>
+					</stringEncryption>
+					<resourceEncryption>
+						<mode>off</mode>
+					</resourceEncryption>
+					<hideAccess>
+						<mode>annotations</mode>
+					</hideAccess>
+					<integrityControl>
+						<mode>off</mode>
+					</integrityControl>
+				</protectionElement>
+			</protectionElements>
+		</stringer>
+
+	</target>
+
+	<target name="gameserver" depends="gameserver-jar">
+
+		<mkdir dir="${build.dist}" />
+		<mkdir dir="${build.dist.gameserver}" />
+		<mkdir dir="${build.dist.gameserver}/geodata" />
+		<mkdir dir="${build.dist.gameserver}/log" />
+
+		<copy todir="${build.dist}/lib">
+			<fileset dir="${build}">
+				<include name="gameserver.jar" />
+			</fileset>
+		</copy>
+
+		<fixcrlf srcdir="${build.dist.gameserver}" eol="lf" eof="remove" includes="**/*.sh"/>
+		<fixcrlf srcdir="${build.dist.gameserver}" eol="crlf" eof="remove" includes="**/*.bat"/>
+
+		<delete dir="${build.classes}" />
+
+		<copy todir="${build.dist.gameserver}" preservelastmodified="true">
+			<fileset dir="${dist}/gameserver">
+				<include name="**/*.*"/>
+				<exclude name="/data/**/*.iml" />
+				<exclude name="/data/*.iml" />
+				<exclude name="/data/**/*.java"/>
+				<exclude name="/*.iml" />
+			</fileset>
+		</copy>
+		<copy todir="${build.dist.authserver}" preservelastmodified="true">
+			<fileset dir="${dist}/authserver">
+				<include name="**/*.*"/>
+				<exclude name="/*.iml" />
+			</fileset>
+		</copy>
+		<copy todir="${build.dist.tools}" preservelastmodified="true">
+			<fileset dir="${dist}/tools">
+				<include name="**/*.*"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<!--компилим authserver-->
+	<target name="compile-authserver" depends="commons-jar">
+
+
+		<delete dir="${build.classes}" />
+		<mkdir dir="${build.classes}" />
+
+		<javac srcdir="${src.authserver}"
+		optimize="${optimize}"
+		debuglevel="${debuglevel}"
+		compiler="${compiler}"
+		destdir="${build.classes}"
+		debug="${debug}"
+		source="1.8"
+		target="1.8"
+		includeantruntime="false"
+		encoding="UTF-8"
+		nowarn="${nowarn}"
+		classpath="${build.classpath}:${build}/commons.jar">
+			<compilerarg value="-Xlint:unchecked,rawtypes,-serial" />
+		</javac>
+	</target>
+
+	<!--собираем authserver в jar-->
+	<target name="authserver-jar" depends="compile-authserver">
+		<exec executable="git" outputproperty="build.revision">
+			<arg value="rev-list"/>
+			<arg value="--all"/>
+			<arg value="--count"/>
+			<arg value="HEAD"/>
+			<redirector>
+				<outputfilterchain>
+					<tokenfilter>
+						<replaceregex pattern="^[^-]+-" replace=""/>
+						<replaceregex pattern="-.+$" replace=""/>
+					</tokenfilter>
+				</outputfilterchain>
+			</redirector>
+		</exec>
+
+		<jar destfile="${build}/authserver.jar" level="9">
+			<fileset dir="${build.classes}" />
+			<manifest>
+				<attribute name="Main-Class" value="ru.j2dev.authserver.AuthServer" />
+				<attribute name="Class-Path" value="${jar.list} commons.jar" />
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${build.tstamp}" />
+				<attribute name="Revision" value="${build.revision}" />
+				<attribute name="Chronicle" value="${build.version}" />
+				<attribute name="Team-Name" value="${build.team}" />
+				<attribute name="Team-Site" value="${build.teamsite}" />
+				<attribute name="License-Type" value="${build.licensetype}" />
+				<attribute name="Core-Dev" value="${build.coredev}" />
+				<attribute name="Data-Dev" value="${build.datadev}" />
+			</manifest>
+		</jar>
+		<!-- Protect by Stringer -->
+		<stringer srcFile="${build}/authserver.jar"
+                  destFile="${build}/authserver.jar"
+        >
+			<verbose>false</verbose>
+			<optimize>false</optimize>
+			<protectionElements>
+				<protectionElement>
+					<stringEncryption>
+						<mode>off</mode>
+					</stringEncryption>
+					<resourceEncryption>
+						<mode>off</mode>
+					</resourceEncryption>
+					<hideAccess>
+						<mode>off</mode>
+					</hideAccess>
+					<integrityControl>
+						<mode>off</mode>
+					</integrityControl>
+				</protectionElement>
+			</protectionElements>
+		</stringer>
+
+	</target>
+
+	<target name="authserver" depends="authserver-jar">
+
+		<mkdir dir="${build.dist}" />
+		<mkdir dir="${build.dist.authserver}" />
+		<mkdir dir="${build.dist.authserver}/log" />
+
+		<copy todir="${build.dist}/lib">
+			<fileset dir="${build}">
+				<include name="authserver.jar" />
+				<include name="commons.jar" />
+			</fileset>
+		</copy>
+
+		<copy todir="${build.dist}/lib">
+			<fileset dir="${lib}">
+				<include name="*.jar" />
+				<exclude name="stringer-annotations.jar" />
+			</fileset>
+		</copy>
+
+		<fixcrlf srcdir="${build.dist.authserver}" eol="lf" eof="remove" includes="**/*.sh"/>
+		<fixcrlf srcdir="${build.dist.authserver}" eol="crlf" eof="remove" includes="**/*.bat"/>
+
+	</target>
+	
+	<!--компилим cgm-->
+	<target name="compile-cgm" depends="commons-jar">
+		<delete dir="${build.classes}" />
+		<mkdir dir="${build.classes}" />
+
+		<javac srcdir="${src.cgm}"
+		destdir="${build.classes}"
+		debuglevel="${debuglevel}"
+		compiler="${compiler}"
+		debug="${debug}"
+		source="1.8"
+		target="1.8"
+		includeantruntime="false"
+		encoding="UTF-8"
+		nowarn="${nowarn}"
+		classpath="${build.classpath}:${build}/commons.jar:${build}/gameserver.jar">
+			<compilerarg value="-Xlint:unchecked,rawtypes,-serial" />
+		</javac>
+	</target>
+
+	<!--собираем cgm в jar-->
+	<target name="cgm-jar" depends="compile-cgm">
+		<exec executable="git" outputproperty="build.revision">
+			<arg value="rev-list"/>
+			<arg value="--all"/>
+			<arg value="--count"/>
+			<arg value="HEAD"/>
+			<redirector>
+				<outputfilterchain>
+					<tokenfilter>
+						<replaceregex pattern="^[^-]+-" replace=""/>
+						<replaceregex pattern="-.+$" replace=""/>
+					</tokenfilter>
+				</outputfilterchain>
+			</redirector>
+		</exec>
+
+		<jar destfile="${build}/cgm.jar" level="9">
+			<fileset dir="${build.classes}" />
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${build.tstamp}" />
+				<attribute name="Revision" value="${build.revision}" />
+				<attribute name="Chronicle" value="${build.version}" />
+				<attribute name="Team-Name" value="${build.team}" />
+				<attribute name="Team-Site" value="${build.teamsite}" />
+				<attribute name="License-Type" value="${build.licensetype}" />
+				<attribute name="Core-Dev" value="${build.coredev}" />
+				<attribute name="Data-Dev" value="${build.datadev}" />
+			</manifest>
+		</jar>
+		<!-- Protect by Stringer -->
+		<stringer srcFile="${build}/cgm.jar"
+                  destFile="${build}/cgm.jar"
+        >
+			<verbose>false</verbose>
+			<optimize>false</optimize>
+			<protectionElements>
+				<protectionElement>
+					<stringEncryption>
+						<mode>off</mode>
+					</stringEncryption>
+					<resourceEncryption>
+						<mode>off</mode>
+					</resourceEncryption>
+					<hideAccess>
+						<mode>off</mode>
+					</hideAccess>
+					<integrityControl>
+						<mode>off</mode>
+					</integrityControl>
+				</protectionElement>
+			</protectionElements>
+		</stringer>
+
+	</target>
+
+	<target name="cgm" depends="cgm-jar">
+		<copy todir="${build.dist}/lib">
+			<fileset dir="${build}">
+				<include name="cgm.jar" />
+			</fileset>
+		</copy>
+	</target>
+	
+
+	<!--компилим dataparser-->
+	<target name="compile-dataparser" depends="commons-jar">
+		<mkdir dir="${build.classes}"/>
+
+		<javac srcdir="${src.dataparser}"
+		destdir="${build.classes}"
+		debuglevel="${debuglevel}"
+		compiler="${compiler}"
+		debug="${debug}"
+		source="1.8"
+		target="1.8"
+		includeantruntime="false"
+		encoding="UTF-8"
+		nowarn="${nowarn}"
+		classpath="${build.classpath}:${build}/commons.jar">
+			<compilerarg value="-Xlint:unchecked,rawtypes,-serial" />
+		</javac>
+	</target>
+
+	<!--собираем dataparser в jar-->
+	<target name="dataparser-jar" depends="compile-dataparser">
+		<exec executable="git" outputproperty="build.revision">
+			<arg value="rev-list"/>
+			<arg value="--all"/>
+			<arg value="--count"/>
+			<arg value="HEAD"/>
+			<redirector>
+				<outputfilterchain>
+					<tokenfilter>
+						<replaceregex pattern="^[^-]+-" replace=""/>
+						<replaceregex pattern="-.+$" replace=""/>
+					</tokenfilter>
+				</outputfilterchain>
+			</redirector>
+		</exec>
+
+		<jar destfile="${build}/dataparser.jar" level="9">
+			<fileset dir="${build.classes}" />
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${build.tstamp}" />
+				<attribute name="Revision" value="${build.revision}" />
+				<attribute name="Chronicle" value="${build.version}" />
+			</manifest>
+		</jar>
+		<!-- Protect by Stringer -->
+		<stringer srcFile="${build}/dataparser.jar"
+                  destFile="${build}/dataparser.jar"
+        >
+			<verbose>false</verbose>
+			<optimize>false</optimize>
+			<protectionElements>
+				<protectionElement>
+					<stringEncryption>
+						<mode>off</mode>
+					</stringEncryption>
+					<resourceEncryption>
+						<mode>off</mode>
+					</resourceEncryption>
+					<hideAccess>
+						<mode>off</mode>
+					</hideAccess>
+					<integrityControl>
+						<mode>off</mode>
+					</integrityControl>
+				</protectionElement>
+			</protectionElements>
+		</stringer>
+
+	</target>
+
+	<target name="dataparser" depends="dataparser-jar">
+		<copy todir="${build.dist}/lib">
+			<fileset dir="${build}">
+				<include name="dataparser.jar" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="checkRequirements" description="Check Requirements.">
+		<echo message="Check ANT version" />
+		<fail message="Ant 1.9.4 is required. But your version is ${ant.version} and if you are using Eclipse probably is outdated.">
+			<condition>
+				<not>
+					<antversion atleast="1.9.4" />
+				</not>
+			</condition>
+		</fail>
+		<echo message="Check JDK version" />
+		<available classname="java.util.stream.Stream" property="JDK8.present" />
+		<fail unless="JDK8.present" message="Java 1.8 is required. But your version is Java ${ant.java.version} and probably JDK is not installed." />
+	</target>
+
+	<target name="dist" depends="authserver, gameserver, dataparser, cgm, scripts">
+		<!-- cleanup -->
+		<delete file="${build}/authserver.jar" />
+		<delete file="${build}/cgm.jar" />
+		<delete file="${build}/commons.jar" />
+		<delete file="${build}/dataparser.jar" />
+		<delete file="${build}/gameserver.jar" />
+		<delete file="${build}/scripts.jar" />
+		<delete dir="${build.classes}" />
+		<echo message="Creating Zip archive"/>
+ 		<zip destfile="${build_archive}/${build.team}_${build.version}_Rev.${build.revision}.zip" basedir="${build.dist}" update="true" level="9" />
+		<echo message="Creating Zip archive done"/>
+	</target>
+</project>

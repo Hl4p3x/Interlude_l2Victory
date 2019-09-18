@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="13186" name="Santa Claus" title="" pts_name="xmas_sled"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.578-->
+		<set name="ai_type" value="FlyingSantaAI"/>
+		<set name="type" value="Npc"/>
+		<set name="level" value="85"/>
+		<set name="exp" value="44100000000"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="0.1"/>
+		<set name="collision_height" value="0.1"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="3046.70947"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1846.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="983"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="265"/>
+		<set name="baseMAtk" value="671"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="362"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<faction name="fire_clan" range="300"/>
+		<ai_params/>
+		<skills>
+			<skill id="4416" level="4"/>
+			<!--Animals-->
+		</skills>
+	</npc> 
+</list>

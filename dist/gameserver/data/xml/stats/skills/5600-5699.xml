@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="5605" levels="1" name="Power of Apella">
+		<!--	Description: Power of Apella. Increased M. Def., increased critical rate, and decreased critical power.	-->
+		<table name="#rCrit">0 0.25</table>
+		<table name="#magicLevel">64 67</table>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isTrigger" val="true"/>
+		<for>
+			<effect count="1" name="Buff" time="15" val="0">
+				<mul order="0x30" stat="mDef" val="1.05"/>
+				<add order="0x40" stat="rCrit" val="#rCrit"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5607" levels="1" name="Power of Apella">
+		<!--	Description: Power of Apella. Increased Dodge, increased Atk. Spd., and decreased critical power.	-->
+		<table name="#pAtkSpd">1 1.025</table>
+		<table name="#magicLevel">64 67</table>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isTrigger" val="true"/>
+		<for>
+			<effect count="1" name="Buff" time="15" val="0">
+				<add order="0x40" stat="rEvas" val="2"/>
+				<sub order="0x40" stat="critDamRcpt" val="86"/>
+				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5608" levels="1" name="Power of Apella">
+		<!--	Description: Power of Apella. Increased P. Def., increased M. Atk., and decreased Speed.	-->
+		<table name="#mAtk">1 1.06</table>
+		<table name="#magicLevel">64 67</table>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isTrigger" val="true"/>
+		<for>
+			<effect count="1" name="Buff" time="15" val="0">
+				<add order="0x40" stat="runSpd" val="10"/>
+				<mul order="0x30" stat="pDef" val="1.05"/>
+				<mul order="0x30" stat="mAtk" val="#mAtk"/>
+			</effect>
+		</for>
+	</skill>
+</list>

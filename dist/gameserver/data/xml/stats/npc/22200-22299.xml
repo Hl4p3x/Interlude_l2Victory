@@ -1,0 +1,3355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="22200" name="Ornithomimus" title="" pts_name="ornithomimus"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.301-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="37.20"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7788"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2211"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1149"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="236"/>
+		<set name="baseMAtk" value="700"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="367"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="60614"/>
+		<set name="rewardSp" value="7860"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.471"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Leader" value="1"/>
+			<set name="Buff" value="5079-1"/>
+			<!--NPC Focused Haste-->
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="5082-1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<set name="MoveAroundSocial" value="60"/>
+		</ai_params>
+		<skills>
+			<skill id="4071" level="5"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="16"/>
+			<!--Very Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="17"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5083" level="1"/>
+			<!--Stun-->
+			<skill id="5084" level="1"/>
+			<!--NPC Blinding Blow-->
+		</skills>
+		<minions>
+			<minion npc_id="22201" count="3">
+				<!--Ornithomimus-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4460" max="9095" chance="100.0"/>
+			</group>
+			<group chance="0.3719">
+				<!--Elysian Head-->
+				<reward item_id="5533" min="1" max="1" chance="20.0052"/>
+				<!--Branch of The Mother Tree Head-->
+				<reward item_id="5544" min="1" max="1" chance="40.0109"/>
+				<!--Flaming Dragon Skull Piece-->
+				<reward item_id="8342" min="1" max="1" chance="35.0095"/>
+				<!--Doom Crusher Head-->
+				<reward item_id="8349" min="1" max="1" chance="4.9744"/>
+			</group>
+			<group chance="1.77">
+				<!--Green Primeval Crystal-->
+				<reward item_id="8955" min="1" max="1" chance="4.2033"/>
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="5.2542"/>
+				<!--Amulet: Pa'agrio's Fist-->
+				<reward item_id="8888" min="1" max="1" chance="9.4632"/>
+				<!--Amulet: Victories of Pa'agrio-->
+				<reward item_id="8886" min="1" max="1" chance="3.1525"/>
+				<!--Spellbook: Summon Magnus the Unicorn-->
+				<reward item_id="8879" min="1" max="1" chance="3.3898"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<reward item_id="8633" min="1" max="1" chance="36.6841"/>
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="35.757"/>
+				<!--Red Primeval Crystal-->
+				<reward item_id="8956" min="1" max="1" chance="2.0959"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Metallic Fiber-->
+			<reward item_id="1895" min="1" max="5" chance="50.025"/>
+			<!--Mold Lubricant-->
+			<reward item_id="4040" min="1" max="1" chance="33.3333"/>
+			<!--Demon Splinter Blade-->
+			<reward item_id="6695" min="1" max="1" chance="1.8181"/>
+		</rewardlist>
+	</npc>  
+	<npc id="22201" name="Ornithomimus" title="" pts_name="ornithomimus1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.301-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="37.20"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7788"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2211"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1149"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="236"/>
+		<set name="baseMAtk" value="700"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="367"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="60614"/>
+		<set name="rewardSp" value="7860"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.471"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Minion" value="1"/>
+			<set name="Buff" value="5079-1"/>
+			<!--NPC Focused Haste-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="5082-1"/>
+			<!--NPC Spinning, Slashing Trick-->
+		</ai_params>
+		<skills>
+			<skill id="4071" level="5"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="16"/>
+			<!--Very Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="17"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5084" level="1"/>
+			<!--NPC Blinding Blow-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4468" max="9089" chance="100.0"/>
+			</group>
+			<group chance="0.2201">
+				<!--Flaming Dragon Skull Piece-->
+				<reward item_id="8342" min="1" max="1" chance="66.6971"/>
+				<!--Doom Crusher Head-->
+				<reward item_id="8349" min="1" max="1" chance="33.3029"/>
+			</group>
+			<group chance="1.6038">
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="36.6752"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<reward item_id="8633" min="1" max="1" chance="41.2899"/>
+				<!--Spellbook: Summon Magnus the Unicorn-->
+				<reward item_id="8879" min="1" max="1" chance="3.741"/>
+				<!--Spellbook: Salvation-->
+				<reward item_id="8882" min="1" max="1" chance="4.5703"/>
+				<!--Amulet: Gate Chant-->
+				<reward item_id="8889" min="1" max="1" chance="9.1531"/>
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="4.5705"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Heavens Divider Edge-->
+			<reward item_id="6696" min="1" max="1" chance="1.8867"/>
+		</rewardlist>
+	</npc>  
+	<npc id="22202" name="Ornithomimus" title="" pts_name="ornithomimus2"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.301-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="37.20"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7788"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2211"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1149"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="236"/>
+		<set name="baseMAtk" value="700"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="367"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="60614"/>
+		<set name="rewardSp" value="7860"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.471"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Minion" value="1"/>
+			<set name="Buff" value="5079-1"/>
+			<!--NPC Focused Haste-->
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="Bomber" value="0"/>
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="5082-1"/>
+			<!--NPC Spinning, Slashing Trick-->
+		</ai_params>
+		<skills>
+			<skill id="4071" level="5"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="16"/>
+			<!--Very Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="17"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5083" level="1"/>
+			<!--Stun-->
+			<skill id="5084" level="1"/>
+			<!--NPC Blinding Blow-->
+		</skills>
+		<minions>
+			<minion npc_id="22201" count="3">
+				<!--Ornithomimus-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4059" max="8279" chance="100.0"/>
+			</group>
+			<group chance="0.5145">
+				<!--Elysian Head-->
+				<reward item_id="5533" min="1" max="1" chance="7.6773"/>
+				<!--Branch of The Mother Tree Head-->
+				<reward item_id="5544" min="1" max="1" chance="30.7872"/>
+				<!--Flaming Dragon Skull Piece-->
+				<reward item_id="8342" min="1" max="1" chance="46.1614"/>
+				<!--Doom Crusher Head-->
+				<reward item_id="8349" min="1" max="1" chance="15.3741"/>
+			</group>
+			<group chance="1.6843">
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="9.4044"/>
+				<!--Ancient Tactical Manual: Symbol of Energy-->
+				<reward item_id="8896" min="1" max="1" chance="4.6963"/>
+				<!--Spellbook: Summon Magnus the Unicorn-->
+				<reward item_id="8879" min="1" max="1" chance="3.5622"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<reward item_id="8633" min="1" max="1" chance="18.7851"/>
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="61.2068"/>
+				<!--Green Primeval Crystal-->
+				<reward item_id="8955" min="1" max="1" chance="2.3452"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="22203" name="Deinonychus" title="" pts_name="deinonychus"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.301-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="14"/>
+		<set name="collision_height" value="14.30"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7711"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2168"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1348"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="232"/>
+		<set name="baseMAtk" value="679"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="343"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="54743"/>
+		<set name="rewardSp" value="6846"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="8.5536"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Leader" value="1"/>
+			<set name="Buff" value="5079-1"/>
+			<!--NPC Focused Haste-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="5082-1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<set name="MoveAroundSocial" value="60"/>
+		</ai_params>
+		<skills>
+			<skill id="4071" level="3"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4287" level="5"/>
+			<!--Resist Hold Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="14"/>
+			<!--Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="16"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5082" level="1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<skill id="5084" level="1"/>
+			<!--NPC Blinding Blow-->
+		</skills>
+		<minions>
+			<minion npc_id="22204" count="3">
+				<!--Deinonychus-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4308" max="8702" chance="100.0"/>
+			</group>
+			<group chance="0.3378">
+				<!--Soul Bow Stave-->
+				<reward item_id="5534" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="1.5892">
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="35.1475"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<reward item_id="8633" min="1" max="1" chance="44.6238"/>
+				<!--Spellbook: Mystic Immunity-->
+				<reward item_id="8883" min="1" max="1" chance="5.3231"/>
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="11.7157"/>
+				<!--Green Primeval Crystal-->
+				<reward item_id="8955" min="1" max="1" chance="2.1267"/>
+				<!--Red Primeval Crystal-->
+				<reward item_id="8956" min="1" max="1" chance="1.0632"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--High Grade Suede-->
+			<reward item_id="1885" min="1" max="1" chance="35.2641"/>
+			<!--Sealed Tateossian Earring Part-->
+			<reward item_id="6698" min="1" max="1" chance="16.6666"/>
+			<!--Recipe: Shining Arrow (100%)-->
+			<reward item_id="6901" min="1" max="1" chance="0.7936"/>
+		</rewardlist>
+	</npc>  
+	<npc id="22204" name="Deinonychus" title="" pts_name="deinonychus1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.302-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="14"/>
+		<set name="collision_height" value="14.30"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7711"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2168"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1348"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="232"/>
+		<set name="baseMAtk" value="679"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="343"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="54743"/>
+		<set name="rewardSp" value="6846"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="8.5536"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Minion" value="1"/>
+			<set name="Buff" value="5079-1"/>
+			<!--NPC Focused Haste-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="5082-1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<set name="DDPhysic2" value="4032-10"/>
+			<!--NPC Strike-->
+		</ai_params>
+		<skills>
+			<skill id="4032" level="1"/>
+			<!--NPC Strike-->
+			<skill id="4071" level="3"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4287" level="5"/>
+			<!--Resist Hold Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="14"/>
+			<!--Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="8"/>
+			<!--Weak P. Def.-->
+			<skill id="4413" level="16"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4278" max="8729" chance="100.0"/>
+			</group>
+			<group chance="0.2506">
+				<!--Soul Bow Stave-->
+				<reward item_id="5534" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="2.422">
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="27.5227"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<reward item_id="8633" min="1" max="1" chance="44.8764"/>
+				<!--Amulet: Pa'agrio's Emblem-->
+				<reward item_id="8887" min="1" max="1" chance="10.3468"/>
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="13.8067"/>
+				<!--Green Primeval Crystal-->
+				<reward item_id="8955" min="1" max="1" chance="3.4474"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Sealed Tateossian Ring Gem-->
+			<reward item_id="6699" min="1" max="1" chance="25.0"/>
+			<!--Sealed Tateossian Necklace Chain-->
+			<reward item_id="6700" min="1" max="1" chance="25.0"/>
+		</rewardlist>
+	</npc>  
+	<npc id="22205" name="Deinonychus" title="" pts_name="deinonychus2"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.302-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="14"/>
+		<set name="collision_height" value="14.30"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7711"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2168"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1348"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="232"/>
+		<set name="baseMAtk" value="679"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="343"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="54743"/>
+		<set name="rewardSp" value="6846"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="8.5536"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Minion" value="1"/>
+			<set name="Buff" value="5079-1"/>
+			<!--NPC Focused Haste-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="5082-1"/>
+			<!--NPC Spinning, Slashing Trick-->
+		</ai_params>
+		<skills>
+			<skill id="4071" level="3"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4287" level="5"/>
+			<!--Resist Hold Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="14"/>
+			<!--Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="16"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5082" level="1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<skill id="5084" level="1"/>
+			<!--NPC Blinding Blow-->
+		</skills>
+		<minions>
+			<minion npc_id="22204" count="4">
+				<!--Deinonychus-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="3531" max="7199" chance="100.0"/>
+			</group>
+			<group chance="0.2247">
+				<!--Soul Bow Stave-->
+				<reward item_id="5534" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="1.0289">
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="76.2661"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<reward item_id="8633" min="1" max="1" chance="10.9146"/>
+				<!--Spellbook: Summon Spectral Knight-->
+				<reward item_id="8880" min="1" max="1" chance="7.367"/>
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="5.4523"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Stone of Purity-->
+			<reward item_id="1875" min="1" max="1" chance="68.0"/>
+		</rewardlist>
+	</npc>  
+	<npc id="22208" name="Pachycephalosaurus" title="" pts_name="pachycephalosaurus"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.302-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="22"/>
+		<set name="collision_height" value="40"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7866"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2253"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1065"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="240"/>
+		<set name="baseMAtk" value="720"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="369"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="58095"/>
+		<set name="rewardSp" value="7806"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.0774"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Leader" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="4067-10"/>
+			<!--NPC Mortal Blow-->
+			<set name="MoveAroundSocial" value="60"/>
+		</ai_params>
+		<skills>
+			<skill id="4067" level="1"/>
+			<!--NPC Mortal Blow-->
+			<skill id="4071" level="3"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="18"/>
+			<!--Extremely Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="13"/>
+			<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="17"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5083" level="1"/>
+			<!--Stun-->
+		</skills>
+		<minions>
+			<minion npc_id="22209" count="3">
+				<!--Pachycephalosaurus-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4602" max="9334" chance="100.0"/>
+			</group>
+			<group chance="0.2932">
+				<!--Soul Separator Head-->
+				<reward item_id="5537" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="0.2196">
+				<!--Scroll: Enchant Armor (Grade S)-->
+				<reward item_id="960" min="1" max="1" chance="66.6667"/>
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="33.3333"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Crafted Leather-->
+			<reward item_id="1894" min="1" max="1" chance="64.0"/>
+			<!--Sealed Imperial Crusader Boots Design-->
+			<reward item_id="6704" min="1" max="1" chance="25.0"/>
+		</rewardlist>
+	</npc>  
+	<npc id="22209" name="Pachycephalosaurus" title="" pts_name="pachycephalosaurus1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.302-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="22"/>
+		<set name="collision_height" value="40"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7866"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2253"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1065"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="240"/>
+		<set name="baseMAtk" value="720"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="369"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="58095"/>
+		<set name="rewardSp" value="7806"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.0774"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Minion" value="1"/>
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+		</ai_params>
+		<skills>
+			<skill id="4071" level="2"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="16"/>
+			<!--Very Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="13"/>
+			<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="17"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5083" level="1"/>
+			<!--Stun-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="5021" max="10140" chance="100.0"/>
+			</group>
+			<group chance="1.1363">
+				<!--Soul Separator Head-->
+				<reward item_id="5537" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="0.7633">
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="100.0"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="22210" name="Pachycephalosaurus" title="" pts_name="pachycephalosaurus2"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.302-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="22"/>
+		<set name="collision_height" value="40"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7866"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2253"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1065"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="240"/>
+		<set name="baseMAtk" value="720"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="369"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="58095"/>
+		<set name="rewardSp" value="7806"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.0774"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Minion" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="4067-10"/>
+			<!--NPC Mortal Blow-->
+		</ai_params>
+		<skills>
+			<skill id="4067" level="1"/>
+			<!--NPC Mortal Blow-->
+			<skill id="4071" level="3"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="18"/>
+			<!--Extremely Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="13"/>
+			<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="17"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5083" level="1"/>
+			<!--Stun-->
+		</skills>
+		<minions>
+			<minion npc_id="22209" count="3">
+				<!--Pachycephalosaurus-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="3927" max="7993" chance="100.0"/>
+			</group>
+			<group chance="0.3802">
+				<!--Soul Separator Head-->
+				<reward item_id="5537" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="0.9762">
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<reward item_id="8633" min="1" max="1" chance="97.5518"/>
+				<!--Spellbook: Spell Turning-->
+				<reward item_id="8884" min="1" max="1" chance="2.4482"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="22211" name="Wild Strider" title="" pts_name="wild_strider"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.302-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="32"/>
+		<set name="collision_height" value="44.20"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7866"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2253"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1065"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="240"/>
+		<set name="baseMAtk" value="720"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="369"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="58095"/>
+		<set name="rewardSp" value="7806"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.0774"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Leader" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="MagicSleep" value="5083-1"/>
+			<!--Stun-->
+			<set name="HoldMagic" value="5081-1"/>
+			<!--Silence-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="4232-10"/>
+			<!--NPC AE Strike-->
+			<set name="MoveAroundSocial" value="60"/>
+		</ai_params>
+		<skills>
+			<skill id="4071" level="4"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4232" level="1"/>
+			<!--NPC AE Strike-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="17"/>
+			<!--Very Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="16"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5081" level="1"/>
+			<!--Silence-->
+		</skills>
+		<minions>
+			<minion npc_id="22212" count="3">
+				<!--Wild Strider-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4493" max="9173" chance="100.0"/>
+			</group>
+			<group chance="0.877">
+				<!--Dragon Grinder Edge-->
+				<reward item_id="5538" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="0.146">
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="50.0"/>
+				<!--Red Primeval Crystal-->
+				<reward item_id="8956" min="1" max="1" chance="50.0"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="22212" name="Wild Strider" title="" pts_name="wild_strider1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.302-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Minion"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="32"/>
+		<set name="collision_height" value="44.20"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7866"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2253"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1065"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="240"/>
+		<set name="baseMAtk" value="720"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="369"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="58095"/>
+		<set name="rewardSp" value="7806"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.0774"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Minion" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="Bomber" value="0"/>
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="4067-10"/>
+			<!--NPC Mortal Blow-->
+		</ai_params>
+		<skills>
+			<skill id="4067" level="1"/>
+			<!--NPC Mortal Blow-->
+			<skill id="4071" level="4"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="16"/>
+			<!--Very Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="16"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4695" max="9552" chance="100.0"/>
+			</group>
+			<group chance="0.6024">
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="100.0"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="22213" name="Wild Strider" title="" pts_name="wild_strider2"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.302-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="32"/>
+		<set name="collision_height" value="44.20"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7866"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2253"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1065"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="240"/>
+		<set name="baseMAtk" value="720"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="369"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="58095"/>
+		<set name="rewardSp" value="7806"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.0774"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Minion" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="MagicSleep" value="5081-1"/>
+			<!--Silence-->
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="4232-10"/>
+			<!--NPC AE Strike-->
+		</ai_params>
+		<skills>
+			<skill id="4071" level="4"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4232" level="1"/>
+			<!--NPC AE Strike-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="17"/>
+			<!--Very Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="16"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5081" level="1"/>
+			<!--Silence-->
+		</skills>
+		<minions>
+			<minion npc_id="22212" count="3">
+				<!--Wild Strider-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="3914" max="7955" chance="100.0"/>
+			</group>
+			<group chance="0.1402">
+				<!--Dragon Grinder Edge-->
+				<reward item_id="5538" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="0.1402">
+				<!--Green Primeval Crystal-->
+				<reward item_id="8955" min="1" max="1" chance="100.0"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Stone of Purity-->
+			<reward item_id="1875" min="1" max="1" chance="63.0"/>
+		</rewardlist>
+	</npc>  
+	<npc id="22214" name="Elroki" title="" pts_name="elroki"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.302-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="25"/>
+		<set name="collision_height" value="33"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="15732"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2253"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1065"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="240"/>
+		<set name="baseMAtk" value="720"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="369"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="58095"/>
+		<set name="rewardSp" value="7806"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.0774"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="MagicSleep" value="4486-10"/>
+			<!--Decrease P. Def.-->
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDMagic1" value="4151-10"/>
+			<!--NPC Windstrike - Magic-->
+			<set name="DDMagic2" value="5178-1"/>
+			<!--NPC Burn-->
+			<set name="MoveAroundSocial" value="60"/>
+		</ai_params>
+		<skills>
+			<skill id="4071" level="2"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4151" level="1"/>
+			<!--NPC Windstrike - Magic-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="13"/>
+			<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="18"/>
+			<!--Extremely Strong M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4438" level="5"/>
+			<!--Greater Resist Sleep-->
+			<skill id="4439" level="5"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="4486" level="1"/>
+			<!--Decrease P. Def.-->
+			<skill id="4571" level="1"/>
+			<!--NPC Blazing Circle-->
+			<skill id="5080" level="1"/>
+			<!--NPC Mighty Haste-->
+			<skill id="5178" level="1"/>
+			<!--NPC Burn-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4478" max="9052" chance="100.0"/>
+			</group>
+			<group chance="3.3198">
+				<!--Sealed Boots of Nightmare Lining-->
+				<reward item_id="5502" min="1" max="1" chance="6.1961"/>
+				<!--Sealed Majestic Boots Lining-->
+				<reward item_id="5503" min="1" max="1" chance="6.1961"/>
+				<!--Sealed Gauntlets of Nightmare Design-->
+				<reward item_id="5514" min="1" max="1" chance="81.4116"/>
+				<!--Sealed Majestic Gauntlets Design-->
+				<reward item_id="5515" min="1" max="1" chance="6.1962"/>
+			</group>
+			<group chance="0.2057">
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="100.0"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Compound Braid-->
+			<reward item_id="1889" min="1" max="1" chance="51.0"/>
+			<!--Metallic Thread-->
+			<reward item_id="5549" min="1" max="1" chance="75.0"/>
+		</rewardlist>
+	</npc>  
+	<npc id="22215" name="Tyrannosaurus" title="" pts_name="tyrannosaurus1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.302-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="60"/>
+		<set name="collision_height" value="89.70"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="55"/>
+		<set name="baseINT" value="71"/>
+		<set name="baseDEX" value="68"/>
+		<set name="baseWIT" value="65"/>
+		<set name="baseCON" value="52"/>
+		<set name="baseMEN" value="75"/>
+		<set name="baseHpMax" value="193928"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2339"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="2135"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="250"/>
+		<set name="baseMAtk" value="763"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="381"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="120471"/>
+		<set name="rewardSp" value="8406"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="18.8236"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="MagicSleep" value="5081-1"/>
+			<!--Silence-->
+			<set name="HoldMagic" value="5120-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="5082-1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<set name="DDPhysic2" value="5083-1"/>
+			<!--Stun-->
+			<set name="MoveAroundSocial" value="60"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="16"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4438" level="5"/>
+			<!--Greater Resist Sleep-->
+			<skill id="4439" level="5"/>
+			<!--Greater Resist Hold-->
+			<skill id="4440" level="5"/>
+			<!--Greater Resist Paralysis-->
+			<skill id="4441" level="5"/>
+			<!--Greater Resist Mental Derangement-->
+			<skill id="4444" level="2"/>
+			<!--Higher Resist Bow/Crossbow Weapons-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5081" level="1"/>
+			<!--Silence-->
+			<skill id="5082" level="1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<skill id="5083" level="1"/>
+			<!--Stun-->
+			<skill id="5087" level="1"/>
+			<!--Berserk-->
+			<skill id="5120" level="1"/>
+			<!--Stun-->
+		</skills>
+		<absorblist>
+			<absorb chance="10" min_level="10" max_level="12" type="PARTY_ALL"/>
+		</absorblist>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="55210" max="110520" chance="100.0"/>
+			</group>
+			<group chance="6.6666">
+				<!--Tallum Glaive Edge-->
+				<reward item_id="5541" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="16.4284">
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="27.668"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<reward item_id="8633" min="1" max="1" chance="35.8058"/>
+				<!--Ancient Tactical Manual: Symbol of Resistance-->
+				<reward item_id="8894" min="1" max="1" chance="9.0849"/>
+				<!--Ancient Tactical Manual: Symbol of Honor-->
+				<reward item_id="8895" min="1" max="1" chance="5.9676"/>
+				<!--Red Primeval Crystal-->
+				<reward item_id="8956" min="1" max="1" chance="3.0282"/>
+				<!--Top-Grade Life Stone: level 76-->
+				<reward item_id="8762" min="1" max="1" chance="18.4455"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="22216" name="Tyrannosaurus" title="" pts_name="tyrannosaurus2"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.303-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="60"/>
+		<set name="collision_height" value="89.70"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="55"/>
+		<set name="baseINT" value="71"/>
+		<set name="baseDEX" value="68"/>
+		<set name="baseWIT" value="65"/>
+		<set name="baseCON" value="52"/>
+		<set name="baseMEN" value="75"/>
+		<set name="baseHpMax" value="193928"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2339"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="2135"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="250"/>
+		<set name="baseMAtk" value="763"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="381"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="120471"/>
+		<set name="rewardSp" value="8406"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="18.8236"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="MagicSleep" value="5081-1"/>
+			<!--Silence-->
+			<set name="HoldMagic" value="5120-1"/>
+			<!--Stun-->
+			<set name="Bomber" value="0"/>
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="5082-1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<set name="DDPhysic2" value="5083-1"/>
+			<!--Stun-->
+			<set name="MoveAroundSocial" value="60"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="16"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4438" level="5"/>
+			<!--Greater Resist Sleep-->
+			<skill id="4439" level="5"/>
+			<!--Greater Resist Hold-->
+			<skill id="4440" level="5"/>
+			<!--Greater Resist Paralysis-->
+			<skill id="4441" level="5"/>
+			<!--Greater Resist Mental Derangement-->
+			<skill id="4444" level="2"/>
+			<!--Higher Resist Bow/Crossbow Weapons-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5081" level="1"/>
+			<!--Silence-->
+			<skill id="5082" level="1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<skill id="5083" level="1"/>
+			<!--Stun-->
+			<skill id="5087" level="1"/>
+			<!--Berserk-->
+			<skill id="5120" level="1"/>
+			<!--Stun-->
+		</skills>
+		<absorblist>
+			<absorb chance="10" min_level="10" max_level="12" type="PARTY_ALL"/>
+		</absorblist>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="57070" max="100100" chance="100.0"/>
+			</group>
+			<group chance="5.8823">
+				<!--Tallum Glaive Edge-->
+				<reward item_id="5541" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="43.3213">
+				<!--Ancient Spellbook: Purification Field-->
+				<reward item_id="8905" min="1" max="1" chance="5.63"/>
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="80.7918"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<reward item_id="8633" min="1" max="1" chance="13.5782"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="22217" name="Tyrannosaurus" title="" pts_name="tyrannosaurus3"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.303-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="60"/>
+		<set name="collision_height" value="89.70"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="55"/>
+		<set name="baseINT" value="71"/>
+		<set name="baseDEX" value="68"/>
+		<set name="baseWIT" value="65"/>
+		<set name="baseCON" value="52"/>
+		<set name="baseMEN" value="75"/>
+		<set name="baseHpMax" value="193928"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2339"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="2135"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="250"/>
+		<set name="baseMAtk" value="763"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="381"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="120471"/>
+		<set name="rewardSp" value="8406"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="18.8236"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<set name="canSeeInSilentMove" value="true"/>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="MagicSleep" value="5081-1"/>
+			<!--Silence-->
+			<set name="HoldMagic" value="5120-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="5082-1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<set name="DDPhysic2" value="5083-1"/>
+			<!--Stun-->
+			<set name="MoveAroundSocial" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="16"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4438" level="5"/>
+			<!--Greater Resist Sleep-->
+			<skill id="4439" level="5"/>
+			<!--Greater Resist Hold-->
+			<skill id="4440" level="5"/>
+			<!--Greater Resist Paralysis-->
+			<skill id="4441" level="5"/>
+			<!--Greater Resist Mental Derangement-->
+			<skill id="4444" level="2"/>
+			<!--Higher Resist Bow/Crossbow Weapons-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5081" level="1"/>
+			<!--Silence-->
+			<skill id="5082" level="1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<skill id="5083" level="1"/>
+			<!--Stun-->
+			<skill id="5087" level="1"/>
+			<!--Berserk-->
+			<skill id="5120" level="1"/>
+			<!--Stun-->
+		</skills>
+		<absorblist>
+			<absorb chance="10" min_level="10" max_level="12" type="PARTY_ALL"/>
+		</absorblist>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="55710" max="109660" chance="100.0"/>
+			</group>
+			<group chance="4.5454">
+				<!--Tallum Glaive Edge-->
+				<reward item_id="5541" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="15.7947">
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="21.1039"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<reward item_id="8633" min="1" max="1" chance="57.557"/>
+				<!--Ancient Spellbook: Gehenna-->
+				<reward item_id="8903" min="1" max="1" chance="7.113"/>
+				<!--Ancient Spellbook: Mass Recharge-->
+				<reward item_id="8908" min="1" max="1" chance="7.113"/>
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="7.1131"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Enria-->
+			<reward item_id="4042" min="1" max="3" chance="30.0"/>
+		</rewardlist>
+	</npc>  
+	<npc id="22218" name="Velociraptor" title="" pts_name="velociraptor3"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.304-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="19"/>
+		<set name="collision_height" value="47.20"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7945"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2296"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1100"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="245"/>
+		<set name="baseMAtk" value="741"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="375"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="57274"/>
+		<set name="rewardSp" value="8106"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="8.949"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Minion" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="4032-10"/>
+			<!--NPC Strike-->
+			<set name="MoveAroundSocial" value="60"/>
+		</ai_params>
+		<skills>
+			<skill id="4032" level="10"/>
+			<!--NPC Strike-->
+			<skill id="4071" level="3"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="18"/>
+			<!--Extremely Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="10"/>
+			<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="15"/>
+			<!--Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4232" max="8612" chance="100.0"/>
+			</group>
+			<group chance="0.9604">
+				<!--Dragon Slayer Edge-->
+				<reward item_id="5529" min="1" max="1" chance="66.7431"/>
+				<!--Sword of Miracles Edge-->
+				<reward item_id="5546" min="1" max="1" chance="33.2569"/>
+			</group>
+			<group chance="1.3502">
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="23.6556"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<reward item_id="8633" min="1" max="1" chance="59.2507"/>
+				<!--Ancient Spellbook: Miracle-->
+				<reward item_id="8906" min="1" max="1" chance="5.2658"/>
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="11.8279"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="22219" name="Ornithomimus" title="" pts_name="ornithomimus3"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.304-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="37.20"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7788"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2211"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1149"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="236"/>
+		<set name="baseMAtk" value="700"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="367"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="60614"/>
+		<set name="rewardSp" value="7860"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.471"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Minion" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+		</ai_params>
+		<skills>
+			<skill id="4071" level="5"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="16"/>
+			<!--Very Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="16"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5084" level="1"/>
+			<!--NPC Blinding Blow-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4165" max="8486" chance="100.0"/>
+			</group>
+			<group chance="0.4796">
+				<!--Elysian Head-->
+				<reward item_id="5533" min="1" max="1" chance="40.013"/>
+				<!--Branch of The Mother Tree Head-->
+				<reward item_id="5544" min="1" max="1" chance="40.0123"/>
+				<!--Flaming Dragon Skull Piece-->
+				<reward item_id="8342" min="1" max="1" chance="19.9747"/>
+			</group>
+			<group chance="0.3954">
+				<!--Spellbook: Summon Feline King-->
+				<reward item_id="8878" min="1" max="1" chance="19.1704"/>
+				<!--Ancient Spellbook: Cyclone-->
+				<reward item_id="8900" min="1" max="1" chance="32.3723"/>
+				<!--Blue Primeval Crystal-->
+				<reward item_id="8954" min="1" max="1" chance="24.2286"/>
+				<!--Green Primeval Crystal-->
+				<reward item_id="8955" min="1" max="1" chance="24.2287"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Recipe: Shining Arrow (100%)-->
+			<reward item_id="6901" min="1" max="1" chance="0.7812"/>
+		</rewardlist>
+	</npc>  
+	<npc id="22220" name="Deinonychus" title="" pts_name="deinonychus3"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.304-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="14"/>
+		<set name="collision_height" value="14.30"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7711"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2168"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1348"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="232"/>
+		<set name="baseMAtk" value="679"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="343"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="54743"/>
+		<set name="rewardSp" value="6846"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="8.5536"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Minion" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="4067-10"/>
+			<!--NPC Mortal Blow-->
+		</ai_params>
+		<skills>
+			<skill id="4067" level="10"/>
+			<!--NPC Mortal Blow-->
+			<skill id="4071" level="3"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4287" level="5"/>
+			<!--Resist Hold Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="14"/>
+			<!--Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="8"/>
+			<!--Weak P. Def.-->
+			<skill id="4413" level="13"/>
+			<!--Slightly Strong M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="3866" max="7871" chance="100.0"/>
+			</group>
+			<group chance="0.9231">
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="61.1961"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<reward item_id="8633" min="1" max="1" chance="30.5925"/>
+				<!--Spellbook: Summon Magnus the Unicorn-->
+				<reward item_id="8879" min="1" max="1" chance="8.2114"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Stone of Purity-->
+			<reward item_id="1875" min="1" max="1" chance="62.0"/>
+		</rewardlist>
+	</npc>  
+	<npc id="22221" name="Pachycephalosaurus" title="" pts_name="pachycephalosaurus3"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.305-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="22"/>
+		<set name="collision_height" value="40"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7788"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2211"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1149"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="236"/>
+		<set name="baseMAtk" value="700"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="367"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="60614"/>
+		<set name="rewardSp" value="7860"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.471"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Minion" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="MagicSleep" value="5081-1"/>
+			<!--Silence-->
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+		</ai_params>
+		<skills>
+			<skill id="4071" level="2"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="16"/>
+			<!--Very Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="8"/>
+			<!--Weak P. Def.-->
+			<skill id="4413" level="15"/>
+			<!--Strong M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5083" level="1"/>
+			<!--Stun-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4503" max="9017" chance="100.0"/>
+			</group>
+			<group chance="0.5586">
+				<!--Soul Separator Head-->
+				<reward item_id="5537" min="1" max="1" chance="100.0"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="22222" name="Wild Strider" title="" pts_name="wild_strider3"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.305-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="32"/>
+		<set name="collision_height" value="44.20"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7866"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2253"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1065"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="240"/>
+		<set name="baseMAtk" value="720"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="369"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="58095"/>
+		<set name="rewardSp" value="7806"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.0774"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Minion" value="1"/>
+			<set name="MagicSleep" value="5081-1"/>
+			<!--Silence-->
+			<set name="DDPhysic1" value="4067-10"/>
+			<!--NPC Mortal Blow-->
+		</ai_params>
+		<skills>
+			<skill id="4067" level="10"/>
+			<!--NPC Mortal Blow-->
+			<skill id="4071" level="4"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="14"/>
+			<!--Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="15"/>
+			<!--Strong M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4400" max="8907" chance="100.0"/>
+			</group>
+			<group chance="1.3513">
+				<!--Dragon Grinder Edge-->
+				<reward item_id="5538" min="1" max="1" chance="100.0"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Stone of Purity-->
+			<reward item_id="1875" min="1" max="1" chance="62.0"/>
+		</rewardlist>
+	</npc>  
+	<npc id="22223" name="Velociraptor" title="" pts_name="velociraptor_a"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.305-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="19"/>
+		<set name="collision_height" value="47.20"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7945"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2296"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1100"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="245"/>
+		<set name="baseMAtk" value="741"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="375"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="57274"/>
+		<set name="rewardSp" value="8106"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="8.949"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="MagicSleep" value="5081-1"/>
+			<!--Silence-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="5082-1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<set name="MoveAroundSocial" value="60"/>
+		</ai_params>
+		<skills>
+			<skill id="4071" level="3"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="19"/>
+			<!--Extremely Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="10"/>
+			<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="15"/>
+			<!--Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5081" level="1"/>
+			<!--Silence-->
+			<skill id="5082" level="1"/>
+			<!--NPC Spinning, Slashing Trick-->
+		</skills>
+		<minions>
+			<minion npc_id="22201" count="2">
+				<!--Ornithomimus-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4432" max="9023" chance="100.0"/>
+			</group>
+			<group chance="0.207">
+				<!--Dark Legion's Edge Blade-->
+				<reward item_id="5545" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="0.8356">
+				<!--Ancient Tactical Manual: Symbol of the Assassin-->
+				<reward item_id="8898" min="1" max="1" chance="10.2561"/>
+				<!--Ancient Spellbook: Raging Waves-->
+				<reward item_id="8901" min="1" max="1" chance="15.3182"/>
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="24.7726"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<reward item_id="8633" min="1" max="1" chance="49.6531"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="22224" name="Ornithomimus" title="" pts_name="ornithomimus_a"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.305-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="37.20"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7788"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2211"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1149"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="236"/>
+		<set name="baseMAtk" value="700"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="367"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="60614"/>
+		<set name="rewardSp" value="7860"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.471"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="MagicSleep" value="5081-1"/>
+			<!--Silence-->
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+		</ai_params>
+		<skills>
+			<skill id="4071" level="5"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="16"/>
+			<!--Very Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="17"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5083" level="1"/>
+			<!--Stun-->
+			<skill id="5084" level="1"/>
+			<!--NPC Blinding Blow-->
+		</skills>
+		<minions>
+			<minion npc_id="22201" count="2">
+				<!--Ornithomimus-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4589" max="9014" chance="100.0"/>
+			</group>
+			<group chance="1.4544">
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="47.0884"/>
+				<!--Ancient Tactical Manual: Symbol of the Sniper-->
+				<reward item_id="8897" min="1" max="1" chance="5.8233"/>
+				<!--Green Primeval Crystal-->
+				<reward item_id="8955" min="1" max="1" chance="47.0883"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="22225" name="Deinonychus" title="" pts_name="deinonychus_a"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.305-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="14"/>
+		<set name="collision_height" value="14.30"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7711"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2168"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1348"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="232"/>
+		<set name="baseMAtk" value="679"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="343"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="1000"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="54743"/>
+		<set name="rewardSp" value="6846"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="8.5536"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="MagicSleep" value="5081-1"/>
+			<!--Silence-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="5082-1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<set name="MoveAroundSocial" value="60"/>
+		</ai_params>
+		<skills>
+			<skill id="4071" level="3"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4287" level="5"/>
+			<!--Resist Hold Attacks-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="14"/>
+			<!--Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="16"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5082" level="1"/>
+			<!--NPC Spinning, Slashing Trick-->
+			<skill id="5084" level="1"/>
+			<!--NPC Blinding Blow-->
+		</skills>
+		<minions>
+			<minion npc_id="22204" count="2">
+				<!--Deinonychus-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4308" max="8702" chance="100.0"/>
+			</group>
+			<group chance="0.6849">
+				<!--Soul Bow Stave-->
+				<reward item_id="5534" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="3.4842">
+				<!--Elixir of Life (S-Grade)-->
+				<reward item_id="8627" min="1" max="1" chance="100.0"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="22226" name="Pachycephalosaurus" title="" pts_name="pachycephalosaurus_a"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.305-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="22"/>
+		<set name="collision_height" value="40"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7866"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2253"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1065"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="240"/>
+		<set name="baseMAtk" value="720"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="369"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="500"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="58095"/>
+		<set name="rewardSp" value="7806"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.0774"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="MagicSleep" value="5081-1"/>
+			<!--Silence-->
+			<set name="HoldMagic" value="5083-1"/>
+			<!--Stun-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="4067-10"/>
+			<!--NPC Mortal Blow-->
+			<set name="MoveAroundSocial" value="60"/>
+		</ai_params>
+		<skills>
+			<skill id="4067" level="10"/>
+			<!--NPC Mortal Blow-->
+			<skill id="4071" level="3"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="9"/>
+			<!--HP Increase (1/2x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="18"/>
+			<!--Extremely Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="8"/>
+			<!--Weak P. Def.-->
+			<skill id="4413" level="16"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5083" level="1"/>
+			<!--Stun-->
+		</skills>
+		<minions>
+			<minion npc_id="22209" count="2">
+				<!--Pachycephalosaurus-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="5409" max="9915" chance="100.0"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="22227" name="Wild Strider" title="" pts_name="wild_strider_a"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.305-->
+		<set name="ai_type" value="moveroute.Fighter"/>
+		<set name="type" value="SpecialMonster"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="32"/>
+		<set name="collision_height" value="44.20"/>
+		<set name="baseRunSpd" value="169"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="7866"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2253"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1065"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="240"/>
+		<set name="baseMAtk" value="720"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="369"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="500"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="58095"/>
+		<set name="rewardSp" value="7806"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="9.0774"/>
+		<faction name="dino" range="1500"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="IsDyno" value="1"/>
+			<set name="Aggressive" value="1"/>
+			<set name="Buff" value="5080-1"/>
+			<!--NPC Mighty Haste-->
+			<set name="MagicSleep" value="5081-1"/>
+			<!--Silence-->
+			<set name="DeBuff" value="5084-1"/>
+			<!--NPC Blinding Blow-->
+			<set name="DDPhysic1" value="4232-10"/>
+			<!--NPC AE Strike-->
+			<set name="MoveAroundSocial" value="60"/>
+		</ai_params>
+		<skills>
+			<skill id="4071" level="4"/>
+			<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4232" level="10"/>
+			<!--NPC AE Strike-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4408" level="9"/>
+			<!--HP Increase (1/2x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="17"/>
+			<!--Very Strong P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="16"/>
+			<!--Very Strong M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4417" level="4"/>
+			<!--Beasts-->
+			<skill id="4439" level="2"/>
+			<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>
+			<!--Greater Resist Spear Weapons-->
+			<skill id="5081" level="1"/>
+			<!--Silence-->
+		</skills>
+		<minions>
+			<minion npc_id="22212" count="2">
+				<!--Wild Strider-->
+			</minion>
+		</minions>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="4826" max="9524" chance="100.0"/>
+			</group>
+			<group chance="3.7037">
+				<!--Dragon Grinder Edge-->
+				<reward item_id="5538" min="1" max="1" chance="100.0"/>
+			</group>
+		</rewardlist>
+	</npc> 
+</list>

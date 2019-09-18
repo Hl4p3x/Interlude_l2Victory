@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChatFilters>
+	<!-- Запрет чата для новичков по лимиту уровня, отсылает предупреждение -->
+	<!--
+	<ChatFilter>
+	  <Channels>SHOUT,TRADE,L2FRIEND</Channels>
+	  <Level>20</Level>
+	  <Action>WarnMsg</Action>
+	  <WarnMsg>common.ChattingProhibitedForNiewbies</WarnMsg>
+	 </ChatFilter>
+	 -->
+	<!-- Торговый и основной чат, ограничение по уровню, для перенаправления в общий чат -->
+	<!--
+	<ChatFilter>
+		<Channels>SHOUT,TRADE</Channels>
+		<Level>20</Level>
+		<Action>RedirectMsg</Action>
+		<RedirectChannel>ALL</RedirectChannel>
+	</ChatFilter>
+	-->
+	<!-- Автоперенаправление сообщений о купле/продажи в торговый чат -->
+	<!--
+	<ChatFilter>
+		<Channels>SHOUT</Channels>
+		<Words>
+			\bwtb\b
+			\bwtt\b
+			\bwts\b
+		</Words>
+		<Action>RedirectMsg</Action>
+		<RedirectChannel>TRADE</RedirectChannel>
+	</ChatFilter>
+	-->
+	<!-- Автоцензор для основных публичных каналов -->
+	<ChatFilter>
+		<Channels>ALL,SHOUT,TELL,TRADE,HERO_VOICE</Channels>
+		<Words>
+			\bfuck\b
+			\bnigger\b
+		</Words>
+		<Action>ReplaceMsg</Action>
+		<ReplaceMsg>[censored]</ReplaceMsg>
+	</ChatFilter>	
+	<!-- Торговый и основной чат в городах, лимиты на частоту использования -->
+	<!--
+	<ChatFilter>
+		<Channels>SHOUT,TRADE</Channels>
+		<Maps>19_21,20_22,22_22,21_23,22_19,24_18,23_24,24_16,21_16,22_13</Maps>
+		<Limit>
+			<Count>1</Count>
+			<Time>30</Time>
+			<Burst>3</Burst>
+		</Limit>
+		<Action>WarnMsg</Action>
+		<WarnMsg>common.ChattingFast</WarnMsg>
+	</ChatFilter>
+	-->
+	<!-- Троговый и основной чат -->
+	<ChatFilter>
+		<Channels>SHOUT,TRADE</Channels>
+		<Limit>
+			<Count>1</Count>
+			<Time>5</Time>
+			<Burst>2</Burst>
+		</Limit>
+		<Action>WarnMsg</Action>
+		<WarnMsg>common.ChattingFast</WarnMsg>
+	</ChatFilter>
+	<!-- Геройский чат -->
+	<ChatFilter>
+		<Channels>HERO_VOICE</Channels>
+		<Limit>
+			<Count>1</Count>
+			<Time>10</Time>
+			<Burst>1</Burst>
+		</Limit>
+		<Action>WarnMsg</Action>
+		<WarnMsg>common.ChattingHero</WarnMsg>
+	</ChatFilter>	
+	<!-- Приватный чат, фильтр от спам ботов -->
+	<!--
+	<ChatFilter>
+		<Channels>TELL</Channels>
+		<RecipientLimit>
+			<Count>1</Count>
+			<Time>30</Time>
+			<Burst>5</Burst>
+		</RecipientLimit>
+		<Action>ReplaceMsg</Action>
+		<ReplaceMsg></ReplaceMsg>
+	</ChatFilter>
+	-->
+	<!-- Общий чат в городах, ограничение по уровню -->
+	<!-- Торговый и основной чат в городах, ограничение по уровню и общему времени онлайн -->
+	<!--
+	<ChatFilter>
+		<ExcludePremium>True</ExcludePremium>
+		<Maps>19_21,20_22,22_22,21_23,22_19,24_18,23_24,24_16,21_16,22_13</Maps>
+		<Or>
+			<And>
+				<Channels>ALL</Channels>
+				<Level>30</Level>
+			</And>
+			<And>
+				<Channels>SHOUT,TRADE</Channels>
+				<Or>
+					<Level>40</Level>
+					<OnlineTime>10800</OnlineTime>
+				</Or>
+			</And>
+		</Or>
+		<Action>WarnMsg</Action>
+		<WarnMsg>common.ChattingProhibited</WarnMsg>
+	</ChatFilter>
+	-->
+	<!-- Антифлуд для основных публичных каналов -->
+	<!--
+	<ChatFilter>
+		<Channels>ALL,SHOUT,TELL,TRADE</Channels>
+		<FloodLimit>
+			<Count>1</Count>
+			<Time>10</Time>
+			<Burst>5</Burst>
+		</FloodLimit>
+		<Action>BanChat</Action>
+		<BanTime>300</BanTime>
+	</ChatFilter>
+	-->
+</ChatFilters>

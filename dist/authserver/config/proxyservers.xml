@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+    <!--
+    Использование : <proxyServer origId="<original_server_id>" proxyId="<proxy_server_id>" proxyHost="<proxy_host>" proxyPort="<proxy_port>" />
+    Именно:
+        <original_server_id>    - Оригинальный ID сервера. Например Bartz - 1
+        <proxy_server_id>       - Сервер ID который будет использовать прокси сервер (фэйково парковать доп адрес). К примеру 2 - Sieghardt
+        <proxy_host>            - (Хост) IP адрес прокси сервера
+        <proxy_port>            - Порт прокси сервера
+    Пример:
+        <proxyServer origId="1" proxyId="2" proxyHost="127.0.0.1" proxyPort="7777" />
+    -->
+</list>

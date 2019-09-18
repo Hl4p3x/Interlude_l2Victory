@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="12526" name="Wind Strider" title="" pts_name="wind_strider"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.557-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="55"/>
+		<set name="exp" value="70853089"/>
+		<set name="race" value="dragon"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="23"/>
+		<set name="collision_height" value="31"/>
+		<set name="baseRunSpd" value="168"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="1727"/>
+		<set name="baseHpReg" value="10.27"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1138"/>
+		<set name="baseMpReg" value="2.45"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="422"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="250.98"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="196"/>
+		<set name="baseMAtk" value="284"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="236"/>
+		<set name="HitTimeFactor" value="0.25"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="corpse_time" value="1200"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="PhysicalSpecial" value="4710-1"/>
+			<!--Wild Stun-->
+			<set name="Buff" value="4711-1"/>
+			<!--Wild Defense-->
+		</ai_params>
+		<skills>
+			<skill id="4416" level="10"/>
+			<!--Dragons-->
+		</skills>
+	</npc>  
+	<npc id="12527" name="Star Strider" title="" pts_name="star_strider"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.558-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="55"/>
+		<set name="exp" value="70853089"/>
+		<set name="race" value="dragon"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="23"/>
+		<set name="collision_height" value="31"/>
+		<set name="baseRunSpd" value="168"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="1727"/>
+		<set name="baseHpReg" value="10.27"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1138"/>
+		<set name="baseMpReg" value="2.45"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="422"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="250.98"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="196"/>
+		<set name="baseMAtk" value="284"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="236"/>
+		<set name="HitTimeFactor" value="0.25"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="corpse_time" value="1200"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="DDMagic" value="4712-1"/>
+			<!--Bright Burst-->
+			<set name="Heal" value="4713-1"/>
+			<!--Bright Heal-->
+		</ai_params>
+		<skills>
+			<skill id="4416" level="10"/>
+			<!--Dragons-->
+		</skills>
+	</npc>  
+	<npc id="12528" name="Twilight Strider" title="" pts_name="twilight_strider"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.558-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="55"/>
+		<set name="exp" value="70853089"/>
+		<set name="race" value="dragon"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="23"/>
+		<set name="collision_height" value="31"/>
+		<set name="baseRunSpd" value="168"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="1727"/>
+		<set name="baseHpReg" value="10.27"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1138"/>
+		<set name="baseMpReg" value="2.45"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="422"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="250.98"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="196"/>
+		<set name="baseMAtk" value="284"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="236"/>
+		<set name="HitTimeFactor" value="0.25"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="corpse_time" value="1200"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4416" level="10"/>
+			<!--Dragons-->
+		</skills>
+	</npc>  
+	<npc id="12564" name="Sin Eater" title="" pts_name="sin_eater"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.559-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="15"/>
+		<set name="exp" value="254330"/>
+		<set name="race" value="fairy"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="10"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="123"/>
+		<set name="baseWalkSpd" value="59"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="1"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="123"/>
+		<set name="baseHpReg" value="1.15"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="164"/>
+		<set name="baseMpReg" value="1.21"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="8"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="250.98"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="16"/>
+		<set name="baseMAtk" value="6"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="19"/>
+		<set name="HitTimeFactor" value="0.34"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="corpse_time" value="1200"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4416" level="13"/>
+			<!--Fairies-->
+		</skills>
+	</npc> 
+</list>

@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+    <zone name="[hunter_town_event_arena]" type="dummy">
+        <polygon>
+            <coords loc="120837 78996 -2749 -1249"/>
+            <coords loc="118917 80603 -2749 -1249"/>
+            <coords loc="116981 80412 -2749 -1249"/>
+            <coords loc="115383 79832 -2749 -1249"/>
+            <coords loc="114029 76721 -2749 -1249"/>
+            <coords loc="114670 74772 -2749 -1249"/>
+            <coords loc="115464 74131 -2749 -1249"/>
+            <coords loc="118488 74094 -2749 -1249"/>
+            <coords loc="120717 74271 -2749 -1249"/>
+            <coords loc="121548 76702 -2749 -1249"/>
+        </polygon>
+    </zone>
+    <zone name="[talking_island_event_arena]" type="dummy">
+        <polygon>
+            <coords loc="-85896 244568 -3754 -3550"/>
+            <coords loc="-84504 243320 -3754 -3550"/>
+            <coords loc="-83032 244632 -3754 -3550"/>
+            <coords loc="-82744 244376 -3754 -3550"/>
+            <coords loc="-83928 243032 -3754 -3550"/>
+            <coords loc="-82440 241800 -3754 -3550"/>
+            <coords loc="-82808 241544 -3754 -3550"/>
+            <coords loc="-84152 242520 -3754 -3550"/>
+            <coords loc="-85640 241240 -3754 -3550"/>
+            <coords loc="-85928 241528 -3754 -3550"/>
+            <coords loc="-84616 242968 -3754 -3550"/>
+            <coords loc="-85640 243912 -3754 -3550"/>
+            <coords loc="-86040 244312 -3754 -3550"/>
+        </polygon>
+    </zone>
+    <zone name="[ti_new_event_arena]" type="dummy">
+        <polygon>
+            <coords loc="-84456 243464 -3754 -3600"/>
+            <coords loc="-83480 244344 -3754 -3600"/>
+            <coords loc="-83032 245144 -3754 -3600"/>
+            <coords loc="-82760 244888 -3754 -3600"/>
+            <coords loc="-82440 244616 -3754 -3600"/>
+            <coords loc="-83224 243576 -3754 -3600"/>
+            <coords loc="-83352 243656 -3754 -3600"/>
+            <coords loc="-83576 243240 -3754 -3600"/>
+            <coords loc="-83480 242872 -3754 -3600"/>
+            <coords loc="-83208 242552 -3754 -3600"/>
+            <coords loc="-82472 242216 -3754 -3600"/>
+            <coords loc="-82552 242040 -3754 -3600"/>
+            <coords loc="-82200 241800 -3754 -3600"/>
+            <coords loc="-82344 241672 -3754 -3600"/>
+            <coords loc="-82616 241320 -3754 -3600"/>
+            <coords loc="-83416 241832 -3754 -3600"/>
+            <coords loc="-84152 242296 -3754 -3600"/>
+            <coords loc="-84904 241672 -3754 -3600"/>
+            <coords loc="-85208 241464 -3754 -3600"/>
+            <coords loc="-85768 240968 -3754 -3600"/>
+            <coords loc="-86264 241384 -3754 -3600"/>
+            <coords loc="-85912 241752 -3754 -3600"/>
+            <coords loc="-85336 242408 -3754 -3600"/>
+            <coords loc="-85288 242376 -3754 -3600"/>
+            <coords loc="-84872 242856 -3754 -3600"/>
+            <coords loc="-85064 243128 -3754 -3600"/>
+            <coords loc="-85672 243880 -3754 -3600"/>
+            <coords loc="-86264 244328 -3754 -3600"/>
+            <coords loc="-85976 244648 -3754 -3600"/>
+            <coords loc="-85480 244584 -3754 -3600"/>
+            <coords loc="-85384 244488 -3754 -3600"/>
+            <coords loc="-84808 244040 -3754 -3600"/>
+            <coords loc="-84984 243816 -3754 -3600"/>
+        </polygon>
+    </zone>
+    <zone name="[baium_lair_event_arena]" type="dummy">
+        <polygon>
+            <coords loc="115752 17640 10051 10250"/>
+            <coords loc="115960 17368 10051 10250"/>
+            <coords loc="116232 17160 10051 10250"/>
+            <coords loc="116664 17400 10051 10250"/>
+            <coords loc="117016 16584 10051 10250"/>
+            <coords loc="117016 15624 10051 10250"/>
+            <coords loc="116632 14680 10051 10250"/>
+            <coords loc="116120 14152 10051 10250"/>
+            <coords loc="115784 13944 10051 10250"/>
+            <coords loc="115144 13688 10051 10250"/>
+            <coords loc="114376 13672 10051 10250"/>
+            <coords loc="114152 13688 10051 10250"/>
+            <coords loc="113304 14024 10051 10250"/>
+            <coords loc="112648 14696 10051 10250"/>
+            <coords loc="112264 15624 10051 10250"/>
+            <coords loc="112248 16248 10051 10250"/>
+            <coords loc="112264 16552 10051 10250"/>
+            <coords loc="112632 17400 10051 10250"/>
+            <coords loc="113288 18088 10051 10250"/>
+            <coords loc="114152 18440 10051 10250"/>
+            <coords loc="115112 18456 10051 10250"/>
+            <coords loc="115816 18152 10051 10250"/>
+            <coords loc="115976 18040 10051 10250"/>
+        </polygon>
+    </zone>
+    <zone name="[beast_farm_event_arena]" type="dummy">
+        <polygon>
+            <coords loc="59656 -94504 -1384 -1200"/>
+            <coords loc="60056 -93608 -1384 -1200"/>
+            <coords loc="60248 -93128 -1384 -1200"/>
+            <coords loc="60456 -93192 -1384 -1200"/>
+            <coords loc="60600 -92984 -1384 -1200"/>
+            <coords loc="60312 -92712 -1384 -1200"/>
+            <coords loc="60152 -91928 -1384 -1200"/>
+            <coords loc="59960 -91912 -1384 -1200"/>
+            <coords loc="59624 -91576 -1384 -1200"/>
+            <coords loc="59560 -91176 -1384 -1200"/>
+            <coords loc="59208 -90808 -1384 -1200"/>
+            <coords loc="58824 -90584 -1384 -1200"/>
+            <coords loc="58664 -90376 -1384 -1200"/>
+            <coords loc="57976 -90232 -1384 -1200"/>
+            <coords loc="57816 -90392 -1384 -1200"/>
+            <coords loc="57256 -90632 -1384 -1200"/>
+            <coords loc="56280 -91240 -1384 -1200"/>
+            <coords loc="55928 -91256 -1384 -1200"/>
+            <coords loc="55608 -92008 -1384 -1200"/>
+            <coords loc="55640 -92584 -1384 -1200"/>
+            <coords loc="55896 -93384 -1384 -1200"/>
+            <coords loc="56008 -93752 -1384 -1200"/>
+            <coords loc="55960 -94104 -1384 -1200"/>
+            <coords loc="56536 -94648 -1384 -1200"/>
+            <coords loc="56696 -94536 -1384 -1200"/>
+            <coords loc="57256 -94472 -1384 -1200"/>
+            <coords loc="57896 -94584 -1384 -1200"/>
+            <coords loc="58344 -94856 -1384 -1200"/>
+            <coords loc="58616 -94952 -1384 -1200"/>
+            <coords loc="59320 -94584 -1384 -1200"/>
+        </polygon>
+    </zone>
+    <zone name="[primeval_isle_wharf_event_arena]" type="dummy">
+        <polygon>
+            <coords loc="5320 -23160"/>
+            <coords loc="4904 -24408"/>
+            <coords loc="6872 -25080"/>
+            <coords loc="9832 -25496"/>
+            <coords loc="11752 -25592"/>
+            <coords loc="12360 -24904"/>
+            <coords loc="12584 -24024"/>
+            <coords loc="12504 -23480"/>
+            <coords loc="11640 -22312"/>
+            <coords loc="9944 -22168"/>
+            <coords loc="9480 -22392"/>
+            <coords loc="8056 -22280"/>
+            <coords loc="7144 -22152"/>
+        </polygon>
+    </zone>
+    <zone name="[school_of_dark_arts_event_arena]" type="dummy">
+        <polygon>
+            <coords loc="-46824 58216"/>
+            <coords loc="-45400 57864"/>
+            <coords loc="-45336 55736"/>
+            <coords loc="-43752 55048"/>
+            <coords loc="-43144 54392"/>
+            <coords loc="-43144 52872"/>
+            <coords loc="-43976 52632"/>
+            <coords loc="-44008 50568"/>
+            <coords loc="-43480 50152"/>
+            <coords loc="-43688 48472"/>
+            <coords loc="-43464 46024"/>
+            <coords loc="-43432 44264"/>
+            <coords loc="-43992 42856"/>
+            <coords loc="-47048 42536"/>
+            <coords loc="-51176 42584"/>
+            <coords loc="-51400 43976"/>
+            <coords loc="-51352 45944"/>
+            <coords loc="-50712 46088"/>
+            <coords loc="-51112 46984"/>
+            <coords loc="-51288 50232"/>
+            <coords loc="-50760 50424"/>
+            <coords loc="-50776 52648"/>
+            <coords loc="-51640 52728"/>
+            <coords loc="-51624 54408"/>
+            <coords loc="-49944 55944"/>
+            <coords loc="-49928 57944"/>
+            <coords loc="-47352 58120"/>
+        </polygon>
+    </zone>
+    <zone name="[ivory_tower_event_arena]" type="dummy">
+        <polygon>
+            <coords loc="85560 24008 -3900 -3500"/>
+            <coords loc="85096 23976 -3900 -3500"/>
+            <coords loc="82552 17800 -3900 -3500"/>
+            <coords loc="82536 14568 -3900 -3500"/>
+            <coords loc="85128 8440 -3900 -3500"/>
+            <coords loc="85560 8440 -3900 -3500"/>
+            <coords loc="88120 14568 -3900 -3500"/>
+            <coords loc="88136 17784 -3900 -3500"/>
+        </polygon>
+    </zone>
+    <zone name="[death_pass_event_arena]" type="dummy">
+        <polygon>
+            <coords loc="99640 -61240"/>
+            <coords loc="98920 -59784"/>
+            <coords loc="100808 -59144"/>
+            <coords loc="102792 -58984"/>
+            <coords loc="103944 -59496"/>
+            <coords loc="104792 -59880"/>
+            <coords loc="105592 -60360"/>
+            <coords loc="107192 -61480"/>
+            <coords loc="106520 -63832"/>
+            <coords loc="103304 -61368"/>
+            <coords loc="101224 -60744"/>
+        </polygon>
+    </zone>
+    <zone name="[baium_room_event_arena]" type="dummy">
+        <polygon>
+            <coords loc="117336 15448 10000 10200"/>
+            <coords loc="116056 13912 10000 10200"/>
+            <coords loc="113512 13816 10000 10200"/>
+            <coords loc="112520 14664 10000 10200"/>
+            <coords loc="112120 16824 10000 10200"/>
+            <coords loc="113192 18264 10000 10200"/>
+            <coords loc="114760 18760 10000 10200"/>
+            <coords loc="116760 17416 10000 10200"/>
+        </polygon>
+    </zone>
+    <zone name="[monastery_of_silence_center_event_arena]" type="dummy">
+        <polygon>
+            <coords loc="116104 -86808 -3500 -3200"/>
+            <coords loc="116328 -86584 -3500 -3200"/>
+            <coords loc="117160 -85416 -3500 -3200"/>
+            <coords loc="117464 -85032 -3500 -3200"/>
+            <coords loc="117176 -81768 -3500 -3200"/>
+            <coords loc="117160 -81048 -3500 -3200"/>
+            <coords loc="116312 -79880 -3500 -3200"/>
+            <coords loc="116088 -79544 -3500 -3200"/>
+            <coords loc="115800 -79592 -3500 -3200"/>
+            <coords loc="115544 -79880 -3500 -3200"/>
+            <coords loc="114712 -81048 -3500 -3200"/>
+            <coords loc="114680 -81768 -3500 -3200"/>
+            <coords loc="114696 -84696 -3500 -3200"/>
+            <coords loc="114712 -85400 -3500 -3200"/>
+            <coords loc="115544 -86584 -3500 -3200"/>
+            <coords loc="115768 -86824 -3500 -3200"/>
+        </polygon>
+    </zone>
+    <zone name="[school_of_dark_arts_event_arena]" type="dummy">
+        <polygon>
+            <coords loc="-46824 58216"/>
+            <coords loc="-45400 57864"/>
+            <coords loc="-45336 55736"/>
+            <coords loc="-43752 55048"/>
+            <coords loc="-43144 54392"/>
+            <coords loc="-43144 52872"/>
+            <coords loc="-43976 52632"/>
+            <coords loc="-44008 50568"/>
+            <coords loc="-43480 50152"/>
+            <coords loc="-43688 48472"/>
+            <coords loc="-43464 46024"/>
+            <coords loc="-43432 44264"/>
+            <coords loc="-43992 42856"/>
+            <coords loc="-47048 42536"/>
+            <coords loc="-51176 42584"/>
+            <coords loc="-51400 43976"/>
+            <coords loc="-51352 45944"/>
+            <coords loc="-50712 46088"/>
+            <coords loc="-51112 46984"/>
+            <coords loc="-51288 50232"/>
+            <coords loc="-50760 50424"/>
+            <coords loc="-50776 52648"/>
+            <coords loc="-51640 52728"/>
+            <coords loc="-51624 54408"/>
+            <coords loc="-49944 55944"/>
+            <coords loc="-49928 57944"/>
+            <coords loc="-47352 58120"/>
+        </polygon>
+    </zone>
+    <zone name="[garden_of_evas_event_arena]" type="dummy">
+        <polygon>
+            <coords loc="87704 259160"/>
+            <coords loc="83384 259144"/>
+            <coords loc="83418 254840"/>
+            <coords loc="87704 254808"/>
+        </polygon>
+    </zone>
+</list>

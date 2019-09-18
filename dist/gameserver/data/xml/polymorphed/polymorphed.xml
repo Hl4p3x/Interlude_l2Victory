@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- Файл настройки нпц в виде игроков, если указать много цветов титулов или ника то будет рандомно выбираться один из них, так же если указать один цвет то будет именно он. -->
+	<polymorphed npcId='45003'>
+		<class_settings classId="1" sex="2" hairStyle="0" hairColor="0" face="0" hero="0" magicRate="50" itemId="2407;512;5767;5779;6608"/>
+		<colors title_color="0xFFFF77" name_color="0xFFFFFF" enchantLvl="0" recomendation="0"/>
+	</polymorphed>
+</list>

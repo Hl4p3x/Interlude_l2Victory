@@ -1,0 +1,32 @@
+<list>
+	<instance id="72" name="Kamaloka, Hall of the Abyss" maxChannels="10" collapseIfEmpty="5" timelimit="30" dispelBuffs="true">
+		<collapse on-party-dismiss="true" timer="60"/>
+		<level min="70" max="80"/>
+		<party min="2" max="6"/>
+		<return loc="43928 -49144 -792"/>
+		<teleport loc="180056 -88968 -7216"/>
+		<geodata map="25_15"/>
+		<remove itemId="0" count="0" necessary="false"/>
+		<give itemId="0" count="0"/>
+		<quest id="0"/>
+		<reuse resetReuse="30 6 * * *" setUponEntry="true" sharedReuseGroup="1"/>
+		<!-- Instance reuse at 6:30 every day -->
+		<spawns>
+			<spawn mobId="25657" type="point">
+				<coords loc="180375 -88984 -7216"/>
+			</spawn>
+			<spawn mobId="25658" type="point">
+				<coords loc="182168 -88968 -7216"/>
+			</spawn>
+			<spawn mobId="25659" type="point">
+				<coords loc="183911 -88969 -7216 "/>
+			</spawn>
+		</spawns>
+		<doors>
+			<door id="25150001" opened="false"/>
+			<door id="25150002" opened="false"/>
+			<door id="25150003" opened="false"/>
+			<door id="25150004" opened="false"/>
+		</doors>
+	</instance>
+</list>

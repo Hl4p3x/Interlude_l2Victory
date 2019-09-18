@@ -1,0 +1,6 @@
+
+BUILD FAILED
+D:\Stringer\Stringer 3\samples\build.xml:10: taskdef class com.licel.stringer.AntTask cannot be found
+ using the classloader AntClassLoader[]
+
+Total time: 0 seconds

@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="27300" name="Monument Watcher Ezekiel" title="Quest Monster" pts_name="guardian_ejekiel5"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="76"/>
+		<set name="exp" value="931275828"/>
+		<set name="race" value="angel"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="80"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2720"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1710"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="POLE"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseDamageRange" value="0;0;66;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="839"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="234"/>
+		<set name="baseMAtk" value="596"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="336"/>
+		<set name="HitTimeFactor" value="0.76"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="WeakModeTrue" value="4523-1"/>
+			<!--Quest - BOSS Evasion-->
+			<set name="WeakModeFalse" value="4524-1"/>
+			<!--Quest - BOSS Bluff-->
+			<set name="Buff" value="4522-1"/>
+			<!--Eye of Assassin-->
+			<set name="PhysicalSpecial1" value="4101-8"/>
+			<!--NPC Spinning Slash-->
+			<set name="PhysicalSpecial2" value="4072-7"/>
+			<!--Stun-->
+			<set name="PhysicalSpecial3" value="4032-8"/>
+			<!--NPC Strike-->
+		</ai_params>
+		<skills>
+			<skill id="4032" level="8"/>
+			<!--NPC Strike-->
+			<skill id="4072" level="7"/>
+			<!--Stun-->
+			<skill id="4101" level="8"/>
+			<!--NPC Spinning Slash-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="1"/>
+			<!--Heavy Armor Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="8"/>
+			<!--Angels-->
+			<skill id="4522" level="1"/>
+			<!--Eye of Assassin-->
+			<skill id="4523" level="1"/>
+			<!--Quest - BOSS Evasion-->
+			<skill id="4524" level="1"/>
+			<!--Quest - BOSS Bluff-->
+		</skills>
+		<equip>
+			<rhand item_id="97"/>
+			<!--Lance-->
+		</equip>
+	</npc>  
+	<npc id="27301" name="Monument Watcher Ezekiel" title="Quest Monster" pts_name="guardian_ejekiel6"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="76"/>
+		<set name="exp" value="931275828"/>
+		<set name="race" value="angel"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="80"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2720"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1710"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="POLE"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseDamageRange" value="0;0;66;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="839"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="234"/>
+		<set name="baseMAtk" value="596"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="336"/>
+		<set name="HitTimeFactor" value="0.76"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="WeakModeTrue" value="4523-1"/>
+			<!--Quest - BOSS Evasion-->
+			<set name="WeakModeFalse" value="4524-1"/>
+			<!--Quest - BOSS Bluff-->
+			<set name="Buff" value="4522-1"/>
+			<!--Eye of Assassin-->
+			<set name="PhysicalSpecial1" value="4101-8"/>
+			<!--NPC Spinning Slash-->
+			<set name="PhysicalSpecial2" value="4072-7"/>
+			<!--Stun-->
+			<set name="PhysicalSpecial3" value="4032-8"/>
+			<!--NPC Strike-->
+		</ai_params>
+		<skills>
+			<skill id="4032" level="8"/>
+			<!--NPC Strike-->
+			<skill id="4072" level="7"/>
+			<!--Stun-->
+			<skill id="4101" level="8"/>
+			<!--NPC Spinning Slash-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="1"/>
+			<!--Heavy Armor Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="8"/>
+			<!--Angels-->
+			<skill id="4522" level="1"/>
+			<!--Eye of Assassin-->
+			<skill id="4523" level="1"/>
+			<!--Quest - BOSS Evasion-->
+			<skill id="4524" level="1"/>
+			<!--Quest - BOSS Bluff-->
+		</skills>
+		<equip>
+			<rhand item_id="97"/>
+			<!--Lance-->
+		</equip>
+	</npc>  
+	<npc id="27302" name="Monument Defender Azrael" title="Quest Monster" pts_name="defender_azrael1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="6300000000"/>
+		<set name="race" value="angel"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="80"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="26252"/>
+		<set name="baseHpReg" value="120.87"/>
+		<set name="baseHpRate" value="9"/>
+		<set name="baseMpMax" value="1896"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="POLE"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseDamageRange" value="0;0;66;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="932"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="224"/>
+		<set name="baseMAtk" value="638"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="352"/>
+		<set name="HitTimeFactor" value="0.76"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="17"/>
+			<!--HP Increase (9x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="1"/>
+			<!--Heavy Armor Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="8"/>
+			<!--Angels-->
+		</skills>
+		<equip>
+			<rhand item_id="97"/>
+			<!--Lance-->
+		</equip>
+	</npc>  
+	<npc id="27303" name="Monument Defender Azrael" title="Quest Monster" pts_name="defender_azrael2"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="6300000000"/>
+		<set name="race" value="angel"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="80"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="26252"/>
+		<set name="baseHpReg" value="120.87"/>
+		<set name="baseHpRate" value="9"/>
+		<set name="baseMpMax" value="1896"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="POLE"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseDamageRange" value="0;0;66;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="932"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="224"/>
+		<set name="baseMAtk" value="638"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="352"/>
+		<set name="HitTimeFactor" value="0.76"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="17"/>
+			<!--HP Increase (9x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="1"/>
+			<!--Heavy Armor Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="8"/>
+			<!--Angels-->
+		</skills>
+		<equip>
+			<rhand item_id="97"/>
+			<!--Lance-->
+		</equip>
+	</npc>  
+	<npc id="27304" name="Monument Defender Azrael" title="Quest Monster" pts_name="defender_azrael3"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="6300000000"/>
+		<set name="race" value="angel"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="80"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="26252"/>
+		<set name="baseHpReg" value="120.87"/>
+		<set name="baseHpRate" value="9"/>
+		<set name="baseMpMax" value="1896"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="POLE"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseDamageRange" value="0;0;66;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="932"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="224"/>
+		<set name="baseMAtk" value="638"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="352"/>
+		<set name="HitTimeFactor" value="0.76"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="17"/>
+			<!--HP Increase (9x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="1"/>
+			<!--Heavy Armor Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="8"/>
+			<!--Angels-->
+		</skills>
+		<equip>
+			<rhand item_id="97"/>
+			<!--Lance-->
+		</equip>
+	</npc>  
+	<npc id="27305" name="Monument Defender Azrael" title="Quest Monster" pts_name="defender_azrael4"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="6300000000"/>
+		<set name="race" value="angel"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="80"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="26252"/>
+		<set name="baseHpReg" value="120.87"/>
+		<set name="baseHpRate" value="9"/>
+		<set name="baseMpMax" value="1896"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="POLE"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseDamageRange" value="0;0;66;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="932"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="224"/>
+		<set name="baseMAtk" value="638"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="352"/>
+		<set name="HitTimeFactor" value="0.76"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="17"/>
+			<!--HP Increase (9x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="1"/>
+			<!--Heavy Armor Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="8"/>
+			<!--Angels-->
+		</skills>
+		<equip>
+			<rhand item_id="97"/>
+			<!--Lance-->
+		</equip>
+	</npc>  
+	<npc id="27306" name="Monument Defender Azrael" title="Quest Monster" pts_name="defender_azrael5"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="6300000000"/>
+		<set name="race" value="angel"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="80"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="26252"/>
+		<set name="baseHpReg" value="120.87"/>
+		<set name="baseHpRate" value="9"/>
+		<set name="baseMpMax" value="1896"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="POLE"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseDamageRange" value="0;0;66;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="932"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="224"/>
+		<set name="baseMAtk" value="638"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="352"/>
+		<set name="HitTimeFactor" value="0.76"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="17"/>
+			<!--HP Increase (9x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="1"/>
+			<!--Heavy Armor Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="8"/>
+			<!--Angels-->
+		</skills>
+		<equip>
+			<rhand item_id="97"/>
+			<!--Lance-->
+		</equip>
+	</npc>  
+	<npc id="27307" name="Monument Defender Azrael" title="Quest Monster" pts_name="defender_azrael6"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="6300000000"/>
+		<set name="race" value="angel"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="80"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="26252"/>
+		<set name="baseHpReg" value="120.87"/>
+		<set name="baseHpRate" value="9"/>
+		<set name="baseMpMax" value="1896"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="POLE"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseDamageRange" value="0;0;66;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="932"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="224"/>
+		<set name="baseMAtk" value="638"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="352"/>
+		<set name="HitTimeFactor" value="0.76"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="17"/>
+			<!--HP Increase (9x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="1"/>
+			<!--Heavy Armor Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="8"/>
+			<!--Angels-->
+		</skills>
+		<equip>
+			<rhand item_id="97"/>
+			<!--Lance-->
+		</equip>
+	</npc>  
+	<npc id="27308" name="Assassin Frost" title="Quest Monster" pts_name="assassin_frost"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="6300000000"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23.50"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="59"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="26252"/>
+		<set name="baseHpReg" value="120.87"/>
+		<set name="baseHpRate" value="9"/>
+		<set name="baseMpMax" value="1896"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="DAGGER"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="5"/>
+		<set name="basePAtk" value="815"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="282.13"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="224"/>
+		<set name="baseMAtk" value="638"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="352"/>
+		<set name="HitTimeFactor" value="0.45"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="17"/>
+			<!--HP Increase (9x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="1"/>
+			<!--Heavy Armor Type-->
+			<skill id="4415" level="7"/>
+			<!--Daggers-->
+			<skill id="4416" level="9"/>
+			<!--Demons-->
+		</skills>
+		<equip>
+			<rhand item_id="229"/>
+			<!--Kris-->
+		</equip>
+	</npc>  
+	<npc id="27309" name="Minervia Van Hacken" title="Quest Monster" pts_name="minervia_van_haken"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Mystic"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="6300000000"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="6"/>
+		<set name="collision_height" value="21.50"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="63"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="26252"/>
+		<set name="baseHpReg" value="120.87"/>
+		<set name="baseHpRate" value="9"/>
+		<set name="baseMpMax" value="1896"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="DAGGER"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="5"/>
+		<set name="basePAtk" value="815"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="282.13"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="224"/>
+		<set name="baseMAtk" value="638"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="299"/>
+		<set name="HitTimeFactor" value="0.5"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="10"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="17"/>
+			<!--HP Increase (9x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="7"/>
+			<!--Daggers-->
+			<skill id="4416" level="9"/>
+			<!--Demons-->
+		</skills>
+		<equip>
+			<rhand item_id="229"/>
+			<!--Kris-->
+		</equip>
+	</npc>  
+	<npc id="27310" name="Kitanis Van Hacken" title="Quest Monster" pts_name="kitanis_van_haken"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="6300000000"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="7.50"/>
+		<set name="collision_height" value="25.80"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="14"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="26252"/>
+		<set name="baseHpReg" value="120.87"/>
+		<set name="baseHpRate" value="9"/>
+		<set name="baseMpMax" value="1896"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="932"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="224"/>
+		<set name="baseMAtk" value="638"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="352"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="17"/>
+			<!--HP Increase (9x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="1"/>
+			<!--Heavy Armor Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="9"/>
+			<!--Demons-->
+		</skills>
+	</npc>  
+	<npc id="27311" name="Judgment Hound Dog Kelvas" title="Quest Monster" pts_name="hound_judge_kelvas"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="6300000000"/>
+		<set name="race" value="beast"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="21"/>
+		<set name="collision_height" value="35"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="34"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="26252"/>
+		<set name="baseHpReg" value="120.87"/>
+		<set name="baseHpRate" value="9"/>
+		<set name="baseMpMax" value="1896"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="932"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="224"/>
+		<set name="baseMAtk" value="638"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="352"/>
+		<set name="HitTimeFactor" value="0.48"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="17"/>
+			<!--HP Increase (9x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="1"/>
+			<!--Heavy Armor Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="27312" name="Mysterious Servitor" title="Quest Monster" pts_name="mysterious_servitor1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="6300000000"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="7"/>
+		<set name="collision_height" value="28"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="47"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="26252"/>
+		<set name="baseHpReg" value="120.87"/>
+		<set name="baseHpRate" value="9"/>
+		<set name="baseMpMax" value="1896"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="932"/>
+		<set name="baseCritRate" value="120"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="224"/>
+		<set name="baseMAtk" value="638"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="299"/>
+		<set name="HitTimeFactor" value="0.61"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="10"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="17"/>
+			<!--HP Increase (9x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="9"/>
+			<!--Demons-->
+		</skills>
+	</npc>  
+	<npc id="27313" name="Vision Guardian Shakiel" title="Quest Monster" pts_name="secret_keeper_shakiel1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Mystic"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="76"/>
+		<set name="exp" value="931275828"/>
+		<set name="race" value="angel"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="38.50"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2720"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1710"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="839"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="234"/>
+		<set name="baseMAtk" value="596"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="286"/>
+		<set name="HitTimeFactor" value="0.48"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="10"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="Buff1" value="4532-1"/>
+			<!--Quest - BOSS Reflect-->
+			<set name="PhysicalSpecial1" value="4032-8"/>
+			<!--NPC Strike-->
+			<set name="PhysicalSpecial2" value="4076-3"/>
+			<!--Decrease Speed-->
+			<set name="PhysicalSpecial3" value="4032-7"/>
+			<!--NPC Strike-->
+		</ai_params>
+		<skills>
+			<skill id="4076" level="3"/>
+			<!--Decrease Speed-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="8"/>
+			<!--Angels-->
+			<skill id="4532" level="1"/>
+			<!--Quest - BOSS Reflect-->
+		</skills>
+		<equip>
+			<rhand item_id="161"/>
+			<!--Silver Axe-->
+		</equip>
+	</npc>  
+	<npc id="27314" name="Vision Guardian Shakiel" title="Quest Monster" pts_name="secret_keeper_shakiel2"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.433-->
+		<set name="ai_type" value="Mystic"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="76"/>
+		<set name="exp" value="931275828"/>
+		<set name="race" value="angel"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="38.50"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2720"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1710"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="839"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="234"/>
+		<set name="baseMAtk" value="596"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="286"/>
+		<set name="HitTimeFactor" value="0.48"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="10"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="Buff1" value="4532-1"/>
+			<!--Quest - BOSS Reflect-->
+			<set name="PhysicalSpecial1" value="4032-8"/>
+			<!--NPC Strike-->
+			<set name="PhysicalSpecial2" value="4076-3"/>
+			<!--Decrease Speed-->
+			<set name="PhysicalSpecial3" value="4032-7"/>
+			<!--NPC Strike-->
+		</ai_params>
+		<skills>
+			<skill id="4076" level="3"/>
+			<!--Decrease Speed-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="8"/>
+			<!--Angels-->
+			<skill id="4532" level="1"/>
+			<!--Quest - BOSS Reflect-->
+		</skills>
+		<equip>
+			<rhand item_id="161"/>
+			<!--Silver Axe-->
+		</equip>
+	</npc>  
+	<npc id="27315" name="Vision Guardian Shakiel" title="Quest Monster" pts_name="secret_keeper_shakiel3"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.434-->
+		<set name="ai_type" value="Mystic"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="76"/>
+		<set name="exp" value="931275828"/>
+		<set name="race" value="angel"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="38.50"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2720"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1710"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="839"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="234"/>
+		<set name="baseMAtk" value="596"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="286"/>
+		<set name="HitTimeFactor" value="0.48"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="10"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="Buff1" value="4532-1"/>
+			<!--Quest - BOSS Reflect-->
+			<set name="PhysicalSpecial1" value="4032-8"/>
+			<!--NPC Strike-->
+			<set name="PhysicalSpecial2" value="4076-3"/>
+			<!--Decrease Speed-->
+			<set name="PhysicalSpecial3" value="4032-7"/>
+			<!--NPC Strike-->
+		</ai_params>
+		<skills>
+			<skill id="4076" level="3"/>
+			<!--Decrease Speed-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="8"/>
+			<!--Angels-->
+			<skill id="4532" level="1"/>
+			<!--Quest - BOSS Reflect-->
+		</skills>
+		<equip>
+			<rhand item_id="161"/>
+			<!--Silver Axe-->
+		</equip>
+	</npc>  
+	<npc id="27316" name="Fallen Chieftain Vegus" title="Quest Monster" pts_name="fallen_chief_vergus"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.434-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="55"/>
+		<set name="exp" value="70853089"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12"/>
+		<set name="collision_height" value="24"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="35"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="1673"/>
+		<set name="baseHpReg" value="10.27"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="987"/>
+		<set name="baseMpReg" value="2.45"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="402"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="170"/>
+		<set name="baseMAtk" value="284"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="194"/>
+		<set name="HitTimeFactor" value="0.54"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="10"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+		</skills>
+		<equip>
+			<rhand item_id="161"/>
+			<!--Silver Axe-->
+		</equip>
+	</npc>  
+	<npc id="27317" name="Restrainer of Glory" title="Quest Monster" pts_name="radiant_constrainer"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.434-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="70"/>
+		<set name="exp" value="429634523"/>
+		<set name="race" value="angel"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="13"/>
+		<set name="collision_height" value="32"/>
+		<set name="baseRunSpd" value="178"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1493"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="683"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="206"/>
+		<set name="baseMAtk" value="468"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="251"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="10"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="3"/>
+			<!--Light Armor Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="8"/>
+			<!--Angels-->
+		</skills>
+		<equip>
+			<rhand item_id="161"/>
+			<!--Silver Axe-->
+		</equip>
+	</npc>  
+	<npc id="27318" name="Wendy's Guardian" title="Quest Monster" pts_name="q_wendy_guardian"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.434-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="46"/>
+		<set name="exp" value="28049635"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="16"/>
+		<set name="collision_height" value="37.2"/>
+		<set name="baseRunSpd" value="130"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="1229.78678"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="637.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="248"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="133"/>
+		<set name="baseMAtk" value="169"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="182"/>
+		<set name="HitTimeFactor" value="0.43"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="500"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="80"/>
+			<set name="MoveAroundSocial1" value="80"/>
+			<set name="MoveAroundSocial2" value="94"/>
+		</ai_params>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="14"/>
+			<!--Strong P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="1"/>
+			<!--Heavy Armor Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+	</npc>  
+	<npc id="27319" name="Black Leopard" title="Quest Monster"> 
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="Fighter"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="301.666"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="2.5"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="19"/>  
+		<set name="baseMAtkSpd" value="333"/>  
+		<set name="baseMDef" value="71"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="174.64"/>  
+		<set name="baseMpReg" value="1.2"/>  
+		<set name="basePAtk" value="48"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="87"/>  
+		<set name="baseRunSpd" value="145"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="30"/>  
+		<set name="collision_height" value="14.5"/>  
+		<set name="collision_radius" value="14.0"/>  
+		<set name="level" value="18"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Monster"/>  
+		<skills> 
+			<skill id="4408" level="1"/>  
+			<!--HP Increase (1x)-->  
+			<skill id="4409" level="1"/>  
+			<!--MP Increase (1x)-->  
+			<skill id="4410" level="13"/>  
+			<!--Slightly Strong P. Atk.-->  
+			<skill id="4411" level="11"/>  
+			<!--Average M. Atk.-->  
+			<skill id="4412" level="12"/>  
+			<!--Slightly Strong P. Def.-->  
+			<skill id="4413" level="11"/>  
+			<!--Average M. Def.-->  
+			<skill id="4414" level="2"/>  
+			<!--Standard Type-->  
+			<skill id="4415" level="3"/>  
+			<!--One-handed Sword-->  
+			<skill id="4416" level="3"/>  
+			<!--Beasts--> 
+		</skills>  
+		<attributes> 
+			<defence attribute="fire" value="0"/>  
+			<defence attribute="water" value="0"/>  
+			<defence attribute="wind" value="0"/>  
+			<defence attribute="earth" value="0"/>  
+			<defence attribute="holy" value="0"/>  
+			<defence attribute="unholy" value="0"/> 
+		</attributes> 
+	</npc>  
+	<npc id="27320" name="Timora Orc" title="Quest Monster" pts_name="timora_orc"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.434-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="20"/>
+		<set name="exp" value="835862"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="9"/>
+		<set name="collision_height" value="21.50"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="253165"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="9999"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="6930"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="5220"/>
+		<set name="baseMAtk" value="8280"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="4750"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="500"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+		</skills>
+	</npc>  
+	<npc id="27321" name="Bruin Lizardman" title="Quest Monster" pts_name="bruin_lizardman1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.434-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="20"/>
+		<set name="exp" value="835862"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="10"/>
+		<set name="collision_height" value="23"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="342"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="213"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="POLE"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseDamageRange" value="0;0;66;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="40"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="63"/>
+		<set name="baseMAtk" value="113"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="95"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="6"/>
+			<!--Humanoids-->
+		</skills>
+		<equip>
+			<rhand item_id="291"/>
+			<!--Trident-->
+		</equip>
+	</npc>  
+	<npc id="27322" name="Picot Araneid" title="Quest Monster" pts_name="picot_araneid1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.434-->
+		<set name="ai_type" value="Mystic"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="27"/>
+		<set name="exp" value="2925250"/>
+		<set name="race" value="bug"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="39"/>
+		<set name="collision_height" value="38"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="515"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="245"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="49"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="71"/>
+		<set name="baseMAtk" value="130"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="108"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="-3.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="500"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="12"/>
+			<!--Bugs-->
+		</skills>
+	</npc> 
+</list>

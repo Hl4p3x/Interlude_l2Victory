@@ -1,0 +1,29 @@
+<html>
+<title>Спаун менеджер</title>
+<body>
+<br><br><font color="00FFFF">Данный менеджер позволяет выстроить монстров\нпц в один ряд от одной точки к другой через равный промежуток между ними:</font>
+<center>
+<br>
+<br><br>
+<table width=250>
+<tr>
+<td><font color="LEVEL">Введите начальную и конечную координату:</font></td>
+</tr>
+<tr>
+<td>
+<center>
+<button value="Save Start Loc" action="bypass -h admin_linespawn_startloc" width=100 height=15 back="sek.cbui94" fore="sek.cbui94"></td>
+</center>
+</tr>
+<tr>
+<td>
+<center>
+<button value="Save End Loc" action="bypass -h admin_linespawn_endloc" width=100 height=15 back="sek.cbui94" fore="sek.cbui94"></td>
+</center>
+</tr>
+</table>
+<br><br><font color="LEVEL">id/name npc через запятую:</font>
+<multiedit var="npc_list" width=250 height=50><br><br>
+<button value="Save to xml" action="bypass -h admin_linespawn $npc_list" width=75 height=15 back="sek.cbui94" fore="sek.cbui94">
+</center>
+</body></html>

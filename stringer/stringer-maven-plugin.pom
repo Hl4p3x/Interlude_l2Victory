@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.licel</groupId>
+    <artifactId>stringer-maven-plugin</artifactId>
+    <packaging>maven-plugin</packaging>
+    <name>stringer-maven-plugin</name>
+    <version>3.0.3</version>
+    <url>https://jfxstore.com/stringer</url>
+    <organization>
+        <name>LICEL CORPORATION</name>
+        <url>https://licelus.com</url>
+    </organization> 
+    <dependencies>
+        <dependency>
+            <groupId>com.licel</groupId>
+            <artifactId>stringer</artifactId>
+            <scope>runtime</scope>
+            <version>3.0.3</version>
+        </dependency>
+    </dependencies>       
+</project>

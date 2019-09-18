@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="16013" name="Trained Buffalo" title="" pts_name="tamed_buffalo_war"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.734-->
+		<set name="ai_type" value="FollowNpc"/>
+		<set name="type" value="TamedBeast"/>
+		<set name="level" value="67"/>
+		<set name="exp" value="308443198"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="22"/>
+		<set name="collision_height" value="31"/>
+		<set name="baseRunSpd" value="168"/>
+		<set name="baseWalkSpd" value="20"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2295"/>
+		<set name="baseHpReg" value="23.70"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1388"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="655"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="217"/>
+		<set name="baseMAtk" value="463"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="294"/>
+		<set name="HitTimeFactor" value="0.46"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="15"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<faction name="pet_clan;nonpet_clan" range="400"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="Buff1" value="1086-2"/>
+			<!--Haste-->
+			<set name="Buff2" value="1268-3"/>
+			<!--Vampiric Rage-->
+			<set name="Buff3" value="1044-3"/>
+			<!--Regeneration-->
+			<set name="Buff4" value="1045-5"/>
+			<!--Bless the Body-->
+			<set name="Buff5" value="1240-3"/>
+			<!--Guidance-->
+			<set name="DeBuff1" value="1206-15"/>
+			<!--Wind Shackle-->
+			<set name="DeBuff2" value="122-11"/>
+			<!--Hex-->
+			<set name="Heal" value="1217-26"/>
+			<!--Greater Heal-->
+		</ai_params>
+		<skills>
+			<skill id="122" level="11"/>
+			<!--Hex-->
+			<skill id="1044" level="3"/>
+			<!--Regeneration-->
+			<skill id="1045" level="5"/>
+			<!--Bless the Body-->
+			<skill id="1086" level="2"/>
+			<!--Haste-->
+			<skill id="1206" level="15"/>
+			<!--Wind Shackle-->
+			<skill id="1217" level="26"/>
+			<!--Greater Heal-->
+			<skill id="1240" level="3"/>
+			<!--Guidance-->
+			<skill id="1268" level="3"/>
+			<!--Vampiric Rage-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="16014" name="Trained Buffalo" title="" pts_name="tamed_buffalo_wiz"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.734-->
+		<set name="ai_type" value="FollowNpc"/>
+		<set name="type" value="TamedBeast"/>
+		<set name="level" value="67"/>
+		<set name="exp" value="308443198"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="22"/>
+		<set name="collision_height" value="31"/>
+		<set name="baseRunSpd" value="168"/>
+		<set name="baseWalkSpd" value="20"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2295"/>
+		<set name="baseHpReg" value="23.70"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1388"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="655"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="217"/>
+		<set name="baseMAtk" value="463"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="294"/>
+		<set name="HitTimeFactor" value="0.46"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="15"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<faction name="pet_clan;nonpet_clan" range="400"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="Buff1" value="1204-2"/>
+			<!--Wind Walk-->
+			<set name="Buff2" value="1085-3"/>
+			<!--Acumen-->
+			<set name="Buff3" value="1078-5"/>
+			<!--Concentration-->
+			<set name="Buff4" value="1059-3"/>
+			<!--Empower-->
+			<set name="Buff5" value="1048-5"/>
+			<!--Bless the Soul-->
+			<set name="DeBuff1" value="1160-11"/>
+			<!--Slow-->
+			<set name="DeBuff2" value="1263-9"/>
+			<!--Curse Gloom-->
+			<set name="Heal" value="1013-25"/>
+			<!--Recharge-->
+		</ai_params>
+		<skills>
+			<skill id="1013" level="25"/>
+			<!--Recharge-->
+			<skill id="1048" level="5"/>
+			<!--Bless the Soul-->
+			<skill id="1059" level="3"/>
+			<!--Empower-->
+			<skill id="1078" level="5"/>
+			<!--Concentration-->
+			<skill id="1085" level="3"/>
+			<!--Acumen-->
+			<skill id="1160" level="11"/>
+			<!--Slow-->
+			<skill id="1204" level="2"/>
+			<!--Wind Walk-->
+			<skill id="1263" level="9"/>
+			<!--Curse Gloom-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="16015" name="Trained Cougar" title="" pts_name="tamed_cougar_war"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.734-->
+		<set name="ai_type" value="FollowNpc"/>
+		<set name="type" value="TamedBeast"/>
+		<set name="level" value="69"/>
+		<set name="exp" value="387199547"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="34"/>
+		<set name="collision_height" value="28"/>
+		<set name="baseRunSpd" value="173"/>
+		<set name="baseWalkSpd" value="59"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2395"/>
+		<set name="baseHpReg" value="23.70"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1458"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="708"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="228"/>
+		<set name="baseMAtk" value="507"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="308"/>
+		<set name="HitTimeFactor" value="0.45"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="15"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<faction name="pet_clan;nonpet_clan" range="400"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="Buff1" value="1086-2"/>
+			<!--Haste-->
+			<set name="Buff2" value="1268-3"/>
+			<!--Vampiric Rage-->
+			<set name="Buff3" value="1044-3"/>
+			<!--Regeneration-->
+			<set name="Buff4" value="1045-5"/>
+			<!--Bless the Body-->
+			<set name="Buff5" value="1240-3"/>
+			<!--Guidance-->
+			<set name="DeBuff1" value="1206-16"/>
+			<!--Wind Shackle-->
+			<set name="DeBuff2" value="122-12"/>
+			<!--Hex-->
+			<set name="Heal" value="1217-28"/>
+			<!--Greater Heal-->
+		</ai_params>
+		<skills>
+			<skill id="122" level="12"/>
+			<!--Hex-->
+			<skill id="1044" level="3"/>
+			<!--Regeneration-->
+			<skill id="1045" level="5"/>
+			<!--Bless the Body-->
+			<skill id="1086" level="2"/>
+			<!--Haste-->
+			<skill id="1206" level="16"/>
+			<!--Wind Shackle-->
+			<skill id="1217" level="28"/>
+			<!--Greater Heal-->
+			<skill id="1240" level="3"/>
+			<!--Guidance-->
+			<skill id="1268" level="3"/>
+			<!--Vampiric Rage-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="16016" name="Trained Cougar" title="" pts_name="tamed_cougar_wiz"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.734-->
+		<set name="ai_type" value="FollowNpc"/>
+		<set name="type" value="TamedBeast"/>
+		<set name="level" value="69"/>
+		<set name="exp" value="387199547"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="34"/>
+		<set name="collision_height" value="28"/>
+		<set name="baseRunSpd" value="173"/>
+		<set name="baseWalkSpd" value="59"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2395"/>
+		<set name="baseHpReg" value="23.70"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1458"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="708"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="228"/>
+		<set name="baseMAtk" value="507"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="308"/>
+		<set name="HitTimeFactor" value="0.45"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="15"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<faction name="pet_clan;nonpet_clan" range="400"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="Buff1" value="1204-2"/>
+			<!--Wind Walk-->
+			<set name="Buff2" value="1085-3"/>
+			<!--Acumen-->
+			<set name="Buff3" value="1078-6"/>
+			<!--Concentration-->
+			<set name="Buff4" value="1059-3"/>
+			<!--Empower-->
+			<set name="Buff5" value="1048-5"/>
+			<!--Bless the Soul-->
+			<set name="DeBuff1" value="1160-12"/>
+			<!--Slow-->
+			<set name="DeBuff2" value="1263-10"/>
+			<!--Curse Gloom-->
+			<set name="Heal" value="1013-27"/>
+			<!--Recharge-->
+		</ai_params>
+		<skills>
+			<skill id="1013" level="27"/>
+			<!--Recharge-->
+			<skill id="1048" level="5"/>
+			<!--Bless the Soul-->
+			<skill id="1059" level="3"/>
+			<!--Empower-->
+			<skill id="1078" level="6"/>
+			<!--Concentration-->
+			<skill id="1085" level="3"/>
+			<!--Acumen-->
+			<skill id="1160" level="12"/>
+			<!--Slow-->
+			<skill id="1204" level="2"/>
+			<!--Wind Walk-->
+			<skill id="1263" level="10"/>
+			<!--Curse Gloom-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="16017" name="Trained Kookaburra" title="" pts_name="tamed_kukaburo_war"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.734-->
+		<set name="ai_type" value="FollowNpc"/>
+		<set name="type" value="TamedBeast"/>
+		<set name="level" value="65"/>
+		<set name="exp" value="237352644"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="10"/>
+		<set name="collision_height" value="33"/>
+		<set name="baseRunSpd" value="188"/>
+		<set name="baseWalkSpd" value="23"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2193"/>
+		<set name="baseHpReg" value="23.70"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1319"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="603"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="207"/>
+		<set name="baseMAtk" value="421"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="280"/>
+		<set name="HitTimeFactor" value="0.5"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="15"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<faction name="pet_clan;nonpet_clan" range="400"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="Buff1" value="1086-2"/>
+			<!--Haste-->
+			<set name="Buff2" value="1268-3"/>
+			<!--Vampiric Rage-->
+			<set name="Buff3" value="1044-3"/>
+			<!--Regeneration-->
+			<set name="Buff4" value="1045-5"/>
+			<!--Bless the Body-->
+			<set name="Buff5" value="1240-3"/>
+			<!--Guidance-->
+			<set name="DeBuff1" value="1206-14"/>
+			<!--Wind Shackle-->
+			<set name="DeBuff2" value="122-10"/>
+			<!--Hex-->
+			<set name="Heal" value="1217-24"/>
+			<!--Greater Heal-->
+		</ai_params>
+		<skills>
+			<skill id="122" level="10"/>
+			<!--Hex-->
+			<skill id="1044" level="3"/>
+			<!--Regeneration-->
+			<skill id="1045" level="5"/>
+			<!--Bless the Body-->
+			<skill id="1086" level="2"/>
+			<!--Haste-->
+			<skill id="1206" level="14"/>
+			<!--Wind Shackle-->
+			<skill id="1217" level="24"/>
+			<!--Greater Heal-->
+			<skill id="1240" level="3"/>
+			<!--Guidance-->
+			<skill id="1268" level="3"/>
+			<!--Vampiric Rage-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="16018" name="Trained Kookaburra" title="" pts_name="tamed_kukaburo_wiz"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.734-->
+		<set name="ai_type" value="FollowNpc"/>
+		<set name="type" value="TamedBeast"/>
+		<set name="level" value="65"/>
+		<set name="exp" value="237352644"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="10"/>
+		<set name="collision_height" value="33"/>
+		<set name="baseRunSpd" value="188"/>
+		<set name="baseWalkSpd" value="23"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2193"/>
+		<set name="baseHpReg" value="23.70"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1319"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="603"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="207"/>
+		<set name="baseMAtk" value="421"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="280"/>
+		<set name="HitTimeFactor" value="0.5"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="15"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<faction name="pet_clan;nonpet_clan" range="400"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="Buff1" value="1204-2"/>
+			<!--Wind Walk-->
+			<set name="Buff2" value="1085-3"/>
+			<!--Acumen-->
+			<set name="Buff3" value="1078-5"/>
+			<!--Concentration-->
+			<set name="Buff4" value="1059-3"/>
+			<!--Empower-->
+			<set name="Buff5" value="1048-5"/>
+			<!--Bless the Soul-->
+			<set name="DeBuff1" value="1160-10"/>
+			<!--Slow-->
+			<set name="DeBuff2" value="1263-8"/>
+			<!--Curse Gloom-->
+			<set name="Heal" value="1013-23"/>
+			<!--Recharge-->
+		</ai_params>
+		<skills>
+			<skill id="1013" level="23"/>
+			<!--Recharge-->
+			<skill id="1048" level="5"/>
+			<!--Bless the Soul-->
+			<skill id="1059" level="3"/>
+			<!--Empower-->
+			<skill id="1078" level="5"/>
+			<!--Concentration-->
+			<skill id="1085" level="3"/>
+			<!--Acumen-->
+			<skill id="1160" level="10"/>
+			<!--Slow-->
+			<skill id="1204" level="2"/>
+			<!--Wind Walk-->
+			<skill id="1263" level="8"/>
+			<!--Curse Gloom-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="16019" name="Tiny Baby Buffalo" title="" pts_name="mon_tiny_buffalo"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.734-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="67"/>
+		<set name="exp" value="37193100000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12"/>
+		<set name="collision_height" value="15"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="253165"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseMpMax" value="9999"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="4500"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="2820"/>
+		<set name="baseMAtk" value="3240"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="3000"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="16020" name="Tame Tiny Baby Buffalo" title="" pts_name="tnpc_tiny_buffalo"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.735-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="67"/>
+		<set name="exp" value="37193100000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12"/>
+		<set name="collision_height" value="15"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="253165"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseMpMax" value="9999"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="4500"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="2820"/>
+		<set name="baseMAtk" value="3240"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="3000"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="16021" name="Tiny Baby Cougar" title="" pts_name="mon_tiny_cougar"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.735-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="69"/>
+		<set name="exp" value="37193100000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="15.70"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="253165"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseMpMax" value="9999"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="4500"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="2820"/>
+		<set name="baseMAtk" value="3240"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="3000"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="16022" name="Tame Tiny Baby Cougar" title="" pts_name="tnpc_tiny_cougar"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.735-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="69"/>
+		<set name="exp" value="37193100000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="15.70"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="253165"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseMpMax" value="9999"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="4500"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="2820"/>
+		<set name="baseMAtk" value="3240"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="3000"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="16023" name="Tiny Baby Kookaburra" title="" pts_name="mon_tiny_kukaburo"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.735-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="65"/>
+		<set name="exp" value="37193100000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="7"/>
+		<set name="collision_height" value="15"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="253165"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseMpMax" value="9999"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="4500"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="2820"/>
+		<set name="baseMAtk" value="3240"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="3000"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc>  
+	<npc id="16024" name="Tame Tiny Baby Kookaburra" title="" pts_name="tnpc_tiny_kukaburo"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:24.735-->
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="65"/>
+		<set name="exp" value="37193100000000"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="7"/>
+		<set name="collision_height" value="15"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="253165"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseMpMax" value="9999"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="4500"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="2820"/>
+		<set name="baseMAtk" value="3240"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="3000"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+		</skills>
+	</npc> 
+</list>

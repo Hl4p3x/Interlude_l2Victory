@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<shortcut slot="1" page="0" type="TYPE_SKILL" id="1001" level="1"/>
+	<!-- Soul Cry Skill -->
+	<shortcut slot="1" page="0" type="TYPE_SKILL" id="1177" level="1"/>
+	<!-- Wind Strike Skill-->
+	<shortcut slot="9" page="0" type="TYPE_SKILL" id="1216" level="1"/>
+	<!-- Self Heal Skill-->
+	<shortcut slot="0" page="0" type="TYPE_ACTION" id="2"/>
+	<!-- Attack Action -->
+	<shortcut slot="3" page="0" type="TYPE_ACTION" id="5"/>
+	<!-- Pickup Action -->
+	<shortcut slot="10" page="0" type="TYPE_ACTION" id="0"/>
+	<!-- Sit/Stand Action -->
+	<shortcut slot="11" page="0" type="TYPE_ITEM" id="5588"/>
+	<!-- Tutorial Book Item -->
+</list>

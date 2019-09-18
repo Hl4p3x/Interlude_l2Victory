@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<event id="51" name="Mont Chamber" type="SIEGE_EVENT" impl="ClanHallAuction"/>
+</list>

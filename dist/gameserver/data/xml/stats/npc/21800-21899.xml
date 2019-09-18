@@ -1,0 +1,3620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="21800" name="Vassal Ghost" title="" pts_name="guard_undead"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.266-->
+		<set name="ai_type" value="Mystic"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="77"/>
+		<set name="exp" value="1151275834"/>
+		<set name="race" value="undead"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="13"/>
+		<set name="collision_height" value="21"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="14"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2762"/>
+		<set name="baseHpReg" value="26.86"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseMpMax" value="1747"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="865"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="239"/>
+		<set name="baseMAtk" value="619"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="343"/>
+		<set name="HitTimeFactor" value="0.43"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="13232"/>
+		<set name="rewardSp" value="1432"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="2.2318"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="120"/>
+			<set name="MoveAroundSocial1" value="120"/>
+			<set name="MoveAroundSocial2" value="120"/>
+			<set name="DDMagicSlow" value="4567-8"/>
+			<!--NPC Eruption - Slow-->
+			<set name="QuestDropCountRate" value="1"/>
+		</ai_params>
+		<skills>
+			<skill id="4274" level="1"/>
+			<!--Blunt Weapon Weak Point-->
+			<skill id="4275" level="2"/>
+			<!--Sacred Attack Weak Point-->
+			<skill id="4278" level="1"/>
+			<!--Dark Attack-->
+			<skill id="4408" level="10"/>
+			<!--HP Increase (2x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="1"/>
+			<!--Undead-->
+			<skill id="4567" level="8"/>
+			<!--NPC Eruption - Slow-->
+			<skill id="4789" level="5"/>
+			<!--NPC High Level-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="1853" max="3785" chance="100.0"/>
+			</group>
+			<group chance="0.313">
+				<!--Spiritual Eye Piece-->
+				<reward item_id="8341" min="1" max="1" chance="13.9223"/>
+				<!--Destroyer Hammer-->
+				<reward item_id="7899" min="1" max="1" chance="0.1277"/>
+				<!--Spiritual Eye-->
+				<reward item_id="7894" min="1" max="1" chance="0.1277"/>
+				<!--Dasparion's Staff Edge-->
+				<reward item_id="5543" min="1" max="1" chance="36.9878"/>
+				<!--Meteor Shower Head-->
+				<reward item_id="5532" min="1" max="1" chance="36.6365"/>
+				<!--Hammer Piece of Destroyer-->
+				<reward item_id="8346" min="1" max="1" chance="11.9425"/>
+				<!--Meteor Shower-->
+				<reward item_id="2504" min="1" max="1" chance="0.1277"/>
+				<!--Dasparion's Staff-->
+				<reward item_id="212" min="1" max="1" chance="0.1278"/>
+			</group>
+			<group chance="33.0061">
+				<!--Crafted Leather-->
+				<reward item_id="1894" min="1" max="1" chance="2.0665"/>
+				<!--Recipe: Greater Soulshot (S) Compressed Package(100%)-->
+				<reward item_id="5272" min="1" max="1" chance="0.0263"/>
+				<!--Leather-->
+				<reward item_id="1882" min="1" max="1" chance="13.087"/>
+				<!--Animal Bone-->
+				<reward item_id="1872" min="1" max="3" chance="26.1739"/>
+				<!--Animal Skin-->
+				<reward item_id="1867" min="1" max="3" chance="39.2612"/>
+				<!--Mithril Arrow-->
+				<reward item_id="1344" min="40" max="120" chance="18.4035"/>
+				<!--Enria-->
+				<reward item_id="4042" min="1" max="1" chance="0.9816"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="42">
+				<!--Herb of Life-->
+				<reward item_id="8600" min="1" max="1" chance="55.0"/>
+				<!--Greater Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="38.0"/>
+				<!--Superior Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="7.0"/>
+			</group>
+			<group chance="10">
+				<!--Herb of Magic-->
+				<reward item_id="8607" min="1" max="1" chance="50.0"/>
+				<!--Herb of Casting Spd.-->
+				<reward item_id="8609" min="1" max="1" chance="50.0"/>
+			</group>
+			<group chance="11">
+				<!--Herb of Mana-->
+				<reward item_id="8603" min="1" max="1" chance="55.0"/>
+				<!--Greater Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="38.0"/>
+				<!--Superior Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="7.0"/>
+			</group>
+			<group chance="25">
+				<!--Herb of Power-->
+				<reward item_id="8606" min="1" max="1" chance="34.0"/>
+				<!--Herb of Atk. Spd.-->
+				<reward item_id="8608" min="1" max="1" chance="33.0"/>
+				<!--Herb of Critical Attack.-->
+				<reward item_id="8610" min="1" max="1" chance="33.0"/>
+			</group>
+			<group chance="10">
+				<!--Herb of Speed-->
+				<reward item_id="8611" min="1" max="1" chance="100.0"/>
+			</group>
+			<group chance="1">
+				<!--Herb of the Warrior-->
+				<reward item_id="8612" min="1" max="1" chance="33.0"/>
+				<!--Herb of the Mystic-->
+				<reward item_id="8613" min="1" max="1" chance="33.0"/>
+				<!--Herb of Recovery-->
+				<reward item_id="8614" min="1" max="1" chance="34.0"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Enria-->
+			<reward item_id="4042" min="1" max="1" chance="7.6772"/>
+			<!--Recipe: Blessed Spiritshot (S) Compressed Package (100%)-->
+			<reward item_id="5167" min="1" max="1" chance="0.2047"/>
+			<!--Dragon Slayer Edge-->
+			<reward item_id="5529" min="1" max="1" chance="1.2637"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21801" name="Treasure Chest" title="" pts_name="mimic_21"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.266-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="21"/>
+		<set name="exp" value="1023784"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="364"/>
+		<set name="baseHpReg" value="5.53"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="227"/>
+		<set name="baseMpReg" value="1.53"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="49"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="70"/>
+		<set name="baseMAtk" value="35"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="93"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="630"/>
+		<set name="rewardSp" value="29"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.4286"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="107" max="191" chance="100.0"/>
+			</group>
+			<group chance="1.337">
+				<!--Boots-->
+				<reward item_id="39" min="1" max="1" chance="5.6315"/>
+				<!--Bracer-->
+				<reward item_id="51" min="1" max="1" chance="5.6315"/>
+				<!--Boot Lining-->
+				<reward item_id="1930" min="1" max="1" chance="88.737"/>
+			</group>
+			<group chance="12.7653">
+				<!--Stem-->
+				<reward item_id="1864" min="1" max="1" chance="54.3687"/>
+				<!--Iron Ore-->
+				<reward item_id="1869" min="1" max="1" chance="27.1846"/>
+				<!--Braided Hemp-->
+				<reward item_id="1878" min="1" max="1" chance="10.8739"/>
+				<!--Recipe: Necklace of Devotion-->
+				<reward item_id="2151" min="1" max="1" chance="7.5728"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Stem-->
+			<reward item_id="1864" min="1" max="1" chance="46.9914"/>
+			<!--Iron Ore-->
+			<reward item_id="1869" min="1" max="1" chance="23.4957"/>
+			<!--Piece Bone Breastplate Fragment-->
+			<reward item_id="1926" min="1" max="1" chance="2.3733"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21802" name="Treasure Chest" title="" pts_name="mimic_24"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.266-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="24"/>
+		<set name="exp" value="1786379"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="435"/>
+		<set name="baseHpReg" value="5.53"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="272"/>
+		<set name="baseMpReg" value="1.53"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="62"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="78"/>
+		<set name="baseMAtk" value="47"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="105"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="771"/>
+		<set name="rewardSp" value="38"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.3385"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="122" max="225" chance="100.0"/>
+			</group>
+			<group chance="0.214">
+				<!--Bone Shield-->
+				<reward item_id="625" min="1" max="1" chance="58.785"/>
+				<!--Hard Leather Helmet-->
+				<reward item_id="1148" min="1" max="1" chance="41.215"/>
+			</group>
+			<group chance="10.7282">
+				<!--Varnish-->
+				<reward item_id="1865" min="1" max="1" chance="37.8052"/>
+				<!--Coal-->
+				<reward item_id="1870" min="1" max="1" chance="37.8049"/>
+				<!--Cokes-->
+				<reward item_id="1879" min="1" max="1" chance="6.3011"/>
+				<!--Recipe: Leather Boots-->
+				<reward item_id="2176" min="1" max="1" chance="18.0888"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Piece Bone Gaiters Fragment-->
+			<reward item_id="1928" min="1" max="1" chance="4.0001"/>
+			<!--Recipe: Necklace of Devotion-->
+			<reward item_id="2151" min="1" max="1" chance="7.6492"/>
+			<!--Recipe: Leather Boots-->
+			<reward item_id="2176" min="1" max="1" chance="13.1391"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21803" name="Treasure Chest" title="" pts_name="mimic_27"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.266-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="27"/>
+		<set name="exp" value="2925250"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="515"/>
+		<set name="baseHpReg" value="5.53"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="318"/>
+		<set name="baseMpReg" value="1.53"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="80"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="89"/>
+		<set name="baseMAtk" value="62"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="119"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="918"/>
+		<set name="rewardSp" value="47"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.2593"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="137" max="264" chance="100.0"/>
+			</group>
+			<group chance="1.2496">
+				<!--Leather Boots-->
+				<reward item_id="40" min="1" max="1" chance="3.4167"/>
+				<!--Crafted Leather Gloves-->
+				<reward item_id="604" min="1" max="1" chance="3.4167"/>
+				<!--Crafted Leather Gloves Lining-->
+				<reward item_id="1934" min="1" max="1" chance="46.5833"/>
+				<!--Leather Boot Lining-->
+				<reward item_id="1931" min="1" max="1" chance="46.5833"/>
+			</group>
+			<group chance="7.0038">
+				<!--Recipe: Enchanted Necklace-->
+				<reward item_id="2152" min="1" max="1" chance="8.955"/>
+				<!--High Grade Suede-->
+				<reward item_id="1885" min="1" max="1" chance="4.2391"/>
+				<!--Charcoal-->
+				<reward item_id="1871" min="1" max="1" chance="50.8627"/>
+				<!--Suede-->
+				<reward item_id="1866" min="1" max="1" chance="33.9086"/>
+				<!--Metal Hardener-->
+				<reward item_id="5220" min="1" max="1" chance="2.0346"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Charcoal-->
+			<reward item_id="1871" min="1" max="1" chance="31.7362"/>
+			<!--Necklace of Devotion Chain-->
+			<reward item_id="1899" min="1" max="1" chance="4.9588"/>
+			<!--Metal Hardener-->
+			<reward item_id="5220" min="1" max="1" chance="1.2695"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21804" name="Treasure Chest" title="" pts_name="mimic_30"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.266-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="30"/>
+		<set name="exp" value="4555796"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="604"/>
+		<set name="baseHpReg" value="5.53"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="365"/>
+		<set name="baseMpReg" value="1.53"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="92"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="87"/>
+		<set name="baseMAtk" value="68"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="119"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="1080"/>
+		<set name="rewardSp" value="59"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.2"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="154" max="308" chance="100.0"/>
+			</group>
+			<group chance="0.097">
+				<!--Bronze Helmet-->
+				<reward item_id="46" min="1" max="1" chance="41.2376"/>
+				<!--Aspis-->
+				<reward item_id="627" min="1" max="1" chance="58.7624"/>
+			</group>
+			<group chance="15.6557">
+				<!--Animal Skin-->
+				<reward item_id="1867" min="1" max="1" chance="42.478"/>
+				<!--Animal Bone-->
+				<reward item_id="1872" min="1" max="1" chance="42.4777"/>
+				<!--Leather-->
+				<reward item_id="1882" min="1" max="1" chance="7.0798"/>
+				<!--Recipe: Bone Arrow-->
+				<reward item_id="2250" min="1" max="1" chance="7.9645"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Healing Potion-->
+			<reward item_id="1061" min="1" max="1" chance="22.1263"/>
+			<!--Enchanted Necklace Chain-->
+			<reward item_id="1900" min="1" max="1" chance="3.9943"/>
+			<!--Recipe: Bone Arrow-->
+			<reward item_id="2250" min="1" max="1" chance="9.1271"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21805" name="Treasure Chest" title="" pts_name="mimic_33"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.266-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="33"/>
+		<set name="exp" value="6812513"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="702"/>
+		<set name="baseHpReg" value="7.11"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="413"/>
+		<set name="baseMpReg" value="1.84"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="116"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="97"/>
+		<set name="baseMAtk" value="89"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="133"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="1306"/>
+		<set name="rewardSp" value="75"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.1993"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="184" max="368" chance="100.0"/>
+			</group>
+			<group chance="0.5723">
+				<!--Gloves of Knowledge-->
+				<reward item_id="2447" min="1" max="1" chance="2.2886"/>
+				<!--Reinforced Leather Gloves-->
+				<reward item_id="2446" min="1" max="1" chance="2.2886"/>
+				<!--Boots of Knowledge-->
+				<reward item_id="2423" min="1" max="1" chance="2.2886"/>
+				<!--Reinforced Leather Boots-->
+				<reward item_id="2422" min="1" max="1" chance="2.2886"/>
+				<!--Iron Boots Design-->
+				<reward item_id="1940" min="1" max="1" chance="86.2683"/>
+				<!--Iron Boots-->
+				<reward item_id="553" min="1" max="1" chance="2.2886"/>
+				<!--Gauntlets-->
+				<reward item_id="63" min="1" max="1" chance="2.2887"/>
+			</group>
+			<group chance="12.3826">
+				<!--Compound Braid-->
+				<reward item_id="1889" min="1" max="1" chance="2.4938"/>
+				<!--Recipe: Elven Earring-->
+				<reward item_id="2154" min="1" max="1" chance="4.0047"/>
+				<!--Silver Nugget-->
+				<reward item_id="1873" min="1" max="1" chance="14.9605"/>
+				<!--Thread-->
+				<reward item_id="1868" min="1" max="1" chance="74.8004"/>
+				<!--Metallic Thread-->
+				<reward item_id="5549" min="1" max="1" chance="3.7406"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Tiger's Eye Earring Stone-->
+			<reward item_id="1901" min="1" max="1" chance="6.0152"/>
+			<!--Mithril Banded Mail Material-->
+			<reward item_id="1938" min="1" max="1" chance="2.9277"/>
+			<!--Recipe: Elven Earring-->
+			<reward item_id="2154" min="1" max="1" chance="4.6627"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21806" name="Treasure Chest" title="" pts_name="mimic_36"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.266-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="36"/>
+		<set name="exp" value="9850166"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="809"/>
+		<set name="baseHpReg" value="7.11"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="463"/>
+		<set name="baseMpReg" value="1.84"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="144"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="108"/>
+		<set name="baseMAtk" value="113"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="149"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="1555"/>
+		<set name="rewardSp" value="94"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.1998"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="216" max="433" chance="100.0"/>
+			</group>
+			<group chance="0.087">
+				<!--Helmet-->
+				<reward item_id="47" min="1" max="1" chance="41.1498"/>
+				<!--Hoplon-->
+				<reward item_id="628" min="1" max="1" chance="58.8502"/>
+			</group>
+			<group chance="17.8392">
+				<!--Stem-->
+				<reward item_id="1864" min="1" max="1" chance="61.0901"/>
+				<!--Iron Ore-->
+				<reward item_id="1869" min="1" max="1" chance="30.5448"/>
+				<!--Steel-->
+				<reward item_id="1880" min="1" max="1" chance="3.0544"/>
+				<!--Recipe: Elven Ring-->
+				<reward item_id="2155" min="1" max="1" chance="4.9032"/>
+				<!--Durable Metal Plate-->
+				<reward item_id="5550" min="1" max="1" chance="0.4075"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Stem-->
+			<reward item_id="1864" min="1" max="3" chance="51.2417"/>
+			<!--Steel-->
+			<reward item_id="1880" min="1" max="1" chance="5.1242"/>
+			<!--Mithril Banded Gaiters Material-->
+			<reward item_id="1939" min="1" max="1" chance="4.5008"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21807" name="Treasure Chest" title="" pts_name="mimic_39"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.266-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="39"/>
+		<set name="exp" value="13844951"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="925"/>
+		<set name="baseHpReg" value="7.11"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="514"/>
+		<set name="baseMpReg" value="1.84"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="179"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="120"/>
+		<set name="baseMAtk" value="143"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="166"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="1825"/>
+		<set name="rewardSp" value="116"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.1999"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="253" max="504" chance="100.0"/>
+			</group>
+			<group chance="2.1311">
+				<!--Manticore Skin Gloves-->
+				<reward item_id="2448" min="1" max="1" chance="0.2436"/>
+				<!--Brigandine Gauntlets-->
+				<reward item_id="2449" min="1" max="1" chance="0.2436"/>
+				<!--Elven Mithril Gloves-->
+				<reward item_id="2450" min="1" max="1" chance="0.2436"/>
+				<!--Manticore Skin Boot Lining-->
+				<reward item_id="2923" min="1" max="1" chance="12.2564"/>
+				<!--Brigandine Boots Design-->
+				<reward item_id="2924" min="1" max="1" chance="12.2564"/>
+				<!--Elven Mithril Boots Design-->
+				<reward item_id="2925" min="1" max="1" chance="12.2564"/>
+				<!--Manticore Skin Gloves Lining-->
+				<reward item_id="2926" min="1" max="1" chance="12.2564"/>
+				<!--Brigandine Gauntlets Pattern-->
+				<reward item_id="2927" min="1" max="1" chance="12.2564"/>
+				<!--Elven Mithril Boots-->
+				<reward item_id="2426" min="1" max="1" chance="0.2436"/>
+				<!--Brigandine Boots-->
+				<reward item_id="2425" min="1" max="1" chance="0.2436"/>
+				<!--Manticore Skin Boots-->
+				<reward item_id="2424" min="1" max="1" chance="0.2436"/>
+				<!--Rip Gauntlets-->
+				<reward item_id="606" min="1" max="1" chance="0.2436"/>
+				<!--Boots of Power-->
+				<reward item_id="1124" min="1" max="1" chance="0.2436"/>
+				<!--Elven Mithril Gloves Design-->
+				<reward item_id="2928" min="1" max="1" chance="12.2564"/>
+				<!--Rip Gauntlets Pattern-->
+				<reward item_id="1946" min="1" max="1" chance="12.2564"/>
+				<!--Boots of Power Pattern-->
+				<reward item_id="1948" min="1" max="1" chance="12.2564"/>
+			</group>
+			<group chance="16.6103">
+				<!--Oriharukon Ore-->
+				<reward item_id="1874" min="1" max="1" chance="3.1023"/>
+				<!--Varnish-->
+				<reward item_id="1865" min="1" max="1" chance="46.5266"/>
+				<!--Recipe: Omen Beast's Eye Earring-->
+				<reward item_id="2157" min="1" max="1" chance="3.8451"/>
+				<!--Coal-->
+				<reward item_id="1870" min="1" max="1" chance="46.526"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Elven Earring Beads-->
+			<reward item_id="1902" min="1" max="1" chance="6.0588"/>
+			<!--Recipe: Omen Beast's Eye Earring-->
+			<reward item_id="2157" min="1" max="1" chance="4.9421"/>
+			<!--Recipe: Mithril Ring-->
+			<reward item_id="2158" min="1" max="1" chance="7.401"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21808" name="Treasure Chest" title="" pts_name="mimic_42"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.266-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="42"/>
+		<set name="exp" value="18995665"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="1051"/>
+		<set name="baseHpReg" value="8.69"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="589"/>
+		<set name="baseMpReg" value="2.14"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="202"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="123"/>
+		<set name="baseMAtk" value="141"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="168"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="2116"/>
+		<set name="rewardSp" value="141"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.1995"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="282" max="570" chance="100.0"/>
+			</group>
+			<group chance="1.8072">
+				<!--Plate Helmet Design-->
+				<reward item_id="2930" min="1" max="1" chance="25.763"/>
+				<!--Plate Shield-->
+				<reward item_id="2494" min="1" max="1" chance="0.6245"/>
+				<!--Plate Helmet-->
+				<reward item_id="2412" min="1" max="1" chance="0.4366"/>
+				<!--Square Shield Fragment-->
+				<reward item_id="1956" min="1" max="1" chance="36.2757"/>
+				<!--Square Shield-->
+				<reward item_id="630" min="1" max="1" chance="0.6245"/>
+				<!--Plate Shield Fragment-->
+				<reward item_id="2934" min="1" max="1" chance="36.2757"/>
+			</group>
+			<group chance="15.3444">
+				<!--Adamantite Nugget-->
+				<reward item_id="1877" min="1" max="1" chance="2.2588"/>
+				<!--Recipe: Moonstone Earring-->
+				<reward item_id="2160" min="1" max="1" chance="3.643"/>
+				<!--Charcoal-->
+				<reward item_id="1871" min="1" max="1" chance="56.4591"/>
+				<!--Suede-->
+				<reward item_id="1866" min="1" max="1" chance="37.6391"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Suede-->
+			<reward item_id="1866" min="1" max="1" chance="46.0056"/>
+			<!--Charcoal-->
+			<reward item_id="1871" min="1" max="1" chance="69.0083"/>
+			<!--Omen Beast's Eye Earring Gemstone-->
+			<reward item_id="1905" min="1" max="1" chance="6.7129"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21809" name="Treasure Chest" title="" pts_name="mimic_45"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.267-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="45"/>
+		<set name="exp" value="25524868"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="1184"/>
+		<set name="baseHpReg" value="8.69"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="677"/>
+		<set name="baseMpReg" value="2.14"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="245"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="135"/>
+		<set name="baseMAtk" value="175"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="186"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="2430"/>
+		<set name="rewardSp" value="169"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.2"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="320" max="650" chance="100.0"/>
+			</group>
+			<group chance="1.7153">
+				<!--Chain Gloves-->
+				<reward item_id="2453" min="1" max="1" chance="0.1982"/>
+				<!--Karmian Gloves-->
+				<reward item_id="2454" min="1" max="1" chance="0.1982"/>
+				<!--Chain Boots Part-->
+				<reward item_id="2937" min="1" max="1" chance="10.9129"/>
+				<!--Karmian Boots Fabric-->
+				<reward item_id="2938" min="1" max="1" chance="10.9129"/>
+				<!--Plate Leather Boot Lining-->
+				<reward item_id="2939" min="1" max="1" chance="10.9129"/>
+				<!--Dwarven Chain Boots Part-->
+				<reward item_id="2940" min="1" max="1" chance="10.9129"/>
+				<!--Boots of Seal Pattern-->
+				<reward item_id="2941" min="1" max="1" chance="10.9129"/>
+				<!--Reinforced Mithril Gloves Design-->
+				<reward item_id="2942" min="1" max="1" chance="10.9129"/>
+				<!--Chain Gloves Design-->
+				<reward item_id="2943" min="1" max="1" chance="10.9129"/>
+				<!--Karmian Gloves Fabric-->
+				<reward item_id="2944" min="1" max="1" chance="10.9129"/>
+				<!--Reinforced Mithril Gloves-->
+				<reward item_id="2452" min="1" max="1" chance="0.1982"/>
+				<!--Boots of Seal-->
+				<reward item_id="2433" min="1" max="1" chance="0.1982"/>
+				<!--Dwarven Chain Boots-->
+				<reward item_id="2432" min="1" max="1" chance="0.1982"/>
+				<!--Plated Leather Boots-->
+				<reward item_id="2431" min="1" max="1" chance="0.1982"/>
+				<!--Karmian Boots-->
+				<reward item_id="2430" min="1" max="1" chance="0.1982"/>
+				<!--Chain Boots-->
+				<reward item_id="2429" min="1" max="1" chance="0.1982"/>
+				<!--Mithril Boots-->
+				<reward item_id="62" min="1" max="1" chance="0.1982"/>
+				<!--Mithril Boots Design-->
+				<reward item_id="1958" min="1" max="1" chance="10.913"/>
+			</group>
+			<group chance="18.2798">
+				<!--Animal Skin-->
+				<reward item_id="1867" min="1" max="1" chance="45.5624"/>
+				<!--Animal Bone-->
+				<reward item_id="1872" min="1" max="1" chance="45.5615"/>
+				<!--Stone of Purity-->
+				<reward item_id="1875" min="1" max="1" chance="2.2784"/>
+				<!--Coarse Bone Powder-->
+				<reward item_id="1881" min="1" max="1" chance="4.5563"/>
+				<!--Recipe: Earring of Protection-->
+				<reward item_id="2163" min="1" max="1" chance="1.7439"/>
+				<!--Mold Hardener-->
+				<reward item_id="4041" min="1" max="1" chance="0.2975"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Moonstone Earring Wire-->
+			<reward item_id="1908" min="1" max="1" chance="7.5095"/>
+			<!--Recipe: Earring of Protection-->
+			<reward item_id="2163" min="1" max="1" chance="4.0459"/>
+			<!--Greater Dye of STR <Str+1 Con-1>-->
+			<reward item_id="4553" min="1" max="1" chance="0.3172"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21810" name="Treasure Chest" title="" pts_name="mimic_48"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.267-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="48"/>
+		<set name="exp" value="33680052"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="1323"/>
+		<set name="baseHpReg" value="8.69"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="768"/>
+		<set name="baseMpReg" value="2.14"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="294"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="148"/>
+		<set name="baseMAtk" value="215"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="204"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="2764"/>
+		<set name="rewardSp" value="202"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.1997"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="364" max="740" chance="100.0"/>
+			</group>
+			<group chance="1.4393">
+				<!--Great Helmet-->
+				<reward item_id="500" min="1" max="1" chance="0.3882"/>
+				<!--Knight's Shield-->
+				<reward item_id="632" min="1" max="1" chance="0.5488"/>
+				<!--Dwarven Chain Shield Fragment-->
+				<reward item_id="2947" min="1" max="1" chance="33.0721"/>
+				<!--Dwarven Chain Shield-->
+				<reward item_id="2496" min="1" max="1" chance="0.597"/>
+				<!--Knight's Shield Fragment-->
+				<reward item_id="1972" min="1" max="1" chance="37.0464"/>
+				<!--Great Helmet Material-->
+				<reward item_id="1971" min="1" max="1" chance="28.3475"/>
+			</group>
+			<group chance="19.5674">
+				<!--Recipe: Earrings of Binding (100%)-->
+				<reward item_id="2166" min="1" max="1" chance="1.1549"/>
+				<!--Metallic Fiber-->
+				<reward item_id="1895" min="1" max="1" chance="9.7304"/>
+				<!--Mithril Ore-->
+				<reward item_id="1876" min="1" max="1" chance="6.8113"/>
+				<!--Silver Nugget-->
+				<reward item_id="1873" min="1" max="1" chance="13.6225"/>
+				<!--Thread-->
+				<reward item_id="1868" min="1" max="1" chance="68.1132"/>
+				<!--Enria-->
+				<reward item_id="4042" min="1" max="1" chance="0.5677"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Plated Leather Fragment-->
+			<reward item_id="1966" min="1" max="1" chance="3.2947"/>
+			<!--Plated Leather Gaiters Material-->
+			<reward item_id="1967" min="1" max="1" chance="4.9218"/>
+			<!--Recipe: Earrings of Binding (100%)-->
+			<reward item_id="2166" min="1" max="1" chance="3.059"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21811" name="Treasure Chest" title="" pts_name="mimic_51"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.267-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="51"/>
+		<set name="exp" value="45525133"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="1470"/>
+		<set name="baseHpReg" value="10.27"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="861"/>
+		<set name="baseMpReg" value="2.45"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="323"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="151"/>
+		<set name="baseMAtk" value="222"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="203"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="3121"/>
+		<set name="rewardSp" value="238"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.1999"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="413" max="839" chance="100.0"/>
+			</group>
+			<group chance="1.2613">
+				<!--Composite Boots-->
+				<reward item_id="64" min="1" max="1" chance="0.688"/>
+				<!--Mithril Gauntlets-->
+				<reward item_id="608" min="1" max="1" chance="0.688"/>
+				<!--Composite Boots Part-->
+				<reward item_id="2956" min="1" max="1" chance="49.312"/>
+				<!--Mithril Gauntlets Design-->
+				<reward item_id="1981" min="1" max="1" chance="49.312"/>
+			</group>
+			<group chance="28.6627">
+				<!--Recipe: Necklace of Binding-->
+				<reward item_id="2169" min="1" max="1" chance="0.4354"/>
+				<!--Cord-->
+				<reward item_id="1884" min="1" max="1" chance="15.1332"/>
+				<!--Braided Hemp-->
+				<reward item_id="1878" min="1" max="1" chance="9.8368"/>
+				<!--Iron Ore-->
+				<reward item_id="1869" min="1" max="1" chance="24.5915"/>
+				<!--Stem-->
+				<reward item_id="1864" min="1" max="1" chance="49.1833"/>
+				<!--Mold Glue-->
+				<reward item_id="4039" min="1" max="1" chance="0.8198"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Braided Hemp-->
+			<reward item_id="1878" min="1" max="1" chance="40.9067"/>
+			<!--Cord-->
+			<reward item_id="1884" min="1" max="1" chance="62.9333"/>
+			<!--Greater Dye of STR <Str+3 Con-3>-->
+			<reward item_id="4601" min="1" max="1" chance="0.2273"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21812" name="Treasure Chest" title="" pts_name="mimic_54"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.267-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="54"/>
+		<set name="exp" value="63907911"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="1622"/>
+		<set name="baseHpReg" value="10.27"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="955"/>
+		<set name="baseMpReg" value="2.45"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="382"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="165"/>
+		<set name="baseMAtk" value="268"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="222"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="3499"/>
+		<set name="rewardSp" value="279"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.1999"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="464" max="945" chance="100.0"/>
+			</group>
+			<group chance="0.9591">
+				<!--Full Plate Shield Fragment-->
+				<reward item_id="2966" min="1" max="1" chance="60.6519"/>
+				<!--Full Plate Helmet Design-->
+				<reward item_id="2959" min="1" max="1" chance="38.3386"/>
+				<!--Full Plate Shield-->
+				<reward item_id="2497" min="1" max="1" chance="0.5936"/>
+				<!--Full Plate Helmet-->
+				<reward item_id="2414" min="1" max="1" chance="0.4159"/>
+			</group>
+			<group chance="16.0859">
+				<!--Cokes-->
+				<reward item_id="1879" min="1" max="1" chance="7.343"/>
+				<!--Stone of Purity-->
+				<reward item_id="1875" min="1" max="1" chance="2.9373"/>
+				<!--Coal-->
+				<reward item_id="1870" min="1" max="1" chance="44.0557"/>
+				<!--Varnish-->
+				<reward item_id="1865" min="1" max="1" chance="44.0553"/>
+				<!--Mold Lubricant-->
+				<reward item_id="4040" min="1" max="1" chance="0.8815"/>
+				<!--Recipe: Adamantite Earrings-->
+				<reward item_id="4126" min="1" max="1" chance="0.7272"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Theca Leather Armor Pattern-->
+			<reward item_id="1984" min="1" max="1" chance="2.4686"/>
+			<!--Theca Leather Gaiters Pattern-->
+			<reward item_id="1985" min="1" max="1" chance="3.971"/>
+			<!--Recipe: Adamantite Earrings-->
+			<reward item_id="4126" min="1" max="1" chance="1.9003"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21813" name="Treasure Chest" title="" pts_name="mimic_57"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.267-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="57"/>
+		<set name="exp" value="91162654"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="1776"/>
+		<set name="baseHpReg" value="10.27"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1052"/>
+		<set name="baseMpReg" value="2.45"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="446"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="179"/>
+		<set name="baseMAtk" value="320"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="241"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="3898"/>
+		<set name="rewardSp" value="324"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.1998"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="519" max="1060" chance="100.0"/>
+			</group>
+			<group chance="0.9992">
+				<!--Zubei's Gauntlets Part-->
+				<reward item_id="4100" min="1" max="1" chance="24.8099"/>
+				<!--Avadon Boots Design-->
+				<reward item_id="4098" min="1" max="1" chance="24.8099"/>
+				<!--Zubei's Boots Design-->
+				<reward item_id="4097" min="1" max="1" chance="24.8099"/>
+				<!--Avadon Gloves Part-->
+				<reward item_id="4073" min="1" max="1" chance="24.8099"/>
+				<!--Avadon Gloves-->
+				<reward item_id="2464" min="1" max="1" chance="0.1901"/>
+				<!--Zubei's Gauntlets-->
+				<reward item_id="612" min="1" max="1" chance="0.1901"/>
+				<!--Avadon Boots-->
+				<reward item_id="600" min="1" max="1" chance="0.1901"/>
+				<!--Zubei's Boots-->
+				<reward item_id="554" min="1" max="1" chance="0.1901"/>
+			</group>
+			<group chance="11.4943">
+				<!--High Grade Suede-->
+				<reward item_id="1885" min="1" max="1" chance="4.6056"/>
+				<!--Charcoal-->
+				<reward item_id="1871" min="1" max="1" chance="55.2629"/>
+				<!--Mold Hardener-->
+				<reward item_id="4041" min="1" max="1" chance="0.4811"/>
+				<!--Suede-->
+				<reward item_id="1866" min="1" max="1" chance="36.8413"/>
+				<!--Recipe: Earrings of Black Ore-->
+				<reward item_id="4129" min="1" max="1" chance="0.5985"/>
+				<!--Metal Hardener-->
+				<reward item_id="5220" min="1" max="1" chance="2.2106"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Scroll: Enchant Weapon (Grade B)-->
+			<reward item_id="947" min="1" max="1" chance="0.0516"/>
+			<!--Adamantite Earring Gemstone-->
+			<reward item_id="4049" min="1" max="1" chance="6.7676"/>
+			<!--Recipe: Earrings of Black Ore-->
+			<reward item_id="4129" min="1" max="1" chance="1.3964"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21814" name="Treasure Chest" title="" pts_name="mimic_60"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.267-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="60"/>
+		<set name="exp" value="126509653"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="1933"/>
+		<set name="baseHpReg" value="10.27"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1150"/>
+		<set name="baseMpReg" value="2.45"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="482"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="182"/>
+		<set name="baseMAtk" value="325"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="247"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="4320"/>
+		<set name="rewardSp" value="375"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.2"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="580" max="1179" chance="100.0"/>
+			</group>
+			<group chance="1.1577">
+				<!--Zubei's Helmet Design-->
+				<reward item_id="4102" min="1" max="1" chance="20.6001"/>
+				<!--Zubei's Shield Fragment-->
+				<reward item_id="4101" min="1" max="1" chance="26.5862"/>
+				<!--Avadon Circlet Pattern-->
+				<reward item_id="4072" min="1" max="1" chance="20.6001"/>
+				<!--Avadon Circlet-->
+				<reward item_id="2415" min="1" max="1" chance="0.1202"/>
+				<!--Avadon Shield Fragment-->
+				<reward item_id="4439" min="1" max="1" chance="31.6299"/>
+				<!--Avadon Shield-->
+				<reward item_id="673" min="1" max="1" chance="0.1717"/>
+				<!--Zubei's Shield-->
+				<reward item_id="633" min="1" max="1" chance="0.1717"/>
+				<!--Zubei's Helmet-->
+				<reward item_id="503" min="1" max="1" chance="0.1201"/>
+			</group>
+			<group chance="20.9272">
+				<!--Leather-->
+				<reward item_id="1882" min="1" max="1" chance="7.5155"/>
+				<!--Animal Bone-->
+				<reward item_id="1872" min="1" max="1" chance="45.0925"/>
+				<!--Animal Skin-->
+				<reward item_id="1867" min="1" max="1" chance="45.0918"/>
+				<!--Enria-->
+				<reward item_id="4042" min="1" max="1" chance="0.5638"/>
+				<!--Recipe: Ring of Black Ore-->
+				<reward item_id="4130" min="1" max="1" chance="0.5495"/>
+				<!--Crafted Leather-->
+				<reward item_id="1894" min="1" max="1" chance="1.1869"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Animal Skin-->
+			<reward item_id="1867" min="1" max="5" chance="63.8926"/>
+			<!--Animal Bone-->
+			<reward item_id="1872" min="1" max="5" chance="63.8926"/>
+			<!--Greater Dye of STR <Str+4 Con-4>-->
+			<reward item_id="4613" min="1" max="1" chance="0.1983"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21815" name="Treasure Chest" title="" pts_name="mimic_63"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.267-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="63"/>
+		<set name="exp" value="189364894"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2090"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1251"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="553"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="197"/>
+		<set name="baseMAtk" value="381"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="267"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="4762"/>
+		<set name="rewardSp" value="430"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.1998"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="646" max="1308" chance="100.0"/>
+			</group>
+			<group chance="1.0647">
+				<!--Doom Boots Part-->
+				<reward item_id="4099" min="1" max="1" chance="24.8606"/>
+				<!--Blue Wolf Gloves Fabric-->
+				<reward item_id="4096" min="1" max="1" chance="24.8606"/>
+				<!--Doom Gloves Part-->
+				<reward item_id="4091" min="1" max="1" chance="24.8606"/>
+				<!--Blue Wolf Boots Design-->
+				<reward item_id="4090" min="1" max="1" chance="24.8606"/>
+				<!--Blue Wolf Gloves-->
+				<reward item_id="2487" min="1" max="1" chance="0.1394"/>
+				<!--Doom Gloves-->
+				<reward item_id="2475" min="1" max="1" chance="0.1394"/>
+				<!--Blue Wolf Boots-->
+				<reward item_id="2439" min="1" max="1" chance="0.1394"/>
+				<!--Boots of Doom-->
+				<reward item_id="601" min="1" max="1" chance="0.1394"/>
+			</group>
+			<group chance="20.4503">
+				<!--Thons-->
+				<reward item_id="4044" min="1" max="1" chance="1.2816"/>
+				<!--Compound Braid-->
+				<reward item_id="1889" min="1" max="1" chance="2.5627"/>
+				<!--Silver Nugget-->
+				<reward item_id="1873" min="1" max="1" chance="15.3768"/>
+				<!--Thread-->
+				<reward item_id="1868" min="1" max="1" chance="76.8832"/>
+				<!--Recipe: Mithril Arrow (100%)-->
+				<reward item_id="5230" min="1" max="1" chance="0.0513"/>
+				<!--Metallic Thread-->
+				<reward item_id="5549" min="1" max="1" chance="3.8444"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Earring of Black Ore Piece-->
+			<reward item_id="4052" min="1" max="1" chance="5.6535"/>
+			<!--Ring of Black Ore Gemstone-->
+			<reward item_id="4053" min="1" max="1" chance="6.8445"/>
+			<!--Recipe: Mithril Arrow (100%)-->
+			<reward item_id="5230" min="1" max="1" chance="0.2129"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21816" name="Treasure Chest" title="" pts_name="mimic_66"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.267-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="66"/>
+		<set name="exp" value="271975263"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2244"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1353"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="629"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="212"/>
+		<set name="baseMAtk" value="441"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="287"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="5227"/>
+		<set name="rewardSp" value="492"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.2"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="714" max="1448" chance="100.0"/>
+			</group>
+			<group chance="1.0539">
+				<!--Doom Helmet Pattern-->
+				<reward item_id="4089" min="1" max="1" chance="31.1977"/>
+				<!--Blue Wolf Helmet Design-->
+				<reward item_id="4088" min="1" max="1" chance="31.1977"/>
+				<!--Doom Shield Fragment-->
+				<reward item_id="4077" min="1" max="1" chance="37.1271"/>
+				<!--Doom Helmet-->
+				<reward item_id="2417" min="1" max="1" chance="0.1403"/>
+				<!--Blue Wolf Helmet-->
+				<reward item_id="2416" min="1" max="1" chance="0.1403"/>
+				<!--Doom Shield-->
+				<reward item_id="110" min="1" max="1" chance="0.1969"/>
+			</group>
+			<group chance="27.3754">
+				<!--Steel-->
+				<reward item_id="1880" min="1" max="1" chance="3.1776"/>
+				<!--Asofe-->
+				<reward item_id="4043" min="1" max="1" chance="1.0593"/>
+				<!--Iron Ore-->
+				<reward item_id="1869" min="1" max="1" chance="31.7755"/>
+				<!--Stem-->
+				<reward item_id="1864" min="1" max="1" chance="63.5519"/>
+				<!--Recipe: Dragon Slayer(60%)-->
+				<reward item_id="5434" min="1" max="1" chance="0.012"/>
+				<!--Durable Metal Plate-->
+				<reward item_id="5550" min="1" max="1" chance="0.4237"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Necklace of Black Ore Beads-->
+			<reward item_id="4054" min="1" max="1" chance="3.4802"/>
+			<!--Recipe: Meteor Shower(60%)-->
+			<reward item_id="5438" min="1" max="1" chance="0.0966"/>
+			<!--Durable Metal Plate-->
+			<reward item_id="5550" min="1" max="1" chance="2.3559"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21817" name="Treasure Chest" title="" pts_name="mimic_69"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.267-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="69"/>
+		<set name="exp" value="387199547"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2395"/>
+		<set name="baseHpReg" value="11.85"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1458"/>
+		<set name="baseMpReg" value="2.78"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="708"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="228"/>
+		<set name="baseMAtk" value="507"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="308"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="5713"/>
+		<set name="rewardSp" value="559"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.2"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="786" max="1596" chance="100.0"/>
+			</group>
+			<group chance="0.6795">
+				<!--Sealed Dark Crystal Gloves Design-->
+				<reward item_id="5508" min="1" max="1" chance="24.8103"/>
+				<!--Sealed Tallum Boots Lining-->
+				<reward item_id="5497" min="1" max="1" chance="24.8103"/>
+				<!--Sealed Dark Crystal Boots Lining-->
+				<reward item_id="5496" min="1" max="1" chance="24.8103"/>
+				<!--Sealed Tallum Boots-->
+				<reward item_id="5296" min="1" max="1" chance="0.1897"/>
+				<!--Sealed Tallum Gloves-->
+				<reward item_id="5295" min="1" max="1" chance="0.1897"/>
+				<!--Sealed Dark Crystal Boots-->
+				<reward item_id="5291" min="1" max="1" chance="0.1897"/>
+				<!--Sealed Dark Crystal Gloves-->
+				<reward item_id="5290" min="1" max="1" chance="0.1897"/>
+				<!--Sealed Tallum Gloves Design-->
+				<reward item_id="5509" min="1" max="1" chance="24.8103"/>
+			</group>
+			<group chance="20.4496">
+				<!--Asofe-->
+				<reward item_id="4043" min="1" max="1" chance="1.5623"/>
+				<!--Mold Glue-->
+				<reward item_id="4039" min="1" max="1" chance="1.5623"/>
+				<!--Recipe: Elysian(60%)-->
+				<reward item_id="5440" min="1" max="1" chance="0.0176"/>
+				<!--Oriharukon Ore-->
+				<reward item_id="1874" min="1" max="1" chance="3.1247"/>
+				<!--Coal-->
+				<reward item_id="1870" min="1" max="1" chance="46.8668"/>
+				<!--Varnish-->
+				<reward item_id="1865" min="1" max="1" chance="46.8663"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Oriharukon Ore-->
+			<reward item_id="1874" min="1" max="1" chance="12.9783"/>
+			<!--Recipe: Dragon Slayer(60%)-->
+			<reward item_id="5434" min="1" max="1" chance="0.0721"/>
+			<!--Sealed Dark Crystal Leather Armor Pattern-->
+			<reward item_id="5478" min="1" max="1" chance="1.637"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21818" name="Treasure Chest" title="" pts_name="mimic_72"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.267-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="72"/>
+		<set name="exp" value="532694979"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2540"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1565"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="735"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="215"/>
+		<set name="baseMAtk" value="509"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="309"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="6220"/>
+		<set name="rewardSp" value="632"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.1998"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+			<skill id="4789" level="2"/>
+			<!--NPC High Level-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="860" max="1756" chance="100.0"/>
+			</group>
+			<group chance="0.5507">
+				<!--Sealed Tallum Helm Design-->
+				<reward item_id="5526" min="1" max="1" chance="29.5386"/>
+				<!--Sealed Dark Crystal Helmet Design-->
+				<reward item_id="5525" min="1" max="1" chance="29.5386"/>
+				<!--Sealed Dark Crystal Shield Fragment-->
+				<reward item_id="5494" min="1" max="1" chance="40.1265"/>
+				<!--Sealed Tallum Helmet-->
+				<reward item_id="5294" min="1" max="1" chance="0.2358"/>
+				<!--Sealed Dark Crystal Shield-->
+				<reward item_id="5292" min="1" max="1" chance="0.3247"/>
+				<!--Sealed Dark Crystal Helmet-->
+				<reward item_id="5289" min="1" max="1" chance="0.2358"/>
+			</group>
+			<group chance="18.2716">
+				<!--Mold Hardener-->
+				<reward item_id="4041" min="1" max="1" chance="0.5013"/>
+				<!--Mold Lubricant-->
+				<reward item_id="4040" min="1" max="1" chance="1.152"/>
+				<!--Adamantite Nugget-->
+				<reward item_id="1877" min="1" max="1" chance="2.304"/>
+				<!--Charcoal-->
+				<reward item_id="1871" min="1" max="1" chance="57.5909"/>
+				<!--Suede-->
+				<reward item_id="1866" min="1" max="1" chance="38.3938"/>
+				<!--Recipe: Shining Arrow (100%)-->
+				<reward item_id="6901" min="1" max="1" chance="0.058"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Recipe: Elysian(60%)-->
+			<reward item_id="5440" min="1" max="1" chance="0.0792"/>
+			<!--Sealed Tallum Leather Armor Pattern-->
+			<reward item_id="5479" min="1" max="1" chance="1.2647"/>
+			<!--Sealed Dark Crystal Leggings Design-->
+			<reward item_id="5482" min="1" max="1" chance="2.8211"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21819" name="Treasure Chest" title="" pts_name="mimic_75"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.268-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="75"/>
+		<set name="exp" value="804225364"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2677"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1673"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="813"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="230"/>
+		<set name="baseMAtk" value="574"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="329"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="6750"/>
+		<set name="rewardSp" value="712"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.2"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+			<skill id="4789" level="4"/>
+			<!--NPC High Level-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="941" max="1920" chance="100.0"/>
+			</group>
+			<group chance="0.8154">
+				<!--Sealed Dark Crystal Gloves Design-->
+				<reward item_id="5508" min="1" max="1" chance="24.817"/>
+				<!--Sealed Tallum Boots Lining-->
+				<reward item_id="5497" min="1" max="1" chance="24.817"/>
+				<!--Sealed Dark Crystal Boots Lining-->
+				<reward item_id="5496" min="1" max="1" chance="24.817"/>
+				<!--Sealed Tallum Boots-->
+				<reward item_id="5296" min="1" max="1" chance="0.183"/>
+				<!--Sealed Tallum Gloves-->
+				<reward item_id="5295" min="1" max="1" chance="0.183"/>
+				<!--Sealed Dark Crystal Boots-->
+				<reward item_id="5291" min="1" max="1" chance="0.183"/>
+				<!--Sealed Dark Crystal Gloves-->
+				<reward item_id="5290" min="1" max="1" chance="0.183"/>
+				<!--Sealed Tallum Gloves Design-->
+				<reward item_id="5509" min="1" max="1" chance="24.817"/>
+			</group>
+			<group chance="33.0989">
+				<!--Mold Hardener-->
+				<reward item_id="4041" min="1" max="1" chance="0.3024"/>
+				<!--Coarse Bone Powder-->
+				<reward item_id="1881" min="1" max="1" chance="4.6364"/>
+				<!--Stone of Purity-->
+				<reward item_id="1875" min="1" max="1" chance="2.3181"/>
+				<!--Animal Bone-->
+				<reward item_id="1872" min="1" max="1" chance="46.3643"/>
+				<!--Animal Skin-->
+				<reward item_id="1867" min="1" max="1" chance="46.3635"/>
+				<!--Recipe: Soulshot: S Grade-->
+				<reward item_id="1808" min="1" max="1" chance="0.0153"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Stone of Purity-->
+			<reward item_id="1875" min="1" max="1" chance="15.5856"/>
+			<!--Mold Hardener-->
+			<reward item_id="4041" min="1" max="1" chance="2.0329"/>
+			<!--Sealed Leather Armor of Nightmare Fabric-->
+			<reward item_id="5480" min="1" max="1" chance="1.049"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21820" name="Treasure Chest" title="" pts_name="mimic_78"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.268-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="1511275834"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2803"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1784"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="892"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="244"/>
+		<set name="baseMAtk" value="641"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="350"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="7300"/>
+		<set name="rewardSp" value="799"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.1999"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+			<skill id="4789" level="5"/>
+			<!--NPC High Level-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="1025" max="2092" chance="100.0"/>
+			</group>
+			<group chance="0.6562">
+				<!--Sealed Dark Crystal Helmet Design-->
+				<reward item_id="5525" min="1" max="1" chance="29.5445"/>
+				<!--Sealed Dark Crystal Shield Fragment-->
+				<reward item_id="5494" min="1" max="1" chance="40.138"/>
+				<!--Sealed Tallum Helmet-->
+				<reward item_id="5294" min="1" max="1" chance="0.2277"/>
+				<!--Sealed Dark Crystal Shield-->
+				<reward item_id="5292" min="1" max="1" chance="0.3175"/>
+				<!--Sealed Dark Crystal Helmet-->
+				<reward item_id="5289" min="1" max="1" chance="0.2277"/>
+				<!--Sealed Tallum Helm Design-->
+				<reward item_id="5526" min="1" max="1" chance="29.5446"/>
+			</group>
+			<group chance="44.6325">
+				<!--Recipe: Spiritshot S-->
+				<reward item_id="3036" min="1" max="1" chance="0.0107"/>
+				<!--Metallic Fiber-->
+				<reward item_id="1895" min="1" max="1" chance="6.8799"/>
+				<!--Mithril Ore-->
+				<reward item_id="1876" min="1" max="1" chance="4.816"/>
+				<!--Silver Nugget-->
+				<reward item_id="1873" min="1" max="1" chance="9.632"/>
+				<!--Thread-->
+				<reward item_id="1868" min="1" max="1" chance="48.1603"/>
+				<!--Mithril Arrow-->
+				<reward item_id="1344" min="10" max="30" chance="30.0997"/>
+				<!--Enria-->
+				<reward item_id="4042" min="1" max="1" chance="0.4014"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Recipe: Soulshot: S Grade-->
+			<reward item_id="1808" min="1" max="1" chance="0.1132"/>
+			<!--Sealed Majestic Leather Armor Fabric-->
+			<reward item_id="5481" min="1" max="1" chance="1.1429"/>
+			<!--Recipe: Shining Arrow (100%)-->
+			<reward item_id="6901" min="1" max="1" chance="0.2547"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21821" name="Treasure Chest" title="" pts_name="mimic_81"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.268-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="6300000000"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2916"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="1896"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="932"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="224"/>
+		<set name="baseMAtk" value="638"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="352"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="7873"/>
+		<set name="rewardSp" value="894"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.2"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+			<skill id="4789" level="7"/>
+			<!--NPC High Level-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="1110" max="2273" chance="100.0"/>
+			</group>
+			<group chance="0.6944">
+				<!--Sealed Gauntlets of Nightmare Design-->
+				<reward item_id="5514" min="1" max="1" chance="24.8272"/>
+				<!--Sealed Majestic Boots Lining-->
+				<reward item_id="5503" min="1" max="1" chance="24.8272"/>
+				<!--Sealed Boots of Nightmare Lining-->
+				<reward item_id="5502" min="1" max="1" chance="24.8272"/>
+				<!--Sealed Majestic Boots-->
+				<reward item_id="5319" min="1" max="1" chance="0.1728"/>
+				<!--Sealed Majestic Gauntlets-->
+				<reward item_id="5318" min="1" max="1" chance="0.1728"/>
+				<!--Sealed Boots of Nightmare-->
+				<reward item_id="5314" min="1" max="1" chance="0.1728"/>
+				<!--Sealed Gauntlets of Nightmare-->
+				<reward item_id="5313" min="1" max="1" chance="0.1728"/>
+				<!--Sealed Majestic Gauntlets Design-->
+				<reward item_id="5515" min="1" max="1" chance="24.8272"/>
+			</group>
+			<group chance="1.8049">
+				<!--Thons-->
+				<reward item_id="4044" min="1" max="1" chance="30.1678"/>
+				<!--Mold Hardener-->
+				<reward item_id="4041" min="1" max="1" chance="7.8729"/>
+				<!--Mold Glue-->
+				<reward item_id="4039" min="1" max="1" chance="30.1678"/>
+				<!--Crafted Leather-->
+				<reward item_id="1894" min="1" max="1" chance="31.7528"/>
+				<!--Scroll: Enchant Weapon (Grade S)-->
+				<reward item_id="959" min="1" max="1" chance="0.0387"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Mold Glue-->
+			<reward item_id="4039" min="1" max="1" chance="9.2156"/>
+			<!--Mold Hardener-->
+			<reward item_id="4041" min="1" max="1" chance="2.4041"/>
+			<!--Sealed Nightmare Robe Fabric-->
+			<reward item_id="5487" min="1" max="1" chance="1.245"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21822" name="Treasure Chest" title="" pts_name="mimic_84"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.268-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="TreasureChest"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="27300000000"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.50"/>
+		<set name="collision_height" value="8.50"/>
+		<set name="baseRunSpd" value="163"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="3016"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseMpMax" value="2011"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="1003"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="236"/>
+		<set name="baseMAtk" value="700"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="371"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="8467"/>
+		<set name="rewardSp" value="996"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="1.2"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+		</ai_params>
+		<skills>
+			<skill id="4045" level="1"/>
+			<!--Resist Full Magic Attack-->
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="5"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="2"/>
+			<!--Magic Creatures-->
+			<skill id="4789" level="8"/>
+			<!--NPC High Level-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="1200" max="2449" chance="100.0"/>
+			</group>
+			<group chance="0.5782">
+				<!--Sealed Helm of Nightmare Design-->
+				<reward item_id="5527" min="1" max="1" chance="30.3706"/>
+				<!--Sealed Shield of Nightmare Fragment-->
+				<reward item_id="5495" min="1" max="1" chance="38.5678"/>
+				<!--Sealed Majestic Circlet-->
+				<reward item_id="5317" min="1" max="1" chance="0.2074"/>
+				<!--Sealed Shield of Nightmare-->
+				<reward item_id="5315" min="1" max="1" chance="0.2762"/>
+				<!--Sealed Helm of Nightmare-->
+				<reward item_id="5312" min="1" max="1" chance="0.2074"/>
+				<!--Sealed Majestic Circlet Design-->
+				<reward item_id="5528" min="1" max="1" chance="30.3706"/>
+			</group>
+			<group chance="6.2747">
+				<!--Asofe-->
+				<reward item_id="4043" min="1" max="1" chance="9.3613"/>
+				<!--Enria-->
+				<reward item_id="4042" min="1" max="1" chance="4.6806"/>
+				<!--Mold Lubricant-->
+				<reward item_id="4040" min="1" max="1" chance="5.6161"/>
+				<!--Metallic Fiber-->
+				<reward item_id="1895" min="1" max="1" chance="80.2288"/>
+				<!--Scroll: Enchant Armor (Grade S)-->
+				<reward item_id="960" min="1" max="1" chance="0.1132"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Forgotten Blade Edge-->
+			<reward item_id="6688" min="1" max="1" chance="0.6446"/>
+			<!--Basalt Battlehammer Head-->
+			<reward item_id="6689" min="1" max="1" chance="0.6325"/>
+			<!--Imperial Staff Head-->
+			<reward item_id="6690" min="1" max="1" chance="0.6459"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21823" name="Executor of Sacrificial Offerings" title="" pts_name="sacrifice_executer"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.268-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="4200000000"/>
+		<set name="race" value="undead"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="7"/>
+		<set name="collision_height" value="30"/>
+		<set name="baseRunSpd" value="188"/>
+		<set name="baseWalkSpd" value="38"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="2880"/>
+		<set name="baseHpReg" value="80.58"/>
+		<set name="baseHpRate" value="6"/>
+		<set name="baseMpMax" value="1859"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;40;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="907"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="basePAtkSpd" value="247.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="220"/>
+		<set name="baseMAtk" value="618"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="HitTimeFactor" value="0.48"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="-6"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="20"/>
+		<set name="baseShldRate" value="47"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="72253"/>
+		<set name="rewardSp" value="8106"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="11.2896"/>
+		<faction name="tomb_clan" range="300"/>
+		<ai_params>
+			<!--PTS AI Params-->
+			<set name="MoveAroundSocial" value="85"/>
+			<set name="MoveAroundSocial1" value="85"/>
+			<set name="MoveAroundSocial2" value="85"/>
+			<set name="W_ShortRangeDDMagic" value="4077-9"/>
+			<!--NPC Aura Burn-->
+			<set name="W_LongRangeDDMagic" value="4078-9"/>
+			<!--NPC Flamestrike-->
+			<set name="MagicHeal" value="4613-9"/>
+			<!--NPC Clan Heal-->
+		</ai_params>
+		<skills>
+			<skill id="4077" level="9"/>
+			<!--NPC Aura Burn-->
+			<skill id="4078" level="9"/>
+			<!--NPC Flamestrike-->
+			<skill id="4275" level="2"/>
+			<!--Sacred Attack Weak Point-->
+			<skill id="4278" level="1"/>
+			<!--Dark Attack-->
+			<skill id="4285" level="5"/>
+			<!--Resist Sleep Attacks-->
+			<skill id="4287" level="5"/>
+			<!--Resist Hold Attacks-->
+			<skill id="4408" level="14"/>
+			<!--HP Increase (6x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def.-->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="1"/>
+			<!--Undead-->
+			<skill id="4613" level="9"/>
+			<!--NPC Clan Heal-->
+			<skill id="4789" level="6"/>
+			<!--NPC High Level-->
+		</skills>
+		<equip>
+			<lhand item_id="6721"/>
+			<!--Monster Only(Shield of Imperial Warlord Zombie)-->
+			<rhand item_id="134"/>
+			<!--Sword of Nightmare-->
+		</equip>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="10189" max="20801" chance="100.0"/>
+			</group>
+			<group chance="1.0297">
+				<!--Soul Bow-->
+				<reward item_id="289" min="1" max="1" chance="0.2716"/>
+				<!--Soul Bow Stave-->
+				<reward item_id="5534" min="1" max="1" chance="99.7284"/>
+			</group>
+			<group chance="16.5596">
+				<!--Scroll: Enchant Weapon (Grade S)-->
+				<reward item_id="959" min="1" max="1" chance="0.0362"/>
+				<!--Crafted Leather-->
+				<reward item_id="1894" min="1" max="1" chance="31.7037"/>
+				<!--Mold Glue-->
+				<reward item_id="4039" min="1" max="1" chance="30.1182"/>
+				<!--Mold Hardener-->
+				<reward item_id="4041" min="1" max="1" chance="7.8569"/>
+				<!--Thons-->
+				<reward item_id="4044" min="1" max="1" chance="30.1182"/>
+				<!--Mid-Grade Life Stone: level 76-->
+				<reward item_id="8742" min="1" max="1" chance="0.1668"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Crafted Leather-->
+			<reward item_id="1894" min="1" max="1" chance="88.8656"/>
+			<!--Mold Glue-->
+			<reward item_id="4039" min="1" max="1" chance="84.4224"/>
+			<!--Sealed Leather Armor of Nightmare Fabric-->
+			<reward item_id="5480" min="1" max="1" chance="11.3647"/>
+		</rewardlist>
+	</npc>  
+	<npc id="21824" name="Alpen Kookaburra" title="" pts_name="alpine_kukaburo_4_war_i1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.268-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="FeedableBeast"/>
+		<set name="level" value="65"/>
+		<set name="exp" value="237352644"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="10"/>
+		<set name="collision_height" value="33"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="8773"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="4"/>
+		<set name="baseMpMax" value="9999"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="780"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="3660"/>
+		<set name="baseMAtk" value="507"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="3350"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="12"/>
+			<!--HP Increase (4x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="14"/>
+			<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>
+			<!--Strong M. Atk.-->
+			<skill id="4412" level="8"/>
+			<!--Weak P. Def.-->
+			<skill id="4413" level="8"/>
+			<!--Weak M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4438" level="2"/>
+			<!--Greater Resist Sleep-->
+			<skill id="4589" level="6"/>
+			<!--Decrease Speed-->
+			<skill id="4600" level="6"/>
+			<!--Reducing P. Def Stun-->
+		</skills>
+	</npc>  
+	<npc id="21825" name="Alpen Kookaburra" title="" pts_name="alpine_kukaburo_4_wiz_i1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.268-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="FeedableBeast"/>
+		<set name="level" value="65"/>
+		<set name="exp" value="237352644"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="10"/>
+		<set name="collision_height" value="33"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="8773"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="4"/>
+		<set name="baseMpMax" value="9999"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="780"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="3660"/>
+		<set name="baseMAtk" value="507"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="3350"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4160" level="6"/>
+			<!--NPC Aura Burn - Magic-->
+			<skill id="4408" level="12"/>
+			<!--HP Increase (4x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="14"/>
+			<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>
+			<!--Strong M. Atk.-->
+			<skill id="4412" level="8"/>
+			<!--Weak P. Def.-->
+			<skill id="4413" level="8"/>
+			<!--Weak M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4438" level="2"/>
+			<!--Greater Resist Sleep-->
+			<skill id="4566" level="1"/>
+			<!--NPC Eruption - Magic-->
+			<skill id="4571" level="1"/>
+			<!--NPC Blazing Circle-->
+			<skill id="4657" level="1"/>
+			<!--Hold-->
+		</skills>
+	</npc>  
+	<npc id="21826" name="Alpen Buffalo" title="" pts_name="alpine_buffalo_4_war_i1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.268-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="FeedableBeast"/>
+		<set name="level" value="67"/>
+		<set name="exp" value="308443198"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="22"/>
+		<set name="collision_height" value="31"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="9182"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="4"/>
+		<set name="baseMpMax" value="9999"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="780"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="3660"/>
+		<set name="baseMAtk" value="507"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="3350"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="12"/>
+			<!--HP Increase (4x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="14"/>
+			<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>
+			<!--Strong M. Atk.-->
+			<skill id="4412" level="8"/>
+			<!--Weak P. Def.-->
+			<skill id="4413" level="8"/>
+			<!--Weak M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="6"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4438" level="2"/>
+			<!--Greater Resist Sleep-->
+			<skill id="4589" level="6"/>
+			<!--Decrease Speed-->
+			<skill id="4600" level="6"/>
+			<!--Reducing P. Def Stun-->
+		</skills>
+	</npc>  
+	<npc id="21827" name="Alpen Buffalo" title="" pts_name="alpine_buffalo_4_wiz_i1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.268-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="FeedableBeast"/>
+		<set name="level" value="67"/>
+		<set name="exp" value="308443198"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="22"/>
+		<set name="collision_height" value="31"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="9182"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="4"/>
+		<set name="baseMpMax" value="9999"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="780"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="3660"/>
+		<set name="baseMAtk" value="507"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="3350"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4160" level="6"/>
+			<!--NPC Aura Burn - Magic-->
+			<skill id="4408" level="12"/>
+			<!--HP Increase (4x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="14"/>
+			<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>
+			<!--Strong M. Atk.-->
+			<skill id="4412" level="8"/>
+			<!--Weak P. Def.-->
+			<skill id="4413" level="8"/>
+			<!--Weak M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="6"/>
+			<!--Blunt Weapons-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4438" level="2"/>
+			<!--Greater Resist Sleep-->
+			<skill id="4566" level="1"/>
+			<!--NPC Eruption - Magic-->
+			<skill id="4571" level="1"/>
+			<!--NPC Blazing Circle-->
+			<skill id="4657" level="1"/>
+			<!--Hold-->
+		</skills>
+	</npc>  
+	<npc id="21828" name="Alpen Cougar" title="" pts_name="alpine_cougar_4_war_i1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.268-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="FeedableBeast"/>
+		<set name="level" value="69"/>
+		<set name="exp" value="387199547"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="20"/>
+		<set name="collision_height" value="31"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="9582"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="4"/>
+		<set name="baseMpMax" value="9999"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="780"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="3660"/>
+		<set name="baseMAtk" value="507"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="3350"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4408" level="12"/>
+			<!--HP Increase (4x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="14"/>
+			<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>
+			<!--Strong M. Atk.-->
+			<skill id="4412" level="8"/>
+			<!--Weak P. Def.-->
+			<skill id="4413" level="8"/>
+			<!--Weak M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4438" level="2"/>
+			<!--Greater Resist Sleep-->
+			<skill id="4589" level="6"/>
+			<!--Decrease Speed-->
+			<skill id="4600" level="6"/>
+			<!--Reducing P. Def Stun-->
+		</skills>
+	</npc>  
+	<npc id="21829" name="Alpen Cougar" title="" pts_name="alpine_cougar_4_wiz_i1"> 
+		<!--Done by JunkyFunky at : 2018-02-25T21:53:25.269-->
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="FeedableBeast"/>
+		<set name="level" value="69"/>
+		<set name="exp" value="387199547"/>
+		<set name="race" value="animal"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="20"/>
+		<set name="collision_height" value="31"/>
+		<set name="baseRunSpd" value="119"/>
+		<set name="baseWalkSpd" value="79"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseHpMax" value="9582"/>
+		<set name="baseHpReg" value="13.43"/>
+		<set name="baseHpRate" value="4"/>
+		<set name="baseMpMax" value="9999"/>
+		<set name="baseMpReg" value="3.09"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="7"/>
+		<set name="basePAtk" value="780"/>
+		<set name="baseCritRate" value="80"/>
+		<set name="basePAtkSpd" value="267"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="3660"/>
+		<set name="baseMAtk" value="507"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="3350"/>
+		<set name="HitTimeFactor" value="0.32"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="texture" value=""/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4160" level="6"/>
+			<!--NPC Aura Burn - Magic-->
+			<skill id="4408" level="12"/>
+			<!--HP Increase (4x)-->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x)-->
+			<skill id="4410" level="14"/>
+			<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>
+			<!--Strong M. Atk.-->
+			<skill id="4412" level="8"/>
+			<!--Weak P. Def.-->
+			<skill id="4413" level="8"/>
+			<!--Weak M. Def.-->
+			<skill id="4414" level="2"/>
+			<!--Standard Type-->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword-->
+			<skill id="4416" level="3"/>
+			<!--Beasts-->
+			<skill id="4438" level="2"/>
+			<!--Greater Resist Sleep-->
+			<skill id="4566" level="1"/>
+			<!--NPC Eruption - Magic-->
+			<skill id="4571" level="1"/>
+			<!--NPC Blazing Circle-->
+			<skill id="4657" level="1"/>
+			<!--Hold-->
+		</skills>
+	</npc> 
+</list>

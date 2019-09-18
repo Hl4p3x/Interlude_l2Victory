@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<arena id="1"> <!-- garden_of_evas_event_arena -->
+	<!-- Координаты первой команды -->
+		<team_left_corner team="1">
+            <first_point x="84168" y="257640" z="-11696" h="44315"/>
+        </team_left_corner>
+        <team_right_corner team="1">
+            <second_point x="86312" y="257640" z="-11696" h="44315"/>
+        </team_right_corner>
+        <!-- Координаты второй команды -->
+        <team_left_corner team="2">
+            <first_point x="84168" y="256360" z="-11696" h="16382"/>
+        </team_left_corner>
+        <team_right_corner team="2">
+            <second_point x="86312" y="256360" z="-11696" h="16382"/>
+        </team_right_corner>
+        <!-- Координаты для сражения -->
+        <fight_location team="1">
+            <point x="84936" y="256968" z="-11696" h="37604"/>
+        </fight_location>
+        <fight_location team="2">
+            <point x="86024" y="256968" z="-11696" h="37604"/>
+        </fight_location>
+        <zones>
+            <zone name="[garden_of_evas_event_arena]"/>
+        </zones>
+    </arena>
+</list>

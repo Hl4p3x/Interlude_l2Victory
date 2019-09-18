@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<etcitem id="9400" name="Coin of Luck">
+		<!-- [coin_of_luck] -->
+		<set name="price" value="1"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="destroyable" value="false"/>
+		<set name="icon" value="icon.etc_coins_gold_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="type" value="MONEY"/>
+	</etcitem>
+	<etcitem id="9401" name="Festival Adena">
+		<!-- [l2_fair_2005_coin] -->
+		<set name="destroyable" value="false"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coin_of_fair_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="type" value="MONEY"/>
+	</etcitem>
+	<etcitem id="9402" name="Gold Einhasad">
+		<!-- [q_gold_einhasad] -->
+		<set name="destroyable" value="false"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_magic_coin_gold_i02"/>
+		<set name="price" value="100"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="type" value="OTHER"/>
+	</etcitem>
+</list>

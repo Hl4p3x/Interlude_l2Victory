@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>test</groupId>
+    <artifactId>HelloWorld</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>HelloWorld</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>            
+                <groupId>com.licel</groupId>
+                <artifactId>stringer-maven-plugin</artifactId>
+                <version>3.0.3</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>stringer</goal>
+                        </goals>
+                        <configuration>  
+                            <verbose>true</verbose>
+                            <checkCaller>true</checkCaller>
+                            <protectionElements>
+                                <protectionElement>
+                                    <stringEncryption>
+                                        <mode>filter</mode>
+                                        <checkCaller>true</checkCaller>
+                                        <filters>
+                                            <filter><![CDATA[glob:!**/**]]></filter>
+                                            <filter><![CDATA[test/**]]></filter>
+                                            <filter><![CDATA[glob:!exclude/**]]></filter>
+                                        </filters>
+                                    </stringEncryption>
+                                    <resourceEncryption>
+                                        <mode>filter</mode>
+                                        <filters>
+                                            <filter><![CDATA[*.properties]]></filter>
+                                        </filters>
+                                    </resourceEncryption>
+                                    <hideAccess>
+                                        <mode>filter</mode>
+                                        <filters>
+                                            <filter><![CDATA[glob:!**/**]]></filter>
+                                            <filter><![CDATA[test/**]]></filter>
+                                            <filter><![CDATA[glob:!exclude/**]]></filter>
+                                        </filters>
+                                    </hideAccess>
+                                    <integrityControl>
+                                        <mode>filter</mode>
+                                        <filters>
+                                            <filter><![CDATA[glob:!**/**]]></filter>
+                                            <filter><![CDATA[test/**]]></filter>
+                                            <filter><![CDATA[glob:!exclude/**]]></filter>
+                                        </filters>
+                                        <checkBytecode>true</checkBytecode>
+                                        <checkJar>true</checkJar>
+                                        <sealJar>true</sealJar>
+                                    </integrityControl>
+                                </protectionElement>
+                            </protectionElements>                        
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

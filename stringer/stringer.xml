@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stringer-v3>
+    <signMode>none</signMode>
+    <verbose>true</verbose>
+    <optimize>false</optimize>
+    <protectionElements>
+        <protectionElement>
+            <stringEncryption>
+                <mode>filter</mode>
+                <checkCaller>true</checkCaller>
+                <filters>
+                    <filter><![CDATA[glob:!com/google/commons/**]]></filter>
+                    <filter><![CDATA[glob:!com/fasterxml/**]]></filter>
+                    <filter><![CDATA[glob:!com/sun/**]]></filter>
+                    <filter><![CDATA[glob:!org/**]]></filter>
+                    <filter><![CDATA[glob:!java/**]]></filter>
+                    <filter><![CDATA[glob:!javax/**]]></filter>
+                </filters>
+            </stringEncryption>
+            <hideAccess>
+                <mode>filter</mode>
+                <filters>
+                    <filter><![CDATA[glob:!com/google/commons/**]]></filter>
+                    <filter><![CDATA[glob:!com/fasterxml/**]]></filter>
+                    <filter><![CDATA[glob:!com/sun/**]]></filter>
+                    <filter><![CDATA[glob:!org/**]]></filter>
+                    <filter><![CDATA[glob:!java/**]]></filter>
+                    <filter><![CDATA[glob:!javax/**]]></filter>
+                </filters>
+            </hideAccess>
+        </protectionElement>
+    </protectionElements>
+</stringer-v3>

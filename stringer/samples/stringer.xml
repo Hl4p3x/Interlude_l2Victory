@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<stringer-v3>
+    <signMode>none</signMode>
+    <verbose>true</verbose>
+    <optimize>true</optimize>
+    <protectionElements>
+        <protectionElement>
+            <stringEncryption>
+                <mode>filter</mode>
+                <checkCaller>true</checkCaller>
+                <filters>
+                    <filter><![CDATA[glob:!**/**]]></filter>
+                    <filter><![CDATA[test/**]]></filter>
+                    <filter><![CDATA[glob:!exclude/**]]></filter>
+                </filters>
+            </stringEncryption>
+            <resourceEncryption>
+                <mode>filter</mode>
+                <filters>
+                    <filter><![CDATA[*.properties]]></filter>
+                </filters>
+            </resourceEncryption>
+            <hideAccess>
+                <mode>filter</mode>
+                <filters>
+                    <filter><![CDATA[glob:!**/**]]></filter>
+                    <filter><![CDATA[test/**]]></filter>
+                    <filter><![CDATA[glob:!exclude/**]]></filter>
+                </filters>
+            </hideAccess>
+            <integrityControl>
+                <mode>filter</mode>
+                <filters>
+                    <filter><![CDATA[glob:!**/**]]></filter>
+                    <filter><![CDATA[test/**]]></filter>
+                    <filter><![CDATA[glob:!exclude/**]]></filter>
+                </filters>
+                <checkBytecode>true</checkBytecode>
+                <checkJar>true</checkJar>
+                <sealJar>true</sealJar>
+            </integrityControl>
+        </protectionElement>
+    </protectionElements>
+</stringer-v3>

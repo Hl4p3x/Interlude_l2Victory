@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="5202" levels="12" name="Stun">
+		<table name="#mpConsume2">6 9 13 18 23 28 32 34 36 37 38 39</table>
+		<!--	Description:	Temporarily gets thrown into a state of shock and immobilized.	-->
+		<table name="#magicLevel">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<set name="levelModifier" val="1"/>
+		<set name="affectLimit" val="10;10"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="coolTime" val="0"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="hitTime" val="4000"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="activateRate" val="80"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="DEBUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="trait" val="SHOCK"/>
+		<set name="saveVs" val="CON"/>
+	</skill>
+	<skill id="5203" levels="12" name="Fear">
+		<!--	Description:	Lvl 1-12 - Temporarily becomes overcome with fear and flees mindlessly.	-->
+		<table name="#magicLevel">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<set name="affectLimit" val="10;10"/>
+		<set name="icon" val="icon.skill1092"/>
+		<set name="coolTime" val="2700"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="hitTime" val="2300"/>
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<set name="trait" val="DERANGEMENT"/>
+		<set name="saveVs" val="MEN"/>
+	</skill>
+	<skill id="5204" levels="1" name="Production-First Gigantic Pig Combination">
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magicLevel" val="76"/>
+		<set name="hitTime" val="5800"/>
+		<set name="hitCancelTime" val="500"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+	</skill>
+	<skill id="5205" levels="1" name="Boss Regeneration">
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magicLevel" val="99"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+	</skill>
+	<skill id="5206" levels="1" name="Decrease Speed">
+		<set name="levelModifier" val="2"/>
+		<set name="magicType" val="MAGIC"/>
+		<set name="icon" val="icon.skill1160"/>
+		<set name="reuseDelay" val="15000"/>
+		<set name="magicLevel" val="95"/>
+		<set name="castRange" val="600"/>
+		<set name="hitTime" val="2000"/>
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume1" val="16"/>
+		<set name="mpConsume2" val="62"/>
+		<set name="activateRate" val="60"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="DEBUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="saveVs" val="MEN"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="2" stackType="speed_down" time="30" val="0">
+				<mul order="0x50" stat="runSpd" val="0.9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5207" levels="1" name="Decrease Atk. Spd.">
+		<set name="levelModifier" val="1"/>
+		<set name="magicType" val="MAGIC"/>
+		<set name="icon" val="icon.skill4038"/>
+		<set name="reuseDelay" val="15000"/>
+		<set name="magicLevel" val="95"/>
+		<set name="castRange" val="600"/>
+		<set name="hitTime" val="1500"/>
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume1" val="16"/>
+		<set name="mpConsume2" val="62"/>
+		<set name="activateRate" val="80"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="DEBUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="saveVs" val="MEN"/>
+		<for>
+			<effect count="1" name="Debuff" time="30" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="0.9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5208" levels="1" name="Event Wind walk">
+		<set name="magicType" val="MAGIC"/>
+		<set name="icon" val="icon.skill1204"/>
+		<set name="magicLevel" val="60"/>
+		<set name="castRange" val="400"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="2" stackType="SpeedUp" time="1200" val="0">
+				<add order="0x40" stat="runSpd" val="33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5209" levels="1" name="Event Shield">
+		<set name="magicType" val="MAGIC"/>
+		<set name="icon" val="icon.skill1040"/>
+		<set name="magicLevel" val="60"/>
+		<set name="castRange" val="400"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="pDef" time="1200" val="0">
+				<mul order="0x30" stat="pDef" val="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5210" levels="1" name="Event Bless the body">
+		<set name="magicType" val="MAGIC"/>
+		<set name="icon" val="icon.skill1045"/>
+		<set name="magicLevel" val="60"/>
+		<set name="castRange" val="400"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="hp_up" time="1200" val="0">
+				<add order="0x40" stat="maxHp" val="180"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5211" levels="1" name="Event Vampiric rage">
+		<set name="magicType" val="MAGIC"/>
+		<set name="icon" val="icon.skill1268"/>
+		<set name="magicLevel" val="60"/>
+		<set name="castRange" val="400"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="9" stackType="vampRage" time="1200" val="0">
+				<add order="0x40" stat="absorbDam" val="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5212" levels="1" name="Event Regeneration">
+		<set name="magicType" val="MAGIC"/>
+		<set name="icon" val="icon.skill1044"/>
+		<set name="magicLevel" val="60"/>
+		<set name="castRange" val="400"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="hpregen" time="1200" val="0">
+				<mul order="0x30" stat="regHp" val="1.2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5213" levels="1" name="Event Haste">
+		<set name="magicType" val="MAGIC"/>
+		<set name="icon" val="icon.skill1086"/>
+		<set name="magicLevel" val="60"/>
+		<set name="castRange" val="400"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="pAtkSpeedUp" time="1200" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5214" levels="1" name="Event Bless the soul">
+		<table name="#addMp">120</table>
+		<set name="magicType" val="MAGIC"/>
+		<set name="icon" val="icon.skill1048"/>
+		<set name="magicLevel" val="60"/>
+		<set name="castRange" val="400"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="mp_up_item" time="1200" val="0">
+				<add order="0x40" stat="maxMp" val="#addMp"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5215" levels="1" name="Event Acumen">
+		<set name="magicType" val="MAGIC"/>
+		<set name="icon" val="icon.skill1085"/>
+		<set name="magicLevel" val="60"/>
+		<set name="castRange" val="400"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="mAtkSpeedUp" time="1200" val="0">
+				<mul order="0x30" stat="mAtkSpd" val="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5216" levels="1" name="Event Concentration">
+		<set name="magicType" val="MAGIC"/>
+		<set name="icon" val="icon.skill1078"/>
+		<set name="magicLevel" val="60"/>
+		<set name="castRange" val="400"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="concentration" time="1200" val="0">
+				<mul order="0x30" stat="concentration" val="0.82"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5217" levels="1" name="Event Empower">
+		<set name="magicType" val="MAGIC"/>
+		<set name="icon" val="icon.skill1059"/>
+		<set name="magicLevel" val="60"/>
+		<set name="castRange" val="400"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="mAtk" time="1200" val="0">
+				<mul order="0x30" stat="mAtk" val="1.55"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5218" levels="1" name="Production: Event Teleport">
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magicLevel" val="76"/>
+		<set name="castRange" val="400"/>
+		<set name="hitTime" val="4000"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+	</skill>
+	<skill id="5219" levels="1" name="Stun of giant mutated animal">
+		<set name="levelModifier" val="1"/>
+		<set name="affectLimit" val="10;10"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="coolTime" val="0"/>
+		<set name="reuseDelay" val="15000"/>
+		<set name="power" val="30"/>
+		<set name="magicLevel" val="95"/>
+		<set name="castRange" val="600"/>
+		<set name="hitTime" val="6000"/>
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume2" val="48"/>
+		<set name="activateRate" val="50"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="PDAM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="attack"/>
+		<set name="trait" val="SHOCK"/>
+		<set name="saveVs" val="CON"/>
+		<for>
+			<effect count="1" name="Stun" stackOrder="-1" stackType="Stun" time="9" val="0"/>
+		</for>
+	</skill>
+	<skill id="5220" levels="1" name="Fear of giant mutated animal">
+		<set name="affectLimit" val="10;10"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="coolTime" val="0"/>
+		<set name="reuseDelay" val="15000"/>
+		<set name="magicLevel" val="95"/>
+		<set name="castRange" val="600"/>
+		<set name="hitTime" val="6000"/>
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume2" val="48"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="DEBUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="activateRate" val="35"/>
+		<set name="trait" val="DERANGEMENT"/>
+		<set name="saveVs" val="MEN"/>
+		<for>
+			<effect count="1" name="Fear" stackOrder="-1" stackType="Fear" time="10" val="0"/>
+		</for>
+	</skill>
+</list>
