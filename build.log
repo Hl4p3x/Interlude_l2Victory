@@ -1,0 +1,399 @@
+
+checkRequirements:
+     [echo] Check ANT version
+     [echo] Check JDK version
+
+init:
+    [mkdir] Created dir: E:\Sourse\J2DevNew\build\classes
+
+compile-commons:
+   [delete] Deleting directory E:\Sourse\J2DevNew\build\classes
+    [mkdir] Created dir: E:\Sourse\J2DevNew\build\classes
+    [javac] Compiling 109 source files to E:\Sourse\J2DevNew\build\classes
+    [javac] Note: E:\Sourse\J2DevNew\commons\src\main\java\ru\j2dev\commons\net\io\IOContext.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+
+commons-jar:
+     [exec] Result: 128
+     [echo] Current Revision fatal: not a git repository (or any of the parent directories): .git
+      [jar] Building jar: E:\Sourse\J2DevNew\build\commons.jar
+ [stringer] Stringer Java Obfuscator Standard v3.0.3 (20170228), LICEL CORPORATION
+ [stringer] License file: E:\Sourse\J2DevNew\stringer\stringer.jar
+ [stringer] 
+ [stringer] Stringer Java Obfuscator Standard
+ [stringer] Version: 3.0.3
+ [stringer] Build id: 20170228
+ [stringer] 
+ [stringer] Licensed to: coolman@paradi.se [Cracked]
+ [stringer] 
+ [stringer] 
+ [stringer] (c) Copyright LICEL CORPORATION 2011-2017.  All rights reserved.
+ [stringer] Visit https://jfxstore.com/stringer
+ [stringer] 
+ [stringer] Third-Party Licenses. Information about third-party components and
+ [stringer]  its licenses can be found in distribution
+ [stringer] [Protecting commons.jar]
+ [stringer] [Analyzing commons.jar]
+ [stringer] Found ru/j2dev/commons/util/SystemUtil,openStream
+ [stringer] Found ru/j2dev/commons/util/SystemUtil,openStream
+ [stringer] Contains signature: false
+ [stringer] [Finishing commons.jar]
+ [stringer] Total strings processed: 0
+ [stringer] Total classes processed: 0
+ [stringer] Total resources processed: 0
+ [stringer] Total bytes processed: 497879, ratio 1.0127480773440936
+
+compile-authserver:
+   [delete] Deleting directory E:\Sourse\J2DevNew\build\classes
+    [mkdir] Created dir: E:\Sourse\J2DevNew\build\classes
+    [javac] Compiling 54 source files to E:\Sourse\J2DevNew\build\classes
+
+authserver-jar:
+     [exec] Result: 128
+      [jar] Building jar: E:\Sourse\J2DevNew\build\authserver.jar
+ [stringer] Stringer Java Obfuscator Standard v3.0.3 (20170228), LICEL CORPORATION
+ [stringer] License file: E:\Sourse\J2DevNew\stringer\stringer.jar
+ [stringer] 
+ [stringer] Stringer Java Obfuscator Standard
+ [stringer] Version: 3.0.3
+ [stringer] Build id: 20170228
+ [stringer] 
+ [stringer] Licensed to: coolman@paradi.se [Cracked]
+ [stringer] 
+ [stringer] 
+ [stringer] (c) Copyright LICEL CORPORATION 2011-2017.  All rights reserved.
+ [stringer] Visit https://jfxstore.com/stringer
+ [stringer] 
+ [stringer] Third-Party Licenses. Information about third-party components and
+ [stringer]  its licenses can be found in distribution
+ [stringer] [Protecting authserver.jar]
+ [stringer] [Analyzing authserver.jar]
+ [stringer] Contains signature: false
+ [stringer] [Finishing authserver.jar]
+ [stringer] Total strings processed: 0
+ [stringer] Total classes processed: 0
+ [stringer] Total resources processed: 0
+ [stringer] Total bytes processed: 186668, ratio 1.0313604902822122
+
+authserver:
+     [copy] Copying 2 files to E:\Sourse\J2DevNew\build\dist\lib
+
+compile-gameserver:
+   [delete] Deleting directory E:\Sourse\J2DevNew\build\classes
+    [mkdir] Created dir: E:\Sourse\J2DevNew\build\classes
+    [javac] Compiling 1705 source files to E:\Sourse\J2DevNew\build\classes
+    [javac] E:\Sourse\J2DevNew\gameserver\src\main\java\ru\j2dev\gameserver\cache\HtmCache.java:44: warning: [unchecked] unchecked conversion
+    [javac]     private final Cache<String, String>[] caffeine_cache = new Cache[Language.VALUES.length];
+    [javac]                                                            ^
+    [javac]   required: Cache<String,String>[]
+    [javac]   found:    Cache[]
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 1 warning
+
+gameserver-jar:
+     [exec] Result: 128
+     [echo] Current Revision fatal: not a git repository (or any of the parent directories): .git
+      [jar] Building jar: E:\Sourse\J2DevNew\build\gameserver.jar
+ [stringer] Stringer Java Obfuscator Standard v3.0.3 (20170228), LICEL CORPORATION
+ [stringer] License file: E:\Sourse\J2DevNew\stringer\stringer.jar
+ [stringer] 
+ [stringer] Stringer Java Obfuscator Standard
+ [stringer] Version: 3.0.3
+ [stringer] Build id: 20170228
+ [stringer] 
+ [stringer] Licensed to: coolman@paradi.se [Cracked]
+ [stringer] 
+ [stringer] 
+ [stringer] (c) Copyright LICEL CORPORATION 2011-2017.  All rights reserved.
+ [stringer] Visit https://jfxstore.com/stringer
+ [stringer] 
+ [stringer] Third-Party Licenses. Information about third-party components and
+ [stringer]  its licenses can be found in distribution
+ [stringer] [Protecting gameserver.jar]
+ [stringer] [Analyzing gameserver.jar]
+ [stringer] Found ru/j2dev/gameserver/taskmanager/L2TopRuManager,openConnection
+ [stringer] Found ru/j2dev/gameserver/utils/IpUtils,openStream
+ [stringer] Found ru/j2dev/gameserver/utils/IpUtils,openStream
+ [stringer] Found ru/j2dev/gameserver/utils/IpUtils,openStream
+ [stringer] Found ru/j2dev/gameserver/utils/IpUtils,openStream
+ [stringer] Contains signature: false
+ [stringer] [Finishing gameserver.jar]
+ [stringer] Total strings processed: 892
+ [stringer] Total classes processed: 117
+ [stringer] Total resources processed: 0
+ [stringer] Total bytes processed: 8564390, ratio 1.0366198876977812
+
+gameserver:
+     [copy] Copying 1 file to E:\Sourse\J2DevNew\build\dist\lib
+   [delete] Deleting directory E:\Sourse\J2DevNew\build\classes
+
+compile-dataparser:
+    [mkdir] Created dir: E:\Sourse\J2DevNew\build\classes
+    [javac] Compiling 320 source files to E:\Sourse\J2DevNew\build\classes
+
+dataparser-jar:
+     [exec] Result: 128
+      [jar] Building jar: E:\Sourse\J2DevNew\build\dataparser.jar
+ [stringer] Stringer Java Obfuscator Standard v3.0.3 (20170228), LICEL CORPORATION
+ [stringer] License file: E:\Sourse\J2DevNew\stringer\stringer.jar
+ [stringer] 
+ [stringer] Stringer Java Obfuscator Standard
+ [stringer] Version: 3.0.3
+ [stringer] Build id: 20170228
+ [stringer] 
+ [stringer] Licensed to: coolman@paradi.se [Cracked]
+ [stringer] 
+ [stringer] 
+ [stringer] (c) Copyright LICEL CORPORATION 2011-2017.  All rights reserved.
+ [stringer] Visit https://jfxstore.com/stringer
+ [stringer] 
+ [stringer] Third-Party Licenses. Information about third-party components and
+ [stringer]  its licenses can be found in distribution
+ [stringer] [Protecting dataparser.jar]
+ [stringer] [Analyzing dataparser.jar]
+ [stringer] Contains signature: false
+ [stringer] [Finishing dataparser.jar]
+ [stringer] Total strings processed: 0
+ [stringer] Total classes processed: 0
+ [stringer] Total resources processed: 0
+ [stringer] Total bytes processed: 784377, ratio 1.0082371104711128
+
+dataparser:
+     [copy] Copying 1 file to E:\Sourse\J2DevNew\build\dist\lib
+
+compile-cgm:
+   [delete] Deleting directory E:\Sourse\J2DevNew\build\classes
+    [mkdir] Created dir: E:\Sourse\J2DevNew\build\classes
+    [javac] Compiling 25 source files to E:\Sourse\J2DevNew\build\classes
+    [javac] Note: E:\Sourse\J2DevNew\cgm\src\main\java\ru\j2dev\gameserver\network\lineage2\cgm\sg\ClientWrapper.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+
+cgm-jar:
+     [exec] Result: 128
+      [jar] Building jar: E:\Sourse\J2DevNew\build\cgm.jar
+ [stringer] Stringer Java Obfuscator Standard v3.0.3 (20170228), LICEL CORPORATION
+ [stringer] License file: E:\Sourse\J2DevNew\stringer\stringer.jar
+ [stringer] 
+ [stringer] Stringer Java Obfuscator Standard
+ [stringer] Version: 3.0.3
+ [stringer] Build id: 20170228
+ [stringer] 
+ [stringer] Licensed to: coolman@paradi.se [Cracked]
+ [stringer] 
+ [stringer] 
+ [stringer] (c) Copyright LICEL CORPORATION 2011-2017.  All rights reserved.
+ [stringer] Visit https://jfxstore.com/stringer
+ [stringer] 
+ [stringer] Third-Party Licenses. Information about third-party components and
+ [stringer]  its licenses can be found in distribution
+ [stringer] [Protecting cgm.jar]
+ [stringer] [Analyzing cgm.jar]
+ [stringer] Contains signature: false
+ [stringer] [Finishing cgm.jar]
+ [stringer] Total strings processed: 0
+ [stringer] Total classes processed: 0
+ [stringer] Total resources processed: 0
+ [stringer] Total bytes processed: 59227, ratio 1.107096425616695
+
+cgm:
+     [copy] Copying 1 file to E:\Sourse\J2DevNew\build\dist\lib
+
+compile-scripts:
+    [mkdir] Created dir: E:\Sourse\J2DevNew\build\classes\scripts
+    [javac] Compiling 742 source files to E:\Sourse\J2DevNew\build\classes
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\achievements\AchievementCondition.java:27: warning: [unchecked] unchecked cast
+    [javac]                     final Class<? extends AchievementCondition> achievementClass = (Class<? extends AchievementCondition>) clazz;
+    [javac]                                                                                                                            ^
+    [javac]   required: Class<? extends AchievementCondition>
+    [javac]   found:    Class<CAP#1>
+    [javac]   where CAP#1 is a fresh type-variable:
+    [javac]     CAP#1 extends Object from capture of ?
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\bosses\FrintezzaManager.java:329: warning: [unchecked] unchecked method invocation: method addListener in class Creature is applied to given types
+    [javac]         allSpawned.forEach(spawnedNpc -> spawnedNpc.addListener((Listener) listener));
+    [javac]                                                                ^
+    [javac]   required: T
+    [javac]   found: Listener
+    [javac]   where T is a type-variable:
+    [javac]     T extends Listener<Creature> declared in method <T>addListener(T)
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\bosses\FrintezzaManager.java:329: warning: [unchecked] unchecked method invocation: method forEach in interface Iterable is applied to given types
+    [javac]         allSpawned.forEach(spawnedNpc -> spawnedNpc.addListener((Listener) listener));
+    [javac]                           ^
+    [javac]   required: Consumer<? super T>
+    [javac]   found: Consumer<NpcInstance>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Iterable
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\bosses\FrintezzaManager.java:334: warning: [unchecked] unchecked method invocation: method removeListener in class Creature is applied to given types
+    [javac]         allSpawned.forEach(spawnedNpc -> spawnedNpc.removeListener((Listener) listener));
+    [javac]                                                                   ^
+    [javac]   required: T
+    [javac]   found: Listener
+    [javac]   where T is a type-variable:
+    [javac]     T extends Listener<Creature> declared in method <T>removeListener(T)
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\bosses\FrintezzaManager.java:334: warning: [unchecked] unchecked method invocation: method forEach in interface Iterable is applied to given types
+    [javac]         allSpawned.forEach(spawnedNpc -> spawnedNpc.removeListener((Listener) listener));
+    [javac]                           ^
+    [javac]   required: Consumer<? super T>
+    [javac]   found: Consumer<NpcInstance>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Iterable
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\bosses\FrintezzaManager.java:694: warning: [unchecked] unchecked method invocation: method addListener in class Creature is applied to given types
+    [javac]                         weakScarlet.addListener((Listener) _currentHpListener);
+    [javac]                                                ^
+    [javac]   required: T
+    [javac]   found: Listener
+    [javac]   where T is a type-variable:
+    [javac]     T extends Listener<Creature> declared in method <T>addListener(T)
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\instances\GvGInstance.java:282: warning: [unchecked] unchecked method invocation: method addListener in class Creature is applied to given types
+    [javac]         npc.addListener((Listener) _deathListener);
+    [javac]                        ^
+    [javac]   required: T
+    [javac]   found: Listener
+    [javac]   where T is a type-variable:
+    [javac]     T extends Listener<Creature> declared in method <T>addListener(T)
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\npc\model\FreyaDeaconKeeperInstance.java:146: warning: [unchecked] unchecked method invocation: method addListener in class Creature is applied to given types
+    [javac]                 sirr.addListener((Listener) _listner);
+    [javac]                                 ^
+    [javac]   required: T
+    [javac]   found: Listener
+    [javac]   where T is a type-variable:
+    [javac]     T extends Listener<Creature> declared in method <T>addListener(T)
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\npc\model\FreyaDeaconKeeperInstance.java:155: warning: [unchecked] unchecked method invocation: method removeListener in class Creature is applied to given types
+    [javac]                     sirr.removeListener((Listener) _listner);
+    [javac]                                        ^
+    [javac]   required: T
+    [javac]   found: Listener
+    [javac]   where T is a type-variable:
+    [javac]     T extends Listener<Creature> declared in method <T>removeListener(T)
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\quests\_610_MagicalPowerofWater2.java:49: warning: [unchecked] unchecked method invocation: method addListener in class Creature is applied to given types
+    [javac]                 (SoulOfWaterAshutarSpawn = st.addSpawn(25316, 104825, -36926, -1136)).addListener((Listener) new DeathListener());
+    [javac]                                                                                                  ^
+    [javac]   required: T
+    [javac]   found: Listener
+    [javac]   where T is a type-variable:
+    [javac]     T extends Listener<Creature> declared in method <T>addListener(T)
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\quests\_610_MagicalPowerofWater2.java:102: warning: [unchecked] unchecked method invocation: method addListener in class Creature is applied to given types
+    [javac]                     (SoulOfWaterAshutarSpawn = st.addSpawn(25316, 104825, -36926, -1136)).addListener((Listener) new DeathListener());
+    [javac]                                                                                                      ^
+    [javac]   required: T
+    [javac]   found: Listener
+    [javac]   where T is a type-variable:
+    [javac]     T extends Listener<Creature> declared in method <T>addListener(T)
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\quests\_616_MagicalPowerofFire2.java:49: warning: [unchecked] unchecked method invocation: method addListener in class Creature is applied to given types
+    [javac]                 (SoulOfFireNastronSpawn = st.addSpawn(25306, 142528, -82528, -6496)).addListener((Listener) new DeathListener());
+    [javac]                                                                                                 ^
+    [javac]   required: T
+    [javac]   found: Listener
+    [javac]   where T is a type-variable:
+    [javac]     T extends Listener<Creature> declared in method <T>addListener(T)
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\quests\_616_MagicalPowerofFire2.java:123: warning: [unchecked] unchecked method invocation: method addListener in class Creature is applied to given types
+    [javac]                     (SoulOfFireNastronSpawn = st.addSpawn(25306, 142528, -82528, -6496)).addListener((Listener) new DeathListener());
+    [javac]                                                                                                     ^
+    [javac]   required: T
+    [javac]   found: Listener
+    [javac]   where T is a type-variable:
+    [javac]     T extends Listener<Creature> declared in method <T>addListener(T)
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\quests\_625_TheFinestIngredientsPart2.java:183: warning: [unchecked] unchecked method invocation: method addListener in class Creature is applied to given types
+    [javac]                 _npc.addListener((Listener) new DeathListener());
+    [javac]                                 ^
+    [javac]   required: T
+    [javac]   found: Listener
+    [javac]   where T is a type-variable:
+    [javac]     T extends Listener<Creature> declared in method <T>addListener(T)
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\services\QuestSell.java:212: warning: [unchecked] unchecked conversion
+    [javac]         return filterAvailableQuests(player, parseQuestSellList(Config.QUEST_SELL_QUEST_PRICES));
+    [javac]                                     ^
+    [javac]   required: Pair<Set<Quest>,List<Pair<Integer,Long>>>[]
+    [javac]   found:    Pair[]
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\services\SupportMagic.java:68: warning: [unchecked] unchecked method invocation: method toArray in interface List is applied to given types
+    [javac]         return new NewbieBuffsList(type, listMinLevel, listMaxLevel, buffsList.toArray(new Pair[buffsList.size()]));
+    [javac]                                                                                       ^
+    [javac]   required: T[]
+    [javac]   found: Pair[]
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in method <T>toArray(T[])
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\services\SupportMagic.java:68: warning: [unchecked] unchecked method invocation: constructor <init> in class NewbieBuffsList is applied to given types
+    [javac]         return new NewbieBuffsList(type, listMinLevel, listMaxLevel, buffsList.toArray(new Pair[buffsList.size()]));
+    [javac]                ^
+    [javac]   required: NewbieBuffsListType,int,int,Pair<Integer,Skill>[]
+    [javac]   found: NewbieBuffsListType,int,int,Pair[]
+    [javac] E:\Sourse\J2DevNew\dist\gameserver\data\scripts\services\SupportMagic.java:68: warning: [unchecked] unchecked conversion
+    [javac]         return new NewbieBuffsList(type, listMinLevel, listMaxLevel, buffsList.toArray(new Pair[buffsList.size()]));
+    [javac]                                                                                       ^
+    [javac]   required: Pair<Integer,Skill>[]
+    [javac]   found:    Pair[]
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 18 warnings
+
+scripts-jar:
+     [exec] Result: 128
+      [jar] Building jar: E:\Sourse\J2DevNew\build\scripts.jar
+ [stringer] Stringer Java Obfuscator Standard v3.0.3 (20170228), LICEL CORPORATION
+ [stringer] License file: E:\Sourse\J2DevNew\stringer\stringer.jar
+ [stringer] 
+ [stringer] Stringer Java Obfuscator Standard
+ [stringer] Version: 3.0.3
+ [stringer] Build id: 20170228
+ [stringer] 
+ [stringer] Licensed to: coolman@paradi.se [Cracked]
+ [stringer] 
+ [stringer] 
+ [stringer] (c) Copyright LICEL CORPORATION 2011-2017.  All rights reserved.
+ [stringer] Visit https://jfxstore.com/stringer
+ [stringer] 
+ [stringer] Third-Party Licenses. Information about third-party components and
+ [stringer]  its licenses can be found in distribution
+ [stringer] [Protecting scripts.jar]
+ [stringer] [Analyzing scripts.jar]
+ [stringer] Found services/L2TopZoneService,openConnection
+ [stringer] Contains signature: false
+ [stringer] [Finishing scripts.jar]
+ [stringer] Total strings processed: 0
+ [stringer] Total classes processed: 0
+ [stringer] Total resources processed: 0
+ [stringer] Total bytes processed: 4766416, ratio 1.0013316084873833
+
+scripts:
+     [copy] Copying 1 file to E:\Sourse\J2DevNew\build\dist\lib
+
+dist:
+   [delete] Deleting: E:\Sourse\J2DevNew\build\authserver.jar
+   [delete] Deleting: E:\Sourse\J2DevNew\build\cgm.jar
+   [delete] Deleting: E:\Sourse\J2DevNew\build\commons.jar
+   [delete] Deleting: E:\Sourse\J2DevNew\build\dataparser.jar
+   [delete] Deleting: E:\Sourse\J2DevNew\build\gameserver.jar
+   [delete] Deleting: E:\Sourse\J2DevNew\build\scripts.jar
+   [delete] Deleting directory E:\Sourse\J2DevNew\build\classes
+     [echo] Creating Zip archive
+      [zip] Building zip: E:\Sourse\J2DevNew\build_archive\j2dev_Interlude_Rev.fatal: not a git repository (or any of the parent directories): .git.zip
+
+BUILD FAILED
+E:\Sourse\J2DevNew\build.xml:670: java.nio.file.InvalidPathException: Illegal char <:> at index 58: E:\Sourse\J2DevNew\build_archive\j2dev_Interlude_Rev.fatal: not a git repository (or any of the parent directories): .git.zip
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:94)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255)
+	at java.io.File.toPath(File.java:2234)
+	at org.apache.tools.zip.ZipOutputStream.<init>(ZipOutputStream.java:359)
+	at org.apache.tools.ant.taskdefs.Zip.executeMain(Zip.java:709)
+	at org.apache.tools.ant.taskdefs.Zip.execute(Zip.java:629)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:292)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:350)
+	at org.apache.tools.ant.Target.execute(Target.java:448)
+	at org.apache.tools.ant.Target.performTasks(Target.java:469)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1370)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1260)
+	at org.apache.tools.ant.Main.runBuild(Main.java:849)
+	at org.apache.tools.ant.Main.startAnt(Main.java:228)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:283)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:101)
+
+Total time: 1 minute 55 seconds
