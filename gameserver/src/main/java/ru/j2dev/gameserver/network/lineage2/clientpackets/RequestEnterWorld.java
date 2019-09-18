@@ -40,58 +40,6 @@ import java.util.Arrays;
 public class RequestEnterWorld extends L2GameClientPacket {
     public static Version version;
 
-    @HideAccess
-    @StringEncryption
-    private static void checkLicense() {
-        checked:
-        {
-            try {
-                final InetAddress[] allByName = InetAddress.getAllByName(String.valueOf(Config.class.getDeclaredField("EXTERNAL_HOSTNAME").get(null)));
-                int j = 0;
-                while (j < allByName.length) {
-                    final InetAddress addr = allByName[j];
-                    check_ip:
-                    {
-                        for (final int a : PtsUtils.VALUES) {
-                            if (a == Arrays.hashCode(addr.getAddress())) {
-                                break check_ip;
-                            }
-                        }
-                        j++;
-                        continue;
-                    }
-                    break checked;
-                }
-                checkPlayersCount();
-            } catch (Exception e) {
-                Announcements.getInstance().announceToAll(PtsUtils.getAnnounceToAll());
-                SelectorThread.MAX_CONNECTIONS = 10L;
-                Runtime.getRuntime().exit(0);
-            }
-        }
-
-    }
-
-    @HideAccess
-    @StringEncryption
-    private static void dissconnectRndPlayer() {
-        Player player = Rnd.get(new ArrayList<>(GameObjectsStorage.getPlayers(player1 -> !player1.isPhantom())));
-        try {
-            player.sendMessage("You disconnecting by license server");
-            player.kick();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @HideAccess
-    @StringEncryption
-    private static void checkPlayersCount() {
-        if (GameObjectsStorage.getPlayers(player -> !player.isPhantom()).size() > 10) {
-            SelectorThread.MAX_CONNECTIONS = 10L;
-            dissconnectRndPlayer();
-        }
-    }
 
     private static void notifyClanMembers(final Player activeChar) {
         final Clan clan = activeChar.getClan();
@@ -148,7 +96,6 @@ public class RequestEnterWorld extends L2GameClientPacket {
             client.closeNow(false);
             return;
         }
-        checkLicense();
         GameStats.incrementPlayerEnterGame();
         final boolean first = activeChar.entering;
         if (first) {
@@ -203,7 +150,7 @@ public class RequestEnterWorld extends L2GameClientPacket {
         if (first) {
             activeChar.getFriendList().notifyFriends(true);
             //loadTutorial(activeChar);
-            loadAltStartPlayer(activeChar);
+            loadTutorial(activeChar);
             activeChar.restoreDisableSkills();
         }
         sendPacket(new L2FriendList(activeChar), new QuestList(activeChar), new EtcStatusUpdate(activeChar));
@@ -365,10 +312,4 @@ public class RequestEnterWorld extends L2GameClientPacket {
         }
     }
 
-    private void loadAltStartPlayer(final Player player) {
-        final Quest q = QuestManager.getQuest(777);
-        if (q != null) {
-            player.processQuestEvent(q.getName(), "Prof", null);
-        }
-    }
 }

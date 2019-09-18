@@ -11,3 +11,4 @@ gameserver/Gameserver.iml
 login/login.iml
 build/* 
 commons/commons.iml
+build.log

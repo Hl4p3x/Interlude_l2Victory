@@ -112,7 +112,6 @@ public class Shutdown extends Thread {
         }
         LOGGER.info("Shutting down selector...");
         if (GameServer.getInstance() != null) {
-            GameServer.cancelCheckSelector();
             Arrays.stream(GameServer.getInstance().getSelectorThreads()).forEach(st -> {
                 try {
                     st.shutdown();

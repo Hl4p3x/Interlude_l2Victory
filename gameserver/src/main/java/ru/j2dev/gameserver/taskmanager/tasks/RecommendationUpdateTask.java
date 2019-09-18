@@ -23,7 +23,6 @@ public class RecommendationUpdateTask extends Task {
 
     @Override
     public void onTimeElapsed(final ExecutedTask task) {
-        PtsUtils.checkLicense();
         GameObjectsStorage.getPlayers().forEach(player -> {
             player.updateRecommends();
             player.broadcastUserInfo(true);

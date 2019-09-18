@@ -49,6 +49,8 @@ public class Config {
     private static ScrambledKeyPair[] _keyPairs;
     private static byte[][] _blowfishKeys;
 
+
+
     public static void load() {
         loadConfiguration();
         loadServerNames();

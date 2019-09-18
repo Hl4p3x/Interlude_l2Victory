@@ -164,18 +164,6 @@ public class RequestCharacterCreate extends L2GameClientPacket {
             }
         }
 
-
-        ItemInstance item = newChar.getInventory().addItem(1467, 1);
-        ShortCut newItem = new ShortCut(11, 0, 1, item.getObjectId(), -1, 1);
-        newChar.registerShortCut(newItem);
-        ItemInstance item1 = newChar.getInventory().addItem(3952, 1);
-        ShortCut newItem1 = new ShortCut(10, 0, 1, item1.getObjectId(), -1, 1);
-        newChar.registerShortCut(newItem1);
-        ItemInstance item2 = newChar.getInventory().addItem(728, 1000);
-        ShortCut newItem2 = new ShortCut(3, 0, 1, item2.getObjectId(), -1, 1);
-        newChar.registerShortCut(newItem2);
-
-
         startInitialQuests(newChar);
         newChar.setCurrentHpMp(newChar.getMaxHp(), newChar.getMaxMp());
         newChar.setCurrentCp(0.0);

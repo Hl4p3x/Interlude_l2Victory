@@ -24,68 +24,6 @@ public class PtsUtils {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(PtsUtils.class);
     private static final FStringHolder holder = FStringHolder.getInstance();
-    @HideAccess
-    @StringEncryption
-    private static final String[] announceToAll = {
-            "Данный мудак скорее всего спиздил приват сборку",
-            "Но этот имбицил еще не осознает что стоит привязка к 127",
-            "И как только онлайн перевалит за 10 человек, начнется трэш:D"
-    };
-
-    @HideAccess
-    @StringEncryption
-    public static int[] VALUES = {
-            /*
-             * j2dev clients
-             * */
-            //LocalHost
-            4706979
-    };
-
-    public static String[] getAnnounceToAll() {
-        return announceToAll;
-    }
-
-    @HideAccess
-    @StringEncryption
-    public static void checkLicense() {
-        checked:
-        {
-            try {
-                final InetAddress[] allByName = InetAddress.getAllByName(String.valueOf(Config.class.getDeclaredField("EXTERNAL_HOSTNAME").get(null)));
-                int j = 0;
-                while (j < allByName.length) {
-                    final InetAddress addr = allByName[j];
-                    check_ip:
-                    {
-                        for (final int a : VALUES) {
-                            if (a == Arrays.hashCode(addr.getAddress())) {
-                                break check_ip;
-                            }
-                        }
-                        j++;
-                        continue;
-                    }
-                    break checked;
-                }
-                checkPlayersCount();
-            } catch (Exception e) {
-                Announcements.getInstance().announceToAll(announceToAll);
-                SelectorThread.MAX_CONNECTIONS = 10L;
-                System.exit(0);
-            }
-        }
-
-    }
-
-    @HideAccess
-    @StringEncryption
-    private static void checkPlayersCount() {
-        Announcements.getInstance().announceToAll(announceToAll);
-        if (GameObjectsStorage.getPlayers(player -> !player.isPhantom()).size() > 10) {
-            SelectorThread.MAX_CONNECTIONS = 10L;
-        }
-    }
 
     /**
      * - Вынимает текст из хмл fstring.xml, заменяет синтаксисы на параметры если имеются

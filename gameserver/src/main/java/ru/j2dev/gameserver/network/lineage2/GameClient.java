@@ -27,6 +27,7 @@ import ru.j2dev.gameserver.network.lineage2.clientpackets.L2GameClientPacket;
 import ru.j2dev.gameserver.network.lineage2.serverpackets.L2GameServerPacket;
 import ru.j2dev.gameserver.network.lineage2.serverpackets.NpcHtmlMessage;
 import ru.j2dev.gameserver.network.lineage2.serverpackets.RequestNetPing;
+import ru.protection.GameGuard;
 
 import java.nio.ByteBuffer;
 import java.sql.Connection;
@@ -43,6 +44,14 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> {
     public static final String NO_IP = "?.?.?.?";
     private static final Logger LOGGER = LoggerFactory.getLogger(GameClient.class);
     public static int DEFAULT_PAWN_CLIPPING_RANGE = 2048;
+
+    public static interface IExReader
+    {
+        public void checkChar(Player cha);
+
+        public int read(ByteBuffer buf);
+    }
+    public IExReader _reader;
 
     public GameCrypt _crypt;
     public GameClientState _state = GameClientState.CONNECTED;
@@ -87,6 +96,12 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> {
             _pingTaskFuture.cancel(true);
             _pingTaskFuture = null;
         }
+
+        if (_reader != null)
+        {
+            GameGuard.getInstance().doneSession(this);
+        }
+
         setState(GameClientState.DISCONNECTED);
         final Player player = getActiveChar();
         setActiveChar(null);
@@ -252,6 +267,11 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> {
 
     public void setLoginName(final String loginName) {
         _login = loginName;
+
+        if (_reader == null)
+        {
+            GameGuard.getInstance().initSession(this);
+        }
     }
 
     public void setSessionId(final SessionKey sessionKey) {

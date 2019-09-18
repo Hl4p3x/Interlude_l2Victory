@@ -51,9 +51,9 @@ import ru.j2dev.gameserver.tables.*;
 import ru.j2dev.gameserver.taskmanager.ItemsAutoDestroy;
 import ru.j2dev.gameserver.taskmanager.L2TopRuManager;
 import ru.j2dev.gameserver.taskmanager.TaskManager;
-import ru.j2dev.gameserver.taskmanager.tasks.CheckTask;
 import ru.j2dev.gameserver.taskmanager.tasks.RestoreOfflineTraders;
 import ru.j2dev.gameserver.utils.Strings;
+import ru.protection.GameGuard;
 
 import java.awt.*;
 import java.io.File;
@@ -106,7 +106,6 @@ public class GameServer {
         LOGGER.info("|=======================================================|");
         LOGGER.info("Initialize config: ........");
         Config.load();
-        checkSelectorThread();
         checkFreePorts();
         LOGGER.info("Initialize database: ........");
         DatabaseFactory.getInstance().initPool("GameServer");
@@ -210,6 +209,8 @@ public class GameServer {
         }
         CGMHelper.getInstance();
         LOGGER.info("=================================================");
+        GameGuard.getInstance();
+        LOGGER.info("=================================================");
         System.gc();
         System.runFinalization();
         StatsUtils.printMemoryInfo();
@@ -250,19 +251,6 @@ public class GameServer {
                     }
                 }
             }
-        }
-    }
-
-    @HideAccess
-    private static void checkSelectorThread() {
-        selectorTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(new CheckTask(), 30000, 300000);
-    }
-
-    @HideAccess
-    public static void cancelCheckSelector() {
-        if (selectorTask != null) {
-            selectorTask.cancel(true);
-            selectorTask = null;
         }
     }
 
