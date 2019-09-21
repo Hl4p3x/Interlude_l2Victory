@@ -211,6 +211,7 @@ public class RequestEnterWorld extends L2GameClientPacket {
         }
         activeChar.unsetVar("offline");
         activeChar.sendActionFailed();
+
         if (first && activeChar.isGM() && Config.SAVE_GM_EFFECTS && activeChar.getPlayerAccess().CanUseGMCommand) {
             if (activeChar.getVarB("gm_silence")) {
                 activeChar.setMessageRefusal(true);
@@ -220,13 +221,6 @@ public class RequestEnterWorld extends L2GameClientPacket {
                 activeChar.setIsInvul(true);
                 activeChar.startAbnormalEffect(AbnormalEffect.S_INVULNERABLE);
                 activeChar.sendMessage(activeChar.getName() + " is now immortal.");
-            }
-            try {
-                final int var_gmspeed = Integer.parseInt(activeChar.getVar("gm_gmspeed"));
-                if (var_gmspeed >= 1 && var_gmspeed <= 4) {
-                    activeChar.doCast(SkillTable.getInstance().getInfo(7029, var_gmspeed), activeChar, true);
-                }
-            } catch (Exception ignored) {
             }
         }
         if (first && activeChar.isGM() && activeChar.getPlayerAccess().GodMode && Config.SHOW_GM_LOGIN && activeChar.getInvisibleType() == InvisibleType.NONE) {

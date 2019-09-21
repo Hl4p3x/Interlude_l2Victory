@@ -175,6 +175,7 @@ public final class TamedBeastInstance extends FeedableBeastInstance {
         _playerRef = ((owner == null) ? HardReferences.emptyRef() : owner.getRef());
         if (owner != null) {
             setTitle(owner.getName());
+            setShowName(false);
             if (owner.getTrainedBeast() != null) {
                 owner.getTrainedBeast().doDespawn();
             }

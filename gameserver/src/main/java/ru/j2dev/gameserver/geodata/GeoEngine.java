@@ -1374,7 +1374,7 @@ public class GeoEngine {
         int count = 0;
         for (int rx = Config.GEO_X_FIRST; rx <= Config.GEO_X_LAST; rx++) {
             for (int ry = Config.GEO_Y_FIRST; ry <= Config.GEO_Y_LAST; ry++) {
-                File geoFile = new File(geoDir, String.format("%2d_%2d.l2j", rx, ry));
+                File geoFile = new File(geoDir, String.format("%2d_%2d.l2g", rx, ry));
                 if (!geoFile.exists()) {
                     continue;
                 }

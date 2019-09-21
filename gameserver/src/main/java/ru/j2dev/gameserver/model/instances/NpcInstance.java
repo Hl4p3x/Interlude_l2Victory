@@ -1240,36 +1240,7 @@ public class NpcInstance extends Creature {
         if (classId == null) {
             return;
         }
-        final int npcId = getTemplate().npcId;
-        if (getTemplate().getTeachInfo().isEmpty()) {
-            final NpcHtmlMessage html = new NpcHtmlMessage(player, this);
-            final StringBuilder sb = new StringBuilder();
-            sb.append("<html><head><body>");
-            if (!player.isLangRus()) {
-                sb.append("I cannot teach you. My class list is empty.<br> Ask admin to fix it. <br>NpcId:").append(npcId).append(", Your classId:").append(classId.name()).append("<br>");
-            } else {
-                sb.append("Я не могу обучить тебя. Для твоего класса мой список пуст.<br> Свяжись с админом для фикса этого. <br>NpcId:").append(npcId).append(", твой classId:").append(classId.name()).append("<br>");
-            }
-            sb.append("</body></html>");
-            html.setHtml(sb.toString());
-            player.sendPacket(html);
-            return;
-        }
-        if (!getTemplate().canTeach(classId) && !getTemplate().canTeach(classId.getParent(player.getSex())) && !Config.ALT_ALLOW_ALLCLASS_SKILLENCHANT) {
-            if (this instanceof WarehouseInstance) {
-                showChatWindow(player, "warehouse/" + getNpcId() + "-noteach.htm");
-            } else if (this instanceof TrainerInstance) {
-                showChatWindow(player, "trainer/" + getNpcId() + "-noteach.htm");
-            } else {
-                final NpcHtmlMessage html = new NpcHtmlMessage(player, this);
-                String sb = "<html><head><body>" +
-                        new CustomMessage("l2p.gameserver.model.instances.L2NpcInstance.WrongTeacherClass", player) +
-                        "</body></html>";
-                html.setHtml(sb);
-                player.sendPacket(html);
-            }
-            return;
-        }
+
         final Collection<SkillLearn> skills = SkillAcquireHolder.getInstance().getAvailableSkills(player, classId, AcquireType.NORMAL, null);
         final AcquireSkillList asl = new AcquireSkillList(AcquireType.NORMAL, skills.size());
         int counts = 0;
@@ -1280,14 +1251,6 @@ public class NpcInstance extends Creature {
             final Skill sk = SkillTable.getInstance().getInfo(s.getId(), s.getLevel());
             if (sk == null) {
                 continue;
-            }
-            if (!Config.ALT_WEAK_SKILL_LEARN) {
-                if (!sk.getCanLearn(player.getClassId())) {
-                    continue;
-                }
-                if (!sk.canTeachBy(npcId)) {
-                    continue;
-                }
             }
             counts++;
             asl.addSkill(s.getId(), s.getLevel(), s.getLevel(), s.getCost(), 0);

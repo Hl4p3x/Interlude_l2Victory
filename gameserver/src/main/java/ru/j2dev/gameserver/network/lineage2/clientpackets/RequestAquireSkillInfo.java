@@ -1,15 +1,20 @@
 package ru.j2dev.gameserver.network.lineage2.clientpackets;
 
+import org.apache.commons.lang3.tuple.Pair;
 import ru.j2dev.commons.lang.ArrayUtils;
 import ru.j2dev.gameserver.Config;
+import ru.j2dev.gameserver.ThreadPoolManager;
 import ru.j2dev.gameserver.data.xml.holder.SkillAcquireHolder;
 import ru.j2dev.gameserver.model.Player;
 import ru.j2dev.gameserver.model.SkillLearn;
 import ru.j2dev.gameserver.model.base.AcquireType;
 import ru.j2dev.gameserver.model.base.ClassId;
+import ru.j2dev.gameserver.model.event.PvpEvent;
 import ru.j2dev.gameserver.model.instances.NpcInstance;
 import ru.j2dev.gameserver.network.lineage2.serverpackets.AcquireSkillInfo;
 import ru.j2dev.gameserver.tables.SkillTable;
+
+import java.util.Calendar;
 
 public class RequestAquireSkillInfo extends L2GameClientPacket {
     private int _id;
@@ -39,10 +44,31 @@ public class RequestAquireSkillInfo extends L2GameClientPacket {
         if (skillLearn == null) {
             return;
         }
-        if (Config.ALT_DISABLE_SPELLBOOKS && _type == AcquireType.NORMAL) {
-            sendPacket(new AcquireSkillInfo(_type, skillLearn, 0, 0));
+        if (Config.ALT_ITEM_LEARN_MODE && _type == AcquireType.NORMAL) {
+            int count_item_learn = Config.ALT_ITEM_LEARN_COUNT;
+            int item_learn = Config.ALT_ITEM_LEARN_ID;
+
+
+            if(Config.ALT_ITEM_LEARN_SP)
+            {
+                if(skillLearn.getCost() == 0){
+                    count_item_learn = 1;
+                }else
+                    count_item_learn = skillLearn.getCost();
+            }
+
+            for (Config.AltSkillPrice config : Config.ALT_PRICE_SKILL) {
+
+                if(skillLearn.getId() == config.skillId)
+                {
+                    item_learn = config.priceId;
+                    count_item_learn = config.priceCount;
+                }
+            }
+
+            sendPacket(new AcquireSkillInfo(_type, skillLearn, item_learn, count_item_learn));
         } else {
-            sendPacket(new AcquireSkillInfo(_type, skillLearn, skillLearn.getItemId(), (int) skillLearn.getItemCount()));
+            sendPacket(new AcquireSkillInfo(_type, skillLearn, 0, 0));
         }
     }
 }

@@ -27,7 +27,7 @@ import ru.j2dev.gameserver.network.lineage2.clientpackets.L2GameClientPacket;
 import ru.j2dev.gameserver.network.lineage2.serverpackets.L2GameServerPacket;
 import ru.j2dev.gameserver.network.lineage2.serverpackets.NpcHtmlMessage;
 import ru.j2dev.gameserver.network.lineage2.serverpackets.RequestNetPing;
-import ru.protection.GameGuard;
+import ru.protection.CatsGuard;
 
 import java.nio.ByteBuffer;
 import java.sql.Connection;
@@ -45,11 +45,11 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> {
     private static final Logger LOGGER = LoggerFactory.getLogger(GameClient.class);
     public static int DEFAULT_PAWN_CLIPPING_RANGE = 2048;
 
-    public static interface IExReader
+    public interface IExReader
     {
-        public void checkChar(Player cha);
+        void checkChar(Player cha);
 
-        public int read(ByteBuffer buf);
+        int read(ByteBuffer buf);
     }
     public IExReader _reader;
 
@@ -99,7 +99,7 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> {
 
         if (_reader != null)
         {
-            GameGuard.getInstance().doneSession(this);
+            CatsGuard.getInstance().doneSession(this);
         }
 
         setState(GameClientState.DISCONNECTED);
@@ -254,7 +254,14 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> {
         _activeChar = player;
         if (player != null) {
             player.setNetConnection(this);
+
+            if (_reader != null)
+            {
+                _reader.checkChar(_activeChar);
+            }
         }
+
+
     }
 
     public SessionKey getSessionKey() {
@@ -270,7 +277,7 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> {
 
         if (_reader == null)
         {
-            GameGuard.getInstance().initSession(this);
+            CatsGuard.getInstance().initSession(this);
         }
     }
 

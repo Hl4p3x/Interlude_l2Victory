@@ -4,9 +4,9 @@ checkRequirements:
      [echo] Check JDK version
 
 init:
+    [mkdir] Created dir: C:\BladeRush\l2-victory\build\classes
 
 compile-commons:
-   [delete] Deleting directory E:\Sourse\J2DevNew\build\classes
    [delete] Deleting directory C:\BladeRush\l2-victory\build\classes
     [mkdir] Created dir: C:\BladeRush\l2-victory\build\classes
     [javac] Compiling 111 source files to C:\BladeRush\l2-victory\build\classes
@@ -14,7 +14,7 @@ compile-commons:
     [javac] Note: Recompile with -Xlint:deprecation for details.
 
 commons-jar:
-     [echo] Current Revision 3
+     [echo] Current Revision 4
       [jar] Building jar: C:\BladeRush\l2-victory\build\commons.jar
  [stringer] Stringer Java Obfuscator Standard v3.0.3 (20170228), LICEL CORPORATION
  [stringer] License file: C:\BladeRush\l2-victory\stringer\stringer.jar
@@ -40,41 +40,7 @@ commons-jar:
  [stringer] Total strings processed: 0
  [stringer] Total classes processed: 0
  [stringer] Total resources processed: 0
- [stringer] Total bytes processed: 502203, ratio 1.0129150960866422
-
-compile-authserver:
-   [delete] Deleting directory C:\BladeRush\l2-victory\build\classes
-    [mkdir] Created dir: C:\BladeRush\l2-victory\build\classes
-    [javac] Compiling 54 source files to C:\BladeRush\l2-victory\build\classes
-
-authserver-jar:
-      [jar] Building jar: C:\BladeRush\l2-victory\build\authserver.jar
- [stringer] Stringer Java Obfuscator Standard v3.0.3 (20170228), LICEL CORPORATION
- [stringer] License file: C:\BladeRush\l2-victory\stringer\stringer.jar
- [stringer] 
- [stringer] Stringer Java Obfuscator Standard
- [stringer] Version: 3.0.3
- [stringer] Build id: 20170228
- [stringer] 
- [stringer] Licensed to: coolman@paradi.se [Cracked]
- [stringer] 
- [stringer] 
- [stringer] (c) Copyright LICEL CORPORATION 2011-2017.  All rights reserved.
- [stringer] Visit https://jfxstore.com/stringer
- [stringer] 
- [stringer] Third-Party Licenses. Information about third-party components and
- [stringer]  its licenses can be found in distribution
- [stringer] [Protecting authserver.jar]
- [stringer] [Analyzing authserver.jar]
- [stringer] Contains signature: false
- [stringer] [Finishing authserver.jar]
- [stringer] Total strings processed: 0
- [stringer] Total classes processed: 0
- [stringer] Total resources processed: 0
- [stringer] Total bytes processed: 186536, ratio 1.0321868164858259
-
-authserver:
-     [copy] Copying 2 files to C:\BladeRush\l2-victory\build\dist\lib
+ [stringer] Total bytes processed: 502203, ratio 1.0129250522199191
 
 compile-gameserver:
    [delete] Deleting directory C:\BladeRush\l2-victory\build\classes
@@ -90,7 +56,7 @@ compile-gameserver:
     [javac] 1 warning
 
 gameserver-jar:
-     [echo] Current Revision 3
+     [echo] Current Revision 4
       [jar] Building jar: C:\BladeRush\l2-victory\build\gameserver.jar
  [stringer] Stringer Java Obfuscator Standard v3.0.3 (20170228), LICEL CORPORATION
  [stringer] License file: C:\BladeRush\l2-victory\stringer\stringer.jar
@@ -116,13 +82,21 @@ gameserver-jar:
  [stringer] Found ru/j2dev/gameserver/utils/IpUtils,openStream
  [stringer] Contains signature: false
  [stringer] [Finishing gameserver.jar]
- [stringer] Total strings processed: 862
+ [stringer] Total strings processed: 861
  [stringer] Total classes processed: 115
  [stringer] Total resources processed: 0
- [stringer] Total bytes processed: 8578529, ratio 1.034111908929841
+ [stringer] Total bytes processed: 8580613, ratio 1.0341434813573342
 
 gameserver:
-    [mkdir] Created dir: C:\BladeRush\l2-victory\build\dist\gameserver\geodata
-    [mkdir] Created dir: C:\BladeRush\l2-victory\build\dist\gameserver\log
      [copy] Copying 1 file to C:\BladeRush\l2-victory\build\dist\lib
    [delete] Deleting directory C:\BladeRush\l2-victory\build\classes
+
+dist:
+   [delete] Deleting: C:\BladeRush\l2-victory\build\commons.jar
+   [delete] Deleting: C:\BladeRush\l2-victory\build\gameserver.jar
+     [echo] Creating Zip archive
+
+BUILD FAILED
+C:\BladeRush\l2-victory\build.xml:671: Problem reading C:\BladeRush\l2-victory\build_archive\_Interlude_Rev.4.zip
+
+Total time: 9 minutes 2 seconds

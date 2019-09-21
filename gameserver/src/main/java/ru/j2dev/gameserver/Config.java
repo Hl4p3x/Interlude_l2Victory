@@ -1142,6 +1142,12 @@ public class Config {
     public static boolean LOG_REQUEST_BUYPASS;
     public static boolean CUSTOM_SHOP_TRADER_MANAGER;
     public static boolean MAKERS_DEBUG;
+    //RushAddonts
+    public static boolean ALT_ITEM_LEARN_MODE;
+    public static boolean ALT_ITEM_LEARN_SP;
+    public static int ALT_ITEM_LEARN_COUNT;
+    public static int ALT_ITEM_LEARN_ID;
+    public static List<AltSkillPrice> ALT_PRICE_SKILL;
 
 
     private static void loadServerConfig() {
@@ -2580,6 +2586,24 @@ public class Config {
 
     private static void loadJ2devConfig() {
         PropertiesParser j2devSettings = load(J2DEV_CONFIG);
+        ALT_ITEM_LEARN_MODE = j2devSettings.getProperty("AltLearnMode", false);
+        ALT_ITEM_LEARN_SP = j2devSettings.getProperty("AltLearnSp", false);
+        ALT_ITEM_LEARN_ID = j2devSettings.getProperty("AltLearnItem", 4037);
+        ALT_ITEM_LEARN_COUNT = j2devSettings.getProperty("AltLearnCount", 4037);
+
+
+        ALT_PRICE_SKILL = new ArrayList<>();
+        final StringTokenizer st = new StringTokenizer(j2devSettings.getProperty("AltSkillPrice", ""), "[]");
+        while (st.hasMoreTokens()) {
+            final String interval = st.nextToken();
+            final String[] t = interval.split(":");
+            final String[] t2 = t[0].split(",");
+            final int count = Integer.parseInt(t[1]);
+            final int skill = Integer.parseInt(t2[0]);
+            final int id = Integer.parseInt(t2[1]);
+            ALT_PRICE_SKILL.add(new AltSkillPrice(skill, id, count));
+        }
+
         LOG_CLIENT_PACKETS = j2devSettings.getProperty("ClientToServerPacketLogging", false);
         LOG_SERVER_PACKETS = j2devSettings.getProperty("ServerToClentPacketLogging", false);
         LOG_REQUEST_BUYPASS = j2devSettings.getProperty("LoggingRequestBuypass", false);
@@ -2776,6 +2800,19 @@ public class Config {
             bonus.setDropSpoil(dropSpoil);
             bonus.setEnchantItem(enchantItemMul);
             return bonus;
+        }
+    }
+
+    public static class AltSkillPrice {
+        public final int skillId;
+        public final int priceId;
+        public final int priceCount;
+
+        AltSkillPrice(final int skill, final int price, final int count)
+        {
+            skillId = skill;
+            priceId = price;
+            priceCount = count;
         }
     }
 

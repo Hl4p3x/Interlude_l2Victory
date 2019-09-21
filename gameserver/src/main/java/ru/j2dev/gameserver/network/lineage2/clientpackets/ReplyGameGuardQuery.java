@@ -1,6 +1,6 @@
 package ru.j2dev.gameserver.network.lineage2.clientpackets;
 
-import ru.protection.GameGuard;
+import ru.protection.CatsGuard;
 
 public class ReplyGameGuardQuery extends L2GameClientPacket {
     private int[] _reply = new int[4];
@@ -8,7 +8,7 @@ public class ReplyGameGuardQuery extends L2GameClientPacket {
     @Override
     protected void readImpl()
     {
-        if (GameGuard.getInstance().isEnabled() && getClient().getHwid() == null)
+        if (CatsGuard.getInstance().isEnabled() && getClient().getHwid() == null)
         {
             _reply[0] = readD();
             _reply[1] = readD();
@@ -25,9 +25,9 @@ public class ReplyGameGuardQuery extends L2GameClientPacket {
     @Override
     protected void runImpl()
     {
-        if (GameGuard.getInstance().isEnabled())
+        if (CatsGuard.getInstance().isEnabled())
         {
-            GameGuard.getInstance().initSession(getClient(), _reply);
+            CatsGuard.getInstance().initSession(getClient(), _reply);
         }
     }
 }

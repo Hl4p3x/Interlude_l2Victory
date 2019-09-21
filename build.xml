@@ -657,8 +657,9 @@
 		<fail unless="JDK8.present" message="Java 1.8 is required. But your version is Java ${ant.java.version} and probably JDK is not installed." />
 	</target>
 
-	<target name="dist" depends="authserver, gameserver, dataparser, cgm, scripts">
-		<!-- cleanup -->
+	<target name="dist" depends="gameserver">
+	<!-- <target name="dist" depends="authserver, gameserver, dataparser, cgm, scripts">
+		 cleanup -->
 		<delete file="${build}/authserver.jar" />
 		<delete file="${build}/cgm.jar" />
 		<delete file="${build}/commons.jar" />

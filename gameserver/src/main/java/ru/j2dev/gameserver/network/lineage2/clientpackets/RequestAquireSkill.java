@@ -1,5 +1,6 @@
 package ru.j2dev.gameserver.network.lineage2.clientpackets;
 
+import org.apache.commons.lang3.tuple.Pair;
 import ru.j2dev.commons.lang.ArrayUtils;
 import ru.j2dev.gameserver.Config;
 import ru.j2dev.gameserver.data.xml.holder.SkillAcquireHolder;
@@ -12,8 +13,10 @@ import ru.j2dev.gameserver.model.instances.NpcInstance;
 import ru.j2dev.gameserver.model.instances.VillageMasterInstance;
 import ru.j2dev.gameserver.model.pledge.Clan;
 import ru.j2dev.gameserver.network.lineage2.components.SystemMsg;
+import ru.j2dev.gameserver.network.lineage2.serverpackets.AcquireSkillInfo;
 import ru.j2dev.gameserver.network.lineage2.serverpackets.SystemMessage2;
 import ru.j2dev.gameserver.tables.SkillTable;
+import ru.j2dev.gameserver.utils.ItemFunctions;
 
 public class RequestAquireSkill extends L2GameClientPacket {
     private AcquireType _type;
@@ -37,21 +40,51 @@ public class RequestAquireSkill extends L2GameClientPacket {
     }
 
     private static void learnSimple(final Player player, final SkillLearn skillLearn, final Skill skill) {
+        int count_item_learn = Config.ALT_ITEM_LEARN_COUNT;
+        int item_learn = Config.ALT_ITEM_LEARN_ID;
+
+
+
+        if(Config.ALT_ITEM_LEARN_SP)
+        {
+            if(skillLearn.getCost() == 0){
+                count_item_learn = 1;
+            }else
+            count_item_learn = skillLearn.getCost();
+        }
+
+
+        for (Config.AltSkillPrice config : Config.ALT_PRICE_SKILL) {
+
+            if(skill.getId() == config.skillId)
+            {
+                item_learn = config.priceId;
+                count_item_learn = config.priceCount;
+            }
+        }
+
         if (player.getSp() < skillLearn.getCost()) {
             player.sendPacket(SystemMsg.YOU_DO_NOT_HAVE_ENOUGH_SP_TO_LEARN_THIS_SKILL);
             return;
         }
-        if (!Config.ALT_DISABLE_SPELLBOOKS && skillLearn.getItemId() > 0 && !player.consumeItem(skillLearn.getItemId(), skillLearn.getItemCount())) {
+
+        if (player.getInventory().getItemByItemId(item_learn) == null || player.getInventory().getItemByItemId(item_learn).getCount() < count_item_learn)
+        {
             player.sendPacket(SystemMsg.YOU_DO_NOT_HAVE_THE_NECESSARY_MATERIALS_OR_PREREQUISITES_TO_LEARN_THIS_SKILL);
             return;
         }
-        player.sendPacket((new SystemMessage2(SystemMsg.YOU_HAVE_EARNED_S1_SKILL)).addSkillName(skill.getId(), skill.getLevel()));
-        player.setSp(player.getSp() - skillLearn.getCost());
-        player.addSkill(skill, true);
-        player.sendUserInfo();
-        player.updateStats();
-        player.sendSkillList();
-        RequestExEnchantSkill.updateSkillShortcuts(player, skill.getId(), skill.getLevel());
+
+            ItemFunctions.removeItem(player, item_learn, count_item_learn,  true);
+
+            player.sendPacket((new SystemMessage2(SystemMsg.YOU_HAVE_EARNED_S1_SKILL)).addSkillName(skill.getId(), skill.getLevel()));
+            player.setSp(player.getSp() - skillLearn.getCost());
+            player.addSkill(skill, true);
+            player.sendUserInfo();
+            player.updateStats();
+            player.sendSkillList();
+            RequestExEnchantSkill.updateSkillShortcuts(player, skill.getId(), skill.getLevel());
+
+
     }
 
     private static void learnSimpleFishing(final Player player, final SkillLearn skillLearn, final Skill skill) {

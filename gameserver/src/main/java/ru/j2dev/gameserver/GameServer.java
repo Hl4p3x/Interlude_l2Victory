@@ -53,7 +53,7 @@ import ru.j2dev.gameserver.taskmanager.L2TopRuManager;
 import ru.j2dev.gameserver.taskmanager.TaskManager;
 import ru.j2dev.gameserver.taskmanager.tasks.RestoreOfflineTraders;
 import ru.j2dev.gameserver.utils.Strings;
-import ru.protection.GameGuard;
+import ru.protection.CatsGuard;
 
 import java.awt.*;
 import java.io.File;
@@ -209,7 +209,7 @@ public class GameServer {
         }
         CGMHelper.getInstance();
         LOGGER.info("=================================================");
-        GameGuard.getInstance();
+        CatsGuard.getInstance();
         LOGGER.info("=================================================");
         System.gc();
         System.runFinalization();

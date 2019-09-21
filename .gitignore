@@ -11,4 +11,6 @@ gameserver/Gameserver.iml
 login/login.iml
 build/* 
 commons/commons.iml
-build.log
+*.log
+*.zip
+build_archive/zip1974570225.tmp

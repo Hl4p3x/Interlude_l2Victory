@@ -15,7 +15,16 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 
     @Override
     public ReceivablePacket<GameClient> handlePacket(ByteBuffer buf, GameClient client) {
-        int id = buf.get() & 0xff;
+        int id = 0;
+        if (client._reader != null)
+        {
+            id = client._reader.read(buf);
+        }
+        else
+        {
+            id = buf.get() & 0xff;
+        }
+      //  int id = buf.get() & 0xff;
         L2GameClientPacket msg = null;
         try {
             int id2;

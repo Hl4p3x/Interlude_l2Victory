@@ -67,6 +67,8 @@ public final class ItemFunctions {
         return player.getInventory().getCountOf(itemId);
     }
 
+
+
     public static long removeItem(final Playable playable, final int itemId, final long count, final boolean notify) {
         long removed = 0L;
         if (playable == null || count < 1L) {
