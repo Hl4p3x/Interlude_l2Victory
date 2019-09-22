@@ -1988,6 +1988,7 @@ public abstract class Skill extends StatTemplate implements Cloneable {
     }
 
     public enum SkillType {
+        AGATHION(Agathion.class),
         AGGRESSION(Aggression.class),
         AIEFFECTS(AIeffects.class),
         BALANCE(Balance.class),

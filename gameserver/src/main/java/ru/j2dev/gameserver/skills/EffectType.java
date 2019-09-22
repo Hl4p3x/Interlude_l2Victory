@@ -88,6 +88,7 @@ public enum EffectType {
     AbsorbDamageToEffector(EffectBuff.class, null, false),
     AbsorbDamageToSummon(EffectLDManaDamOverTime.class, null, true);
 
+
     private final Constructor<? extends Effect> _constructor;
     private final AbnormalEffect _abnormal;
     private final Pair<Stats, Stats> _resistAndPowerType;

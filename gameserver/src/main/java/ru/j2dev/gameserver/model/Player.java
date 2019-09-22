@@ -324,6 +324,7 @@ public class Player extends Playable implements PlayerGroup {
     private Future<?> _PvPRegTask;
     private long _lastPvpAttack;
     private TamedBeastInstance _tamedBeast;
+    private AgathionInstance _agathion;
     private long _lastAttackPacket;
     private Location _groundSkillLoc;
     private int _buyListId;
@@ -2974,7 +2975,7 @@ public class Player extends Playable implements PlayerGroup {
             }
             request.cancel();
         }
-        setAgathion(0);
+
         boolean checkPvp = true;
         if (Config.ALLOW_CURSED_WEAPONS) {
             if (isCursedWeaponEquipped()) {
@@ -3207,7 +3208,7 @@ public class Player extends Playable implements PlayerGroup {
     }
 
     public void stopAllTimers() {
-        setAgathion(0);
+
         stopWaterTask();
         stopBonusTask();
         stopHourlyTask();
@@ -5772,7 +5773,7 @@ public class Player extends Playable implements PlayerGroup {
         if (getPet() != null && (getPet().isSummon() || (Config.ALT_IMPROVED_PETS_LIMITED_USE && ((getPet().getNpcId() == 16035 && !isMageClass()) || (getPet().getNpcId() == 16034 && isMageClass()))))) {
             getPet().unSummon();
         }
-        setAgathion(0);
+
         restoreSkills();
         if (Config.ALT_SUBLASS_SKILL_TRANSFER && getBaseClassId() == subId) {
             for (final SubClass ssc : getSubClasses().values()) {
@@ -6552,6 +6553,15 @@ public class Player extends Playable implements PlayerGroup {
 
     public void setTrainedBeast(final TamedBeastInstance tamedBeast) {
         _tamedBeast = tamedBeast;
+    }
+
+    public AgathionInstance getAgathion()
+    {
+        return _agathion;
+    }
+
+    public void setAgathion(final AgathionInstance agathion) {
+        _agathion = agathion;
     }
 
     public long getLastAttackPacket() {

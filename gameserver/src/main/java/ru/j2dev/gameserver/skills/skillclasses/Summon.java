@@ -81,12 +81,6 @@ public class Summon extends Skill {
                 }
                 break;
             }
-            case AGATHION: {
-                if (player.getAgathionId() > 0 && _npcId != 0) {
-                    player.sendPacket(SystemMsg.AN_AGATHION_HAS_ALREADY_BEEN_SUMMONED);
-                    return false;
-                }
-            }
             case NPC: {
                 if (_minRadius > 0) {
                     for (final NpcInstance npc : World.getAroundNpc(player, _minRadius, 200)) {
@@ -107,10 +101,7 @@ public class Summon extends Skill {
     public void useSkill(final Creature caster, final List<Creature> targets) {
         final Player activeChar = caster.getPlayer();
         switch (_summonType) {
-            case AGATHION: {
-                activeChar.setAgathion(getNpcId());
-                break;
-            }
+
             case TRAP: {
                 final Skill trapSkill = getFirstAddedSkill();
                 if (activeChar.getTrapsCount() >= 5) {
@@ -203,7 +194,6 @@ public class Summon extends Skill {
     private enum SummonType {
         PET,
         SIEGE_SUMMON,
-        AGATHION,
         TRAP,
         MERCHANT,
         NPC
