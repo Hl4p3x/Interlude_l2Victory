@@ -69,7 +69,6 @@ public class PolyMorphedNpcInfo extends L2GameServerPacket {
     private int _nameColor;
     private int _title_color;
     private int _transform;
-    private int _agathion;
     private List<EffectCubic> _cubics;
     private boolean _isPartyRoomLeader;
     private boolean _isFlying;
@@ -148,7 +147,6 @@ public class PolyMorphedNpcInfo extends L2GameServerPacket {
         plg_class = 0;
         pledge_type = 0;
         _transform = 0;
-        _agathion = 0;
         _isPartyRoomLeader = false;
         _isFlying = false;
     }
@@ -264,7 +262,6 @@ public class PolyMorphedNpcInfo extends L2GameServerPacket {
         writeD(cw_level);
         writeD(clan_rep_score);
         writeD(_transform);
-        writeD(_agathion);
         writeD(0x1);
         writeD(_abnormalEffect2);
     }

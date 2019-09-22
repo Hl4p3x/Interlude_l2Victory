@@ -249,7 +249,6 @@ public class Player extends Playable implements PlayerGroup {
     private Summon _summon;
     private boolean _riding;
     private Map<Integer, EffectCubic> _cubics;
-    private int _agathionId;
     private Request _request;
     private ItemInstance _arrowItem;
     private WeaponTemplate _fistsWeaponItem;
@@ -6700,18 +6699,6 @@ public class Player extends Playable implements PlayerGroup {
         final Map<Integer, Skill> tempSkills = super.getAllSkills().stream().filter(s -> s != null && !s.isActive() && !s.isToggle()).collect(Collectors.toMap(Skill::getId, s -> s, (a, b) -> b));
         tempSkills.putAll(_transformationSkills);
         return tempSkills.values();
-    }
-
-    public void setAgathion(final int id) {
-        if (_agathionId == id) {
-            return;
-        }
-        _agathionId = id;
-        broadcastCharInfo();
-    }
-
-    public int getAgathionId() {
-        return _agathionId;
     }
 
     public int getPcBangPoints() {

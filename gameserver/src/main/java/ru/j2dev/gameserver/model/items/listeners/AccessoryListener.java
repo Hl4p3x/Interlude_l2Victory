@@ -21,6 +21,8 @@ public final class AccessoryListener implements OnEquipListener {
         }
         final Player player = (Player) actor;
         if (item.getBodyPart() == 2097152 && item.getTemplate().getAttachedSkills().length > 0) {
+            //нужно что то с эти придумать
+            /*
             final int agathionId = player.getAgathionId();
             final int transformNpcId = player.getTransformationTemplate();
             for (final Skill skill : item.getTemplate().getAttachedSkills()) {
@@ -31,6 +33,8 @@ public final class AccessoryListener implements OnEquipListener {
                     player.setTransformation(0);
                 }
             }
+            */
+
         }
         if (item.isAccessory() || item.getTemplate().isTalisman() || item.getTemplate().isBracelet()) {
             player.sendUserInfo(true);

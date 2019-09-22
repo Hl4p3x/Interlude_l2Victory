@@ -363,9 +363,6 @@ abstract class DocumentBase {
             } else if ("chargesMax".equalsIgnoreCase(nodeName)) {
                 final int val2 = parseNumber(a.getNodeValue()).intValue();
                 cond = joinAnd(cond, new ConditionPlayerChargesMax(val2));
-            } else if ("agathion".equalsIgnoreCase(nodeName)) {
-                final int agathionId = parseNumber(a.getNodeValue()).intValue();
-                cond = joinAnd(cond, new ConditionPlayerAgathion(agathionId));
             } else if ("cubic".equalsIgnoreCase(nodeName)) {
                 final int cubicId = parseNumber(a.getNodeValue()).intValue();
                 cond = joinAnd(cond, new ConditionPlayerCubic(cubicId));

@@ -87,7 +87,6 @@ public abstract class ItemTemplate extends StatTemplate {
     private final ReuseType _reuseType;
     private final int _reuseDelay;
     private final int _reuseGroup;
-    private final int _agathionEnergy;
     public ItemType type;
     protected int _type1;
     protected int _type2;
@@ -553,8 +552,10 @@ public abstract class ItemTemplate extends StatTemplate {
     }
 
     public int getAgathionEnergy() {
+
         return _agathionEnergy;
     }
+    int _agathionEnergy;
 
     public void addEnchantOptions(final int level, final int[] options) {
         if (_enchantOptions.isEmpty()) {

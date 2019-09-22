@@ -74,7 +74,6 @@ public class CharInfo extends L2GameServerPacket {
     private int _nameColor;
     private int _title_color;
     private int _transform;
-    private int _agathion;
     private int _clanBoatObjectId;
     private EffectCubic[] cubics;
     private boolean _isPartyRoomLeader;
@@ -200,7 +199,6 @@ public class CharInfo extends L2GameServerPacket {
         plg_class = player.getPledgeClass();
         pledge_type = player.getPledgeType();
         _transform = player.getTransformation();
-        _agathion = player.getAgathionId();
         _isPartyRoomLeader = (player.getMatchingRoom() != null && player.getMatchingRoom().getType() == MatchingRoom.PARTY_MATCHING && player.getMatchingRoom().getLeader() == player);
         _isFlying = player.isInFlyingTransform();
     }
@@ -290,7 +288,6 @@ public class CharInfo extends L2GameServerPacket {
         writeD(cw_level);
         writeD(clan_rep_score);
         writeD(_transform);
-        writeD(_agathion);
         writeD(1);
         writeD(_abnormalEffect2);
     }
