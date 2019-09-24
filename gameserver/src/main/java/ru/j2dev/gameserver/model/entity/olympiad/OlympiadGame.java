@@ -188,9 +188,7 @@ public class OlympiadGame {
                             summon.getEffectList().stopAllEffects();
                         }
                     }
-                    if (player.getAgathionId() > 0) {
-                        player.setAgathion(0);
-                    }
+
                     player.sendSkillList();
                     final ItemInstance wpn = player.getInventory().getPaperdollItem(7);
                     if (wpn != null && wpn.isHeroWeapon()) {

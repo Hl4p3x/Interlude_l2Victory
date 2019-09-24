@@ -501,6 +501,9 @@ public final class ItemInstance extends GameObject {
     public boolean isTemporalItem() {
         return template.isTemporal();
     }
+    public boolean isAgathionItem() {
+        return template.isAgathion();
+    }
 
     public boolean isAltSeed() {
         return template.isAltSeed();

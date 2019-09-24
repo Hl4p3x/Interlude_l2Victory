@@ -322,6 +322,15 @@ public abstract class Skill extends StatTemplate implements Cloneable {
         _icon = set.getString("icon", "");
         _secondSkill = set.getInteger("secondSkill", 0);
         _isSlotNone = set.getBool("isIgnorBuffLimit", false);
+        _unsummonId = set.getInteger("removeId", 0);
+        _restoreHpId = set.getInteger("restoreHP", 0);
+        _restoreHpPercent = set.getInteger("restoreHPercent", 0);
+        _restoreMpId = set.getInteger("restoreMP", 0);
+        _restoreMpPercent = set.getInteger("restoreMPercent", 0);
+        _restoreCpId = set.getInteger("restoreCP", 0);
+        _restoreCpPercent = set.getInteger("restoreCPercent", 0);
+        _remainingTime = set.getInteger("remainingTime", 0);
+        _buffinterval = set.getInteger("buffInterval", 0);
         final String affectLimit = set.getString("affect_limit", null);
         if (affectLimit != null) {
             try {
@@ -1441,6 +1450,47 @@ public abstract class Skill extends StatTemplate implements Cloneable {
         return _npcId;
     }
 
+    protected int _unsummonId;
+    protected int _remainingTime;
+    protected int _restoreHpId;
+    protected int _restoreMpId;
+    protected int _restoreCpId;
+    protected int _restoreHpPercent;
+    protected int _restoreMpPercent;
+    protected int _restoreCpPercent;
+    protected int _buffinterval;
+    //new agathion
+    public int get_buffinterval()
+    {
+        return _buffinterval;
+    }
+    public int getUnsumonSkill()
+    {
+        return _unsummonId;
+    }
+    public int getRemainingTime() {
+        return _remainingTime;
+    }
+
+    public int getRestoreHP(){
+        return _restoreHpId;
+    }
+    public int getRestoreMP(){
+        return _restoreMpId;
+    }
+    public int getRestoreCP(){
+        return _restoreCpId;
+    }
+    public int getRestoreHPercent(){
+        return _restoreHpPercent;
+    }
+    public int getRestoreMPPercent(){
+        return _restoreMpPercent;
+    }
+    public int getRestoreCPPercent(){
+        return _restoreCpPercent;
+    }
+
     public int getNumCharges() {
         return _numCharges;
     }
@@ -1988,10 +2038,11 @@ public abstract class Skill extends StatTemplate implements Cloneable {
     }
 
     public enum SkillType {
-        AGATHION(Agathion.class),
         AGGRESSION(Aggression.class),
         AIEFFECTS(AIeffects.class),
         BALANCE(Balance.class),
+        AGATHION(Agathion.class),
+        REMAGATHION(RemAgathion.class),
         BEAST_FEED(BeastFeed.class),
         BLEED(Continuous.class),
         BUFF(Continuous.class),

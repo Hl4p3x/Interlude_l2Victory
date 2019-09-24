@@ -14,7 +14,7 @@ compile-commons:
     [javac] Note: Recompile with -Xlint:deprecation for details.
 
 commons-jar:
-     [echo] Current Revision 4
+     [echo] Current Revision 6
       [jar] Building jar: C:\BladeRush\l2-victory\build\commons.jar
  [stringer] Stringer Java Obfuscator Standard v3.0.3 (20170228), LICEL CORPORATION
  [stringer] License file: C:\BladeRush\l2-victory\stringer\stringer.jar
@@ -40,12 +40,29 @@ commons-jar:
  [stringer] Total strings processed: 0
  [stringer] Total classes processed: 0
  [stringer] Total resources processed: 0
- [stringer] Total bytes processed: 502203, ratio 1.0129250522199191
+ [stringer] Total bytes processed: 502203, ratio 1.0129270434465745
 
 compile-gameserver:
    [delete] Deleting directory C:\BladeRush\l2-victory\build\classes
     [mkdir] Created dir: C:\BladeRush\l2-victory\build\classes
-    [javac] Compiling 1706 source files to C:\BladeRush\l2-victory\build\classes
+    [javac] Compiling 1708 source files to C:\BladeRush\l2-victory\build\classes
+    [javac] C:\BladeRush\l2-victory\gameserver\src\main\java\ru\j2dev\gameserver\model\Player.java:2978: error: incompatible types: int cannot be converted to AgathionInstance
+    [javac]         setAgathion(0);
+    [javac]                     ^
+    [javac] C:\BladeRush\l2-victory\gameserver\src\main\java\ru\j2dev\gameserver\model\Player.java:3211: error: incompatible types: int cannot be converted to AgathionInstance
+    [javac]         setAgathion(0);
+    [javac]                     ^
+    [javac] C:\BladeRush\l2-victory\gameserver\src\main\java\ru\j2dev\gameserver\model\Player.java:5776: error: incompatible types: int cannot be converted to AgathionInstance
+    [javac]         setAgathion(0);
+    [javac]                     ^
+    [javac] C:\BladeRush\l2-victory\gameserver\src\main\java\ru\j2dev\gameserver\model\entity\olympiad\OlympiadGame.java:191: error: cannot find symbol
+    [javac]                     if (player.getAgathionId() > 0) {
+    [javac]                               ^
+    [javac]   symbol:   method getAgathionId()
+    [javac]   location: variable player of type Player
+    [javac] C:\BladeRush\l2-victory\gameserver\src\main\java\ru\j2dev\gameserver\model\entity\olympiad\OlympiadGame.java:192: error: incompatible types: int cannot be converted to AgathionInstance
+    [javac]                         player.setAgathion(0);
+    [javac]                                            ^
     [javac] C:\BladeRush\l2-victory\gameserver\src\main\java\ru\j2dev\gameserver\cache\HtmCache.java:44: warning: [unchecked] unchecked conversion
     [javac]     private final Cache<String, String>[] caffeine_cache = new Cache[Language.VALUES.length];
     [javac]                                                            ^
@@ -53,50 +70,11 @@ compile-gameserver:
     [javac]   found:    Cache[]
     [javac] Note: Some input files use or override a deprecated API.
     [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+    [javac] 5 errors
     [javac] 1 warning
 
-gameserver-jar:
-     [echo] Current Revision 4
-      [jar] Building jar: C:\BladeRush\l2-victory\build\gameserver.jar
- [stringer] Stringer Java Obfuscator Standard v3.0.3 (20170228), LICEL CORPORATION
- [stringer] License file: C:\BladeRush\l2-victory\stringer\stringer.jar
- [stringer] 
- [stringer] Stringer Java Obfuscator Standard
- [stringer] Version: 3.0.3
- [stringer] Build id: 20170228
- [stringer] 
- [stringer] Licensed to: coolman@paradi.se [Cracked]
- [stringer] 
- [stringer] 
- [stringer] (c) Copyright LICEL CORPORATION 2011-2017.  All rights reserved.
- [stringer] Visit https://jfxstore.com/stringer
- [stringer] 
- [stringer] Third-Party Licenses. Information about third-party components and
- [stringer]  its licenses can be found in distribution
- [stringer] [Protecting gameserver.jar]
- [stringer] [Analyzing gameserver.jar]
- [stringer] Found ru/j2dev/gameserver/taskmanager/L2TopRuManager,openConnection
- [stringer] Found ru/j2dev/gameserver/utils/IpUtils,openStream
- [stringer] Found ru/j2dev/gameserver/utils/IpUtils,openStream
- [stringer] Found ru/j2dev/gameserver/utils/IpUtils,openStream
- [stringer] Found ru/j2dev/gameserver/utils/IpUtils,openStream
- [stringer] Contains signature: false
- [stringer] [Finishing gameserver.jar]
- [stringer] Total strings processed: 861
- [stringer] Total classes processed: 115
- [stringer] Total resources processed: 0
- [stringer] Total bytes processed: 8580613, ratio 1.0341434813573342
-
-gameserver:
-     [copy] Copying 1 file to C:\BladeRush\l2-victory\build\dist\lib
-   [delete] Deleting directory C:\BladeRush\l2-victory\build\classes
-
-dist:
-   [delete] Deleting: C:\BladeRush\l2-victory\build\commons.jar
-   [delete] Deleting: C:\BladeRush\l2-victory\build\gameserver.jar
-     [echo] Creating Zip archive
-
 BUILD FAILED
-C:\BladeRush\l2-victory\build.xml:671: Problem reading C:\BladeRush\l2-victory\build_archive\_Interlude_Rev.4.zip
+C:\BladeRush\l2-victory\build.xml:251: Compile failed; see the compiler error output for details.
 
-Total time: 9 minutes 2 seconds
+Total time: 2 minutes 1 second

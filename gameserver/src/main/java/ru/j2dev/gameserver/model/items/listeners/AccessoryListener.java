@@ -1,11 +1,16 @@
 package ru.j2dev.gameserver.model.items.listeners;
 
+import gnu.trove.map.hash.TIntObjectHashMap;
+import ru.j2dev.gameserver.ThreadPoolManager;
 import ru.j2dev.gameserver.listener.inventory.OnEquipListener;
 import ru.j2dev.gameserver.model.Playable;
 import ru.j2dev.gameserver.model.Player;
 import ru.j2dev.gameserver.model.Skill;
 import ru.j2dev.gameserver.model.Skill.SkillType;
+import ru.j2dev.gameserver.model.instances.AgathionInstance;
 import ru.j2dev.gameserver.model.items.ItemInstance;
+import ru.j2dev.gameserver.skills.skillclasses.Agathion;
+import ru.j2dev.gameserver.skills.skillclasses.RemAgathion;
 
 public final class AccessoryListener implements OnEquipListener {
     private static final AccessoryListener _instance = new AccessoryListener();
@@ -35,6 +40,13 @@ public final class AccessoryListener implements OnEquipListener {
             }
             */
 
+        }
+
+        if (item.getTemplate().isAgathion())
+        {
+            if (player.getAgathion() != null) {
+                player.getAgathion().doDespawn();
+            }
         }
         if (item.isAccessory() || item.getTemplate().isTalisman() || item.getTemplate().isBracelet()) {
             player.sendUserInfo(true);

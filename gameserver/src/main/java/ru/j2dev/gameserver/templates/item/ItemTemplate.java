@@ -82,6 +82,7 @@ public abstract class ItemTemplate extends StatTemplate {
     private final int _referencePrice;
     private final int _crystalCount;
     private final boolean _temporal;
+    private final boolean _isAgathion;
     private final boolean _stackable;
     private final boolean _crystallizable;
     private final ReuseType _reuseType;
@@ -120,6 +121,7 @@ public abstract class ItemTemplate extends StatTemplate {
         _crystalType = set.getEnum("crystal_type", ItemGrade.class, ItemGrade.NONE);
         _durability = set.getInteger("durability", -1);
         _temporal = set.getBool("temporal", false);
+        _isAgathion = set.getBool("isAgathion", false);
         _bodyPart = set.getInteger("bodypart", 0);
         _referencePrice = set.getInteger("price", 0);
         _crystalCount = set.getInteger("crystal_count", 0);
@@ -166,6 +168,9 @@ public abstract class ItemTemplate extends StatTemplate {
 
     public final boolean isTemporal() {
         return _temporal;
+    }
+    public final boolean isAgathion() {
+        return _isAgathion;
     }
 
     public final int getItemId() {
